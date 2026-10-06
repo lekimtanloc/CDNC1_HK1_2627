@@ -1,0 +1,22 @@
+{
+  "method": "category-based binary relevance (không dùng popularity, không circular)",
+  "train_items": 3221,
+  "test_items": 690,
+  "n_queries": 690,
+  "queries_with_zero_relevant": 0,
+  "avg_relevant_per_query": 1829.49,
+  "max_relevant_per_query": 2367,
+  "min_relevant_per_query": 1,
+  "categories_in_train": {
+    "Bags": 1,
+    "Footwear": 4,
+    "Headwear": 34,
+    "Jackets_Coats": 418,
+    "Neckwear": 314,
+    "Pants": 1,
+    "Skirts": 74,
+    "Tees_Tanks": 2367,
+    "Unknown": 8
+  },
+  "note": "Relevant = cùng category trong tập train. Ground truth này độc lập với popularity và hành vi tổng hợp. Dùng để tính Recall@K, NDCG@K, MRR."
+}

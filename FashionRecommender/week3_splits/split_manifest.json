@@ -1,0 +1,41 @@
+{
+  "seed": 42,
+  "train_ratio": 0.7,
+  "val_ratio": 0.15,
+  "test_ratio": 0.15,
+  "total_items": 4600,
+  "train_count": 3221,
+  "val_count": 689,
+  "test_count": 690,
+  "train_category_dist": {
+    "Tees_Tanks": 2367,
+    "Jackets_Coats": 418,
+    "Neckwear": 314,
+    "Skirts": 74,
+    "Headwear": 34,
+    "Unknown": 8,
+    "Footwear": 4,
+    "Bags": 1,
+    "Pants": 1
+  },
+  "val_category_dist": {
+    "Tees_Tanks": 507,
+    "Jackets_Coats": 90,
+    "Neckwear": 67,
+    "Skirts": 16,
+    "Headwear": 7,
+    "Unknown": 2
+  },
+  "test_category_dist": {
+    "Tees_Tanks": 508,
+    "Jackets_Coats": 89,
+    "Neckwear": 68,
+    "Skirts": 15,
+    "Headwear": 7,
+    "Footwear": 1,
+    "Bags": 1,
+    "Unknown": 1
+  },
+  "archive": "/Users/trilinh/Documents/CDNC1/archive.zip",
+  "note": "Split cố định dùng cho toàn bộ thí nghiệm — không thay đổi sau khi tạo"
+}

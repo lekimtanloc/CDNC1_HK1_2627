@@ -1,0 +1,29 @@
+{
+  "archive": "/Users/trilinh/Documents/CDNC1/archive.zip",
+  "archive_bytes": 2239158848,
+  "total_image_files": 13752,
+  "unique_item_ids": 4600,
+  "valid_pairs": 4600,
+  "missing_mask_count": 0,
+  "missing_mask_examples": [],
+  "scanned_for_category": 500,
+  "size_mismatch_count": 0,
+  "unknown_category_count": 1,
+  "category_distribution": {
+    "Tees_Tanks": 385,
+    "Jackets_Coats": 57,
+    "Neckwear": 44,
+    "Skirts": 9,
+    "Headwear": 4,
+    "Unknown": 1
+  },
+  "label_distribution": {
+    "0": 1,
+    "1": 385,
+    "2": 9,
+    "5": 57,
+    "8": 44,
+    "9": 4
+  },
+  "category_count": 5
+}

@@ -1,0 +1,8 @@
+{
+  "purpose": "execution-only smoke fixture; metrics are not scientific",
+  "source": "/Users/trilinh/Documents/CDNC1/NGNN/data/polyvore-images_smallsample",
+  "outfits": 8,
+  "items": 24,
+  "compatibility_rows_per_split": 16,
+  "text_feature_dim": 8
+}

@@ -1,0 +1,146 @@
+{
+  "item000": {
+    "semantic_category": "category_1",
+    "category_id": 1,
+    "title": "smoke item 000",
+    "url_name": "smoke item 000"
+  },
+  "item001": {
+    "semantic_category": "category_2",
+    "category_id": 2,
+    "title": "smoke item 001",
+    "url_name": "smoke item 001"
+  },
+  "item002": {
+    "semantic_category": "category_3",
+    "category_id": 3,
+    "title": "smoke item 002",
+    "url_name": "smoke item 002"
+  },
+  "item003": {
+    "semantic_category": "category_1",
+    "category_id": 1,
+    "title": "smoke item 003",
+    "url_name": "smoke item 003"
+  },
+  "item004": {
+    "semantic_category": "category_2",
+    "category_id": 2,
+    "title": "smoke item 004",
+    "url_name": "smoke item 004"
+  },
+  "item005": {
+    "semantic_category": "category_3",
+    "category_id": 3,
+    "title": "smoke item 005",
+    "url_name": "smoke item 005"
+  },
+  "item006": {
+    "semantic_category": "category_1",
+    "category_id": 1,
+    "title": "smoke item 006",
+    "url_name": "smoke item 006"
+  },
+  "item007": {
+    "semantic_category": "category_2",
+    "category_id": 2,
+    "title": "smoke item 007",
+    "url_name": "smoke item 007"
+  },
+  "item008": {
+    "semantic_category": "category_3",
+    "category_id": 3,
+    "title": "smoke item 008",
+    "url_name": "smoke item 008"
+  },
+  "item009": {
+    "semantic_category": "category_1",
+    "category_id": 1,
+    "title": "smoke item 009",
+    "url_name": "smoke item 009"
+  },
+  "item010": {
+    "semantic_category": "category_2",
+    "category_id": 2,
+    "title": "smoke item 010",
+    "url_name": "smoke item 010"
+  },
+  "item011": {
+    "semantic_category": "category_3",
+    "category_id": 3,
+    "title": "smoke item 011",
+    "url_name": "smoke item 011"
+  },
+  "item012": {
+    "semantic_category": "category_1",
+    "category_id": 1,
+    "title": "smoke item 012",
+    "url_name": "smoke item 012"
+  },
+  "item013": {
+    "semantic_category": "category_2",
+    "category_id": 2,
+    "title": "smoke item 013",
+    "url_name": "smoke item 013"
+  },
+  "item014": {
+    "semantic_category": "category_3",
+    "category_id": 3,
+    "title": "smoke item 014",
+    "url_name": "smoke item 014"
+  },
+  "item015": {
+    "semantic_category": "category_1",
+    "category_id": 1,
+    "title": "smoke item 015",
+    "url_name": "smoke item 015"
+  },
+  "item016": {
+    "semantic_category": "category_2",
+    "category_id": 2,
+    "title": "smoke item 016",
+    "url_name": "smoke item 016"
+  },
+  "item017": {
+    "semantic_category": "category_3",
+    "category_id": 3,
+    "title": "smoke item 017",
+    "url_name": "smoke item 017"
+  },
+  "item018": {
+    "semantic_category": "category_1",
+    "category_id": 1,
+    "title": "smoke item 018",
+    "url_name": "smoke item 018"
+  },
+  "item019": {
+    "semantic_category": "category_2",
+    "category_id": 2,
+    "title": "smoke item 019",
+    "url_name": "smoke item 019"
+  },
+  "item020": {
+    "semantic_category": "category_3",
+    "category_id": 3,
+    "title": "smoke item 020",
+    "url_name": "smoke item 020"
+  },
+  "item021": {
+    "semantic_category": "category_1",
+    "category_id": 1,
+    "title": "smoke item 021",
+    "url_name": "smoke item 021"
+  },
+  "item022": {
+    "semantic_category": "category_2",
+    "category_id": 2,
+    "title": "smoke item 022",
+    "url_name": "smoke item 022"
+  },
+  "item023": {
+    "semantic_category": "category_3",
+    "category_id": 3,
+    "title": "smoke item 023",
+    "url_name": "smoke item 023"
+  }
+}

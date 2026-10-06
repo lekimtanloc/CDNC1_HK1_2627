@@ -1,0 +1,35 @@
+name: outfit
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core
+  - python=3.11
+
+  # PyTorch (will use MPS backend automatically on Mac)
+  - pytorch
+  - torchvision
+  - torchaudio
+
+  # Numeric & scientific
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - sympy
+  - scipy
+
+  # Deep learning utilities
+  - timm
+  - labml-nn
+
+  # FAISS (CPU only on Mac, Change if CUDA is available)
+  - faiss-cpu
+
+  # Jupyter & tooling
+  - jupyterlab
+  - ipykernel
+  - tqdm
+  - pyyaml

@@ -1,0 +1,138 @@
+[
+  {
+    "set_id": "smoke00",
+    "items": [
+      {
+        "item_id": "item000",
+        "index": 1
+      },
+      {
+        "item_id": "item001",
+        "index": 2
+      },
+      {
+        "item_id": "item002",
+        "index": 3
+      }
+    ]
+  },
+  {
+    "set_id": "smoke01",
+    "items": [
+      {
+        "item_id": "item003",
+        "index": 1
+      },
+      {
+        "item_id": "item004",
+        "index": 2
+      },
+      {
+        "item_id": "item005",
+        "index": 3
+      }
+    ]
+  },
+  {
+    "set_id": "smoke02",
+    "items": [
+      {
+        "item_id": "item006",
+        "index": 1
+      },
+      {
+        "item_id": "item007",
+        "index": 2
+      },
+      {
+        "item_id": "item008",
+        "index": 3
+      }
+    ]
+  },
+  {
+    "set_id": "smoke03",
+    "items": [
+      {
+        "item_id": "item009",
+        "index": 1
+      },
+      {
+        "item_id": "item010",
+        "index": 2
+      },
+      {
+        "item_id": "item011",
+        "index": 3
+      }
+    ]
+  },
+  {
+    "set_id": "smoke04",
+    "items": [
+      {
+        "item_id": "item012",
+        "index": 1
+      },
+      {
+        "item_id": "item013",
+        "index": 2
+      },
+      {
+        "item_id": "item014",
+        "index": 3
+      }
+    ]
+  },
+  {
+    "set_id": "smoke05",
+    "items": [
+      {
+        "item_id": "item015",
+        "index": 1
+      },
+      {
+        "item_id": "item016",
+        "index": 2
+      },
+      {
+        "item_id": "item017",
+        "index": 3
+      }
+    ]
+  },
+  {
+    "set_id": "smoke06",
+    "items": [
+      {
+        "item_id": "item018",
+        "index": 1
+      },
+      {
+        "item_id": "item019",
+        "index": 2
+      },
+      {
+        "item_id": "item020",
+        "index": 3
+      }
+    ]
+  },
+  {
+    "set_id": "smoke07",
+    "items": [
+      {
+        "item_id": "item021",
+        "index": 1
+      },
+      {
+        "item_id": "item022",
+        "index": 2
+      },
+      {
+        "item_id": "item023",
+        "index": 3
+      }
+    ]
+  }
+]
