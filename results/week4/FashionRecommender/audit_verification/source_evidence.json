@@ -1,0 +1,93 @@
+{
+  "checked_at_local_date": "2026-10-27",
+  "archive": {
+    "path": "archive.zip",
+    "zip_bytes": 2239158848,
+    "sha256": "a7d59c2bbb29af0ce3b49ac57747639815d2643cf0fd4c221a49533cb3585d21",
+    "members": 27504,
+    "uncompressed_member_bytes": 2298350460,
+    "image_members": 13752,
+    "mask_members": 13752
+  },
+  "kaggle": {
+    "ref": "hserdaraltan/deepfashion-inshop-clothes-retrieval-adjusted",
+    "url": "https://www.kaggle.com/datasets/hserdaraltan/deepfashion-inshop-clothes-retrieval-adjusted",
+    "api_url": "https://www.kaggle.com/api/v1/datasets/view/hserdaraltan/deepfashion-inshop-clothes-retrieval-adjusted",
+    "title": "DeepFashion_In-shop_Clothes_Retrieval_Adjusted",
+    "version": 1,
+    "last_updated": "2022-06-04T15:14:06.813Z",
+    "api_total_bytes": 2298350460,
+    "description_pair_count": 13752,
+    "description_transform": "Re-organized into images/masks, images without masks discarded, three-channel masks reduced to one channel.",
+    "sample_file_size_matches": [
+      {
+        "path": "images/1000_031.jpg",
+        "api_bytes": 129745,
+        "zip_uncompressed_bytes": 129745
+      },
+      {
+        "path": "images/1000_032.jpg",
+        "api_bytes": 119221,
+        "zip_uncompressed_bytes": 119221
+      },
+      {
+        "path": "images/1000_041.jpg",
+        "api_bytes": 152335,
+        "zip_uncompressed_bytes": 152335
+      }
+    ],
+    "provenance_conclusion": "Verified as the content package of Kaggle version 1 by exact total uncompressed byte count, exact pair/member counts, matching leading paths and matching file sizes. Kaggle does not publish a package SHA-256 in the API response."
+  },
+  "publisher_conversion_source": {
+    "repository": "https://github.com/hsaltan/Machine-Learning/tree/main/DeepFashion%20Data%20Preparation",
+    "commit": "45170e5454bcf0d896c839bc46330a079853ff2a",
+    "commit_date": "2022-06-03T18:43:17Z",
+    "make_dataset_blob": "d9a65510a648cf28fdf4b8000c3859dcb0847a62",
+    "generate_masks_blob": "0d508eda776577e26b750a8c0eeebb417c2988d5",
+    "verified_transformations": [
+      "Deletes images without a matching mask.",
+      "Flattens gender/category/original item hierarchy into numeric IDs starting at 1000.",
+      "Builds the ID map from list(set(...)); the mapping is not persisted.",
+      "Retains only the first two underscore-separated view tokens in the image filename.",
+      "Maps 16 RGB tuples to integer IDs 0..15 and saves single-channel PNG masks.",
+      "Packages only images/ and masks/."
+    ],
+    "lost_metadata": [
+      "gender",
+      "original category path",
+      "original item ID",
+      "bbox annotation",
+      "official evaluation partition",
+      "other annotations"
+    ]
+  },
+  "mask_schema_sources": {
+    "rgb_to_id": "Directly verified from the publisher's generate_masks.py.",
+    "mmfashion_inshop": "https://github.com/open-mmlab/mmfashion/blob/master/docs/dataset/IN_SHOP_DATASET.md#color-mapping-labels",
+    "stylegan_human_palette": "https://github.com/stylegan-human/StyleGAN-Human/blob/main/docs/Dataset.md",
+    "paper_code_non_garment_colors": "https://github.com/meddjilani/FashionRecommender/blob/ddd62684e9b51d9fbe5a48d3bab9c1e27be832db/final_recommandation.py#L27-L33",
+    "semantic_conflict": "MMFashion's In-shop table assigns several shared RGB colors to different semantic names than the actual archive regions. The paper code names RGB(16,78,139) face, RGB(255,0,0) hair and RGB(144,238,144) skin; those map to archive IDs 4,9,14 and agree with the archive atlas. StyleGAN-Human independently documents the same color meanings and also maps RGB(211,211,211) to pants and RGB(245,222,179) to shoes, agreeing with archive IDs 13 and 15. No archive-publisher semantic-name table was found."
+  },
+  "paper_and_code": {
+    "paper": "https://arxiv.org/abs/2506.07773",
+    "paper_version": "arXiv:2506.07773v1",
+    "paper_date": "2025-06-09",
+    "repository": "https://github.com/meddjilani/FashionRecommender",
+    "paper_time_commit": "f2814be58a0025812fd5a0e4eafe9ba70e118115",
+    "paper_time_commit_date": "2025-04-28T09:26:16Z",
+    "paper_time_final_recommandation_blob": "eeab996b7f089a2844ea52fa4aa601858cd8a10d",
+    "current_main_commit": "ddd62684e9b51d9fbe5a48d3bab9c1e27be832db",
+    "current_main_commit_date": "2025-11-04T15:01:54Z",
+    "local_final_recommandation_git_blob": "6d70ad05785b2fc1f139152086378e3c079fd6cd",
+    "remote_final_recommandation_git_blob": "6d70ad05785b2fc1f139152086378e3c079fd6cd",
+    "local_getData_git_blob": "658109e73fc04af3a36d7469f566319a4b1018d0",
+    "remote_getData_git_blob": "658109e73fc04af3a36d7469f566319a4b1018d0",
+    "local_copy_matches_current_main": true,
+    "version_warning": "The local copy is the post-paper 2025-11-04 main revision. At paper publication, the latest commit was 2025-04-28 and had defaults 15 users, 3 purchases, Top-10, w_v=0.4, w_p=0.2 and gamma=4; current main changed the first five values toward the paper but retained gamma=4."
+  },
+  "limits": [
+    "The original DeepFashion archive referenced by the conversion project was not downloaded.",
+    "The conversion script did not save its numeric-ID-to-original-path dictionary, so an exact reverse mapping cannot be reconstructed from the adjusted archive alone.",
+    "No standalone semantic-name table published specifically for the Kaggle adjusted archive was found."
+  ]
+}

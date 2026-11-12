@@ -36,6 +36,6 @@
     "Bags": 1,
     "Unknown": 1
   },
-  "archive": "/Users/trilinh/Documents/CDNC1/archive.zip",
+  "archive": "../archive.zip",
   "note": "Split cố định dùng cho toàn bộ thí nghiệm — không thay đổi sau khi tạo"
 }

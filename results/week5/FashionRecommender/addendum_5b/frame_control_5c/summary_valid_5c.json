@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-11-03T12:43:37.347407+00:00",
+  "queries": 568,
+  "gallery": 1597,
+  "truth_pairs": 1474,
+  "random_Top-1": 0.001624965825006394,
+  "random_Recall@5": 0.0031308703819661866,
+  "seconds": 3.85566437500529,
+  "test_passes": 0,
+  "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+}

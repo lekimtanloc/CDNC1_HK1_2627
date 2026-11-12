@@ -1,0 +1,7 @@
+{
+  "recorded_at_utc": "2026-11-09T16:02:05.317506+00:00",
+  "timestamp_kind": "time decision recorded, not message server timestamp",
+  "rule": "(wv,wp,wc,gamma) -> (wv+wc,wp,0,gamma); preserve wp/gamma; historical configurations not evaluated; deduplicate grid aliases",
+  "source": "User continuation explicitly accepts and generalizes category removal rule",
+  "baseline": "A=B2-v1"
+}

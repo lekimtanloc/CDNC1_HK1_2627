@@ -1,0 +1,41 @@
+image_path,mask_path,product_id,split,role,labels,kept_pixels,kept_area_fraction,bbox,bbox_area_fraction,empty_keep,empty_type,all_black
+images/1375_027.jpg,masks/1375_027.png,1375,train,gallery,[0],0,0.0,null,0.0,1,all_background,1
+images/1488_017.jpg,masks/1488_017.png,1488,train,gallery,[0],0,0.0,null,0.0,1,all_background,1
+images/2030_033.jpg,masks/2030_033.png,2030,train,gallery,"[0, 14]",0,0.0,null,0.0,1,outside_keep_only,1
+images/2296_013.jpg,masks/2296_013.png,2296,train,gallery,"[0, 9]",0,0.0,null,0.0,1,outside_keep_only,1
+images/2331_013.jpg,masks/2331_013.png,2331,train,query,[0],0,0.0,null,0.0,1,all_background,1
+images/2654_014.jpg,masks/2654_014.png,2654,train,query,"[0, 4]",0,0.0,null,0.0,1,outside_keep_only,1
+images/2958_094.jpg,masks/2958_094.png,2958,train,gallery,"[0, 9]",0,0.0,null,0.0,1,outside_keep_only,1
+images/3332_046.jpg,masks/3332_046.png,3332,train,gallery,[0],0,0.0,null,0.0,1,all_background,1
+images/3518_024.jpg,masks/3518_024.png,3518,train,gallery,[0],0,0.0,null,0.0,1,all_background,1
+images/3909_034.jpg,masks/3909_034.png,3909,train,gallery,"[0, 9]",0,0.0,null,0.0,1,outside_keep_only,1
+images/4145_023.jpg,masks/4145_023.png,4145,train,gallery,[0],0,0.0,null,0.0,1,all_background,1
+images/4296_014.jpg,masks/4296_014.png,4296,train,gallery,[0],0,0.0,null,0.0,1,all_background,1
+images/4685_037.jpg,masks/4685_037.png,4685,train,query,"[0, 9]",0,0.0,null,0.0,1,outside_keep_only,1
+images/4915_037.jpg,masks/4915_037.png,4915,train,gallery,[0],0,0.0,null,0.0,1,all_background,1
+images/4007_034.jpg,masks/4007_034.png,4007,valid,gallery,[0],0,0.0,null,0.0,1,all_background,1
+images/4329_057.jpg,masks/4329_057.png,4329,valid,gallery,"[0, 4]",0,0.0,null,0.0,1,outside_keep_only,1
+images/5408_023.jpg,masks/5408_023.png,5408,valid,gallery,"[0, 14]",0,0.0,null,0.0,1,outside_keep_only,1
+images/2156_027.jpg,masks/2156_027.png,2156,test,gallery,[0],0,0.0,null,0.0,1,all_background,1
+images/2261_013.jpg,masks/2261_013.png,2261,test,query,[0],0,0.0,null,0.0,1,all_background,1
+images/4904_024.jpg,masks/4904_024.png,4904,test,gallery,[0],0,0.0,null,0.0,1,all_background,1
+images/5129_032.jpg,masks/5129_032.png,5129,train,gallery,"[0, 1, 13, 14]",704873,0.8536155010596428,"[0, 0, 750, 1101]",1.0,0,not_empty,0
+images/5552_042.jpg,masks/5552_042.png,5552,train,gallery,"[0, 1, 13, 14]",629716,0.7625988495307296,"[0, 0, 750, 1101]",1.0,0,not_empty,0
+images/2185_041.jpg,masks/2185_041.png,2185,train,gallery,"[0, 1, 4, 7, 8, 9, 10, 13, 14]",394419,0.47764940962761127,"[0, 0, 748, 1101]",0.9973333333333333,0,not_empty,0
+images/1857_031.jpg,masks/1857_031.png,1857,train,gallery,"[0, 1, 4, 7, 10, 13, 14]",502920,0.6090463215258856,"[3, 0, 750, 1101]",0.996,0,not_empty,0
+images/3924_027.jpg,masks/3924_027.png,3924,test,gallery,"[0, 1, 9, 14]",710538,0.8604759309718438,"[0, 6, 750, 1101]",0.9945504087193461,0,not_empty,0
+images/5129_102.jpg,masks/5129_102.png,5129,train,gallery,"[0, 1, 13, 14]",701966,0.8500950650923403,"[0, 0, 737, 1101]",0.9826666666666667,0,not_empty,0
+images/1271_022.jpg,masks/1271_022.png,1271,valid,query,"[0, 1, 4, 7, 8, 9, 13, 14]",609102,0.7376348773841962,"[0, 32, 750, 1101]",0.9709355131698456,0,not_empty,0
+images/3785_021.jpg,masks/3785_021.png,3785,train,gallery,"[0, 1, 4, 7, 9, 10, 13, 14]",427037,0.5171504692703602,"[4, 0, 729, 1101]",0.9666666666666667,0,not_empty,0
+images/5552_062.jpg,masks/5552_062.png,5552,train,gallery,"[0, 1, 13, 14]",571051,0.691554344535271,"[0, 0, 750, 1063]",0.9654859218891917,0,not_empty,0
+images/2800_012.jpg,masks/2800_012.png,2800,train,gallery,"[0, 1, 13]",716300,0.86745382985165,"[0, 0, 724, 1101]",0.9653333333333334,0,not_empty,0
+images/2080_062.jpg,masks/2080_062.png,2080,train,query,"[0, 1, 13, 14]",687309,0.8323451407811081,"[0, 0, 723, 1101]",0.964,0,not_empty,0
+images/4563_061.jpg,masks/4563_061.png,4563,train,gallery,"[0, 1, 4, 7, 9, 10, 13, 14]",320817,0.38851589464123526,"[0, 0, 721, 1101]",0.9613333333333334,0,not_empty,0
+images/1463_051.jpg,masks/1463_051.png,1463,test,query,"[0, 1, 3, 4, 7, 9, 10, 13, 14]",237830,0.28801695428398427,"[32, 0, 750, 1101]",0.9573333333333334,0,not_empty,0
+images/3788_021.jpg,masks/3788_021.png,3788,train,query,"[0, 1, 4, 7, 9, 13, 14]",418866,0.5072552225249773,"[0, 51, 750, 1101]",0.9536784741144414,0,not_empty,0
+images/5300_021.jpg,masks/5300_021.png,5300,test,gallery,"[0, 1, 4, 7, 8, 9, 10, 13, 14]",366282,0.443574931880109,"[16, 0, 730, 1101]",0.952,0,not_empty,0
+images/5429_021.jpg,masks/5429_021.png,5429,test,gallery,"[0, 1, 3, 4, 7, 8, 9, 10, 14, 15]",319616,0.3870614592794429,"[7, 7, 723, 1101]",0.9485970330003027,0,not_empty,0
+images/4559_022.jpg,masks/4559_022.png,4559,train,gallery,"[0, 1, 4, 7, 9, 13, 14]",209543,0.25376082349379353,"[11, 4, 723, 1101]",0.9458843475628217,0,not_empty,0
+images/2626_061.jpg,masks/2626_061.png,2626,test,gallery,"[0, 1, 4, 7, 9, 10, 13, 14]",303370,0.3673872237359976,"[0, 0, 708, 1101]",0.944,0,not_empty,0
+images/5140_041.jpg,masks/5140_041.png,5140,valid,gallery,"[0, 1, 13, 14, 15]",321305,0.38910687254011506,"[32, 0, 750, 1084]",0.9425516197396306,0,not_empty,0
+images/1830_052.jpg,masks/1830_052.png,1830,train,gallery,"[0, 1, 4, 7, 9, 10, 13, 14]",165079,0.19991401755979413,"[44, 0, 750, 1101]",0.9413333333333334,0,not_empty,0

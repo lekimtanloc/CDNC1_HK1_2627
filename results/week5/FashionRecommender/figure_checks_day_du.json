@@ -1,0 +1,42 @@
+{
+  "figures": [
+    {
+      "file": "figures/hinh_01_metric_validation_test_day_du.png",
+      "width": 1584,
+      "height": 737,
+      "dpi": [
+        180.00979999999998,
+        180.00979999999998
+      ]
+    },
+    {
+      "file": "figures/hinh_02_chuyen_trang_thai_v1_v2_day_du.png",
+      "width": 1584,
+      "height": 720,
+      "dpi": [
+        180.00979999999998,
+        180.00979999999998
+      ]
+    },
+    {
+      "file": "figures/hinh_04_mau_v1_dung_v2_sai_day_du.png",
+      "width": 1560,
+      "height": 2310,
+      "dpi": [
+        180.00979999999998,
+        180.00979999999998
+      ]
+    },
+    {
+      "file": "figures/hinh_05_popularity_mae_day_du.png",
+      "width": 1584,
+      "height": 737,
+      "dpi": [
+        180.00979999999998,
+        180.00979999999998
+      ]
+    }
+  ],
+  "agent_visually_reviewed": true,
+  "white_background": true
+}

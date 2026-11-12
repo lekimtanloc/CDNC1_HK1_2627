@@ -1,0 +1,629 @@
+source,location,reported_numeric,independent_numeric,match,method
+metrics_valid.csv,valid/B0/aggregate/Top-1 value,0.0017605633802816902,0.0017605633802816902,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Top-1 ci_low,0.0,0.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Top-1 ci_high,0.00528169014084507,0.00528169014084507,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Top-1 value,0.30809859154929575,0.30809859154929575,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Top-1 ci_low,0.26936619718309857,0.26936619718309857,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Top-1 ci_high,0.34683098591549294,0.34683098591549294,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Top-1 value,0.35563380281690143,0.35563380281690143,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Top-1 ci_low,0.31514084507042256,0.31514084507042256,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Top-1 ci_high,0.3961267605633803,0.3961267605633803,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Top-1 value,0.3221830985915493,0.3221830985915493,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Top-1 ci_low,0.2834507042253521,0.2834507042253521,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Top-1 ci_high,0.3609154929577465,0.3609154929577465,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@1 value,0.0017605633802816902,0.0017605633802816902,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@1 ci_low,0.0,0.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@1 ci_high,0.00528169014084507,0.00528169014084507,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@1 value,0.17967739054034337,0.17967739054034337,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@1 ci_low,0.1522747742959772,0.1522747742959772,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@1 ci_high,0.20761344248981914,0.20761344248981914,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@1 value,0.2047577792068443,0.2047577792068443,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@1 ci_low,0.17564204309009887,0.17564204309009887,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@1 ci_high,0.23399627520810437,0.23399627520810437,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@1 value,0.17910877615130644,0.17910877615130644,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@1 ci_low,0.15196741680996378,0.15196741680996378,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@1 ci_high,0.20609503830949688,0.20609503830949688,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@5 value,0.004464285714285714,0.004464285714285714,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@5 ci_low,0.00044014084507042255,0.00044014084507042255,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@5 ci_high,0.010248993963782696,0.010248993963782696,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@5 value,0.31872636077177474,0.31872636077177474,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@5 ci_low,0.2851667114477556,0.2851667114477556,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@5 ci_high,0.35292336968405136,0.35292336968405136,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@5 value,0.3539019120344739,0.3539019120344739,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@5 ci_low,0.31908229082036954,0.31908229082036954,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@5 ci_high,0.38868824968505483,0.38868824968505483,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@5 value,0.3138761369714341,0.3138761369714341,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@5 ci_low,0.28103706692822605,0.28103706692822605,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@5 ci_high,0.34713390987187714,0.34713390987187714,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@10 value,0.008572266934942991,0.008572266934942991,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@10 ci_low,0.0023882880617035556,0.0023882880617035556,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@10 ci_high,0.016117538564721662,0.016117538564721662,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@10 value,0.38577535149464703,0.385775351494647,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@10 ci_low,0.3505854076794706,0.3505854076794706,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@10 ci_high,0.421710887278669,0.421710887278669,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@10 value,0.4139522144481273,0.4139522144481273,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@10 ci_low,0.3783725606813175,0.3783725606813175,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@10 ci_high,0.45011037679436305,0.45011037679436305,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@10 value,0.3741740430199277,0.3741740430199276,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@10 ci_low,0.3401921042322133,0.3401921042322133,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@10 ci_high,0.40942047103397555,0.40942047103397555,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/NDCG@5 value,0.003459969267029109,0.003459969267029109,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/NDCG@5 ci_low,0.00026587960955599515,0.00026587960955599515,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/NDCG@5 ci_high,0.008148742695227919,0.008148742695227919,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/NDCG@5 value,0.30208641313581647,0.30208641313581647,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/NDCG@5 ci_low,0.2708486482039068,0.2708486482039068,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/NDCG@5 ci_high,0.33342317743430344,0.33342317743430344,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/NDCG@5 value,0.33485804332763597,0.334858043327636,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/NDCG@5 ci_low,0.30339816148568005,0.30339816148568005,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/NDCG@5 ci_high,0.36638760606767806,0.36638760606767806,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/NDCG@5 value,0.3037991219245321,0.3037991219245322,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/NDCG@5 ci_low,0.2730392242444282,0.2730392242444282,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/NDCG@5 ci_high,0.33442451841456267,0.33442451841456267,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/NDCG@10 value,0.004908547712181375,0.004908547712181375,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/NDCG@10 ci_low,0.0012870920854131448,0.0012870920854131448,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/NDCG@10 ci_high,0.009843086680786782,0.009843086680786782,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/NDCG@10 value,0.3217159361724405,0.3217159361724405,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/NDCG@10 ci_low,0.29111043616708787,0.29111043616708787,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/NDCG@10 ci_high,0.3521803672898257,0.3521803672898257,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/NDCG@10 value,0.35032035888646207,0.3503203588864621,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/NDCG@10 ci_low,0.31953095590169045,0.3195309559016905,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/NDCG@10 ci_high,0.3812341414953973,0.3812341414953973,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/NDCG@10 value,0.31855641508233895,0.31855641508233895,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/NDCG@10 ci_low,0.28861541954778,0.28861541954778,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/NDCG@10 ci_high,0.3481885731884978,0.3481885731884978,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/MRR@10 value,0.004024843505477309,0.004024843505477308,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/MRR@10 ci_low,0.0007873630672926447,0.0007873630672926447,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/MRR@10 ci_high,0.008714788732394367,0.008714788732394367,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/MRR@10 value,0.3760248993963783,0.3760248993963783,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/MRR@10 ci_low,0.3392923862620165,0.3392923862620165,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/MRR@10 ci_high,0.41227301307847086,0.41227301307847086,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/MRR@10 value,0.41847753185781356,0.41847753185781356,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/MRR@10 ci_low,0.38130190867426783,0.38130190867426783,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/MRR@10 ci_high,0.455241832942097,0.455241832942097,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/MRR@10 value,0.3855053934719428,0.38550539347194274,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/MRR@10 ci_low,0.3481992999664654,0.3481992999664654,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/MRR@10 ci_high,0.42158141557679407,0.42158141557679407,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Popularity MAE value,0.4900729088015031,0.490072908801503,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Popularity MAE ci_low,0.4667528364790745,0.4667528364790745,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Popularity MAE ci_high,0.5141865027400713,0.5141865027400713,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Popularity MAE value,0.32961828820512656,0.32961828820512656,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Popularity MAE ci_low,0.32042300248790856,0.32042300248790856,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Popularity MAE ci_high,0.3387928957775932,0.3387928957775932,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Popularity MAE value,0.3327873406567071,0.3327873406567071,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Popularity MAE ci_low,0.3237132296224796,0.3237132296224796,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Popularity MAE ci_high,0.34169461714094196,0.34169461714094196,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Popularity MAE value,0.338056168262478,0.3380561682624779,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Popularity MAE ci_low,0.32852578454724757,0.3285257845472475,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Popularity MAE ci_high,0.34758033723996523,0.34758033723996523,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Top-1 value,0.17605633802816903,0.17605633802816903,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Top-1 ci_low,0.0,0.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Top-1 ci_high,0.528169014084507,0.528169014084507,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Top-1 value,30.809859154929576,30.809859154929576,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Top-1 ci_low,26.936619718309856,26.936619718309856,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Top-1 ci_high,34.683098591549296,34.683098591549296,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Top-1 value,35.563380281690144,35.563380281690144,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Top-1 ci_low,31.514084507042256,31.514084507042256,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Top-1 ci_high,39.61267605633803,39.61267605633803,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Top-1 value,32.21830985915493,32.21830985915493,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Top-1 ci_low,28.345070422535212,28.345070422535212,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Top-1 ci_high,36.09154929577465,36.09154929577465,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@1 value,0.17605633802816903,0.17605633802816903,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@1 ci_low,0.0,0.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@1 ci_high,0.528169014084507,0.528169014084507,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@1 value,17.967739054034336,17.967739054034336,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@1 ci_low,15.22747742959772,15.22747742959772,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@1 ci_high,20.761344248981914,20.761344248981914,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@1 value,20.47577792068443,20.47577792068443,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@1 ci_low,17.564204309009888,17.564204309009888,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@1 ci_high,23.399627520810437,23.399627520810437,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@1 value,17.910877615130644,17.910877615130644,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@1 ci_low,15.196741680996379,15.196741680996379,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@1 ci_high,20.609503830949688,20.609503830949688,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@5 value,0.4464285714285714,0.4464285714285714,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@5 ci_low,0.04401408450704226,0.04401408450704226,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@5 ci_high,1.0248993963782695,1.0248993963782695,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@5 value,31.872636077177475,31.872636077177475,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@5 ci_low,28.516671144775565,28.516671144775565,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@5 ci_high,35.29233696840514,35.29233696840514,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@5 value,35.390191203447394,35.390191203447394,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@5 ci_low,31.908229082036954,31.908229082036954,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@5 ci_high,38.868824968505486,38.868824968505486,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@5 value,31.38761369714341,31.38761369714341,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@5 ci_low,28.103706692822605,28.103706692822605,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@5 ci_high,34.713390987187715,34.713390987187715,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@10 value,0.8572266934942991,0.8572266934942991,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@10 ci_low,0.23882880617035557,0.23882880617035557,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Recall@10 ci_high,1.6117538564721663,1.6117538564721663,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@10 value,38.5775351494647,38.5775351494647,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@10 ci_low,35.05854076794706,35.05854076794706,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Recall@10 ci_high,42.1710887278669,42.1710887278669,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@10 value,41.39522144481273,41.39522144481273,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@10 ci_low,37.83725606813175,37.83725606813175,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Recall@10 ci_high,45.011037679436306,45.011037679436306,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@10 value,37.41740430199277,37.41740430199276,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@10 ci_low,34.01921042322133,34.01921042322133,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Recall@10 ci_high,40.942047103397556,40.942047103397556,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/NDCG@5 value,0.34599692670291093,0.34599692670291093,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/NDCG@5 ci_low,0.026587960955599513,0.026587960955599513,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/NDCG@5 ci_high,0.814874269522792,0.814874269522792,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/NDCG@5 value,30.208641313581648,30.208641313581648,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/NDCG@5 ci_low,27.08486482039068,27.08486482039068,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/NDCG@5 ci_high,33.34231774343034,33.34231774343034,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/NDCG@5 value,33.4858043327636,33.4858043327636,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/NDCG@5 ci_low,30.339816148568005,30.339816148568005,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/NDCG@5 ci_high,36.6387606067678,36.6387606067678,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/NDCG@5 value,30.37991219245321,30.37991219245322,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/NDCG@5 ci_low,27.303922424442824,27.303922424442824,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/NDCG@5 ci_high,33.44245184145627,33.44245184145627,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/NDCG@10 value,0.4908547712181375,0.4908547712181375,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/NDCG@10 ci_low,0.12870920854131448,0.12870920854131448,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/NDCG@10 ci_high,0.9843086680786782,0.9843086680786782,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/NDCG@10 value,32.17159361724405,32.17159361724405,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/NDCG@10 ci_low,29.111043616708788,29.111043616708788,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/NDCG@10 ci_high,35.21803672898257,35.21803672898257,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/NDCG@10 value,35.032035888646206,35.03203588864621,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/NDCG@10 ci_low,31.953095590169045,31.95309559016905,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/NDCG@10 ci_high,38.123414149539734,38.123414149539734,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/NDCG@10 value,31.855641508233894,31.855641508233894,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/NDCG@10 ci_low,28.861541954778,28.861541954778,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/NDCG@10 ci_high,34.81885731884978,34.81885731884978,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/MRR@10 value,0.40248435054773085,0.4024843505477308,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/MRR@10 ci_low,0.07873630672926446,0.07873630672926446,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/MRR@10 ci_high,0.8714788732394366,0.8714788732394366,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/MRR@10 value,37.60248993963783,37.60248993963783,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/MRR@10 ci_low,33.92923862620165,33.92923862620165,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/MRR@10 ci_high,41.227301307847085,41.227301307847085,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/MRR@10 value,41.84775318578136,41.84775318578136,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/MRR@10 ci_low,38.13019086742678,38.13019086742678,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/MRR@10 ci_high,45.5241832942097,45.5241832942097,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/MRR@10 value,38.55053934719428,38.550539347194274,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/MRR@10 ci_low,34.81992999664654,34.81992999664654,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/MRR@10 ci_high,42.15814155767941,42.15814155767941,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Popularity MAE value,49.007290880150315,49.0072908801503,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Popularity MAE ci_low,46.67528364790745,46.67528364790745,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B0/aggregate/Popularity MAE ci_high,51.41865027400713,51.41865027400713,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Popularity MAE value,32.96182882051266,32.96182882051266,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Popularity MAE ci_low,32.04230024879086,32.04230024879086,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2p/aggregate/Popularity MAE ci_high,33.87928957775932,33.87928957775932,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Popularity MAE value,33.27873406567071,33.27873406567071,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Popularity MAE ci_low,32.37132296224796,32.37132296224796,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v1/aggregate/Popularity MAE ci_high,34.1694617140942,34.1694617140942,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Popularity MAE value,33.8056168262478,33.80561682624779,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Popularity MAE ci_low,32.85257845472476,32.85257845472475,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_valid.csv,valid/B2-v2/aggregate/Popularity MAE ci_high,34.758033723996526,34.758033723996526,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Top-1 value,0.0017064846416382253,0.0017064846416382253,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Top-1 ci_low,0.0,0.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Top-1 ci_high,0.005119453924914676,0.005119453924914676,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Top-1 value,0.30204778156996587,0.30204778156996587,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Top-1 ci_low,0.2645051194539249,0.2645051194539249,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Top-1 ci_high,0.3395904436860068,0.3395904436860068,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Top-1 value,0.30887372013651876,0.30887372013651876,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Top-1 ci_low,0.27303754266211605,0.27303754266211605,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Top-1 ci_high,0.3447098976109215,0.3447098976109215,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Top-1 value,0.3122866894197952,0.3122866894197952,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Top-1 ci_low,0.27474402730375425,0.27474402730375425,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Top-1 ci_high,0.34982935153583616,0.34982935153583616,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@1 value,0.0005688282138794084,0.0005688282138794084,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@1 ci_low,0.0,0.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@1 ci_high,0.0017064846416382253,0.0017064846416382253,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@1 value,0.16858755024028277,0.16858755024028274,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@1 ci_low,0.1429313728779266,0.1429313728779266,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@1 ci_high,0.1950907507056537,0.1950907507056537,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@1 value,0.17519868131027858,0.17519868131027855,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@1 ci_low,0.14959503434043783,0.14959503434043783,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@1 ci_high,0.20146965061813682,0.20146965061813682,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@1 value,0.16036687444281517,0.16036687444281514,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@1 ci_low,0.13625759261730175,0.13625759261730175,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@1 ci_high,0.18575059018920542,0.18575059018920542,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@5 value,0.006257110352673493,0.006257110352673493,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@5 ci_low,0.0011376564277588168,0.0011376564277588168,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@5 ci_high,0.013083048919226393,0.013083048919226393,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@5 value,0.3219682302811413,0.3219682302811413,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@5 ci_low,0.2897764721470281,0.2897764721470281,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@5 ci_high,0.3552456804877528,0.3552456804877528,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@5 value,0.33511468228906455,0.33511468228906455,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@5 ci_low,0.30196273153476855,0.30196273153476855,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@5 ci_high,0.3682010786884589,0.3682010786884589,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@5 value,0.29605407913393317,0.2960540791339332,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@5 ci_low,0.26495569575468647,0.26495569575468647,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@5 ci_high,0.32761058066119675,0.32761058066119675,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@10 value,0.00944254835039818,0.00944254835039818,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@10 ci_low,0.0027303754266211604,0.0027303754266211604,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@10 ci_high,0.017633674630261657,0.017633674630261657,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@10 value,0.40211804724068667,0.40211804724068667,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@10 ci_low,0.3675684797676419,0.3675684797676419,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@10 ci_high,0.4365202417023719,0.4365202417023719,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@10 value,0.3963836075187145,0.3963836075187145,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@10 ci_low,0.3623316724283316,0.3623316724283316,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@10 ci_high,0.4313152389112427,0.4313152389112427,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@10 value,0.37688905970597025,0.3768890597059702,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@10 ci_low,0.34319000524958054,0.34319000524958054,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@10 ci_high,0.4110685172328822,0.4110685172328822,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/NDCG@5 value,0.0035544197991408816,0.0035544197991408816,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/NDCG@5 ci_low,0.0006601583741203782,0.0006601583741203781,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/NDCG@5 ci_high,0.007590947705100731,0.007590947705100731,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/NDCG@5 value,0.3003172049755611,0.3003172049755611,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/NDCG@5 ci_low,0.2710599724463545,0.2710599724463545,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/NDCG@5 ci_high,0.3303355361980781,0.3303355361980781,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/NDCG@5 value,0.31267611188279815,0.31267611188279815,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/NDCG@5 ci_low,0.2828150439033703,0.28281504390337037,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/NDCG@5 ci_high,0.34325077543145044,0.34325077543145044,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/NDCG@5 value,0.29054081748120114,0.29054081748120114,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/NDCG@5 ci_low,0.2613938778474525,0.2613938778474525,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/NDCG@5 ci_high,0.3204445986074129,0.3204445986074129,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/NDCG@10 value,0.004802424418496257,0.004802424418496258,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/NDCG@10 ci_low,0.0012732788990769996,0.0012732788990769996,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/NDCG@10 ci_high,0.009383388313568778,0.009383388313568778,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/NDCG@10 value,0.3262936627268181,0.3262936627268181,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/NDCG@10 ci_low,0.29721274886261956,0.29721274886261956,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/NDCG@10 ci_high,0.356195216953261,0.356195216953261,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/NDCG@10 value,0.3311113548088857,0.3311113548088857,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/NDCG@10 ci_low,0.30178181324861697,0.30178181324861697,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/NDCG@10 ci_high,0.3608777118561543,0.3608777118561543,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/NDCG@10 value,0.3136263099511486,0.31362630995114865,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/NDCG@10 ci_low,0.28509048181334135,0.28509048181334135,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/NDCG@10 ci_high,0.3430147992068271,0.3430147992068271,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/MRR@10 value,0.0036709735088574676,0.0036709735088574676,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/MRR@10 ci_low,0.0007817832764505123,0.0007817832764505123,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/MRR@10 ci_high,0.00794134974809036,0.00794134974809036,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/MRR@10 value,0.37494853459017286,0.37494853459017286,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/MRR@10 ci_low,0.3399547307546455,0.3399547307546455,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/MRR@10 ci_high,0.41037904951514165,0.41037904951514165,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/MRR@10 value,0.37622230348339564,0.37622230348339564,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/MRR@10 ci_low,0.34175937212200014,0.34175937212200014,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/MRR@10 ci_high,0.4110117693266157,0.4110117693266157,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/MRR@10 value,0.3790826967874749,0.37908269678747497,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/MRR@10 ci_low,0.34410490817487405,0.34410490817487405,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/MRR@10 ci_high,0.4146011092150171,0.4146011092150171,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Popularity MAE value,0.5211739468247916,0.5211739468247916,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Popularity MAE ci_low,0.49822743674216263,0.49822743674216263,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Popularity MAE ci_high,0.5443175361912512,0.5443175361912512,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Popularity MAE value,0.3374237184312604,0.3374237184312604,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Popularity MAE ci_low,0.32858027218978714,0.32858027218978714,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Popularity MAE ci_high,0.3464190167004527,0.3464190167004527,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Popularity MAE value,0.3436703482554137,0.3436703482554137,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Popularity MAE ci_low,0.3348610279993718,0.3348610279993718,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Popularity MAE ci_high,0.35245675023978096,0.35245675023978096,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Popularity MAE value,0.33558046625212873,0.3355804662521287,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Popularity MAE ci_low,0.32693993318191605,0.32693993318191605,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Popularity MAE ci_high,0.34432034231238223,0.34432034231238223,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Top-1 value,0.17064846416382254,0.17064846416382254,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Top-1 ci_low,0.0,0.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Top-1 ci_high,0.5119453924914675,0.5119453924914675,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Top-1 value,30.204778156996586,30.204778156996586,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Top-1 ci_low,26.450511945392492,26.450511945392492,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Top-1 ci_high,33.95904436860068,33.95904436860068,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Top-1 value,30.887372013651877,30.887372013651877,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Top-1 ci_low,27.303754266211605,27.303754266211605,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Top-1 ci_high,34.470989761092156,34.470989761092156,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Top-1 value,31.22866894197952,31.22866894197952,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Top-1 ci_low,27.474402730375424,27.474402730375424,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Top-1 ci_high,34.98293515358362,34.98293515358362,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@1 value,0.05688282138794084,0.05688282138794084,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@1 ci_low,0.0,0.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@1 ci_high,0.17064846416382254,0.17064846416382254,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@1 value,16.858755024028277,16.858755024028273,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@1 ci_low,14.293137287792659,14.293137287792659,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@1 ci_high,19.50907507056537,19.50907507056537,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@1 value,17.519868131027856,17.519868131027856,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@1 ci_low,14.959503434043784,14.959503434043784,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@1 ci_high,20.14696506181368,20.14696506181368,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@1 value,16.036687444281515,16.036687444281515,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@1 ci_low,13.625759261730174,13.625759261730174,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@1 ci_high,18.57505901892054,18.57505901892054,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@5 value,0.6257110352673493,0.6257110352673493,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@5 ci_low,0.11376564277588168,0.11376564277588168,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@5 ci_high,1.3083048919226392,1.3083048919226392,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@5 value,32.19682302811413,32.19682302811413,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@5 ci_low,28.977647214702813,28.977647214702813,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@5 ci_high,35.52456804877528,35.52456804877528,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@5 value,33.51146822890645,33.51146822890645,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@5 ci_low,30.196273153476856,30.196273153476856,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@5 ci_high,36.820107868845895,36.820107868845895,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@5 value,29.605407913393318,29.60540791339332,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@5 ci_low,26.495569575468647,26.495569575468647,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@5 ci_high,32.76105806611967,32.76105806611967,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@10 value,0.944254835039818,0.944254835039818,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@10 ci_low,0.27303754266211605,0.27303754266211605,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Recall@10 ci_high,1.7633674630261658,1.7633674630261658,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@10 value,40.21180472406867,40.21180472406867,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@10 ci_low,36.75684797676419,36.75684797676419,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Recall@10 ci_high,43.65202417023719,43.65202417023719,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@10 value,39.638360751871446,39.638360751871446,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@10 ci_low,36.23316724283316,36.23316724283316,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Recall@10 ci_high,43.13152389112427,43.13152389112427,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@10 value,37.68890597059703,37.68890597059702,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@10 ci_low,34.31900052495806,34.31900052495806,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Recall@10 ci_high,41.106851723288216,41.106851723288216,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/NDCG@5 value,0.35544197991408816,0.35544197991408816,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/NDCG@5 ci_low,0.06601583741203783,0.06601583741203781,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/NDCG@5 ci_high,0.7590947705100731,0.7590947705100731,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/NDCG@5 value,30.03172049755611,30.03172049755611,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/NDCG@5 ci_low,27.10599724463545,27.10599724463545,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/NDCG@5 ci_high,33.03355361980781,33.03355361980781,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/NDCG@5 value,31.267611188279815,31.267611188279815,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/NDCG@5 ci_low,28.28150439033703,28.281504390337037,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/NDCG@5 ci_high,34.32507754314504,34.32507754314504,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/NDCG@5 value,29.054081748120115,29.054081748120115,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/NDCG@5 ci_low,26.13938778474525,26.13938778474525,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/NDCG@5 ci_high,32.04445986074129,32.04445986074129,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/NDCG@10 value,0.4802424418496257,0.48024244184962583,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/NDCG@10 ci_low,0.12732788990769994,0.12732788990769994,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/NDCG@10 ci_high,0.9383388313568778,0.9383388313568778,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/NDCG@10 value,32.62936627268181,32.62936627268181,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/NDCG@10 ci_low,29.721274886261956,29.721274886261956,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/NDCG@10 ci_high,35.6195216953261,35.6195216953261,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/NDCG@10 value,33.11113548088857,33.11113548088857,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/NDCG@10 ci_low,30.178181324861697,30.178181324861697,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/NDCG@10 ci_high,36.08777118561543,36.08777118561543,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/NDCG@10 value,31.36263099511486,31.362630995114866,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/NDCG@10 ci_low,28.509048181334133,28.509048181334133,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/NDCG@10 ci_high,34.30147992068271,34.30147992068271,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/MRR@10 value,0.36709735088574674,0.36709735088574674,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/MRR@10 ci_low,0.07817832764505123,0.07817832764505123,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/MRR@10 ci_high,0.794134974809036,0.794134974809036,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/MRR@10 value,37.494853459017286,37.494853459017286,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/MRR@10 ci_low,33.99547307546455,33.99547307546455,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/MRR@10 ci_high,41.037904951514165,41.037904951514165,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/MRR@10 value,37.62223034833956,37.62223034833956,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/MRR@10 ci_low,34.17593721220001,34.17593721220001,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/MRR@10 ci_high,41.10117693266157,41.10117693266157,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/MRR@10 value,37.908269678747494,37.908269678747494,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/MRR@10 ci_low,34.41049081748741,34.41049081748741,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/MRR@10 ci_high,41.46011092150171,41.46011092150171,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Popularity MAE value,52.11739468247916,52.11739468247916,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Popularity MAE ci_low,49.82274367421626,49.82274367421626,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B0/aggregate/Popularity MAE ci_high,54.431753619125125,54.431753619125125,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Popularity MAE value,33.74237184312604,33.74237184312604,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Popularity MAE ci_low,32.85802721897871,32.85802721897871,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2p/aggregate/Popularity MAE ci_high,34.64190167004527,34.64190167004527,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Popularity MAE value,34.36703482554137,34.36703482554137,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Popularity MAE ci_low,33.48610279993718,33.48610279993718,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v1/aggregate/Popularity MAE ci_high,35.245675023978094,35.245675023978094,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Popularity MAE value,33.558046625212874,33.55804662521287,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Popularity MAE ci_low,32.6939933181916,32.6939933181916,True,independent CSV-rank implementation; see independent_test_checks.csv
+metrics_test_day_du.csv,test/B2-v2/aggregate/Popularity MAE ci_high,34.43203423123823,34.43203423123823,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2-v1/paired/Recall@5 difference,-0.040025775063039726,-0.040025775063039726,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2-v1/paired/Recall@5 ci_low,-0.07323724560041359,-0.0732372456004135,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2-v1/paired/Recall@5 ci_high,-0.007274870200896199,-0.007274870200896151,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2-v1/paired/NDCG@5 difference,-0.031058921403103852,-0.031058921403103852,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2-v1/paired/NDCG@5 ci_low,-0.058727362013190114,-0.05872736201319009,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2-v1/paired/NDCG@5 ci_high,-0.0035014768412393493,-0.003501476841239292,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2-v1/paired/MRR@10 difference,-0.03297213838587078,-0.032972138385870785,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2-v1/paired/MRR@10 ci_low,-0.06437938394254415,-0.0643793839425441,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2-v1/paired/MRR@10 ci_high,-0.0016771112787838172,-0.0016771112787838567,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v1 minus B2p/paired/Recall@5 difference,0.035175551262699147,0.035175551262699147,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v1 minus B2p/paired/Recall@5 ci_low,0.004872610121289696,0.004872610121289738,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v1 minus B2p/paired/Recall@5 ci_high,0.0659440501853574,0.06594405018535741,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v1 minus B2p/paired/NDCG@5 difference,0.032771630191819535,0.032771630191819535,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v1 minus B2p/paired/NDCG@5 ci_low,0.007871920283025892,0.007871920283025862,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v1 minus B2p/paired/NDCG@5 ci_high,0.05852681538802969,0.05852681538802974,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v1 minus B2p/paired/MRR@10 difference,0.04245263246143528,0.042452632461435276,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v1 minus B2p/paired/MRR@10 ci_low,0.012997446484462329,0.012997446484462308,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v1 minus B2p/paired/MRR@10 ci_high,0.0728707487983456,0.0728707487983456,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2p/paired/Recall@5 difference,-0.004850223800340575,-0.004850223800340577,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2p/paired/Recall@5 ci_low,-0.040038005207284226,-0.04003800520728429,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2p/paired/Recall@5 ci_high,0.029471140721288033,0.029471140721288057,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2p/paired/NDCG@5 difference,0.0017127087887156838,0.0017127087887156903,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2p/paired/NDCG@5 ci_low,-0.02757105921839813,-0.027571059218398117,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2p/paired/NDCG@5 ci_high,0.03114999540977988,0.031149995409779863,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2p/paired/MRR@10 difference,0.009480494075564496,0.009480494075564498,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2p/paired/MRR@10 ci_low,-0.023934929018555783,-0.023934929018555737,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2p/paired/MRR@10 ci_high,0.04225940713726805,0.04225940713726804,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2-v1/paired/Recall@5 difference,-0.03906060315513128,-0.039060603155131275,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2-v1/paired/Recall@5 ci_low,-0.07111765489367851,-0.07111765489367852,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2-v1/paired/Recall@5 ci_high,-0.007574664022801535,-0.007574664022801561,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2-v1/paired/NDCG@5 difference,-0.022135294401596957,-0.02213529440159696,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2-v1/paired/NDCG@5 ci_low,-0.049620946386933755,-0.049620946386933776,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2-v1/paired/NDCG@5 ci_high,0.0049891139261362015,0.004989113926136222,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2-v1/paired/MRR@10 difference,0.0028603933040793135,0.0028603933040793113,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2-v1/paired/MRR@10 ci_low,-0.02808061108402405,-0.028080611084024,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2-v1/paired/MRR@10 ci_high,0.03438737539953406,0.034387375399534126,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v1 minus B2p/paired/Recall@5 difference,0.013146452007923241,0.01314645200792324,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v1 minus B2p/paired/Recall@5 ci_low,-0.016582455158607033,-0.016582455158607054,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v1 minus B2p/paired/Recall@5 ci_high,0.04292015362258806,0.04292015362258799,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v1 minus B2p/paired/NDCG@5 difference,0.012358906907237016,0.012358906907237016,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v1 minus B2p/paired/NDCG@5 ci_low,-0.012787690392516926,-0.01278769039251693,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v1 minus B2p/paired/NDCG@5 ci_high,0.038236513940355016,0.038236513940354974,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v1 minus B2p/paired/MRR@10 difference,0.0012737688932228167,0.0012737688932228186,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v1 minus B2p/paired/MRR@10 ci_low,-0.027894421420445313,-0.027894421420445233,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v1 minus B2p/paired/MRR@10 ci_high,0.03164059537353052,0.031640595373530526,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2p/paired/Recall@5 difference,-0.02591415114720804,-0.025914151147208034,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2p/paired/Recall@5 ci_low,-0.05687247017963055,-0.05687247017963054,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2p/paired/Recall@5 ci_high,0.004285984752634015,0.004285984752634007,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2p/paired/NDCG@5 difference,-0.009776387494359948,-0.009776387494359943,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2p/paired/NDCG@5 ci_low,-0.036159835511035306,-0.036159835511035264,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2p/paired/NDCG@5 ci_high,0.01550068016462296,0.015500680164622903,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2p/paired/MRR@10 difference,0.004134162197302125,0.004134162197302131,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2p/paired/MRR@10 ci_low,-0.025807566769597483,-0.025807566769597487,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2p/paired/MRR@10 ci_high,0.034181056666124914,0.03418105666612495,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2-v1/paired/McNemar p,0.10420386640532595,0.10420386640532604,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"valid/B2-v2 minus B2-v1/paired/McNemar cell 0,0",314.0,314.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"valid/B2-v2 minus B2-v1/paired/McNemar cell 0,1",52.0,52.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"valid/B2-v2 minus B2-v1/paired/McNemar cell 1,0",71.0,71.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"valid/B2-v2 minus B2-v1/paired/McNemar cell 1,1",131.0,131.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v1 minus B2p/paired/McNemar p,0.014964671136824323,0.014964671136824382,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"valid/B2-v1 minus B2p/paired/McNemar cell 0,0",322.0,322.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"valid/B2-v1 minus B2p/paired/McNemar cell 0,1",71.0,71.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"valid/B2-v1 minus B2p/paired/McNemar cell 1,0",44.0,44.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"valid/B2-v1 minus B2p/paired/McNemar cell 1,1",131.0,131.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,valid/B2-v2 minus B2p/paired/McNemar p,0.5194908187566281,0.5194908187566278,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"valid/B2-v2 minus B2p/paired/McNemar cell 0,0",330.0,330.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"valid/B2-v2 minus B2p/paired/McNemar cell 0,1",63.0,63.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"valid/B2-v2 minus B2p/paired/McNemar cell 1,0",55.0,55.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"valid/B2-v2 minus B2p/paired/McNemar cell 1,1",120.0,120.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2-v1/paired/McNemar p,0.9284921641248501,0.9284921641248501,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"test/B2-v2 minus B2-v1/paired/McNemar cell 0,0",342.0,342.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"test/B2-v2 minus B2-v1/paired/McNemar cell 0,1",63.0,63.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"test/B2-v2 minus B2-v1/paired/McNemar cell 1,0",61.0,61.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"test/B2-v2 minus B2-v1/paired/McNemar cell 1,1",120.0,120.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v1 minus B2p/paired/McNemar p,0.7788760920027012,0.778876092002701,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"test/B2-v1 minus B2p/paired/McNemar cell 0,0",350.0,350.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"test/B2-v1 minus B2p/paired/McNemar cell 0,1",59.0,59.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"test/B2-v1 minus B2p/paired/McNemar cell 1,0",55.0,55.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"test/B2-v1 minus B2p/paired/McNemar cell 1,1",122.0,122.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,test/B2-v2 minus B2p/paired/McNemar p,0.6367997716142331,0.636799771614233,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"test/B2-v2 minus B2p/paired/McNemar cell 0,0",350.0,350.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"test/B2-v2 minus B2p/paired/McNemar cell 0,1",59.0,59.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"test/B2-v2 minus B2p/paired/McNemar cell 1,0",53.0,53.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+paired_day_du.json,"test/B2-v2 minus B2p/paired/McNemar cell 1,1",124.0,124.0,True,independent CSV-rank implementation; see independent_test_checks.csv
+reference_levels_day_du.csv,valid/reference/reference/random_Top-1,0.001624965825006394,0.001624965825006394,True,independent CSV-rank implementation; see independent_test_checks.csv
+reference_levels_day_du.csv,valid/reference/reference/random_Recall@5,0.0031308703819661866,0.0031308703819661866,True,independent CSV-rank implementation; see independent_test_checks.csv
+reference_levels_day_du.csv,valid/reference/reference/popularity_mae_reference,0.34043197463998076,0.3404319746399809,True,independent CSV-rank implementation; see independent_test_checks.csv
+reference_levels_day_du.csv,test/reference/reference/random_Top-1,0.0015914655860773856,0.0015914655860773856,True,independent CSV-rank implementation; see independent_test_checks.csv
+reference_levels_day_du.csv,test/reference/reference/random_Recall@5,0.0032404406999351912,0.0032404406999351912,True,independent CSV-rank implementation; see independent_test_checks.csv
+reference_levels_day_du.csv,test/reference/reference/popularity_mae_reference,0.3362867275641083,0.3362867275641084,True,independent CSV-rank implementation; see independent_test_checks.csv
+group_metrics_day_du.csv,valid/n_answers/1/B2-v1/Top-1,0.23714285714285716,0.23714285714285716,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/n_answers/1/B2-v2/Top-1,0.2,0.2,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/n_answers/1/B2-v1/Recall@5,0.38857142857142857,0.38857142857142857,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/n_answers/1/B2-v2/Recall@5,0.32285714285714284,0.32285714285714284,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/n_answers/2/B2-v1/Top-1,0.4772727272727273,0.4772727272727273,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/n_answers/2/B2-v2/Top-1,0.4090909090909091,0.4090909090909091,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/n_answers/2/B2-v1/Recall@5,0.375,0.375,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/n_answers/2/B2-v2/Recall@5,0.3977272727272727,0.3977272727272727,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/n_answers/3+/B2-v1/Top-1,0.5632183908045977,0.5632183908045977,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/n_answers/3+/B2-v2/Top-1,0.5459770114942529,0.5459770114942529,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/n_answers/3+/B2-v1/Recall@5,0.278829230089547,0.2788292300895469,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/n_answers/3+/B2-v2/Recall@5,0.2746071597688196,0.2746071597688195,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/query_black_v1/black/B2-v1/Top-1,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/query_black_v1/black/B2-v2/Top-1,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/query_black_v1/black/B2-v1/Recall@5,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/query_black_v1/black/B2-v2/Recall@5,0.3333333333333333,0.3333333333333333,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/query_black_v1/not_black/B2-v1/Top-1,0.3562610229276896,0.3562610229276896,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/query_black_v1/not_black/B2-v2/Top-1,0.32275132275132273,0.32275132275132273,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/query_black_v1/not_black/B2-v1/Recall@5,0.3545260776641644,0.35452607766416433,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/query_black_v1/not_black/B2-v2/Recall@5,0.3138418209284678,0.3138418209284678,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/query_black_v2/not_black/B2-v1/Top-1,0.35563380281690143,0.35563380281690143,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/query_black_v2/not_black/B2-v2/Top-1,0.3221830985915493,0.3221830985915493,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/query_black_v2/not_black/B2-v1/Recall@5,0.35390191203447396,0.3539019120344739,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/query_black_v2/not_black/B2-v2/Recall@5,0.3138761369714341,0.3138761369714341,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/bbox_v2/large_extreme/B2-v1/Top-1,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/bbox_v2/large_extreme/B2-v2/Top-1,1.0,1.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/bbox_v2/large_extreme/B2-v1/Recall@5,1.0,1.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/bbox_v2/large_extreme/B2-v2/Recall@5,1.0,1.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/bbox_v2/not_listed/B2-v1/Top-1,0.3562610229276896,0.3562610229276896,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/bbox_v2/not_listed/B2-v2/Top-1,0.32098765432098764,0.32098765432098764,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/bbox_v2/not_listed/B2-v1/Recall@5,0.3527624092338293,0.35276240923382923,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/bbox_v2/not_listed/B2-v2/Recall@5,0.3126660419749111,0.3126660419749111,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v1/has_black/B2-v1/Top-1,0.5,0.5,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v1/has_black/B2-v2/Top-1,0.5,0.5,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v1/has_black/B2-v1/Recall@5,0.1,0.1,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v1/has_black/B2-v2/Recall@5,0.15000000000000002,0.15000000000000002,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v1/no_black/B2-v1/Top-1,0.3546099290780142,0.3546099290780142,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v1/no_black/B2-v2/Top-1,0.32092198581560283,0.32092198581560283,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v1/no_black/B2-v1/Recall@5,0.3557026348148603,0.35570263481486025,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v1/no_black/B2-v2/Recall@5,0.3150383790776145,0.31503837907761456,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v2/has_black/B2-v1/Top-1,0.6666666666666666,0.6666666666666666,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v2/has_black/B2-v2/Top-1,0.6666666666666666,0.6666666666666666,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v2/has_black/B2-v1/Recall@5,0.17777777777777778,0.17777777777777778,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v2/has_black/B2-v2/Recall@5,0.18888888888888888,0.18888888888888888,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v2/no_black/B2-v1/Top-1,0.35398230088495575,0.35398230088495575,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v2/no_black/B2-v2/Top-1,0.32035398230088497,0.32035398230088497,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v2/no_black/B2-v1/Recall@5,0.3548370844287573,0.3548370844287572,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,valid/gallery_product_black_v2/no_black/B2-v2/Recall@5,0.3145397860762972,0.31453978607629723,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/n_answers/1/B2-v1/Top-1,0.20175438596491227,0.20175438596491227,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/n_answers/1/B2-v2/Top-1,0.1695906432748538,0.1695906432748538,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/n_answers/1/B2-v1/Recall@5,0.3391812865497076,0.3391812865497076,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/n_answers/1/B2-v2/Recall@5,0.2807017543859649,0.2807017543859649,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/n_answers/2/B2-v1/Top-1,0.36507936507936506,0.36507936507936506,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/n_answers/2/B2-v2/Top-1,0.38095238095238093,0.38095238095238093,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/n_answers/2/B2-v1/Recall@5,0.373015873015873,0.373015873015873,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/n_answers/2/B2-v2/Recall@5,0.3333333333333333,0.3333333333333333,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/n_answers/3+/B2-v1/Top-1,0.49171270718232046,0.49171270718232046,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/n_answers/3+/B2-v2/Top-1,0.5580110497237569,0.5580110497237569,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/n_answers/3+/B2-v1/Recall@5,0.31423869514581104,0.31423869514581104,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/n_answers/3+/B2-v2/Recall@5,0.31208668714080046,0.3120866871408004,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v1/black/B2-v1/Top-1,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v1/black/B2-v2/Top-1,0.3333333333333333,0.3333333333333333,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v1/black/B2-v1/Recall@5,0.4444444444444444,0.4444444444444444,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v1/black/B2-v2/Recall@5,0.1111111111111111,0.1111111111111111,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v1/not_black/B2-v1/Top-1,0.31046312178387653,0.31046312178387653,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v1/not_black/B2-v2/Top-1,0.31217838765008576,0.31217838765008576,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v1/not_black/B2-v1/Recall@5,0.3345520934615068,0.3345520934615068,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v1/not_black/B2-v2/Recall@5,0.2970057582146682,0.2970057582146682,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v2/black/B2-v1/Top-1,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v2/black/B2-v2/Top-1,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v2/black/B2-v1/Recall@5,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v2/black/B2-v2/Recall@5,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v2/not_black/B2-v1/Top-1,0.3094017094017094,0.3094017094017094,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v2/not_black/B2-v2/Top-1,0.3128205128205128,0.3128205128205128,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v2/not_black/B2-v1/Recall@5,0.3356875278998151,0.3356875278998151,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/query_black_v2/not_black/B2-v2/Recall@5,0.2965601544828801,0.29656015448288015,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/bbox_v2/small_extreme/B2-v1/Top-1,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/bbox_v2/small_extreme/B2-v2/Top-1,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/bbox_v2/small_extreme/B2-v1/Recall@5,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/bbox_v2/small_extreme/B2-v2/Recall@5,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/bbox_v2/large_extreme/B2-v1/Top-1,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/bbox_v2/large_extreme/B2-v2/Top-1,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/bbox_v2/large_extreme/B2-v1/Recall@5,0.0,0.0,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/bbox_v2/large_extreme/B2-v2/Recall@5,0.14285714285714285,0.14285714285714285,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/bbox_v2/not_listed/B2-v1/Top-1,0.3099315068493151,0.3099315068493151,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/bbox_v2/not_listed/B2-v2/Top-1,0.3133561643835616,0.3133561643835616,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/bbox_v2/not_listed/B2-v1/Recall@5,0.3362623353106024,0.3362623353106024,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/bbox_v2/not_listed/B2-v2/Recall@5,0.29682334457128035,0.2968233445712804,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v1/has_black/B2-v1/Top-1,0.16666666666666666,0.16666666666666666,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v1/has_black/B2-v2/Top-1,0.5,0.5,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v1/has_black/B2-v1/Recall@5,0.3355734767025089,0.3355734767025089,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v1/has_black/B2-v2/Recall@5,0.1742831541218638,0.1742831541218638,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v1/no_black/B2-v1/Top-1,0.3103448275862069,0.3103448275862069,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v1/no_black/B2-v2/Top-1,0.3103448275862069,0.3103448275862069,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v1/no_black/B2-v1/Recall@5,0.33510993613995993,0.33510993613995993,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v1/no_black/B2-v2/Recall@5,0.297313778358196,0.29731377835819606,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v2/has_black/B2-v1/Top-1,0.3333333333333333,0.3333333333333333,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v2/has_black/B2-v2/Top-1,0.6666666666666666,0.6666666666666666,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v2/has_black/B2-v1/Recall@5,0.22670250896057345,0.22670250896057345,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v2/has_black/B2-v2/Recall@5,0.23745519713261645,0.23745519713261645,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v2/no_black/B2-v1/Top-1,0.30874785591766724,0.30874785591766724,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v2/no_black/B2-v2/Top-1,0.31046312178387653,0.31046312178387653,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v2/no_black/B2-v1/Recall@5,0.33567254939024027,0.33567254939024027,True,independent scores aggregated on explicit group membership
+group_metrics_day_du.csv,test/gallery_product_black_v2/no_black/B2-v2/Recall@5,0.29635561712021785,0.29635561712021785,True,independent scores aggregated on explicit group membership
+artifact facts,independent checks,37210,37210,True,count independent_test_checks.csv
+artifact facts,test checks,18893,18893,True,count split=test
+artifact facts,mismatches,0,0,True,count mismatch flags
+artifact facts,category correct,88,88,True,sum original review CSV
+artifact facts,category total,100,100,True,count original review CSV
+artifact facts,category failed,12,12,True,unique reviewed failed products
+artifact facts,category disabled w_c,0,0,True,protocol excludes failed category; no weight optimization
+artifact facts,category group bộ đồ cả áo và quần,5,5,True,count group flags; overlapping case documented
+artifact facts,category group mask đen,2,2,True,count group flags; overlapping case documented
+artifact facts,category group váy/váy liền/playsuit,5,5,True,count group flags; overlapping case documented
+artifact facts,category group váy liền/áo dài phối quần,1,1,True,count group flags; overlapping case documented
+artifact facts,valid queries,568,568,True,independent CSV count
+artifact facts,valid gallery_images,1597,1597,True,independent CSV count
+artifact facts,valid ground_truth_pairs,1474,1474,True,independent CSV count
+artifact facts,test queries,586,586,True,independent CSV count
+artifact facts,test gallery_images,1543,1543,True,independent CSV count
+artifact facts,test ground_truth_pairs,1439,1439,True,independent CSV count
+artifact facts,group n valid/n_answers/1,350,350,True,count membership CSV
+artifact facts,group n valid/n_answers/2,44,44,True,count membership CSV
+artifact facts,group n valid/n_answers/3+,174,174,True,count membership CSV
+artifact facts,group n valid/query_black_v1/black,1,1,True,count membership CSV
+artifact facts,group n valid/query_black_v1/not_black,567,567,True,count membership CSV
+artifact facts,group n valid/query_black_v2/black,0,0,True,count membership CSV
+artifact facts,group n valid/query_black_v2/not_black,568,568,True,count membership CSV
+artifact facts,group n valid/bbox_v2/small_extreme,0,0,True,count membership CSV
+artifact facts,group n valid/bbox_v2/large_extreme,1,1,True,count membership CSV
+artifact facts,group n valid/bbox_v2/not_listed,567,567,True,count membership CSV
+artifact facts,group n valid/gallery_product_black_v1/has_black,4,4,True,count membership CSV
+artifact facts,group n valid/gallery_product_black_v1/no_black,564,564,True,count membership CSV
+artifact facts,group n valid/gallery_product_black_v2/has_black,3,3,True,count membership CSV
+artifact facts,group n valid/gallery_product_black_v2/no_black,565,565,True,count membership CSV
+artifact facts,group n test/n_answers/1,342,342,True,count membership CSV
+artifact facts,group n test/n_answers/2,63,63,True,count membership CSV
+artifact facts,group n test/n_answers/3+,181,181,True,count membership CSV
+artifact facts,group n test/query_black_v1/black,3,3,True,count membership CSV
+artifact facts,group n test/query_black_v1/not_black,583,583,True,count membership CSV
+artifact facts,group n test/query_black_v2/black,1,1,True,count membership CSV
+artifact facts,group n test/query_black_v2/not_black,585,585,True,count membership CSV
+artifact facts,group n test/bbox_v2/small_extreme,1,1,True,count membership CSV
+artifact facts,group n test/bbox_v2/large_extreme,1,1,True,count membership CSV
+artifact facts,group n test/bbox_v2/not_listed,584,584,True,count membership CSV
+artifact facts,group n test/gallery_product_black_v1/has_black,6,6,True,count membership CSV
+artifact facts,group n test/gallery_product_black_v1/no_black,580,580,True,count membership CSV
+artifact facts,group n test/gallery_product_black_v2/has_black,3,3,True,count membership CSV
+artifact facts,group n test/gallery_product_black_v2/no_black,583,583,True,count membership CSV
+can_dinh_chinh.md,historical invalid category value,"55,72%","không áp dụng: số lịch sử cần đính chính, chưa tái chạy category cũ",source_verified,literal verified in prior correction document; not a valid new metric
+can_dinh_chinh.md,historical invalid category value,"80,50%","không áp dụng: số lịch sử cần đính chính, chưa tái chạy category cũ",source_verified,literal verified in prior correction document; not a valid new metric
+can_dinh_chinh.md,historical invalid category value,"79,75%","không áp dụng: số lịch sử cần đính chính, chưa tái chạy category cũ",source_verified,literal verified in prior correction document; not a valid new metric
+can_dinh_chinh.md,historical invalid category value,78%,"không áp dụng: số lịch sử cần đính chính, chưa tái chạy category cũ",source_verified,literal verified in prior correction document; not a valid new metric
+can_dinh_chinh.md,historical invalid category value,54%,"không áp dụng: số lịch sử cần đính chính, chưa tái chạy category cũ",source_verified,literal verified in prior correction document; not a valid new metric

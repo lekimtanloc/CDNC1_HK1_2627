@@ -1,0 +1,10 @@
+{
+  "archive": "tuan4_bao_cao_goi.zip",
+  "bytes": 5407877,
+  "sha256": "5381ec7edea25d88b43f5f37f2bf81b057960dd6f3724dc25064bcb70069b4a1",
+  "entries": 62,
+  "zip_crc_and_member_sha256": "PASS",
+  "index_bytes": 10397,
+  "index_sha256": "63a5c3304647487aae948248576956dfa7b1ed39c39b114f4d9a6027da6e083d",
+  "omitted_npy_count": 2
+}

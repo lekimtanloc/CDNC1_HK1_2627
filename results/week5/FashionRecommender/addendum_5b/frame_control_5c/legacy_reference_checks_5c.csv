@@ -1,0 +1,53 @@
+split,comparison,main,independent,match,note
+valid,queries,568,568,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,gallery,1597,1597,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,truth_pairs,1474,1474,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,random_Top-1,0.001624965825006394,0.001624965825006394,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,random_Recall@5,0.0031308703819661866,0.0031308703819661866,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G0 Recall@1 vsweek3,0.2034485648837008,0.20344856488370072,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G0 Recall@5 vsweek3,0.34940014393806745,0.3494001439380675,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G0 Recall@10 vsweek3,0.4296769967620948,0.429676996762095,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G1 Recall@1 vsweek3,0.15174330125062024,0.15174330125062033,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G1 Recall@5 vsweek3,0.27562262456972375,0.27562262456972386,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G1 Recall@10 vsweek3,0.3412169562426772,0.3412169562426774,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G2 Recall@1 vsweek3,0.23411620758919563,0.23411620758919557,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G2 Recall@5 vsweek3,0.4219282496838796,0.4219282496838796,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G2 Recall@10 vsweek3,0.488580667808716,0.488580667808716,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G3 Recall@1 vsweek3,0.04462764134783319,0.044627641347833175,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G3 Recall@5 vsweek3,0.10778594512336978,0.10778594512336982,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G3 Recall@10 vsweek3,0.15763557934800398,0.157635579348004,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G4 Recall@1 vsweek3,0.18594324889687072,0.1859432488968707,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G4 Recall@5 vsweek3,0.3539360093368857,0.35393600933688585,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,G4 Recall@10 vsweek3,0.4264066456258911,0.42640664562589126,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,B Recall@1 vsweek3,0.17910877615130644,0.17910877615130646,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,B Recall@5 vsweek3,0.3138761369714341,0.3138761369714341,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,B Recall@10 vsweek3,0.3741740430199277,0.3741740430199277,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,F Recall@1 vsweek3,0.0751987947985434,0.0751987947985434,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,F Recall@5 vsweek3,0.15978467680031652,0.15978467680031658,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+valid,F Recall@10 vsweek3,0.2037313256154766,0.2037313256154766,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,queries,586,586,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,gallery,1543,1543,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,truth_pairs,1439,1439,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,random_Top-1,0.0015914655860773856,0.0015914655860773856,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,random_Recall@5,0.0032404406999351912,0.0032404406999351912,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G0 Recall@1 vsweek3,0.16926550754434033,0.16926550754434022,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G0 Recall@5 vsweek3,0.32870338260452225,0.32870338260452237,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G0 Recall@10 vsweek3,0.38882870314814594,0.38882870314814594,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G1 Recall@1 vsweek3,0.13593299395091418,0.1359329939509142,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G1 Recall@5 vsweek3,0.2556164568579866,0.25561645685798656,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G1 Recall@10 vsweek3,0.33034519486114405,0.3303451948611442,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G2 Recall@1 vsweek3,0.2210692593480921,0.22106925934809202,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G2 Recall@5 vsweek3,0.4064150756581576,0.4064150756581576,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G2 Recall@10 vsweek3,0.48839314067635686,0.4883931406763568,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G3 Recall@1 vsweek3,0.04025730865706644,0.04025730865706642,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G3 Recall@5 vsweek3,0.11567479503871665,0.1156747950387167,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G3 Recall@10 vsweek3,0.16526276410538218,0.16526276410538213,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G4 Recall@1 vsweek3,0.16727664032509768,0.16727664032509762,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G4 Recall@5 vsweek3,0.3312491798427112,0.3312491798427113,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,G4 Recall@10 vsweek3,0.4114400903320812,0.41144009033208123,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,B Recall@1 vsweek3,0.16036687444281517,0.1603668744428151,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,B Recall@5 vsweek3,0.29605407913393317,0.29605407913393317,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,B Recall@10 vsweek3,0.37688905970597025,0.37688905970597036,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,F Recall@1 vsweek3,0.07997216812448564,0.07997216812448568,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,F Recall@5 vsweek3,0.1798203106212719,0.17982031062127188,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+test,F Recall@10 vsweek3,0.24914583017248781,0.24914583017248787,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.

@@ -1,0 +1,84 @@
+{
+  "mask_modes": {
+    "L": 13752
+  },
+  "mask_classification": {
+    "ii_chi_nhan_ngoai_1_12": 35,
+    "i_toan_nen": 13
+  },
+  "outside_16_plus_images": 0,
+  "black_queries": 3,
+  "black_gallery": 6,
+  "black_cosine_min": 0.9999998807907104,
+  "black_cosine_max": 1.0000001192092896,
+  "black_vectors_equal": true,
+  "black_gallery_scores_equal_each_query": true,
+  "chance": {
+    "mean_relevant": 2.455631399317406,
+    "top1": 0.0015914655860773856,
+    "recall5": 0.0032404406999351912
+  },
+  "transitions": {
+    "all": {
+      "n": 586,
+      "counts": {
+        "0->0": 350,
+        "0->1": 59,
+        "1->1": 122,
+        "1->0": 55
+      }
+    },
+    "old_black": {
+      "n": 28,
+      "counts": {
+        "1->1": 1,
+        "0->1": 6,
+        "0->0": 21
+      }
+    },
+    "old_nonblack": {
+      "n": 558,
+      "counts": {
+        "0->0": 329,
+        "0->1": 53,
+        "1->0": 55,
+        "1->1": 121
+      }
+    },
+    "empty_1_12": {
+      "n": 3,
+      "counts": {
+        "0->0": 3
+      }
+    }
+  },
+  "cache_comparison": {
+    "old_cache_rows": 4600,
+    "old_test_rows": 2129,
+    "intersection_images": 690,
+    "bitwise_equal_rows": 690,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "week3_top5_rankings_equal_queries": 586,
+    "week3_top1_hit_flags_equal_queries": 586
+  },
+  "sanity_recomputed": {
+    "visual_before": {
+      "top1": 0.30204778156996587,
+      "recall_at_5": 0.32196823028114135
+    },
+    "visual_only": {
+      "top1": 0.30887372013651876,
+      "recall_at_5": 0.33511468228906455
+    },
+    "popularity_only": {
+      "top1": 0.0017064846416382253,
+      "recall_at_5": 0.006257110352673493
+    },
+    "week3_saved_top5": {
+      "top1": 0.30204778156996587,
+      "recall_at_5": 0.32196823028114135
+    }
+  },
+  "single_view_gallery_products": 104
+}

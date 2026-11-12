@@ -1,0 +1,133 @@
+{
+  "timestamp": "2026-11-03T09:42:42.570431+00:00",
+  "note": "Phân tích hậu nghiệm sau tuần 5; giữ baseline chính B2-v1 với bộ lọc sai ngữ nghĩa.",
+  "baseline_unchanged": "B2-v1",
+  "variants": {
+    "A": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "B": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      15
+    ],
+    "C": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15
+    ],
+    "D": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "F": [
+      4,
+      9
+    ]
+  },
+  "E": "not specified; A–F means A,B,C,D,F, not an invented E",
+  "test_once": true,
+  "face_hair": [
+    "C-B",
+    "A-D"
+  ],
+  "pants_shoes": [
+    "C-A",
+    "B-D"
+  ],
+  "interpretation_rule": "effect present only if BOTH paired Recall@5 CIs exclude0 in same direction; else no conclusion",
+  "validation_effects": {
+    "face_hair": {
+      "comparisons": [
+        "C-B",
+        "A-D"
+      ],
+      "conclusion": "có",
+      "direction": "positive",
+      "interpretation": "paired retrieval association only, not a causal conclusion",
+      "note": "Phân tích hậu nghiệm sau tuần 5; giữ baseline chính B2-v1 với bộ lọc sai ngữ nghĩa."
+    },
+    "pants_shoes": {
+      "comparisons": [
+        "C-A",
+        "B-D"
+      ],
+      "conclusion": "không kết luận",
+      "direction": null,
+      "interpretation": "paired retrieval association only, not a causal conclusion",
+      "note": "Phân tích hậu nghiệm sau tuần 5; giữ baseline chính B2-v1 với bộ lọc sai ngữ nghĩa."
+    },
+    "F": "report only; no threshold, not evidence of model identity recognition"
+  },
+  "F": "F-A paired; descriptive vs expected random; no threshold",
+  "hashes": {
+    "results/week2/FashionRecommender/data_protocol/ground_truth_test.csv": "cecbc3c726b6c09a25e78933c4c86268f4cd869609ef4d356ed319b1f4335fe7",
+    "results/week2/FashionRecommender/data_protocol/test.csv": "c7fe31afd76eedbf354f307225479b0bc6be86bda1df2c5a3800293bd8b9381d",
+    "results/week4/FashionRecommender/artifacts_completed/fixed_all.npy": "aff4acc8df6036e266e4f5a2addad7cb9ed498ce8d602528da50cad3eb286f69",
+    "results/week4/FashionRecommender/artifacts_completed/fixed_all_index.csv": "227d2f717264d66bfad308588dd036ac942a6754f21b628fe9396dadbd84e38d",
+    "results/week4/FashionRecommender/artifacts_completed/visual_only_top10.csv": "48e9a83a2830766f660dc4a39c3a0e0cad785cfa45f4ea19245556b4ed7c5d39",
+    "results/week4/FashionRecommender/v2/artifacts_v2/fixed_all_v2.npy": "9e5f2317025c050605b0820312d6034c4685a54ee3b327f5901a86e5ccf71a7a",
+    "results/week4/FashionRecommender/v2/artifacts_v2/fixed_all_v2_index.csv": "227d2f717264d66bfad308588dd036ac942a6754f21b628fe9396dadbd84e38d",
+    "results/week4/FashionRecommender/v2/artifacts_v2/visual_only_v2_top10.csv": "7fbb0deca7556ab3f1c4e304258b2bc3c7fdf535650cc3138488f3b6c622bea8",
+    "results/week4/FashionRecommender/v2/common.py": "efcc2bae6975365eab63ca52bb0741f6b78f9a7ff7d9ed93cdc076365151b99c",
+    "results/week5/FashionRecommender/addendum_5b/common_5b.py": "10747629f3560504172f7adc6aba9bbe2ededa2d616930425e2da267c6d5c46a",
+    "results/week5/FashionRecommender/addendum_5b/delivery_5b.py": "18e69884b49a6969ca5e1570d0531433564327ca9711468c5d5c1a94e978d99d",
+    "results/week5/FashionRecommender/addendum_5b/design_5b.json": "2c6acc4c650ae359f05946798f00e586a2a415565889924f18f43f5847b78285",
+    "results/week5/FashionRecommender/addendum_5b/effects_valid_5b.json": "8f445c283dcdbc1871a170f59f5b527e91ad52d59a01379011df167330728d87",
+    "results/week5/FashionRecommender/addendum_5b/evaluate_5b.py": "a4a68a4f1256d3f5d43b29d8bd5d7449d3692e7c434d61b9d7a70e57fadd8571",
+    "results/week5/FashionRecommender/addendum_5b/extract_5b.py": "b031f6088b491904723911b6237e21567b31fc5ad805687859ad568ee98ec8f9",
+    "results/week5/FashionRecommender/addendum_5b/freeze_prepare_5b.py": "f02bb4020611d8b7692eb909a29b320499013632851791b282a34b9340ca3f44",
+    "results/week5/FashionRecommender/addendum_5b/independent_5b.py": "56014de054d9e1e037d6106ff9584415239040928c91eccd5abe86456b770b2d",
+    "results/week5/FashionRecommender/addendum_5b/metrics_valid_5b.csv": "8f7da94ce90dd6d40d3c3259cd5d1203159b5e94c9d4ff75de02506ea6e5b855",
+    "results/week5/FashionRecommender/addendum_5b/paired_valid_5b.json": "5689f931ddbce2fb15c5ff70e82a74567bcef9bb37c861287304db2fecc2c9a9",
+    "results/week5/FashionRecommender/addendum_5b/preflight_5b.py": "f7db92c65958bd620af5d278edab5ceae43fc432c48bfd42b36e6d27d626d3ff",
+    "results/week5/FashionRecommender/addendum_5b/report_5b.py": "2f1abfe2a591b82c5ce3b82d0427456e1b897fd44795babb44d273e357b44fad",
+    "results/week5/FashionRecommender/addendum_5b/vectors_C_5b.npy": "5e4b0a1f89b6613b599e46952b6c33291baf6e1a78f75a0359f580ad64a31da3",
+    "results/week5/FashionRecommender/addendum_5b/vectors_D_5b.npy": "f14a949d8c864d896cb70e4abf63f3604c97712e05b08a534481904085f7eb44",
+    "results/week5/FashionRecommender/addendum_5b/vectors_F_5b.npy": "49f95ceafb8c80a29496b7c1fc887c8fbbfdd4a4d9bcfa1d3902aab924a1aa5c",
+    "results/week5/FashionRecommender/addendum_5b/vectors_index_5b.csv": "92cb5a9a627eaa1eb6f11f0c953a1d7272a6c33c4e5fceb76620fb5bbc9d393b",
+    "results/week5/FashionRecommender/baseline_chinh.json": "d4cd3f1908a2079413bfd12ea2b14ed348c6b4d59457350c2e2116f8fc9082e7",
+    "results/week5/FashionRecommender/freeze.json": "7ad87a68e3c14337ca03267ce4257e50d887f530236314832b6efa67e5540e2e",
+    "results/week5/FashionRecommender/protocol_v1.md": "420b4a8205c81a6f629f3e5a3cc0ba04cee8ce57ae6137c74feb65b1d3c2bf25"
+  },
+  "prior_test_exposure": "week4/5 test already observed; this is posthoc confirmatory description, not new independent test evidence"
+}

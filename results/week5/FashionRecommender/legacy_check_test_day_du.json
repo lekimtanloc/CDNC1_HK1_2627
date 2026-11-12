@@ -1,0 +1,114 @@
+[
+  {
+    "config": "B0",
+    "metric": "Recall@1",
+    "week3": 0.0005688282138794084,
+    "stored": 0.0005688282138794084,
+    "match": true
+  },
+  {
+    "config": "B0",
+    "metric": "Recall@5",
+    "week3": 0.006257110352673493,
+    "stored": 0.006257110352673493,
+    "match": true
+  },
+  {
+    "config": "B0",
+    "metric": "Recall@10",
+    "week3": 0.00944254835039818,
+    "stored": 0.00944254835039818,
+    "match": true
+  },
+  {
+    "config": "B0",
+    "metric": "Top-1",
+    "week3": 0.0017064846416382253,
+    "stored": 0.0017064846416382253,
+    "match": true
+  },
+  {
+    "config": "B2p",
+    "metric": "Recall@1",
+    "week3": 0.16858755024028269,
+    "stored": 0.16858755024028277,
+    "match": true
+  },
+  {
+    "config": "B2p",
+    "metric": "Recall@5",
+    "week3": 0.32196823028114135,
+    "stored": 0.3219682302811413,
+    "match": true
+  },
+  {
+    "config": "B2p",
+    "metric": "Recall@10",
+    "week3": 0.4021180472406866,
+    "stored": 0.40211804724068667,
+    "match": true
+  },
+  {
+    "config": "B2p",
+    "metric": "Top-1",
+    "week3": 0.30204778156996587,
+    "stored": 0.30204778156996587,
+    "match": true
+  },
+  {
+    "config": "B2-v1",
+    "metric": "Recall@1",
+    "week3": 0.17519868131027844,
+    "stored": 0.17519868131027858,
+    "match": true
+  },
+  {
+    "config": "B2-v1",
+    "metric": "Recall@5",
+    "week3": 0.33511468228906455,
+    "stored": 0.33511468228906455,
+    "match": true
+  },
+  {
+    "config": "B2-v1",
+    "metric": "Recall@10",
+    "week3": 0.3963836075187144,
+    "stored": 0.3963836075187145,
+    "match": true
+  },
+  {
+    "config": "B2-v1",
+    "metric": "Top-1",
+    "week3": 0.30887372013651876,
+    "stored": 0.30887372013651876,
+    "match": true
+  },
+  {
+    "config": "B2-v2",
+    "metric": "Recall@1",
+    "week3": 0.1603668744428151,
+    "stored": 0.16036687444281517,
+    "match": true
+  },
+  {
+    "config": "B2-v2",
+    "metric": "Recall@5",
+    "week3": 0.29605407913393317,
+    "stored": 0.29605407913393317,
+    "match": true
+  },
+  {
+    "config": "B2-v2",
+    "metric": "Recall@10",
+    "week3": 0.37688905970597036,
+    "stored": 0.37688905970597025,
+    "match": true
+  },
+  {
+    "config": "B2-v2",
+    "metric": "Top-1",
+    "week3": 0.3122866894197952,
+    "stored": 0.3122866894197952,
+    "match": true
+  }
+]

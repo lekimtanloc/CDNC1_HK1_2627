@@ -1,0 +1,20 @@
+{
+  "source": "ke_hoach_do_an_cap_nhat.xlsx",
+  "all_cell_styles_preserved": true,
+  "updated_cells": [
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "E16",
+    "D17",
+    "E17",
+    "D18",
+    "E18",
+    "D19",
+    "D21"
+  ],
+  "weeks_1_to_5_percent": "100%",
+  "historical_wording": "user-supplied; API/PostgreSQL not retested during this task"
+}

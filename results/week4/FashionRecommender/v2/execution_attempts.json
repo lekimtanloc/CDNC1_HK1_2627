@@ -1,0 +1,13 @@
+{
+  "attempt1": {
+    "status": "failed",
+    "error": "OSError [Errno 5] Input/output error reading archive during first extraction batch",
+    "saved_vectors": false
+  },
+  "recheck_sha256": "a7d59c2bbb29af0ce3b49ac57747639815d2643cf0fd4c221a49533cb3585d21",
+  "attempt2": {
+    "status": "completed",
+    "manifest": "artifacts_v2/manifest_v2.json",
+    "elapsed_seconds": 972.7064887500019
+  }
+}

@@ -1,0 +1,15 @@
+split,variant,metric,value,ci_low,ci_high,analysis_note
+dev,A,Top-1,0.212406015037594,0.19699248120300752,0.22781954887218045,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,A,Recall@1,0.1196737471438349,0.10907032913112621,0.13065108471214587,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,A,Recall@5,0.22359057874195853,0.209699827469724,0.23757962540453767,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,A,Recall@10,0.2740525379564606,0.25939082292034893,0.28900288629769993,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,A,NDCG@5,0.20881360478405145,0.19647852196150378,0.22132276031007303,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,A,NDCG@10,0.22438919729818912,0.21205593797970815,0.2368213139501959,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,A,MRR@10,0.2714598997493734,0.25634166890440385,0.28664774286907746,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,B,Top-1,0.2161654135338346,0.20037593984962407,0.2319548872180451,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,B,Recall@1,0.11531999067375821,0.10519143277633712,0.12614781922461046,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,B,Recall@5,0.20585860438636897,0.1927825970810371,0.21905485494652757,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,B,Recall@10,0.26206420057774216,0.2477090160122902,0.2763941427588682,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,B,NDCG@5,0.19918831164016065,0.18707342317974934,0.2114084881936832,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,B,NDCG@10,0.21586177813568627,0.20394367409137945,0.22792857426178684,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,B,MRR@10,0.2693009308986753,0.2537899212316505,0.28471867167919795,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).

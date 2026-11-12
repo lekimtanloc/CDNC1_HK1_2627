@@ -1,0 +1,37 @@
+{
+  "status": "verified",
+  "artifacts_manifest": "artifacts_completed/manifest.json",
+  "checks": "verification.txt",
+  "files": [
+    {
+      "path": "run_week4.py",
+      "bytes": 13252,
+      "sha256": "65ae9ebdfa62e7eee082ad1d043cb16d9b2a08eacbfb2308414210fea7868b51"
+    },
+    {
+      "path": "verify_week4.py",
+      "bytes": 2761,
+      "sha256": "2c02f1273de8be5438063d2a3ed0da6b27a56aed6bf954907a2543b9ee06c794"
+    },
+    {
+      "path": "make_report.py",
+      "bytes": 10377,
+      "sha256": "155bf932480f8decd7537f9e6c36cd3bc86a58a79241d088d2ab5bf8ae950a2b"
+    },
+    {
+      "path": "ket_qua_tuan_04.md",
+      "bytes": 9656,
+      "sha256": "7aa54606095940df9825060f28cbefa6e2529e7f311e4c5ce4c9b3e8e13d888d"
+    },
+    {
+      "path": "verification.txt",
+      "bytes": 253,
+      "sha256": "7da76fb5d2eb0c5f724ccc6fef1b28cee3b4939b27b17a2605e297f143f79ae5"
+    },
+    {
+      "path": "artifacts_completed/manifest.json",
+      "bytes": 8487,
+      "sha256": "a86be994efd1f2c3b359298995548bbc94b5ef7d8b7f14a348ab8b63f3fe8891"
+    }
+  ]
+}

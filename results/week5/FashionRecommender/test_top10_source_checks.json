@@ -1,0 +1,22 @@
+{
+  "B0": {
+    "sha256": "aa3576d504217cf463c3e41cdcc289167c856f7564ba8bf1166b9c2790ca7f49",
+    "rows": 5860,
+    "source": "results/week4/FashionRecommender/artifacts_completed/popularity_only_top10.csv"
+  },
+  "B2p": {
+    "sha256": "d78e3d39eb112c072897cf57b8a678a492f180e91aed6859c621afb39b7d07cf",
+    "rows": 5860,
+    "source": "results/week4/FashionRecommender/artifacts_completed/visual_before_top10.csv"
+  },
+  "B2-v1": {
+    "sha256": "48e9a83a2830766f660dc4a39c3a0e0cad785cfa45f4ea19245556b4ed7c5d39",
+    "rows": 5860,
+    "source": "results/week4/FashionRecommender/artifacts_completed/visual_only_top10.csv"
+  },
+  "B2-v2": {
+    "sha256": "7fbb0deca7556ab3f1c4e304258b2bc3c7fdf535650cc3138488f3b6c622bea8",
+    "rows": 5860,
+    "source": "results/week4/FashionRecommender/v2/artifacts_v2/visual_only_v2_top10.csv"
+  }
+}

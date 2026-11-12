@@ -1,0 +1,30 @@
+{
+  "note": "Phân tích hậu nghiệm sau tuần 5; giữ baseline chính B2-v1 với bộ lọc sai ngữ nghĩa.",
+  "labels": [
+    4,
+    9
+  ],
+  "images": 4294,
+  "seconds": 219.05397804103268,
+  "versions": {
+    "python": "3.11.9",
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "numpy": "2.2.1",
+    "pillow": "12.2.0"
+  },
+  "counts": {
+    "valid": {
+      "images": 2165,
+      "fallback": 121,
+      "black": 121
+    },
+    "test": {
+      "images": 2129,
+      "fallback": 158,
+      "black": 158
+    }
+  },
+  "checkpoint_chunks": 17,
+  "vector_sha256": "49f95ceafb8c80a29496b7c1fc887c8fbbfdd4a4d9bcfa1d3902aab924a1aa5c"
+}

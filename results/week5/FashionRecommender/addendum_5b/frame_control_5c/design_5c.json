@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-11-03T12:18:27.428311+00:00",
+  "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người.",
+  "user_decision": "Replace original 5c G0–G3 design; BLACK fill, not ImageNet mean; user explicitly selected option2",
+  "bbox_labels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15
+  ],
+  "fill_rgb": [
+    0,
+    0,
+    0
+  ],
+  "padding_rgb": [
+    0,
+    0,
+    0
+  ],
+  "fallback": "bbox C empty => black224x224 for ALL variants including original RGB G2; empty retained content inside nonempty C bbox is black but not bbox fallback",
+  "variants": {
+    "G0": {
+      "keep_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15
+      ],
+      "bbox": "C",
+      "source": "reuse C after >=200 byte-identical replay"
+    },
+    "G1": {
+      "keep_labels": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15
+      ],
+      "bbox": "C"
+    },
+    "G2": {
+      "keep": "all original RGB pixels",
+      "bbox": "C"
+    },
+    "G3": {
+      "keep_labels": [
+        4,
+        9
+      ],
+      "bbox": "C"
+    },
+    "G4": {
+      "drop_labels": [
+        4,
+        9
+      ],
+      "keep": "all other original RGB pixels including background",
+      "bbox": "C"
+    },
+    "B": {
+      "keep_labels": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15
+      ],
+      "bbox": "B",
+      "source": "5b B reference, unchanged"
+    },
+    "F": {
+      "keep_labels": [
+        4,
+        9
+      ],
+      "bbox": "F",
+      "source": "5b F reference, unchanged"
+    }
+  },
+  "resize": "v2 ImageOps.contain bbox crop to224, BILINEAR, black centered padding; identical Normalize/ImageNet ResNet50V2 weights",
+  "pairs": [
+    "G1-B",
+    "G0-G1",
+    "G2-G4",
+    "G2-G0",
+    "G4-G1",
+    "G3-F",
+    "G3-G0"
+  ],
+  "face_hair": [
+    "G0-G1",
+    "G2-G4"
+  ],
+  "background": [
+    "G2-G0",
+    "G4-G1"
+  ],
+  "effect_rule": "có only if BOTH paired Recall@5 95% CIs exclude0 in SAME direction; otherwise không kết luận. G1-B and G3-F only numbers/CIs; G3-G0 and random descriptive, no threshold.",
+  "metrics": [
+    "Top-1",
+    "Recall@1",
+    "Recall@5",
+    "Recall@10",
+    "NDCG@5",
+    "NDCG@10",
+    "MRR@10"
+  ],
+  "bootstrap": {
+    "seed": 42,
+    "replicates": 10000,
+    "unit": "query",
+    "percentile": [
+      2.5,
+      97.5
+    ]
+  },
+  "device": "cpu",
+  "threads": 4,
+  "batch_size": 8,
+  "deterministic": true,
+  "G0_replay": "25 random complete cacheC batches seed42,200 images, preserve original batch geometry",
+  "test": "extract embeddings before freeze permitted; no new test ranking/metrics until freeze_5c; one official pass then independent verification",
+  "prior_exposure": "test already seen in weeks4,5,5b; this is posthoc, not independent holdout evidence",
+  "sources": {
+    "crop_sha256": "efcc2bae6975365eab63ca52bb0741f6b78f9a7ff7d9ed93cdc076365151b99c",
+    "C_vector_sha256": "5e4b0a1f89b6613b599e46952b6c33291baf6e1a78f75a0359f580ad64a31da3",
+    "C_index_sha256": "92cb5a9a627eaa1eb6f11f0c953a1d7272a6c33c4e5fceb76620fb5bbc9d393b",
+    "protocol_sha256": "420b4a8205c81a6f629f3e5a3cc0ba04cee8ce57ae6137c74feb65b1d3c2bf25"
+  }
+}

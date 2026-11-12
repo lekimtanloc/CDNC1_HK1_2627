@@ -1,0 +1,44 @@
+split,version,category,image_count
+train,old,Bags,6
+train,old,Dresses,5
+train,old,Footwear,9
+train,old,Headwear,273
+train,old,Jackets_Coats,981
+train,old,Leggings,2
+train,old,Neckwear,830
+train,old,Pants,2
+train,old,Skirts,187
+train,old,Tees_Tanks,7158
+train,old,Unknown,5
+train,v2,Chân váy,121
+train,v2,Phụ kiện/không rõ,2
+train,v2,Quần,1159
+train,v2,Váy liền,969
+train,v2,Áo khoác,692
+train,v2,Áo thân trên,6515
+valid,old,Bags,2
+valid,old,Footwear,2
+valid,old,Headwear,52
+valid,old,Jackets_Coats,233
+valid,old,Neckwear,205
+valid,old,Skirts,43
+valid,old,Tees_Tanks,1627
+valid,old,Unknown,1
+valid,v2,Chân váy,52
+valid,v2,Quần,183
+valid,v2,Váy liền,231
+valid,v2,Áo khoác,167
+valid,v2,Áo thân trên,1532
+test,old,Bags,2
+test,old,Footwear,2
+test,old,Headwear,105
+test,old,Jackets_Coats,227
+test,old,Neckwear,211
+test,old,Skirts,40
+test,old,Tees_Tanks,1540
+test,old,Unknown,2
+test,v2,Chân váy,24
+test,v2,Quần,323
+test,v2,Váy liền,227
+test,v2,Áo khoác,175
+test,v2,Áo thân trên,1380

@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-11-03T01:46:21.015858+00:00",
+  "configs": [
+    "B0",
+    "B2p",
+    "B2-v1",
+    "B2-v2"
+  ],
+  "baseline_chinh": "B2-v1",
+  "test_top10": {
+    "B0": {
+      "path": "results/week4/FashionRecommender/artifacts_completed/popularity_only_top10.csv",
+      "sha256": "aa3576d504217cf463c3e41cdcc289167c856f7564ba8bf1166b9c2790ca7f49",
+      "rows": 5860
+    },
+    "B2p": {
+      "path": "results/week4/FashionRecommender/artifacts_completed/visual_before_top10.csv",
+      "sha256": "d78e3d39eb112c072897cf57b8a678a492f180e91aed6859c621afb39b7d07cf",
+      "rows": 5860
+    },
+    "B2-v1": {
+      "path": "results/week4/FashionRecommender/artifacts_completed/visual_only_top10.csv",
+      "sha256": "48e9a83a2830766f660dc4a39c3a0e0cad785cfa45f4ea19245556b4ed7c5d39",
+      "rows": 5860
+    },
+    "B2-v2": {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/visual_only_v2_top10.csv",
+      "sha256": "7fbb0deca7556ab3f1c4e304258b2bc3c7fdf535650cc3138488f3b6c622bea8",
+      "rows": 5860
+    }
+  },
+  "protocol_sha256": "420b4a8205c81a6f629f3e5a3cc0ba04cee8ce57ae6137c74feb65b1d3c2bf25",
+  "category_rule_sha256": "518465d3fc020b7fd13e0ee4801b6bb4e76cf87324a8532443fb6efbeaa6e8ed",
+  "user_decision_sha256": "7fa536381e9d72b40eadef0ff3cfb1806f914a10969192c8b29b732f8e738151",
+  "semantic_warning": "B2-v1 KHÔNG đúng ngữ nghĩa; giữ 4,9, bỏ 13,15",
+  "test_caveat": "test là xác nhận, không độc lập do đã thấy sanity test trước đặt luật"
+}

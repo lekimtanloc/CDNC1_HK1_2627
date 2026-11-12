@@ -1,0 +1,19 @@
+{
+  "baseline_chinh": "B2-v1",
+  "user_accepted": true,
+  "validation_evidence": {
+    "difference_v2_minus_v1": -0.040025775063039726,
+    "ci_low": -0.07323724560041359,
+    "ci_high": -0.007274870200896199
+  },
+  "semantic_note": "B2-v1 KHÔNG đúng ngữ nghĩa: giữ 4,9; bỏ 13,15. Retrieval proxy; chưa giải thích nguyên nhân.",
+  "test_caveat": "sanity test already observed before choosing the rule; confirmation only",
+  "category_check": {
+    "correct": 88,
+    "total": 100,
+    "passed": false,
+    "w_c": 0,
+    "no_fusion_implemented": true
+  },
+  "decision_sha256": "7fa536381e9d72b40eadef0ff3cfb1806f914a10969192c8b29b732f8e738151"
+}

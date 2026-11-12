@@ -1,0 +1,176 @@
+{
+  "seed": 42,
+  "random_main_per_label": 24,
+  "sampling": "8 per split where possible; fill shortages from remaining images; Random(42) per label",
+  "centroid": "mean of pixel x/(W-1), y/(H-1) per present image, then equal image average",
+  "area": "mean conditioned on label present; no area cutoff in selection",
+  "elapsed_seconds": 204.69872695900267,
+  "source_archive_sha256": "a7d59c2bbb29af0ce3b49ac57747639815d2643cf0fd4c221a49533cb3585d21",
+  "files": [
+    {
+      "path": "archive_inspection.json",
+      "sha256": "03264d4210f876fa7e2677a0ec217d3abda38d8be02e32550b28cfed66185867",
+      "bytes": 134
+    },
+    {
+      "path": "atlas_nhan_00.png",
+      "sha256": "eaadecf522a8387287ee8c859a255d2eb497d338fa6b6468faa13eae6a809563",
+      "bytes": 1827761
+    },
+    {
+      "path": "atlas_nhan_01.png",
+      "sha256": "3ced23eb477ac7ee756a478dc9a5f23f3cc24d9bf96516d6ed2800c7e2a8edd2",
+      "bytes": 1657540
+    },
+    {
+      "path": "atlas_nhan_02.png",
+      "sha256": "67b0e8d2f251e3a53981dfdb5dd82571603d12ebc4b6b0016b42c115db39661b",
+      "bytes": 1582272
+    },
+    {
+      "path": "atlas_nhan_03.png",
+      "sha256": "f083aa31263979a5005d43ca975efa91e5650a26e5acb88a9349e78464380845",
+      "bytes": 1319245
+    },
+    {
+      "path": "atlas_nhan_04.png",
+      "sha256": "ac3853dca7c02f4992cd3dc2a96cd8bf08bd5ee45ef9da7c94e1811c02ccca31",
+      "bytes": 1524755
+    },
+    {
+      "path": "atlas_nhan_05.png",
+      "sha256": "b8d3ea1d8986813bc59b2333bdc76baa50f6cd195a48c55bcddc4d4816e27170",
+      "bytes": 1668938
+    },
+    {
+      "path": "atlas_nhan_06.png",
+      "sha256": "5dd7e59ce97befb0144305899aae665cbfa7b4ad339cf6a91eafcbc853dd9110",
+      "bytes": 1340146
+    },
+    {
+      "path": "atlas_nhan_07.png",
+      "sha256": "aa39eb91e0b0d4b3db5d93f1dca7cc7da0e45d4014815bb49ccc949c9b55a23c",
+      "bytes": 1469671
+    },
+    {
+      "path": "atlas_nhan_08.png",
+      "sha256": "a9fa5a2eb455dd1632cce107e6faea1b776286c09790d3b5986ee7c85d0e83a7",
+      "bytes": 1786305
+    },
+    {
+      "path": "atlas_nhan_09.png",
+      "sha256": "72b3dae8f20897d403ab1f580403d442dd6c999b9a4e86f42da9e2da78ac9936",
+      "bytes": 1537421
+    },
+    {
+      "path": "atlas_nhan_10.png",
+      "sha256": "792acd58601e56568874c30d4e2965a2d74571bbabb80bc45391898ef94ede61",
+      "bytes": 1461632
+    },
+    {
+      "path": "atlas_nhan_11.png",
+      "sha256": "eb5efe9714d92a1d7c5b0067e8d6254d20f78cf1ac311b445d6d55ca6795cbbb",
+      "bytes": 1348224
+    },
+    {
+      "path": "atlas_nhan_12.png",
+      "sha256": "d6016769dcff31511e066eafd85ba0ce214e72baa8d948bdedf468807560fb2d",
+      "bytes": 1476128
+    },
+    {
+      "path": "atlas_nhan_13.png",
+      "sha256": "d8319fad0878653c60a0f0f8dd711814af02f9e5b54849874179e90819b71c63",
+      "bytes": 1538760
+    },
+    {
+      "path": "atlas_nhan_14.png",
+      "sha256": "0b637b9a04583bf4bddd40ec13c7c9fe9d69cd8073e7725204cb2b1a4ea6af1d",
+      "bytes": 1601903
+    },
+    {
+      "path": "atlas_nhan_15.png",
+      "sha256": "ee35364b177da72839b363025c65809e78dea837229a528c37e68706e74c4dfe",
+      "bytes": 1236541
+    },
+    {
+      "path": "atlas_samples.csv",
+      "sha256": "277a029057e68b50cc29ba818c92cb0a2ebe9dd3c3fbfe7cf10908579f6af4ac",
+      "bytes": 21111
+    },
+    {
+      "path": "atlas_tong_quan.png",
+      "sha256": "b2410db0a08f9e10cbdc77b3fca87aad754efe4c61bfd54cba1b2454642e5a7e",
+      "bytes": 1262004
+    },
+    {
+      "path": "bo_sung_nhan_03.png",
+      "sha256": "ff04b717a4eb8e21cfc346d1405bd03c3c9f39af4e18eb050ad1b1b1727a186a",
+      "bytes": 422972
+    },
+    {
+      "path": "bo_sung_nhan_04.png",
+      "sha256": "f6e867ed4f1fbe157cda75d02dc9286c8b737defe0dcabcdc2bcf46e723fd8ee",
+      "bytes": 922679
+    },
+    {
+      "path": "bo_sung_nhan_06.png",
+      "sha256": "3983ec70fccb230d2aba52e5d7cd7101b8020aff4b7538cb0b72a4892b1a7d04",
+      "bytes": 767230
+    },
+    {
+      "path": "bo_sung_nhan_07.png",
+      "sha256": "178b380b166d306c55cb95a3371e09db4c2c32cc061b319b35036623f4e4dfdb",
+      "bytes": 700785
+    },
+    {
+      "path": "bo_sung_nhan_08.png",
+      "sha256": "4a79bd948fa579babbe500310e235ac911c458bb927921bdc2893a86ade97af3",
+      "bytes": 1016872
+    },
+    {
+      "path": "bo_sung_nhan_09.png",
+      "sha256": "1e77c014fbdb97dacd19e738f159ad280aa1f4a61b2adc050a490e882c3636a1",
+      "bytes": 1025045
+    },
+    {
+      "path": "bo_sung_nhan_11.png",
+      "sha256": "aa1f6b44e56301a269e2598e5c82d3679bc6ca0849cac691be3b2f2f85769ef9",
+      "bytes": 527652
+    },
+    {
+      "path": "bo_sung_nhan_12.png",
+      "sha256": "557cbab24a9c6c718c10d9eec8495fdc83a6705d91d42547e565337671e0b8dd",
+      "bytes": 460113
+    },
+    {
+      "path": "bo_sung_nhan_13.png",
+      "sha256": "7b8fb445093707c091f2b9bf58f7e88b09d6c10328863d803ee7709f87fc7220",
+      "bytes": 598567
+    },
+    {
+      "path": "bo_sung_nhan_14.png",
+      "sha256": "020d8d692653fb0f646baef4200ce64623b20a9e2d6b13e7440979c87a3e8454",
+      "bytes": 856852
+    },
+    {
+      "path": "bo_sung_nhan_15.png",
+      "sha256": "4894a952d18ce8f5c1830a4dd533cf30fcd662af53d61804bc2ddc54ef038d01",
+      "bytes": 459513
+    },
+    {
+      "path": "dong_xuat_hien.csv",
+      "sha256": "ca179106ec418fa672d12ce5e9a4d417e339c090690297e385753621f4f955fb",
+      "bytes": 6994
+    },
+    {
+      "path": "nhan_thong_ke.csv",
+      "sha256": "6819ed6a5c83bf3fef9e813f3391c65e0f5f057c40126fdb8a5b24fc57d8b188",
+      "bytes": 6390
+    },
+    {
+      "path": "thong_ke_tung_anh.csv",
+      "sha256": "ba5117ed2525786f1fa49b34e4eaffa3524e2de311f7874adc33fc23676fe74c",
+      "bytes": 8853885
+    }
+  ]
+}

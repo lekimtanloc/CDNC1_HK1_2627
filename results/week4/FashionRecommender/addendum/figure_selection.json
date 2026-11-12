@@ -1,0 +1,22 @@
+{
+  "visual_queries": [
+    "images/1023_032.jpg",
+    "images/1042_011.jpg",
+    "images/1051_011.jpg"
+  ],
+  "popularity_query": "images/1023_032.jpg",
+  "empty_examples": [
+    "images/1012_021.jpg",
+    "images/1012_022.jpg",
+    "images/1375_027.jpg",
+    "images/1488_017.jpg",
+    "images/1582_011.jpg",
+    "images/2030_033.jpg",
+    "images/2331_013.jpg",
+    "images/2390_012.jpg",
+    "images/2752_012.jpg",
+    "images/2783_011.jpg",
+    "images/2986_012.jpg",
+    "images/3157_011.jpg"
+  ]
+}

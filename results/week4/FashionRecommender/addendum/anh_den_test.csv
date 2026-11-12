@@ -1,0 +1,10 @@
+image_path,product_id,role,has_gt_pair,gt_pair_count
+images/2261_013.jpg,2261,query,1,1
+images/3020_042.jpg,3020,query,1,3
+images/3233_021.jpg,3233,query,1,1
+images/2156_027.jpg,2156,gallery,1,1
+images/3020_052.jpg,3020,gallery,1,1
+images/3233_022.jpg,3233,gallery,1,1
+images/4904_024.jpg,4904,gallery,1,1
+images/5100_343.jpg,5100,gallery,1,1
+images/5596_011.jpg,5596,gallery,1,1

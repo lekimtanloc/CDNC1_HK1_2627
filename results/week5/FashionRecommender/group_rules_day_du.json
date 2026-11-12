@@ -1,0 +1,12 @@
+{
+  "bbox_source": "v2/artifacts_v2/bbox_extremes.csv",
+  "small": "first20 rows: 20 smallest bbox area fractions all splits",
+  "large": "last20 rows: 20 largest bbox area fractions all splits",
+  "not_listed": "not among saved extremes; not proof bbox is normal",
+  "query_black": "fixed bbox crop, corresponding v1/v2 audit",
+  "gallery_product_black": "any gallery image of query product is black in specified pipeline",
+  "group_metrics": "both configs use same query set within each axis/group",
+  "small_n_rule": "n<20: n nhỏ, không diễn giải",
+  "overlap": "axes overlap; do not sum counts across axes",
+  "semantic_note": "B2-v1 KHÔNG đúng ngữ nghĩa: giữ 4,9; bỏ 13,15. Retrieval proxy; chưa giải thích nguyên nhân."
+}

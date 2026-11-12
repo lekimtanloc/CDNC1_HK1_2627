@@ -1,0 +1,16 @@
+{
+  "status": "visual observations, not authoritative archive schema",
+  "examples": {
+    "images/1687_011.jpg": {
+      "13": "quần",
+      "14": "da",
+      "15": "giày"
+    },
+    "images/1000_031.jpg": {
+      "4": "mặt",
+      "9": "tóc"
+    }
+  },
+  "images_with_4_or_9": 12782,
+  "images_with_13_or_15": 11833
+}

@@ -1,0 +1,8 @@
+split,scenario,base,wp,gamma,n01,n10,p_exact,gallery,queries
+test,official,A,0.0,2,0,0,1.0,1543,586
+test,official,A,0.3,2,11,79,7.773760769513266e-14,1543,586
+test,official,B,0.0,2,0,0,1.0,1543,586
+test,official,B,0.3,2,17,75,7.292898576420451e-10,1543,586
+test,official,B,0.1,4,2,11,0.0224609375,1543,586
+test,official,G2,0.0,2,0,0,1.0,1543,586
+test,official,G2,0.3,2,16,107,1.042849477691437e-17,1543,586

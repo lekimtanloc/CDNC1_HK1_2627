@@ -1,0 +1,16 @@
+{
+  "images": 512,
+  "seed": 42,
+  "special": [
+    "images/1687_011.jpg",
+    "images/3445_011.jpg",
+    "images/1000_031.jpg"
+  ],
+  "byte_equal": true,
+  "equal_rows": 512,
+  "max_abs_diff": 0.0,
+  "replay_1_sha256": "955dd3a9eb409711f1ebe11d2e343ed5533cca2dba983a3ba34d77232957b2b4",
+  "replay_2_sha256": "955dd3a9eb409711f1ebe11d2e343ed5533cca2dba983a3ba34d77232957b2b4",
+  "vs_full_run_equal_rows": 512,
+  "vs_full_run_max_abs_diff": 0.0
+}

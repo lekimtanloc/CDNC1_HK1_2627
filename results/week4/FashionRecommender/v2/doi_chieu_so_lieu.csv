@@ -1,0 +1,103 @@
+quantity,reported,recalculated,match,source
+images,13752,13752,True,fixed_all_v2_index.csv
+dimension,2048,2048,True,fixed_all_v2.npy
+queries,586,586,True,test.csv
+gallery,1543,1543,True,test.csv
+gt_pairs,1439,1439,True,ground_truth_test.csv
+top_k,10,10,True,visual_only_v2_top10.csv
+csv_rows,5860,5860,True,visual_only_v2_top10.csv
+products_train,3219,3219,True,index + frozen split
+images_train,9458,9458,True,index vs frozen split
+products_valid,691,691,True,index + frozen split
+images_valid,2165,2165,True,index vs frozen split
+products_test,690,690,True,index + frozen split
+images_test,2129,2129,True,index vs frozen split
+black_v1_all,48,48,True,v1 crop_audit.csv
+black_v1_test,9,9,True,v1 audit + test.csv
+black_v2_all,21,21,True,audit vs raw mask statistics
+black_v2_train,14,14,True,audit + index
+black_v2_valid,3,3,True,audit + index
+black_v2_test,4,4,True,audit + index
+empty_keep_total,21,21,True,raw mask counts vs audit
+black_v2_queries,1,1,True,audit + test roles
+black_v2_gallery,3,3,True,audit + test roles
+empty_all_background,13,13,True,crop_audit_v2.csv
+empty_outside_keep_only,8,8,True,crop_audit_v2.csv
+v1_duplicate_vectors_all,48,48,True,np.unique byte-row recomputation
+v1_duplicate_products_all,39,39,True,np.unique + item_id cross-product groups
+v1_duplicate_vectors_test,9,9,True,np.unique byte-row recomputation
+v1_duplicate_products_test,7,7,True,np.unique + item_id cross-product groups
+v1_duplicate_vectors_representatives,11,11,True,np.unique byte-row recomputation
+v1_duplicate_products_representatives,11,11,True,np.unique + item_id cross-product groups
+v2_duplicate_vectors_all,21,21,True,np.unique byte-row recomputation
+v2_duplicate_products_all,21,21,True,np.unique + item_id cross-product groups
+v2_duplicate_vectors_test,4,4,True,np.unique byte-row recomputation
+v2_duplicate_products_test,4,4,True,np.unique + item_id cross-product groups
+v2_duplicate_vectors_representatives,2,2,True,np.unique byte-row recomputation
+v2_duplicate_products_representatives,2,2,True,np.unique + item_id cross-product groups
+v1_visual_top1,0.30887372013651876,0.30887372013651876,True,manual counting from Top-10 and GT
+v1_visual_recall_at_5,0.33511468228906455,0.33511468228906455,True,manual counting from Top-10 and GT
+v2_visual_top1,0.3122866894197952,0.3122866894197952,True,manual counting from Top-10 and GT
+v2_visual_recall_at_5,0.29605407913393317,0.29605407913393317,True,manual counting from Top-10 and GT
+popularity_only_top1,0.0017064846416382253,0.0017064846416382253,True,manual counting from Top-10 and GT
+popularity_only_recall_at_5,0.006257110352673493,0.006257110352673493,True,manual counting from Top-10 and GT
+transition_all_n,586,586,True,"per-query CSV, hits checked independently"
+transition_all_1->0,61,61,True,per-query transitions
+transition_all_0->1,63,63,True,per-query transitions
+transition_all_1->1,120,120,True,per-query transitions
+transition_all_0->0,342,342,True,per-query transitions
+transition_black_v1_n,3,3,True,"per-query CSV, hits checked independently"
+transition_black_v1_1->0,0,0,True,per-query transitions
+transition_black_v1_0->1,1,1,True,per-query transitions
+transition_black_v1_1->1,0,0,True,per-query transitions
+transition_black_v1_0->0,2,2,True,per-query transitions
+transition_black_v2_n,1,1,True,"per-query CSV, hits checked independently"
+transition_black_v2_1->0,0,0,True,per-query transitions
+transition_black_v2_0->1,0,0,True,per-query transitions
+transition_black_v2_1->1,0,0,True,per-query transitions
+transition_black_v2_0->0,1,1,True,per-query transitions
+transition_neither_black_n,583,583,True,"per-query CSV, hits checked independently"
+transition_neither_black_1->0,61,61,True,per-query transitions
+transition_neither_black_0->1,62,62,True,per-query transitions
+transition_neither_black_1->1,120,120,True,per-query transitions
+transition_neither_black_0->0,340,340,True,per-query transitions
+transition_black_both_n,1,1,True,"per-query CSV, hits checked independently"
+transition_black_both_1->0,0,0,True,per-query transitions
+transition_black_both_0->1,0,0,True,per-query transitions
+transition_black_both_1->1,0,0,True,per-query transitions
+transition_black_both_0->0,1,1,True,per-query transitions
+transition_black_v1_only_n,2,2,True,"per-query CSV, hits checked independently"
+transition_black_v1_only_1->0,0,0,True,per-query transitions
+transition_black_v1_only_0->1,1,1,True,per-query transitions
+transition_black_v1_only_1->1,0,0,True,per-query transitions
+transition_black_v1_only_0->0,1,1,True,per-query transitions
+transition_black_v2_only_n,0,0,True,"per-query CSV, hits checked independently"
+transition_black_v2_only_1->0,0,0,True,per-query transitions
+transition_black_v2_only_0->1,0,0,True,per-query transitions
+transition_black_v2_only_1->1,0,0,True,per-query transitions
+transition_black_v2_only_0->0,0,0,True,per-query transitions
+cosine_1687_3445_v1,0.4951092004776001,0.4951092004776001,True,direct dot product
+cosine_1687_3445_v2,0.6372775435447693,0.6372775435447693,True,direct dot product
+replay_images,512,512,True,replay arrays
+replay_equal_rows,512,512,True,replay arrays
+replay_max_abs_diff,0.0,0.0,True,replay arrays
+bbox_min,0.0,0.0,True,quantiles from bbox audit
+bbox_p01,0.23856581289736603,0.23856581289736603,True,quantiles from bbox audit
+bbox_p05,0.2824817438692098,0.2824817438692098,True,quantiles from bbox audit
+bbox_p50,0.43857341810475325,0.43857341810475325,True,quantiles from bbox audit
+bbox_p95,0.6933099000908264,0.6933099000908264,True,quantiles from bbox audit
+bbox_p99,0.8133333333333334,0.8133333333333334,True,quantiles from bbox audit
+bbox_max,1.0,1.0,True,quantiles from bbox audit
+bbox_positive_below_1pct,2,2,True,bbox audit
+bbox_above_95pct,15,15,True,bbox audit
+elapsed_seconds,972.7064887500019,972.7064887500019,True,manifest recorded measurement; not independent historical timing
+rss_mib,791.21875,791.21875,True,manifest bytes conversion; not independent historical measurement
+seed,42,42,True,run manifest
+threads,4,4,True,run manifest
+batch_size,8,8,True,run manifest
+unchanged_old_files,279,279,True,before/after SHA-256
+labels_reviewed,16,16,True,mapping_de_xuat.csv
+atlas_main_cells,384,384,True,atlas_samples.csv
+atlas_total_cells,516,516,True,atlas_samples.csv
+keep_label_count,12,12,True,mapping proposal vs config
+replay_runs,2,2,True,two saved extraction outputs

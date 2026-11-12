@@ -1,0 +1,46 @@
+{
+  "python": "3.11.9",
+  "numpy": "2.2.1",
+  "packages": {
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "Pillow": "12.2.0",
+    "matplotlib": "3.10.9"
+  },
+  "platform": "macOS-26.7.2-arm64-arm-64bit",
+  "cpu": true,
+  "blas_thread_environment": {
+    "OPENBLAS_NUM_THREADS": "4",
+    "OMP_NUM_THREADS": "4",
+    "MKL_NUM_THREADS": "4",
+    "VECLIB_MAXIMUM_THREADS": "4"
+  },
+  "seed": 42,
+  "feature_extraction": "reused frozen historical L2 vectors, no new torch inference",
+  "images": {
+    "03_do_nhay_sigma.png": {
+      "width": 1548,
+      "height": 864,
+      "dpi": [
+        180.00979999999998,
+        180.00979999999998
+      ]
+    },
+    "02_test_A.png": {
+      "width": 1548,
+      "height": 864,
+      "dpi": [
+        180.00979999999998,
+        180.00979999999998
+      ]
+    },
+    "01_danh_doi_validation.png": {
+      "width": 1548,
+      "height": 1044,
+      "dpi": [
+        180.00979999999998,
+        180.00979999999998
+      ]
+    }
+  }
+}

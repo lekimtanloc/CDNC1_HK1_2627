@@ -1,0 +1,12 @@
+{
+  "selected": "B2-v1",
+  "validation_only": true,
+  "rule": "CI Recall@5 v2-v1 excludes zero: choose higher Recall; otherwise v2 semantic mapping",
+  "evidence": {
+    "difference_v2_minus_v1": -0.040025775063039726,
+    "ci_low": -0.07323724560041359,
+    "ci_high": -0.007274870200896199
+  },
+  "requires_user_decision": true,
+  "time": "2026-11-03T01:24:37.689683+00:00"
+}

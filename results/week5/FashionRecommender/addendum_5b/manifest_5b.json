@@ -1,0 +1,3908 @@
+{
+  "status": "complete_posthoc_week5b",
+  "note": "Phân tích hậu nghiệm sau tuần 5; giữ baseline chính B2-v1 với bộ lọc sai ngữ nghĩa.",
+  "baseline_unchanged": "B2-v1",
+  "start_utc": "2026-11-03T09:30:15.269605+00:00",
+  "finish_utc": "2026-11-03T12:00:38.713870+00:00",
+  "elapsed_seconds": 9023.444265,
+  "environment": {
+    "python": "3.11.9",
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "numpy": "2.2.1",
+    "pillow": "12.2.0"
+  },
+  "seed": 42,
+  "bootstrap_replicates": 10000,
+  "threads_per_process": 4,
+  "batch_size": 8,
+  "device": "cpu",
+  "deterministic": true,
+  "peak_ram": "chưa kiểm tra được",
+  "extraction_seconds": {
+    "C": 205.01404262504366,
+    "D": 207.14582042198163,
+    "F": 219.05397804103268
+  },
+  "weights_sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "crop_code_sha256": "efcc2bae6975365eab63ca52bb0741f6b78f9a7ff7d9ed93cdc076365151b99c",
+  "labels": {
+    "A": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "B": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      15
+    ],
+    "C": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15
+    ],
+    "D": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "F": [
+      4,
+      9
+    ]
+  },
+  "test_passes": 1,
+  "freeze_sha256": "2daca93f51b592d19f7eaa663b9ec59dcc33b17b923159ea3b1e036ed457bc99",
+  "inputs": [
+    {
+      "path": "FashionRecommender/categories.py",
+      "sha256": "d010b0d69edd3081908807df84558a9ba34686541ccc175c8531333489b545e1",
+      "bytes": 640,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/compare_week3_p.py",
+      "sha256": "e0f4de0e8c82f19be9f4545142fb13fe86ec20bed57abc9d43758f1597f8c53b",
+      "bytes": 8384,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/customer_pref.py",
+      "sha256": "79797217a444c25aeb9737f7af940b379f3044f68f4008c4d46e2efc933d4f79",
+      "bytes": 3851,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/data_check.py",
+      "sha256": "4b71287d6e359b7b011ab07ef30c4d19873fd6dce239feee1068c5200f56b405",
+      "bytes": 5439,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/direction_a_repro.py",
+      "sha256": "eafd44e418be24d19b16f5b7bf2af4d52c3d5b364239dee8f363d778645e2648",
+      "bytes": 14805,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/evaluate_week3_test.py",
+      "sha256": "227a1f35807097942a0cb9501acf5d82ba0d0f39a803bd5e5aca12fb4096a532",
+      "bytes": 7813,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/experiment_tracking.py",
+      "sha256": "6ed75c008eae5a81d433282b87dea5bff860b47f2c3a91176b8be345981fe7b2",
+      "bytes": 8603,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/feature_extract.py",
+      "sha256": "9f6125de6ec6189804edd44cb65c49e8155fc4b26f6f3ea6fa24a3676c5d11a9",
+      "bytes": 7051,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/feature_extract_torch.py",
+      "sha256": "70991e039770c8028eb22aafcee841e6d5c07c515f2a21ec47d826e196aa6253",
+      "bytes": 8780,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/final_recommandation.py",
+      "sha256": "d9e4980392be47dd4199fef6747cc7e1a7acb1b86b663fb641138067167f8cd8",
+      "bytes": 26616,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/getData.py",
+      "sha256": "f2e180c2a25f1e57b9a3244581319d09bef0757d19b52292667ef959c8612652",
+      "bytes": 149,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/make_ground_truth.py",
+      "sha256": "548408e9dac6866d8b0548d8db5efc651f426e1f94875a2a1de7e34e27235f77",
+      "bytes": 4517,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/prepare_week2_splits.py",
+      "sha256": "14f4ccf0aae3f13bb638058b866c3aa2d34c7808ed3b808e43996756511e9b22",
+      "bytes": 21022,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/recommandation_distance.py",
+      "sha256": "da6088d4a37526c317aa0ea526cef0faa1363e4040ed52e5d7eebe55cd3e8e4e",
+      "bytes": 16752,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/recommandation_popular.py",
+      "sha256": "fa806614b8dc1de40a3ef61a18feff3b8c0111caf3862361f78bca7f5b15b161",
+      "bytes": 12540,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/split_items.py",
+      "sha256": "a54ef26061d18065fb9d7804d2d925f3743a7a54893514470a63d76fbadf95f9",
+      "bytes": 6674,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/test_prepare_week2_splits.py",
+      "sha256": "04de305418cb066f2717542321977ca4affc7253570b616690aa62385548f7fb",
+      "bytes": 6296,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/test_week3_retrieval_metrics.py",
+      "sha256": "2c132b7a679a52c26f26c3048816a15a74272a536ac1416163bc6ca8b04069c3",
+      "bytes": 1146,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/week3_retrieval_metrics.py",
+      "sha256": "95a21ca69b93c451b65715f87324da0dc7d84b78d9406d4b1f1e4b78a56c4fa8",
+      "bytes": 1855,
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/week3_verify_and_smoke.py",
+      "sha256": "c384a12a6b3e32713ce9ddfbd4b4f23aecd92b9c8facb29e8b4dbf727f6c0d8c",
+      "bytes": 10727,
+      "rows": null
+    },
+    {
+      "path": "archive.zip",
+      "sha256": "a7d59c2bbb29af0ce3b49ac57747639815d2643cf0fd4c221a49533cb3585d21",
+      "bytes": 2239158848,
+      "rows": null
+    },
+    {
+      "path": "results/week1/.DS_Store",
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "bytes": 6148,
+      "rows": null
+    },
+    {
+      "path": "results/week1/bao_cao_kiem_tra_du_lieu.json",
+      "sha256": "432c53368fd527e72c7b540fd99f86ad9eb29c9572a874a3238860bbbfa63387",
+      "bytes": 605,
+      "rows": null
+    },
+    {
+      "path": "results/week1/bao_cao_tuan_01.docx",
+      "sha256": "ad7720b93e8534a38ac117dd687f26557bba1f4710d16556adc5fa245568afb4",
+      "bytes": 41216,
+      "rows": null
+    },
+    {
+      "path": "results/week1/ke_hoach_do_an.xlsx",
+      "sha256": "693568f5d2a80d8f570f33f3f607948fc4f3a2f0008620fe4f20b74c8d29f074",
+      "bytes": 66155,
+      "rows": null
+    },
+    {
+      "path": "results/week2/.DS_Store",
+      "sha256": "4dcaa3cf6050a5370d88ed84d71a7ffe7f3804d52f5343daa6dc5f39c10484b3",
+      "bytes": 6148,
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/README.md",
+      "sha256": "0092255d518b7b20276b2b424d2101b25af88e1089c25b81cfb705e47a394614",
+      "bytes": 961,
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_test.csv",
+      "sha256": "cecbc3c726b6c09a25e78933c4c86268f4cd869609ef4d356ed319b1f4335fe7",
+      "bytes": 81927,
+      "rows": 1439
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_train.csv",
+      "sha256": "5d76f657337f022b2e1af2a58bd802eff1952cd7e269d38b174d480e502d0464",
+      "bytes": 355458,
+      "rows": 6239
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_valid.csv",
+      "sha256": "d0ad71540e43c38bd56eeab7a9c5858da2a1eb8d04760fbd342d9f49eb812d15",
+      "bytes": 84051,
+      "rows": 1474
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/inventory.csv",
+      "sha256": "e844347c4264c69de04de0cfa3636e10aeab790669cc84728b80e3d29ca97e0a",
+      "bytes": 1421022,
+      "rows": 13752
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/test.csv",
+      "sha256": "c7fe31afd76eedbf354f307225479b0bc6be86bda1df2c5a3800293bd8b9381d",
+      "bytes": 207533,
+      "rows": 2129
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/tracking.sqlite3",
+      "sha256": "4fbf317b0c4eaf262c4427073587233f5f0d2a566ad9e75c3a40a12413bb9e28",
+      "bytes": 5844992,
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/train.csv",
+      "sha256": "9b33bb5f5c30d3f7913b699d2628c7a0cb541d20a2f49876dd44f7030ddccdd8",
+      "bytes": 922180,
+      "rows": 9458
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/valid.csv",
+      "sha256": "7c36ed195169b5a4706ae1862bbd55c7aedbc3658a1064d9f36e80926cec5341",
+      "bytes": 211140,
+      "rows": 2165
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/validation_report.json",
+      "sha256": "795f2ca63babf6a80bc15bc3746bca985439e38d9ba587ff0ab5ea22fe1aa54a",
+      "bytes": 4445,
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/design/data_tracking_erd.png",
+      "sha256": "497f06244936d8ec751a1d68df11c591de58d4531db47ece4fe5119818763cf6",
+      "bytes": 245045,
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/design/data_tracking_erd.svg",
+      "sha256": "0bb9db3e1f4f9500da084ac5b1827c85f4da32b99f9b242c569877b60fd5f53e",
+      "bytes": 9466,
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/design/system_architecture.png",
+      "sha256": "bf8b7c2085c771d324597a1445d24a227f400cbff0471d01af995788bcd6b78e",
+      "bytes": 255495,
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/design/system_architecture.svg",
+      "sha256": "a4353f6234db19a3299d341f0b16dec15ea7c7a091b412487fabaf8f244f4b09",
+      "bytes": 9318,
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/huong_dan_theo_doi_du_lieu.md",
+      "sha256": "e99ecb2ba1ed606b1617b1f2ab40fbe5521349f58db57c4345b1dc84f42c0393",
+      "bytes": 2548,
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/thiet_ke_he_thong_nghien_cuu.md",
+      "sha256": "bf85972f0bce4792b8ae39c8387fc4d8a0753d4fa185bb066485c3b0cc1e79ef",
+      "bytes": 6230,
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/thiet_ke_theo_doi_du_lieu.md",
+      "sha256": "90359ec9351f19bc75e98b7a8870a8b95fda44d470264a5e081fbd38f8983635",
+      "bytes": 7647,
+      "rows": null
+    },
+    {
+      "path": "results/week2/bao_cao_tuan_02.docx",
+      "sha256": "ffe085e071edf51804bea4366cecbca0b91a150a05e41f8dff0016790d0919a3",
+      "bytes": 896210,
+      "rows": null
+    },
+    {
+      "path": "results/week3/.DS_Store",
+      "sha256": "7a477742f8822e8c9d700bf74f382c0dff87b3f2c43c463321c0040ed910a033",
+      "bytes": 10244,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_kiem_tra_du_lieu.json",
+      "sha256": "a8ec98796c128f2ffe734a9fa0b4090f6d150b9c87d0f07978cd7caf7071eec4",
+      "bytes": 925,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_P_comparison.docx",
+      "sha256": "e7599999cb77309cc704f3e000e6e480f9cb7aa6347f92987055281113be9080",
+      "bytes": 1030937,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_P_run_result.docx",
+      "sha256": "c1d182c08e7c3661366e28209ebee52742de9c010f060737645c073250b66bee",
+      "bytes": 1030085,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_gallery_term.docx",
+      "sha256": "eadabf16c0581e53d0d30571b07e4d3eb2170d6e4a7d927846fa7b465aa36ab8",
+      "bytes": 1027073,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_paper_citation.docx",
+      "sha256": "00a1bce7de90d9ee788452822fdff73a28958faf65e0ed8a34f21bcf61a9ae62",
+      "bytes": 1020775,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_targeted_fix.docx",
+      "sha256": "077b3f24c13e46a3386a514bbbd08474de3c37a3604cd7dd26cbaa869e7a90ef",
+      "bytes": 1027704,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_test_result.docx",
+      "sha256": "c6d63b9b10e4de8b168b7447da537e9abf556312a80ea9d17dc94a5c206102bd",
+      "bytes": 1026891,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_two_result_layout.docx",
+      "sha256": "f06a915579cb665f749a12a96fbee460ab5035971043442601525056d2bd5336",
+      "bytes": 1030781,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.docx",
+      "sha256": "68b556004b6bb5068d1fa25d9aabee05321c9fba253d9b347fb0bd851338b0ae",
+      "bytes": 1051813,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.md",
+      "sha256": "f9503c855dcabcee308e9ea9dba2ce08f45be2fff56b5e82bcb7debdedda74b3",
+      "bytes": 7490,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/doi_chieu_cau_hinh_P.json",
+      "sha256": "74db48ca073beb02d34ee2356146b2930c5708654c06b230b0de4c2cf13b78b7",
+      "bytes": 15814,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/figures/cong_thuc_xep_hang_paper.png",
+      "sha256": "8039f6b991ff4bf54e32d324bad2440e16d484784a56548d8cd8b2d107e45a20",
+      "bytes": 18999,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/figures/hinh_01_cap_anh_test.png",
+      "sha256": "30842e475fbefd8cfc1411b2ab08ed1993fed0092f2bd27f0e04181418cb0282",
+      "bytes": 470925,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/figures/hinh_02_top5_chay_thu.png",
+      "sha256": "cd9afa1c00f1f8bc2ab599e6f5b51c08c3696f098bdc5be8bceac5efdec2d1a9",
+      "bytes": 499554,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/figures/hinh_03_luong_api.png",
+      "sha256": "99f3f23d2a6ca7b911cd659de2669240a92a536782b832caa8d8416535fa8437",
+      "bytes": 28326,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/generate_bao_cao_tuan_03.py",
+      "sha256": "99f99b88de48cf7bf93f4a8a4892eed82eb09cf8390371635ec50523bec5ec74",
+      "bytes": 6306,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/ket_qua_goi_y_top_k.csv",
+      "sha256": "d4cd26da5577067a7d20171259300db710d51b4b35cc13495ee11cbd7355195d",
+      "bytes": 2286,
+      "rows": 50
+    },
+    {
+      "path": "results/week3/FashionRecommender/ket_qua_kiem_thu.json",
+      "sha256": "4c56fc6e4ca20e3578fa28a126a417441c9b375da970838aa4c0e507417408c1",
+      "bytes": 914,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/ket_qua_kiem_thu_postgresql.json",
+      "sha256": "4cb47650d73bf1f0609ec346c1f90c95723bd867426266606d19598dd2462509",
+      "bytes": 1586,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/ket_qua_test_nhieu_goc_nhin.json",
+      "sha256": "3fb0196acec3acb394fa9b0bec286fd3a54540c1790ca89ce5cbeada5a1fe6c3",
+      "bytes": 1684,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/make_report_figures.py",
+      "sha256": "6c1bff298bf1b7f096b6e02121aa2fd9dbcfedf05a2b54cf13abd2240d78e6a8",
+      "bytes": 4919,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/splits/gt_manifest.json",
+      "sha256": "6526334e6a16e5378aa326f520d21b479fa16361e1b7c4c12c31d6d3d00f5d97",
+      "bytes": 676,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/splits/split_manifest.json",
+      "sha256": "a72455daf539aa96ce926e8c6dda8b51970e383b47ed4aeb5034ef6f128002c6",
+      "bytes": 879,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/splits/split_test.json",
+      "sha256": "6f02e3700c1ca2d2ceab272da9616c68be77f77fa3fdff3ad2f62843668d4824",
+      "bytes": 111830,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/splits/split_train.json",
+      "sha256": "7ee3454e9193a244a55cc08198fde62708412e40a788fdb82cb92938a8627400",
+      "bytes": 522028,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/splits/split_val.json",
+      "sha256": "e6718903f5cb42f2c469a32b8cf69af2304e8c2e9b42e720851f5f1457a8b9e2",
+      "bytes": 111673,
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/xep_hang_test_top5.csv",
+      "sha256": "84e009d1fd7be878491f854f543dc10684909b9090cad685139020d24085966a",
+      "bytes": 186616,
+      "rows": 2930
+    },
+    {
+      "path": "results/week3/danh_gia_outfit_transformer/thu_nghiem_112px/ket_qua.txt",
+      "sha256": "4b59e59fc9a9c41233a0072f7c1b5305b522194c17defd8750ad64b6c0eef94e",
+      "bytes": 143,
+      "rows": null
+    },
+    {
+      "path": "results/week3/danh_gia_outfit_transformer/thu_nghiem_64px/ket_qua.txt",
+      "sha256": "daa725607080130a68f7aca366465352645d26093187c2dd73fdf0c6123a94b0",
+      "bytes": 143,
+      "rows": null
+    },
+    {
+      "path": "results/week4/.DS_Store",
+      "sha256": "dbe1997a838861bdaa60c685a9f46b5412f11ab6f681ae490028467515013f2f",
+      "bytes": 8196,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/.DS_Store",
+      "sha256": "2ca7ec3d9441870b7e5dd1ef12022c1b07938c9cdafab7e4045d0814f204b3ac",
+      "bytes": 8196,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/__pycache__/run_week4.cpython-311.pyc",
+      "sha256": "7ec054e8dadabd671d6fe22c8e27085592b11b6226a309dc27eeadd225160a0c",
+      "bytes": 42381,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/README_addendum.md",
+      "sha256": "43ca3ef9b10078448a23fa027be2be3df31542e7e8f039e383995d698611f6c6",
+      "bytes": 1398,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/anh_den_test.csv",
+      "sha256": "178b2e52a493a2f3506d665bfabbd3f0ba16d3aa11775c5c22c99a705c0fdb8a",
+      "bytes": 390,
+      "rows": 9
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/audit_addendum.py",
+      "sha256": "fd66c95be50d04f013b9832de34fc79d6884fbfb13d7a7aa1aa6c1eef3e429cd",
+      "bytes": 8830,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/audit_results.json",
+      "sha256": "b82969407aebb9391811c0242ef00785f303566daa66b17d06dd8f2dff74694f",
+      "bytes": 1812,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/create_figures.py",
+      "sha256": "17c0b99cf8ac111320383546e2288f44f04e9407ba260ac7793d304ad7b3d30f",
+      "bytes": 8763,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/danh_sach_thay_doi.md",
+      "sha256": "3597c752775520684e050e70e96ca205e0949233e4b195fae49706f4a923a110",
+      "bytes": 1404,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/doi_chieu_so_lieu.csv",
+      "sha256": "03f5c80df3bd18837662d8d703979eee99b4c6b54195becdb9d938bbcd942337",
+      "bytes": 1386,
+      "rows": 18
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figure_selection.json",
+      "sha256": "9a5c9ea110cf29c8ccddbc61297cbe706017912ecad9ac969668566b69ec4f87",
+      "bytes": 505,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/hinh_01_crop_truoc_sau.png",
+      "sha256": "bdeb5ef427bc10b752ef2dd882272b4db12f477027d2772428a8c32ef96e67bf",
+      "bytes": 294121,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/hinh_02_top5_visual_only.png",
+      "sha256": "ad8d204a99df95fbace7db981e8214abbb156e1df439d50b5315b9eaeb3c0103",
+      "bytes": 934845,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/hinh_03_so_do_pipeline.png",
+      "sha256": "99835b6b9e1f7a433de80ea9990da2e6c13399bb83829129c96e4af30c585adc",
+      "bytes": 58143,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/hinh_04_vi_du_popularity_only.png",
+      "sha256": "90a68aaf124675c40e083a325d2e60fbd8cb7347da5a70654070bdc44ab3cb1b",
+      "bytes": 372479,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/hinh_05_anh_den_con_lai.png",
+      "sha256": "0640e534a7f7e935431a932f62f8b7d73b6808f6915967bc36bd4d9cc082c6f7",
+      "bytes": 606959,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/hinh_06_so_sanh_sanity.png",
+      "sha256": "58b48bc1aea486b4a9ebb4d702e72a88c2d12fafc52ed8edc63a408bdd46ba20",
+      "bytes": 57692,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/mo_ta_hinh.md",
+      "sha256": "8383cdead69006f176122a00eed3180fbed7ac6b206a5fa16b2cf87a882e9d36",
+      "bytes": 1861,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/file_npy_bo_qua.txt",
+      "sha256": "0595253a6900c2fa214d257ec948723f96f36e343c4c9e6543f57d577441bec3",
+      "bytes": 334,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/images/1687_011.jpg",
+      "sha256": "644b12aabcbbb7f1295509eee6348f1bfeced0656c4f5aef642f1a0d24f1d4f1",
+      "bytes": 245639,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/images/3445_011.jpg",
+      "sha256": "56c9699dc6e2b983eb425ee0f347476131fc575b301e7983036d2301ab9345cf",
+      "bytes": 183238,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/inspect_labels.py",
+      "sha256": "fbf45b79098cf0ee5dfe20bea6ec79e21b3859bea0e810dc7af2f7f902231188",
+      "bytes": 1855,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/ket_qua_tuan_04_ban_sua.md",
+      "sha256": "9fe1cfed497b4b3284bfa565d89a787ed7207c8b2a9c172a333dfdc11d7a623e",
+      "bytes": 11592,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/label_inspection.json",
+      "sha256": "058b3e00bca68783654d1f460af94ee8bb7ace364a03567e5c4f3967c2c746e3",
+      "bytes": 614,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/label_regions_1687.png",
+      "sha256": "c0be52d38c02b95f5687ae43f05f0d8c257840ec5e01606fc0d983dfb3e12b8a",
+      "bytes": 67402,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/label_regions_all.png",
+      "sha256": "c73dc18269418578df5870d901a80db400696e4ed6a21aa1a7edca2059f3c64f",
+      "bytes": 687476,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/mask_image_labels.csv",
+      "sha256": "7f620ad7325f37c1b3ce639fc7134c18bf297d9b7e5199139e4f98bbad423a53",
+      "bytes": 750409,
+      "rows": 13752
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/mask_label_frequency.csv",
+      "sha256": "98246edeb036eb4634f647b4886e45289038794ccdb10a0ae0a7503f2ede5c1a",
+      "bytes": 315,
+      "rows": 16
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/mask_rong_chi_tiet.csv",
+      "sha256": "9fdaf3fabde6bc4598b2cafc7bb628970742da262af22cd58fc2e077833b19e6",
+      "bytes": 5135,
+      "rows": 48
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/muc_luc_goi.md",
+      "sha256": "63a5c3304647487aae948248576956dfa7b1ed39c39b114f4d9a6027da6e083d",
+      "bytes": 10397,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/original_files_sha256.json",
+      "sha256": "68f00319b55146f83f5a5b3d5d4b6f8f0d5a79cc0eb9e9549b1315a44ef5ceeb",
+      "bytes": 2758,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/package_receipt.json",
+      "sha256": "ba7ba6349cfe45a5553e405fd8d8915830543b3c2b5c9182bf7d405bb2a13d1d",
+      "bytes": 333,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/package_results.py",
+      "sha256": "b0d86afb2d417641d699f119a862ecad27489a4b3740829b94f1d5cfbc13424b",
+      "bytes": 5366,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/semantic_observations.json",
+      "sha256": "ed7e8f05a63227d038d758805b772ca69b37c8debcb721c918567b7aee91564d",
+      "bytes": 326,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/thu_hang_ung_vien_den.csv",
+      "sha256": "98c36e880436dcf7bc970d6c8a902f28ff2e787422938f3274902e2f7ca149ac",
+      "bytes": 244760,
+      "rows": 3516
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/top1_query_transitions.csv",
+      "sha256": "56173df1a023413199e9b505070c87bfc86f8b90c38619d144cd8ed094adce47",
+      "bytes": 19984,
+      "rows": 586
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/tuan4_bao_cao_goi.zip",
+      "sha256": "5381ec7edea25d88b43f5f37f2bf81b057960dd6f3724dc25064bcb70069b4a1",
+      "bytes": 5407877,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/tuan4_bao_cao_goi.zip.sha256",
+      "sha256": "5f9ca18e2e0504afd32430804086a485c49721d659e703b57d839ee0388721de",
+      "bytes": 88,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/verification_addendum.txt",
+      "sha256": "5adfb6e58cc2d2597bcb0f3b39e8d05917368db9e2c61bad41f70f7354c1e008",
+      "bytes": 290,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/verify_addendum.py",
+      "sha256": "60574d3c9dffb4c378450091408d58f498d7b53ee1b3a9910d81b687eb354999",
+      "bytes": 2135,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/write_confirmation.py",
+      "sha256": "8f950c007dbda929a9a72721c7a0e5e1545a960d6857168a9d0d2141bccb73cc",
+      "bytes": 16474,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/xac_nhan.md",
+      "sha256": "718a63808fdabdc6d54e53ef2659b5981c21c9d1fa1f0cc9b8de41a2bee147c6",
+      "bytes": 12595,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts/popularity.csv",
+      "sha256": "950ec2fbbcdcdd4889e58e3aa9a1de5b059e4fdba53ffd3668da1ec5c3b2ce2a",
+      "bytes": 85461,
+      "rows": 4600
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts/popularity_lineage.json",
+      "sha256": "0c8352c07de107229a0d8b8cd87fa435af52ac3be256cf3138a43cf65cc168fd",
+      "bytes": 2216,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/crop_audit.csv",
+      "sha256": "40f3e1e099a77de822f89972fdeff11f40f378123ec175dd17e1d6541d03d712",
+      "bytes": 633168,
+      "rows": 15881
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/crop_before_after.png",
+      "sha256": "3a475ef1692b53b4472dfc6428ae397ed8b53516b8eb1927430ced3d766bb5a3",
+      "bytes": 76999,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/crop_checks.json",
+      "sha256": "fcee15f49e2647ec2e02cd4b9afdd2a58c5145dac961f805aa55a63918e3bf78",
+      "bytes": 12056,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/fixed_all.npy",
+      "sha256": "aff4acc8df6036e266e4f5a2addad7cb9ed498ce8d602528da50cad3eb286f69",
+      "bytes": 112656512,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/fixed_all_index.csv",
+      "sha256": "227d2f717264d66bfad308588dd036ac942a6754f21b628fe9396dadbd84e38d",
+      "bytes": 1492435,
+      "rows": 13752
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/manifest.json",
+      "sha256": "a86be994efd1f2c3b359298995548bbc94b5ef7d8b7f14a348ab8b63f3fe8891",
+      "bytes": 8487,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/old_test.npy",
+      "sha256": "b35e3fdc0329d6479878a5f48e4a7e1f188eda715ab0fe69c8adf30699c8c2c1",
+      "bytes": 17440896,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/old_test_index.csv",
+      "sha256": "3363804fd03d34c224012a6bf0e5f6cd97cdb1dc78e5ed1bf6d54ea296937670",
+      "bytes": 217079,
+      "rows": 2129
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/popularity.csv",
+      "sha256": "950ec2fbbcdcdd4889e58e3aa9a1de5b059e4fdba53ffd3668da1ec5c3b2ce2a",
+      "bytes": 85461,
+      "rows": 4600
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/popularity_lineage.json",
+      "sha256": "0c8352c07de107229a0d8b8cd87fa435af52ac3be256cf3138a43cf65cc168fd",
+      "bytes": 2216,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/popularity_only_top10.csv",
+      "sha256": "aa3576d504217cf463c3e41cdcc289167c856f7564ba8bf1166b9c2790ca7f49",
+      "bytes": 319426,
+      "rows": 5860
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/sanity_checks.json",
+      "sha256": "840c4770df468bfb048015fcbca5dd1f057b30a58d2d099ef4fb95723c64bc15",
+      "bytes": 560,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/visual_before_top10.csv",
+      "sha256": "d78e3d39eb112c072897cf57b8a678a492f180e91aed6859c621afb39b7d07cf",
+      "bytes": 404268,
+      "rows": 5860
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/visual_only_top10.csv",
+      "sha256": "48e9a83a2830766f660dc4a39c3a0e0cad785cfa45f4ea19245556b4ed7c5d39",
+      "bytes": 404255,
+      "rows": 5860
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/visual_top5_1.png",
+      "sha256": "973672494b83009615a42789070656237a6566f2c62c368339b830ebf486ed1c",
+      "bytes": 221845,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/visual_top5_2.png",
+      "sha256": "df73aedb8a303f60a691a2d1295aa0da38e854b46e3ded8393e7f4a83716aaa0",
+      "bytes": 164215,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/visual_top5_3.png",
+      "sha256": "ac7df9513d48dac4facdc6f53d4726eb431972b05a098360fa341cf21a406acb",
+      "bytes": 253581,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_toan_bo_repository.md",
+      "sha256": "e22b9f30ba64894f2715b1b69c4f1e7f3afd80947fdf35e165a725b7028f8f9d",
+      "bytes": 30021,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/__pycache__/analyze_crop_geometry.cpython-311.pyc",
+      "sha256": "7b2e0a273cc2a130af1eebb03e1e848f5cf59ec01b49c4347e5f6493515bac9d",
+      "bytes": 9192,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/__pycache__/make_audit_manifest.cpython-311.pyc",
+      "sha256": "78fc2fa0894def2bb71409f22ad9adf5a21b7402ec9868ae9b23e7aaee3153ed",
+      "bytes": 4520,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/__pycache__/run_ablation.cpython-311.pyc",
+      "sha256": "b6e7a868807657b7b047f7099d1c85fadb99bc22109eaeab76b28e068818507c",
+      "bytes": 36259,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/__pycache__/verify_ablation.cpython-311.pyc",
+      "sha256": "d1c3a2e0673dfaa6f0f95ddee542863f45fe61c1fec6182c87a601a25d6ecd07",
+      "bytes": 10348,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/ablation_config_semantics.csv",
+      "sha256": "56f313e246d4864f6f9a29aab2116c7d397403a81f50ae91a0716dc0ffb4ddc0",
+      "bytes": 669,
+      "rows": 5
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/analyze_crop_geometry.py",
+      "sha256": "01acf4b98104e19b703a4e127d35b5e2e6926ae3b909ae28eccc794bb051c4f7",
+      "bytes": 4516,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/ablation_groups.csv",
+      "sha256": "456f6d1c6c6f65c09ba2cd5b63957e4fd8c6daead8fa6792abc011f5b0263734",
+      "bytes": 1702,
+      "rows": 15
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/ablation_per_query.csv",
+      "sha256": "7268b5d57a7a2fbf3e2d88f44676fa39e6cc968f9335d5305235db971d572467",
+      "bytes": 180982,
+      "rows": 2930
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/ablation_summary.csv",
+      "sha256": "bc0d15015070a61aafff6d6be1e89b578e9b90b0ff9da910cd40286e6cc62a5f",
+      "bytes": 1191,
+      "rows": 5
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/ablation_top10.csv",
+      "sha256": "d0137ebe6068182b0509086ed58e1cf34dac267c2c84a9f98f8194d78e46a627",
+      "bytes": 2079656,
+      "rows": 29300
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/crop_audit.csv",
+      "sha256": "9855abd720b3776d332494dc25c6c9e1894c5ec95395c17b0bdf2bb6c53fce53",
+      "bytes": 471421,
+      "rows": 10645
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/crop_geometry.csv",
+      "sha256": "443a7d2c9d323002820d33d43b21d4bc9b7550bb7d0bd1010c9cc78d26b919ab",
+      "bytes": 1081406,
+      "rows": 10645
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/crop_geometry_summary.csv",
+      "sha256": "bfdc43fe7e3216f83fba04ed2e38ccdbff6bc3d4c57a4a4fd7ef50dfc1e82cdb",
+      "bytes": 2166,
+      "rows": 15
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/manifest.json",
+      "sha256": "38802200158b49067469871ab284dc416bc0bc5040bd4ccfebd086e0648089b4",
+      "bytes": 7233,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/positive_pair_scores.csv",
+      "sha256": "6f669230c7c3b4601a551f7e916136a52d4b0cbb4f76f832832b8035f1cf81c4",
+      "bytes": 553768,
+      "rows": 7195
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/reuse_checks.json",
+      "sha256": "6efcc4494192fb89a4f2396d0f2e09e79bf23dd92e81c407a131993eaa319467",
+      "bytes": 321,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/test_embeddings_B.npy",
+      "sha256": "76cff96d7d2c35b99dbef704f963dad75ffc5018355dc199283f98fe245496b4",
+      "bytes": 17440896,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/test_embeddings_C.npy",
+      "sha256": "71187683ed64c07c3aeec02e61083ddc07917460fdfb45b582a616b9d7bbf35f",
+      "bytes": 17440896,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/test_embeddings_D.npy",
+      "sha256": "5fa8dd28df9e99334165adf2032eb2239160675bb48bf493e42f69debfb715cc",
+      "bytes": 17440896,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/verification.json",
+      "sha256": "f4deb7244ede1e1564aa3e02668f7d08fc9a06297f55078a0b64c851b8d43e3a",
+      "bytes": 7139,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/audit_manifest.json",
+      "sha256": "9aa90f185dda127d835893343e620706467e7188e3fa4c68b44e9e2147adad19",
+      "bytes": 4497,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/make_audit_manifest.py",
+      "sha256": "065dd200180b2b686d2d77c0a28c3c309d1212271a6de81a7b190d36515b6cfa",
+      "bytes": 1682,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/rgb_to_id.csv",
+      "sha256": "01526cbe4f2ff20e88028a8b5ddaaee5ce0f53be4f1298c4d806c3ff821a9eb6",
+      "bytes": 1220,
+      "rows": 16
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/run_ablation.py",
+      "sha256": "fa61957eace7c712a857fb126602734e130a5fbd9841dad0cf786d8789a1a28b",
+      "bytes": 20827,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/source_evidence.json",
+      "sha256": "388fa2ebfc4dc072d4dd3f0fe8b90c7bc41b2c4ef81fee85b924f10b2a154248",
+      "bytes": 5417,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/verify_ablation.py",
+      "sha256": "b39f537bf8b0dd732ddc6f8832af362898349255ecceff963d1b938a44d3d74d",
+      "bytes": 4620,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/delivery_manifest.json",
+      "sha256": "713a59953b55d08f2c71a6275cbd8e496f9b99f5b9b794b8bc5b143ca7c32a05",
+      "bytes": 1056,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/ket_qua_tuan_04.md",
+      "sha256": "7aa54606095940df9825060f28cbefa6e2529e7f311e4c5ce4c9b3e8e13d888d",
+      "bytes": 9656,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/make_report.py",
+      "sha256": "155bf932480f8decd7537f9e6c36cd3bc86a58a79241d088d2ab5bf8ae950a2b",
+      "bytes": 10377,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/metadata_recovery_assessment.md",
+      "sha256": "8a7580210d97b79dc3b1b10c5bd7700b26cd08ffeb83ffccb371c11267e7b264",
+      "bytes": 17166,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/run_week4.py",
+      "sha256": "65ae9ebdfa62e7eee082ad1d043cb16d9b2a08eacbfb2308414210fea7868b51",
+      "bytes": 13252,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/.DS_Store",
+      "sha256": "43beb44d2debe052f1f3cf316ecbd1cfb897b100f81cf44b697fc3d61a98637e",
+      "bytes": 8196,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/bbox_extremes.csv",
+      "sha256": "c15c0e52939ea48c2b9bd71c28450904e1903f965debd06035ccb08293fd6ff4",
+      "bytes": 5305,
+      "rows": 40
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/black_gallery_ranks.csv",
+      "sha256": "f3f0cce9fc41b0eca2044b48d5d2518b03a29e886018855831f9e4aaa1d77a40",
+      "bytes": 131339,
+      "rows": 1758
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/black_test.csv",
+      "sha256": "7acec7fad1d6cc20be8941b59128c942b6562567a67a1861d435cd76bd9b5341",
+      "bytes": 179,
+      "rows": 4
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/crop_audit_v2.csv",
+      "sha256": "377c711e2c958535821d41acfa444fc4271e011a315141fb9b25ad15c7cdc45a",
+      "bytes": 2295112,
+      "rows": 13752
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/crop_checks_v2.json",
+      "sha256": "4eef465acb3363b42f4a4350b3a5dcd1ae0ab453905081b81d81911ee2fa9e0a",
+      "bytes": 4649,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/fixed_all_v2.npy",
+      "sha256": "9e5f2317025c050605b0820312d6034c4685a54ee3b327f5901a86e5ccf71a7a",
+      "bytes": 112656512,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/fixed_all_v2_index.csv",
+      "sha256": "227d2f717264d66bfad308588dd036ac942a6754f21b628fe9396dadbd84e38d",
+      "bytes": 1492435,
+      "rows": 13752
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/manifest_v2.json",
+      "sha256": "5432717737263300cea0b7619cb8cb64aead19e2ac3b4d4cc064afe0e9cd1314",
+      "bytes": 9868,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/popularity.csv",
+      "sha256": "950ec2fbbcdcdd4889e58e3aa9a1de5b059e4fdba53ffd3668da1ec5c3b2ce2a",
+      "bytes": 85461,
+      "rows": 4600
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/popularity_lineage.json",
+      "sha256": "0c8352c07de107229a0d8b8cd87fa435af52ac3be256cf3138a43cf65cc168fd",
+      "bytes": 2216,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/popularity_only_top10.csv",
+      "sha256": "aa3576d504217cf463c3e41cdcc289167c856f7564ba8bf1166b9c2790ca7f49",
+      "bytes": 319426,
+      "rows": 5860
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/popularity_reference.json",
+      "sha256": "c92f64c94ef0edefa0aa8c98927250a3e3c9126ed587734bd8d902431b99b403",
+      "bytes": 825,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/replay_1.npy",
+      "sha256": "955dd3a9eb409711f1ebe11d2e343ed5533cca2dba983a3ba34d77232957b2b4",
+      "bytes": 4194432,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/replay_2.npy",
+      "sha256": "955dd3a9eb409711f1ebe11d2e343ed5533cca2dba983a3ba34d77232957b2b4",
+      "bytes": 4194432,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/replay_index.csv",
+      "sha256": "0ab24c17e63ef207b8b089fd71ec2904d535a4f89290ff4880e779ab20b5e964",
+      "bytes": 57515,
+      "rows": 512
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/reproducibility.json",
+      "sha256": "3c331424600a8b99b96d832416910477b17aa0bb0f7b5737b50aa8a48e5989a8",
+      "bytes": 445,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/sanity_checks_v2.json",
+      "sha256": "5c18091f638587f12ed8b4e0d6174911bf6cf786c627e208a03765921a65b84a",
+      "bytes": 458,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/special_crop_v2.png",
+      "sha256": "d0bfce9d61959e1d575e7d203d73eeb84f3f9531f74d8ae6ea6ec8430b82c9de",
+      "bytes": 435664,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/tie_diagnostics.json",
+      "sha256": "925f1846ed80296c0a8ef1b5858fe8a197bcdf8aeacd6dfa26322d7060bd948a",
+      "bytes": 649,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/transition_counts.json",
+      "sha256": "f0be0d332d6041c0218b17470653e2c696d1cef6438c691a10aded44d53f676c",
+      "bytes": 642,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/visual_only_v2_top10.csv",
+      "sha256": "7fbb0deca7556ab3f1c4e304258b2bc3c7fdf535650cc3138488f3b6c622bea8",
+      "bytes": 404226,
+      "rows": 5860
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/build_mapping_evidence.py",
+      "sha256": "37f9c230649667bbed20dcd32524f196f803f5b56a6bb7370ed94d0906defb8a",
+      "bytes": 5216,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/common.py",
+      "sha256": "efcc2bae6975365eab63ca52bb0741f6b78f9a7ff7d9ed93cdc076365151b99c",
+      "bytes": 2286,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/danh_sach_thay_doi_so_voi_v1.md",
+      "sha256": "70b2ab76a1009968ea2bf175f5a4776f1d113ceef2e6e649e8c45bf9a7fb7360",
+      "bytes": 1408,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/doi_chieu_so_lieu.csv",
+      "sha256": "327343c93563268e4d6dd6985a32508f65c23b9d14f839714e43253da1dc89d2",
+      "bytes": 6430,
+      "rows": 102
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/execution_attempts.json",
+      "sha256": "08a46a19fa08b627e46cc46aee5bc84b34229e02e5ca19ee4e74caa0329ef0eb",
+      "bytes": 399,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/hinh_01_atlas_nhan.png",
+      "sha256": "b092d3f5718e1036732cc1ba526ad143203c996c471c5ad3d08d5eef246cd316",
+      "bytes": 1020847,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/hinh_02_crop_v1_v2.png",
+      "sha256": "a949774f463ce0941f05923c02519b019006e7035cfe86ee3bd411984344d104",
+      "bytes": 689046,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/hinh_03_top5_v1_v2.png",
+      "sha256": "30d22c3ee8eb35fcd25738596aa8f9dfcf08936878d2d8f88bd1ea59937f1f8f",
+      "bytes": 682058,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/hinh_04_so_do_pipeline.png",
+      "sha256": "ab771bb7a27ebaca33dfed7dfe6f9f47e65b790a38ef75875119cc73f5ad209d",
+      "bytes": 56343,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/hinh_05_so_sanh_sanity.png",
+      "sha256": "58db7444708253fdf979b5f9d612e054d746b757e3b60f3e642725052f63f249",
+      "bytes": 54361,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/hinh_06_anh_den_v2.png",
+      "sha256": "9bdc15622d8bd944ebcbdf16a8ccaf5bfe7182eadb5f9f0790a13e70c1b32586",
+      "bytes": 672837,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/mo_ta_hinh.md",
+      "sha256": "023abda4eb64abfc0422fac96ab1f5059d36eeb8e6033462bee942bbbf71779a",
+      "bytes": 1454,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/selections.json",
+      "sha256": "cceeaf03ab67190fe1ad6d651200ab5f0ae2169ac0bcba5a6a37fe2d9d6b390a",
+      "bytes": 547,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/file_npy_bo_qua.txt",
+      "sha256": "5409283731827dd2d2f6e0ab015712958d2223f7ced453e68c05c309b9ef5b7e",
+      "bytes": 334,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/hash_cu_sau.json",
+      "sha256": "e3e4247d8942b7eebf63f827a6908f136d0dad3d8cdb0551562ce00fa0b32131",
+      "bytes": 49605,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/hash_cu_truoc.json",
+      "sha256": "e3e4247d8942b7eebf63f827a6908f136d0dad3d8cdb0551562ce00fa0b32131",
+      "bytes": 49605,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/ket_qua_tuan_04_v2.md",
+      "sha256": "25c3a6b22673e07ce7a0538e06e798e5369cf9f4a2a2b99f3b6657d27b6f883f",
+      "bytes": 11314,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/make_figures_v2.py",
+      "sha256": "944a1edfdeb683969d99b84744237009e35670c9f66b66ddc7b189a72c637016",
+      "bytes": 7612,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/manifest_ban_giao_v2.json",
+      "sha256": "e730395a69c9a8d294f05290a4ac30ba72cdb78f4dc88aeca5489be47d0f3ec6",
+      "bytes": 23685,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/archive_inspection.json",
+      "sha256": "03264d4210f876fa7e2677a0ec217d3abda38d8be02e32550b28cfed66185867",
+      "bytes": 134,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_00.png",
+      "sha256": "eaadecf522a8387287ee8c859a255d2eb497d338fa6b6468faa13eae6a809563",
+      "bytes": 1827761,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_01.png",
+      "sha256": "3ced23eb477ac7ee756a478dc9a5f23f3cc24d9bf96516d6ed2800c7e2a8edd2",
+      "bytes": 1657540,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_02.png",
+      "sha256": "67b0e8d2f251e3a53981dfdb5dd82571603d12ebc4b6b0016b42c115db39661b",
+      "bytes": 1582272,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_03.png",
+      "sha256": "f083aa31263979a5005d43ca975efa91e5650a26e5acb88a9349e78464380845",
+      "bytes": 1319245,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_04.png",
+      "sha256": "ac3853dca7c02f4992cd3dc2a96cd8bf08bd5ee45ef9da7c94e1811c02ccca31",
+      "bytes": 1524755,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_05.png",
+      "sha256": "b8d3ea1d8986813bc59b2333bdc76baa50f6cd195a48c55bcddc4d4816e27170",
+      "bytes": 1668938,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_06.png",
+      "sha256": "5dd7e59ce97befb0144305899aae665cbfa7b4ad339cf6a91eafcbc853dd9110",
+      "bytes": 1340146,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_07.png",
+      "sha256": "aa39eb91e0b0d4b3db5d93f1dca7cc7da0e45d4014815bb49ccc949c9b55a23c",
+      "bytes": 1469671,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_08.png",
+      "sha256": "a9fa5a2eb455dd1632cce107e6faea1b776286c09790d3b5986ee7c85d0e83a7",
+      "bytes": 1786305,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_09.png",
+      "sha256": "72b3dae8f20897d403ab1f580403d442dd6c999b9a4e86f42da9e2da78ac9936",
+      "bytes": 1537421,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_10.png",
+      "sha256": "792acd58601e56568874c30d4e2965a2d74571bbabb80bc45391898ef94ede61",
+      "bytes": 1461632,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_11.png",
+      "sha256": "eb5efe9714d92a1d7c5b0067e8d6254d20f78cf1ac311b445d6d55ca6795cbbb",
+      "bytes": 1348224,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_12.png",
+      "sha256": "d6016769dcff31511e066eafd85ba0ce214e72baa8d948bdedf468807560fb2d",
+      "bytes": 1476128,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_13.png",
+      "sha256": "d8319fad0878653c60a0f0f8dd711814af02f9e5b54849874179e90819b71c63",
+      "bytes": 1538760,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_14.png",
+      "sha256": "0b637b9a04583bf4bddd40ec13c7c9fe9d69cd8073e7725204cb2b1a4ea6af1d",
+      "bytes": 1601903,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_15.png",
+      "sha256": "ee35364b177da72839b363025c65809e78dea837229a528c37e68706e74c4dfe",
+      "bytes": 1236541,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_samples.csv",
+      "sha256": "277a029057e68b50cc29ba818c92cb0a2ebe9dd3c3fbfe7cf10908579f6af4ac",
+      "bytes": 21111,
+      "rows": 516
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_tong_quan.png",
+      "sha256": "b2410db0a08f9e10cbdc77b3fca87aad754efe4c61bfd54cba1b2454642e5a7e",
+      "bytes": 1262004,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_03.png",
+      "sha256": "ff04b717a4eb8e21cfc346d1405bd03c3c9f39af4e18eb050ad1b1b1727a186a",
+      "bytes": 422972,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_04.png",
+      "sha256": "f6e867ed4f1fbe157cda75d02dc9286c8b737defe0dcabcdc2bcf46e723fd8ee",
+      "bytes": 922679,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_06.png",
+      "sha256": "3983ec70fccb230d2aba52e5d7cd7101b8020aff4b7538cb0b72a4892b1a7d04",
+      "bytes": 767230,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_07.png",
+      "sha256": "178b380b166d306c55cb95a3371e09db4c2c32cc061b319b35036623f4e4dfdb",
+      "bytes": 700785,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_08.png",
+      "sha256": "4a79bd948fa579babbe500310e235ac911c458bb927921bdc2893a86ade97af3",
+      "bytes": 1016872,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_09.png",
+      "sha256": "1e77c014fbdb97dacd19e738f159ad280aa1f4a61b2adc050a490e882c3636a1",
+      "bytes": 1025045,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_11.png",
+      "sha256": "aa1f6b44e56301a269e2598e5c82d3679bc6ca0849cac691be3b2f2f85769ef9",
+      "bytes": 527652,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_12.png",
+      "sha256": "557cbab24a9c6c718c10d9eec8495fdc83a6705d91d42547e565337671e0b8dd",
+      "bytes": 460113,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_13.png",
+      "sha256": "7b8fb445093707c091f2b9bf58f7e88b09d6c10328863d803ee7709f87fc7220",
+      "bytes": 598567,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_14.png",
+      "sha256": "020d8d692653fb0f646baef4200ce64623b20a9e2d6b13e7440979c87a3e8454",
+      "bytes": 856852,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_15.png",
+      "sha256": "4894a952d18ce8f5c1830a4dd533cf30fcd662af53d61804bc2ddc54ef038d01",
+      "bytes": 459513,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/decision.json",
+      "sha256": "aa57df98669d18481b07c6c2df2a687c8870e4bb749a819c0cb358ac3ef7b1f6",
+      "bytes": 671,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/dong_xuat_hien.csv",
+      "sha256": "ca179106ec418fa672d12ce5e9a4d417e339c090690297e385753621f4f955fb",
+      "bytes": 6994,
+      "rows": 256
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/evidence_manifest.json",
+      "sha256": "60f12f3304b534344b165e18b5a61275d887087e49f9c378c214a519a2da172e",
+      "bytes": 5601,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/mapping_de_xuat.csv",
+      "sha256": "f64ceab7cc1ba2dc73ddb3aa54781431a5453077d8d28f84a94d3721e725d0fc",
+      "bytes": 4516,
+      "rows": 16
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/nhan_atlas.md",
+      "sha256": "a9bc384da3ff195287af98222df24b53820c2dc6243be8926f3458adf87bab9f",
+      "bytes": 7498,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/nhan_thong_ke.csv",
+      "sha256": "6819ed6a5c83bf3fef9e813f3391c65e0f5f057c40126fdb8a5b24fc57d8b188",
+      "bytes": 6390,
+      "rows": 64
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/on_dinh_giua_split.csv",
+      "sha256": "5a028c861caa5ccc8ec610d2d5b3397f443b0da2edc9efe1b302b05942bb1aac",
+      "bytes": 1126,
+      "rows": 16
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/thong_ke_tung_anh.csv",
+      "sha256": "ba5117ed2525786f1fa49b34e4eaffa3524e2de311f7874adc33fc23676fe74c",
+      "bytes": 8853885,
+      "rows": 94408
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/visual_review_log.json",
+      "sha256": "03d2e323996776649b06fd8cd0b91721631c4fa82978f06afbd0acfd59e51038",
+      "bytes": 6347,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/muc_luc_goi.md",
+      "sha256": "01bf55254b24f176a8f184c3b5ee7bf7b3c74334959288040fdc2462dfc7248d",
+      "bytes": 14985,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/nguon_mapping.md",
+      "sha256": "e21cc76480f0d3065655b8c32333ee67dbc5e73e10c6155ce95b7ac547c0c27a",
+      "bytes": 3132,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/package_receipt.json",
+      "sha256": "1030ae049427018c60ac3b8dd6ba685c7973b0e7ee566bf2402edf1b3649cb5d",
+      "bytes": 411,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/package_v2.py",
+      "sha256": "daed0e9de703b336d4b94e41ef3ab6a41ff4ef51402c91b2fc35f551cc48203d",
+      "bytes": 4023,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/record_mapping_review.py",
+      "sha256": "fab373daf712835d5e478aea634a3eee6ad8346f9c4c25945bef4e1b9099fb7a",
+      "bytes": 8347,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/references/ket_qua_tuan_04.md",
+      "sha256": "7aa54606095940df9825060f28cbefa6e2529e7f311e4c5ce4c9b3e8e13d888d",
+      "bytes": 9656,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/references/xac_nhan.md",
+      "sha256": "718a63808fdabdc6d54e53ef2659b5981c21c9d1fa1f0cc9b8de41a2bee147c6",
+      "bytes": 12595,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/run_v2.py",
+      "sha256": "9ef13255558c25f3e2be27d0f773dca4915db461c2609f4f0b31423642b7dd6d",
+      "bytes": 11909,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/top1_chuyen_trang_thai_v1_v2.csv",
+      "sha256": "6225cd99a69b3817c8afdae87e6282bbb8c34d361aa0abb45cfe93bd226cfbfd",
+      "bytes": 28202,
+      "rows": 586
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/tuan4_v2_bao_cao_goi.zip",
+      "sha256": "d4534900a414e5a34d29e35ce355a65f80e56c4fe6ec117ef68b78446e45d3a6",
+      "bytes": 45762966,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/verification_v2.txt",
+      "sha256": "4ae3fc8f96cfbd70d927c0a3e28ee02c5f2ba5c5047309829929178f1f818f16",
+      "bytes": 480,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/verified_values.json",
+      "sha256": "7ac0d74ccd0195ac90ced8b6a128ff117ef08a1733aabd77243c495eb7dc1276",
+      "bytes": 3214,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/verify_and_report.py",
+      "sha256": "5dabee476b123b47c02e700ce63b938ed00f74504a9d05558ffcd8d5ce3c0aee",
+      "bytes": 24627,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/verification.txt",
+      "sha256": "7da76fb5d2eb0c5f724ccc6fef1b28cee3b4939b27b17a2605e297f143f79ae5",
+      "bytes": 253,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/verification_report.md",
+      "sha256": "cce9ed744ea4ea35fa595a2c8bac56cda2a54e797dbdeed472e8d9d90ffd0130",
+      "bytes": 28540,
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/verify_week4.py",
+      "sha256": "2c02f1273de8be5438063d2a3ed0da6b27a56aed6bf954907a2543b9ee06c794",
+      "bytes": 2761,
+      "rows": null
+    },
+    {
+      "path": "results/week5/.DS_Store",
+      "sha256": "376f2b5132495d74234e5370874f94aab10a07a98f68488ef110606a850b9afb",
+      "bytes": 8196,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/baseline_chinh.json",
+      "sha256": "d4cd3f1908a2079413bfd12ea2b14ed348c6b4d59457350c2e2116f8fc9082e7",
+      "bytes": 378,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/baseline_chinh_day_du.json",
+      "sha256": "97c2f8c281e1195c3f9fe740b1e91d426c7d10af13ca06799a56f465d205a932",
+      "bytes": 660,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/can_dinh_chinh.md",
+      "sha256": "0c3b5e66fe364316d3903e76f3aa57e978dcd7b3217c7debf2e9d6ee66f62e63",
+      "bytes": 1269,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_01.png",
+      "sha256": "79dbb5109191c9adba9168f617f01ece872cbdbcf17401ae0d35ad01eaaf80e9",
+      "bytes": 445575,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_02.png",
+      "sha256": "6702ee91f8328bbb764524f5c16aa3b6226fe5b37e5e0be70a65fdbd52458996",
+      "bytes": 391729,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_03.png",
+      "sha256": "e73df78fa96bf08f1d5ef744e6db58e88f76715bdb84a59acc8b7fef5f4168d5",
+      "bytes": 398260,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_04.png",
+      "sha256": "a9daacde6b5a7b4da4ed81fa5564ea5fb07279d01e8bbb1ea91b97afbdfe66be",
+      "bytes": 428721,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_05.png",
+      "sha256": "818e97e8bb89dec6f1b66615b8a22dd4a97ba607136f7b69bf467b3ad95df9c9",
+      "bytes": 451216,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_06.png",
+      "sha256": "61af6ea46976fd088acace47dfe21619e1513034c0be705dca4e4f958153c349",
+      "bytes": 423770,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_07.png",
+      "sha256": "7172c2aacaaf105d0cc2ea658e6da838f1cb5c72cfe7aeff97eb0b65ed8aebb3",
+      "bytes": 446050,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_08.png",
+      "sha256": "5cc3704aca2f24bbef9fc3b11f9cb197fddd82393e81427627eb5b46843932a3",
+      "bytes": 398432,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_09.png",
+      "sha256": "7fbebde3c24ac3c8f1a645a18267d60997925b34c72ac4416bac57828b84f6be",
+      "bytes": 462295,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_10.png",
+      "sha256": "9925de0db69ccfcd4a7a19c0162cd9c9d1b7545821c2bea5e9571415ae4e9db6",
+      "bytes": 490920,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/sample_100.csv",
+      "sha256": "d35bf43bb323d9ac9bf238a3470cbb719d4978bb8093b9b528145f03a7d596cd",
+      "bytes": 2708,
+      "rows": 100
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check_100.csv",
+      "sha256": "4191affb4388069ccedb3058faa5ad60189186514e4e62fa5728019964e58a70",
+      "bytes": 17045,
+      "rows": 100
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check_result.json",
+      "sha256": "7c9166eb8dc7423984c4d4ed7117be4d668aeea8744d940667fa8721e5e82289",
+      "bytes": 433,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_counts.csv",
+      "sha256": "847f858eab0b5f04aeb616f6f1aff9aa8c4de6524e8b24df9480901543a7d5de",
+      "bytes": 236,
+      "rows": 16
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_distribution.py",
+      "sha256": "2130a5cf21af6c60ecf78e00c7ea2ef594c82dfc3f4f24c8b7b3b2718e45ebfb",
+      "bytes": 1462,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_distribution_comparison.csv",
+      "sha256": "819cbb4026125e82c153155e374f2ad603b7efdd79c80d5d14474fe2eebc8640",
+      "bytes": 1062,
+      "rows": 43
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_error_groups_day_du.csv",
+      "sha256": "1eb138e56c8ceacdff5857971576d8225f56a3e0cdb45f1ffe0b586cefae4f2e",
+      "bytes": 1622,
+      "rows": 12
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_old_references.txt",
+      "sha256": "12d4fa5c38470c87f889c0cf43db003b425088b922eb4418813526e5b49918be",
+      "bytes": 27308,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_rule_v2.json",
+      "sha256": "518465d3fc020b7fd13e0ee4801b6bb4e76cf87324a8532443fb6efbeaa6e8ed",
+      "bytes": 814,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_rule_v2_hash.json",
+      "sha256": "575cd422e176910eb177c1291c80457dbbb5858d388f8ebd5da8ba744847ba41",
+      "bytes": 83,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_v2.csv",
+      "sha256": "21cbe65e6356c2178b1d136af3649b474213d9d73a121474af9513783bcf71ac",
+      "bytes": 124354,
+      "rows": 4600
+    },
+    {
+      "path": "results/week5/FashionRecommender/check_delivery_day_du.py",
+      "sha256": "3271d2e74ac0c02b50b1fe7e7af2059b6ed05139c36fda48303594a674685b5f",
+      "bytes": 5356,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/check_inputs.py",
+      "sha256": "9135af4f29f979cf6b154793c82e1175027d3ca06700238a4bf8ffddcb52ea06",
+      "bytes": 1023,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/chronology_day_du.json",
+      "sha256": "1f4f49bbbc23836b5ff01ca729d1e5e282752a84bcaf53dad35b3223697e10e0",
+      "bytes": 1462,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/commands.txt",
+      "sha256": "999654b0a3a1d342ad8776dbf07fd6a2ae85c3e6ef69741fb507956ee8ba494c",
+      "bytes": 1183,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/commands_day_du.txt",
+      "sha256": "7e474370531dc8f33395b64311cd13706488b4025d1ef460fc8126328ec0ef9c",
+      "bytes": 3958,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/describe_day_du.py",
+      "sha256": "6167a665787deeb5e5e05500e27ddb296f393cffb956114414ac1ea8e789dafd",
+      "bytes": 6680,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/describe_log_day_du.txt",
+      "sha256": "751c309fe8dcea1922cab796bd490375287a3ee3de4c5532ba35f01ce72a5a1a",
+      "bytes": 80,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/doi_chieu_so_lieu.csv",
+      "sha256": "aae338fc71afe2c4d9eaac961d8fcecf4b57a8478dd2a09ed49b3831a725ee17",
+      "bytes": 8846,
+      "rows": 105
+    },
+    {
+      "path": "results/week5/FashionRecommender/doi_chieu_so_lieu_day_du.csv",
+      "sha256": "f1af1d9098408b9357765efc066ae1f8d15b701fe352e9c3ac4ffa86149599be",
+      "bytes": 103003,
+      "rows": 628
+    },
+    {
+      "path": "results/week5/FashionRecommender/evaluate.py",
+      "sha256": "168a6187b0e8a9e659bb4eed281048d9e9cd8c8cb8b3fa8ab0cf7f474b77bf41",
+      "bytes": 4643,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/excel_check_day_du.json",
+      "sha256": "cb643b7f9b20609096cd98c117657d8e2e2eb9ab9f14fc8f3f4902807daa1202",
+      "bytes": 361,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/extraction.json",
+      "sha256": "5c29847fa8c9a5fb329564be62d69630d892ab4c6459714751aecc37b2e21498",
+      "bytes": 455,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/extraction_log.txt",
+      "sha256": "609bc22f624e97af5dec0416ef319eb2222651b2526121248532cacea88a2c5f",
+      "bytes": 271,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figure_checks_day_du.json",
+      "sha256": "afb12048657aefdd9762c407405229df5ebfef663f2601a26689c5fd85e8b53c",
+      "bytes": 874,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures/hinh_01_metric_validation_test.png",
+      "sha256": "fc6ca997ec6cba5546f7256d73c375464379c9362bb30c1871ebdfc000789845",
+      "bytes": 52172,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures/hinh_01_metric_validation_test_day_du.png",
+      "sha256": "925a81dd56e6cbfe9844b11ffd52dc4e5aad6681c4aa3688d9cafbd4539fa876",
+      "bytes": 61139,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures/hinh_02_chuyen_trang_thai_v1_v2.png",
+      "sha256": "4e72d220ecd2307fb8a5986a8278857052cd191a87c8421d722d311c1e58226a",
+      "bytes": 38063,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures/hinh_02_chuyen_trang_thai_v1_v2_day_du.png",
+      "sha256": "997942920ff1954d708e8a9199a4c9ef9d64e9255a660b8732b0f55fc23fec0e",
+      "bytes": 60253,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures/hinh_03_category_cu_moi.png",
+      "sha256": "2b5dface6e2fa0c29175879e622cf3f1b2de2f01fd9c3072547abb3033e401e1",
+      "bytes": 69777,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures/hinh_04_mau_v1_dung_v2_sai_day_du.png",
+      "sha256": "00de35e10c4875d471abc84f1bc9975a4f800021df5f037ecc9bf9b3f2484809",
+      "bytes": 2341956,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures/hinh_05_popularity_mae_day_du.png",
+      "sha256": "58b7ebe920959aacaf79e09d0bcca128d223e886369d0f9d3253eb029d7d87ef",
+      "bytes": 53528,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures/mo_ta_hinh.md",
+      "sha256": "05ae95d1422254ebdb9089021430e1d103fc3f2ccb8003b5d761dccfa574f014",
+      "bytes": 1060,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures/mo_ta_hinh_day_du.md",
+      "sha256": "834cad78f1804773fffd6280dc7fc47b552d264092d48573478c7ad9104b1c74",
+      "bytes": 1960,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures_day_du.py",
+      "sha256": "fa7f512a1423cdd3ad8f99adea39492680913d637c0aa59ea4b8a66c5bb233c2",
+      "bytes": 5018,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/file_npy_bo_qua.txt",
+      "sha256": "1fc15ac39746ca0648f6fe0becbff2bb2f5b5816b8aa2bfe5cadfa06317eeaa4",
+      "bytes": 192,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/finish_handoff.py",
+      "sha256": "0548ab435061b282cd2811d2bfe786a786560d4e7e3b62396f2da252429d7a62",
+      "bytes": 18880,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/freeze.json",
+      "sha256": "7ad87a68e3c14337ca03267ce4257e50d887f530236314832b6efa67e5540e2e",
+      "bytes": 1508,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/group_membership_day_du.csv",
+      "sha256": "410f6e4645672abf87988863ada091230a83d2ed80e7a8940cfe4c929acce7cf",
+      "bytes": 89900,
+      "rows": 1154
+    },
+    {
+      "path": "results/week5/FashionRecommender/group_metrics_day_du.csv",
+      "sha256": "0936c962d8e3eb145f3ec5d0e3762db2af9346ea11fc64774bf6f866ab8d022e",
+      "bytes": 13158,
+      "rows": 56
+    },
+    {
+      "path": "results/week5/FashionRecommender/group_rules_day_du.json",
+      "sha256": "86e903bb4429cdba62c8dc1bb10d2afcf6707db89b0fc3d10ddf3a8696634855",
+      "bytes": 750,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/hash_cu_sau.json",
+      "sha256": "d0df595fc3cf630f06c5de1a63feba8873bd1ab354b60f0a85eec875eda6d527",
+      "bytes": 35621,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/hash_cu_sau_day_du.json",
+      "sha256": "ff20a88ee191749e0571e8b44a90ca1e6605328ad74b44ac3b118064787fdfc0",
+      "bytes": 33343,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/hash_cu_truoc.json",
+      "sha256": "d0df595fc3cf630f06c5de1a63feba8873bd1ab354b60f0a85eec875eda6d527",
+      "bytes": 35621,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/hash_cu_truoc_day_du.json",
+      "sha256": "ff20a88ee191749e0571e8b44a90ca1e6605328ad74b44ac3b118064787fdfc0",
+      "bytes": 33343,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/hash_week5_sau_day_du.json",
+      "sha256": "ff03d8e343a7e519b666e8cc59b7b46856569ed9070bd8a9c7b0637e96569a16",
+      "bytes": 6942,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/hash_week5_truoc_day_du.json",
+      "sha256": "ff03d8e343a7e519b666e8cc59b7b46856569ed9070bd8a9c7b0637e96569a16",
+      "bytes": 6942,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/independent_groups_day_du.csv",
+      "sha256": "a837682b52e317b0f1627984d4f66813e8c946e4c544c16bbca84211791cc558",
+      "bytes": 9125,
+      "rows": 112
+    },
+    {
+      "path": "results/week5/FashionRecommender/independent_log.txt",
+      "sha256": "6ba45f34ae065edfbf2f37e1458a57553661094be36a455716466595fe68fc9e",
+      "bytes": 89,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/independent_log_day_du.txt",
+      "sha256": "34ed24b120d2b961dd908c55f67a3a898d6847a760a017a26ff75579d2061381",
+      "bytes": 47,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/independent_result_day_du.json",
+      "sha256": "812f647048eaf2c3eafd4793da6fe5e222deff54a038a150d80041ac578b1cfb",
+      "bytes": 106,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/independent_scores_day_du.csv",
+      "sha256": "a68ec07651bef1ac643361669ea14c89bca65a0848332294def54b615e0f180e",
+      "bytes": 423898,
+      "rows": 4616
+    },
+    {
+      "path": "results/week5/FashionRecommender/independent_test_checks.csv",
+      "sha256": "7aa0d0e940f9f8032512257e4e30eb34fb672c93783bca79d651c545dd533679",
+      "bytes": 2618578,
+      "rows": 37210
+    },
+    {
+      "path": "results/week5/FashionRecommender/independent_validation_checks.csv",
+      "sha256": "7d4f41fbbeef2eb1a52b752409f795295f7a3a79088d02057254191f4a1e2e5a",
+      "bytes": 993827,
+      "rows": 18176
+    },
+    {
+      "path": "results/week5/FashionRecommender/initialize.py",
+      "sha256": "6be52d884afe50d2bfbc2bd58e2cf5a7e4a745d438213a794d09320235a80482",
+      "bytes": 4404,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/ke_hoach_do_an_cap_nhat.xlsx",
+      "sha256": "830eb947cce97cfd7d0acd91995d31cbccfd1ebc0596446dd6eaa54081f7a1d9",
+      "bytes": 66269,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/ke_hoach_do_an_cap_nhat_day_du.xlsx",
+      "sha256": "4b9bdab8eb268fa9e90629efb06d22c621554b49f9e855f1d97712be425f6684",
+      "bytes": 66899,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/ket_qua_tuan_05.md",
+      "sha256": "897bb0d623496901625c4a343e03f1445cf43e4be8bb47da3504d5f723a52771",
+      "bytes": 8058,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/ket_qua_tuan_05_day_du.md",
+      "sha256": "82c9d087661363617767eb5ea01830629ec2b93ae4eab7b1810fd27d231894f7",
+      "bytes": 23321,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/legacy_check_test_day_du.json",
+      "sha256": "f16764f4c871bfa1a8e35b00598ad5f5d8a3d80544bd5d651bb749512a63fbc0",
+      "bytes": 2297,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/legacy_check_valid.json",
+      "sha256": "5702f04bd94a6c3467d29bf5779b9135f778ecbac836331058a06acddac23226",
+      "bytes": 1002,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/manifest.json",
+      "sha256": "96596d06527aedd92288ad222cc8633b77ddcb970943f91e7b17b130e735abec",
+      "bytes": 70660,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/manifest_day_du.json",
+      "sha256": "6aa60402c9871b06b76e5f8f3d6894e003095c50d01f0620e778544ead0053da",
+      "bytes": 109064,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/metrics.py",
+      "sha256": "773e38a27bf36e5b7f8093c5159a77cce8a47ce58c4366cbb5f667d73bbcf183",
+      "bytes": 544,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/metrics_test_day_du.csv",
+      "sha256": "8baec0d522681f9a1d7e83fa0a99e4601d23fa462ad6215d5fb331b0a3c9501a",
+      "bytes": 6112,
+      "rows": 32
+    },
+    {
+      "path": "results/week5/FashionRecommender/metrics_valid.csv",
+      "sha256": "44b1d955ba2319d292ce4fd524dccb2c42ee142feb0e14545af3e710841200d9",
+      "bytes": 2576,
+      "rows": 32
+    },
+    {
+      "path": "results/week5/FashionRecommender/montage_selection_day_du.csv",
+      "sha256": "16227906fde67fddac5220598be599d187a708332559b1823b5dbd12e95f6ab0",
+      "bytes": 1101,
+      "rows": 10
+    },
+    {
+      "path": "results/week5/FashionRecommender/muc_luc_goi.md",
+      "sha256": "1aaaaccf59f1704cc05ae13ef34dfd3625f693e33868b0830498f200c1f2c18c",
+      "bytes": 9478,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/muc_luc_goi_day_du.md",
+      "sha256": "c0202fd3fff70a74060bb962fbbb80cbba3f2ec1b87b714b4263073107810b28",
+      "bytes": 20863,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/old_valid.npy",
+      "sha256": "a4ce9c4f424f24d6e74b91ce3c169a37abdd1aafb82b983fc4d7875960f9054c",
+      "bytes": 17735808,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/old_valid_index.csv",
+      "sha256": "5ba92a5b883c999cbfe863f0da32def77e9bbfda50f55866d583cf25a3d0ca88",
+      "bytes": 220866,
+      "rows": 2165
+    },
+    {
+      "path": "results/week5/FashionRecommender/package_day_du.py",
+      "sha256": "022ec5551e24e6c32331fdbd8bdebc38878f00861a4df3f31b394a121b262932",
+      "bytes": 6400,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/paired_day_du.json",
+      "sha256": "dc36db2794922bb3add32e3e389ab7920d576760b78cd8471b6da2a1776a160c",
+      "bytes": 4748,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/paired_valid.json",
+      "sha256": "467cb1cc30b6605aab3b1aa3223c43b851b1329ce51fb04dd578cd97e0da04d9",
+      "bytes": 630,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/popularity_reference_test_day_du.csv",
+      "sha256": "e76554b293ba0b41aff2dc8410b9ca4e7229df216fe249541140782a086532a3",
+      "bytes": 26071,
+      "rows": 586
+    },
+    {
+      "path": "results/week5/FashionRecommender/popularity_reference_valid_day_du.csv",
+      "sha256": "def814e236f97bf2fdef8ffe55a07d0668dc053dd5e4da00330c144c64881f46",
+      "bytes": 25257,
+      "rows": 568
+    },
+    {
+      "path": "results/week5/FashionRecommender/prepare.py",
+      "sha256": "8120fdfacd76a4943fcd732e1cbf6c5c1a65f74ab8e0777c562bcac5332f89e3",
+      "bytes": 6148,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/protocol_v1.md",
+      "sha256": "420b4a8205c81a6f629f3e5a3cc0ba04cee8ce57ae6137c74feb65b1d3c2bf25",
+      "bytes": 3609,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/reference_levels_day_du.csv",
+      "sha256": "37631f9a4512110fdeec72a71ff0dc3071a0e6dfd807d632fd106c915d6f5dad",
+      "bytes": 802,
+      "rows": 2
+    },
+    {
+      "path": "results/week5/FashionRecommender/report_day_du.py",
+      "sha256": "00ba219729121776de82d85abe4b9edd73295053fd1da94411cfb37c962c0974",
+      "bytes": 22880,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/reproducibility_200.csv",
+      "sha256": "2db0e661c9d65e010cd35a9c18575b7756f9262dc6ff9a93a0c2b9f353af0cf8",
+      "bytes": 5223,
+      "rows": 200
+    },
+    {
+      "path": "results/week5/FashionRecommender/review_category.py",
+      "sha256": "58759d704db8ee9f2ef3bf6b255bc97e5823c5ff327d576dc15a7bd6eef13d2b",
+      "bytes": 2189,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/run_test_day_du.py",
+      "sha256": "1d43dba5670331e1d240d6df496d369b25c6ca23b7bdb3eaaf565e8c56c596bd",
+      "bytes": 6136,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/sanity.py",
+      "sha256": "e8b4b02f963f538e258589701075a30bf32837dfd805f153f83bfe82789dcc0d",
+      "bytes": 1847,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/sanity_log.txt",
+      "sha256": "d14b00cce7a1722ab5b27e2126eaa7d8132f7127e8fd6af51f3c6fce0e7187fd",
+      "bytes": 1056,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/sanity_reproduction.json",
+      "sha256": "d14b00cce7a1722ab5b27e2126eaa7d8132f7127e8fd6af51f3c6fce0e7187fd",
+      "bytes": 1056,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/split_source_checks.json",
+      "sha256": "0157c29c14f2c30a899b0826f7ee77d9f8518987e4f37242b3d6b0eb6d5e41f1",
+      "bytes": 2103,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/t_q_test.csv",
+      "sha256": "dbb2bb453e914109ae9ac30c68dabbebb0d9dcb89dfe3dfcbd27745f92085349",
+      "bytes": 23636,
+      "rows": 586
+    },
+    {
+      "path": "results/week5/FashionRecommender/t_q_valid.csv",
+      "sha256": "a383ac3ba0735a170914622c54e0221f10e12b7be973cc81b0513737c7af49b4",
+      "bytes": 22884,
+      "rows": 568
+    },
+    {
+      "path": "results/week5/FashionRecommender/test_B0_per_query_day_du.csv",
+      "sha256": "3ddbdf502adf0eb6b06c3ccf6a63197d6b075a76c47395f868ad7348cbc98dfe",
+      "bytes": 40302,
+      "rows": 586
+    },
+    {
+      "path": "results/week5/FashionRecommender/test_B2-v1_per_query_day_du.csv",
+      "sha256": "12c281319b35fa96ee96a2fae840989981475540b4e1c9b1e99bb22b0e32f284",
+      "bytes": 50072,
+      "rows": 586
+    },
+    {
+      "path": "results/week5/FashionRecommender/test_B2-v2_per_query_day_du.csv",
+      "sha256": "3c58859246dd0b541c570e3229b092fa2069b2e8a8f85c7301004ad74535e2da",
+      "bytes": 50804,
+      "rows": 586
+    },
+    {
+      "path": "results/week5/FashionRecommender/test_B2p_per_query_day_du.csv",
+      "sha256": "a56d87c6a1fd16459bcf6b53f6090f9dc1b6268e8de8b05682dbace262d73e8e",
+      "bytes": 50374,
+      "rows": 586
+    },
+    {
+      "path": "results/week5/FashionRecommender/test_log_day_du.txt",
+      "sha256": "9094afd3102707c9d57eb55654f74d2dd50a612032fda66436c1c567f889cdbb",
+      "bytes": 69,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/test_metrics.py",
+      "sha256": "2d9dd9c0909b587bf3b245645e5c0f9ac4830680fdafb9fec2614ad000efa598",
+      "bytes": 895,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/test_run_completed_day_du.json",
+      "sha256": "d274ac66f1d58ec973e958edae9e44584794a30660c6f1815ec994e585f9e9d1",
+      "bytes": 437,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/test_run_started_day_du.json",
+      "sha256": "36e380b2422a3bf9559e9c1396bda510a19bb7193bfb1b03addca8839cc63dae",
+      "bytes": 161,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/test_top10_source_checks.json",
+      "sha256": "fb67e2fb0103b41c42aad5ed32d2cd3429713a8dee766163a7434d5c9ab477bf",
+      "bytes": 839,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/tuan5_bao_cao_goi.zip",
+      "sha256": "0e5dcf6979d2ef6bb5e9e715f83baefa846e93ea1c15490508deed396eb59abe",
+      "bytes": 14168043,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/tuan5_bao_cao_goi_day_du.zip",
+      "sha256": "a3830f3fc924fee86e54af42869349c0cd3d2820b681140613a11534c80917a3",
+      "bytes": 31319981,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/unit_tests.txt",
+      "sha256": "dcd2147edfda2291b456dfb6d9f3021f0fed07760d5a1c8869fc5446f30e28fe",
+      "bytes": 104,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/user_decision.json",
+      "sha256": "7fa536381e9d72b40eadef0ff3cfb1806f914a10969192c8b29b732f8e738151",
+      "bytes": 579,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B0_per_query.csv",
+      "sha256": "e6d80528852d6b919ebe55fd42f9a75aabcfb3be8323715aa20ed680e5a4b082",
+      "bytes": 39061,
+      "rows": 568
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B0_top10.csv",
+      "sha256": "82b0af7503d033fcb37f95d737e5f73b0b23211ab98135a8bc00ac6fd0eef89d",
+      "bytes": 307344,
+      "rows": 5680
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B2-v1_per_query.csv",
+      "sha256": "c6e43ae4151d221d8a013d4dd13f1e7009f64ce2b47727a60364ca7b9de85cbd",
+      "bytes": 49215,
+      "rows": 568
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B2-v1_top10.csv",
+      "sha256": "22ad2c768fcda45915335a2ed44a16d5cb40f375758f8a443f3534232a657620",
+      "bytes": 391837,
+      "rows": 5680
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B2-v2_per_query.csv",
+      "sha256": "66a80cf3c6aec72778ca81232fb600b2e870e73463eb7c43b6efab86e8f24883",
+      "bytes": 49143,
+      "rows": 568
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B2-v2_top10.csv",
+      "sha256": "687eb4a1ae4d2e085cc27f47a12cb2266726b1955e8312e052f48a355d80e774",
+      "bytes": 391833,
+      "rows": 5680
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B2p_per_query.csv",
+      "sha256": "efb4a5a1d6b32ce2d1d35c982c60ae6f0e7647c8d53d265da0717bbc90753a18",
+      "bytes": 48720,
+      "rows": 568
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B2p_top10.csv",
+      "sha256": "695a7c235892a4b4c4738b70cf05f9b1ab65da950ecb668bc475d0b20b2ac98f",
+      "bytes": 391863,
+      "rows": 5680
+    },
+    {
+      "path": "results/week5/FashionRecommender/validation_log.txt",
+      "sha256": "a5d976522ac3c200063dc04f610eed278394c72650675a8664d074dc94142bff",
+      "bytes": 45,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/verification.txt",
+      "sha256": "ae0d21464e37bb911d422d82e99222c436eac51810bfca770d39b4f069b9711b",
+      "bytes": 766,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/verification_day_du.txt",
+      "sha256": "1236570fa7804c362d9c7ea1f4e60644442aa5696d3a3f57ba8cf0d0277a865d",
+      "bytes": 2082,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/verify_independent.py",
+      "sha256": "a687135be4e1455ec12c92c7490ab32744488ccfc190673054e8f6d43e41f129",
+      "bytes": 2399,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/verify_test_day_du.py",
+      "sha256": "60df8387ffb6f8e19b34d26fe231076351d626e283be5b137e6591d74840c9c0",
+      "bytes": 4936,
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/yeu_cau_tiep_tuc_day_du.txt",
+      "sha256": "3b4d8fbe8d70973ecae3f0d65fde176a8e55b75e0983e61ac1d8b1e77d21e7e7",
+      "bytes": 10088,
+      "rows": null
+    }
+  ],
+  "outputs": [
+    {
+      "path": "A_byte_check_5b.csv",
+      "sha256": "14d5409a7c2e4c3a502536fae34c8341acabe153dd0658257fca723534c99238",
+      "bytes": 7055,
+      "rows": 200
+    },
+    {
+      "path": "A_byte_result_5b.json",
+      "sha256": "79b1fb360996fd1fb531e1ce4555872ddd335b962ea56e114bad05e6b73e9248",
+      "bytes": 435,
+      "rows": null
+    },
+    {
+      "path": "A_check_log_5b.txt",
+      "sha256": "de69d1c61ff0a2924619bc2824f9bda4c938931c86c601388769d566c4465d55",
+      "bytes": 31,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_00000_5b.json",
+      "sha256": "058df90095bdad7b863cb28b8cc94d7d852add35b53b233210211a8122dc009e",
+      "bytes": 530,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_00000_5b.npy",
+      "sha256": "4e9785b78340f9588f6948628b744381308c64bb4c7ff50537dbf8280eb08176",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_00000_audit_5b.csv",
+      "sha256": "2fa8c67b2d24802ce9ec07a8dcc5b7bb8c6537d13f85410ee929d98e56a77937",
+      "bytes": 15417,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_00256_5b.json",
+      "sha256": "c9089054b5063958fe774c079e2d1438951819ef27e35112caea0d83525a13a2",
+      "bytes": 531,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_00256_5b.npy",
+      "sha256": "c9bef8762aca7e1077a90a4bf4a1c33e94e8dc59562f6ca76c7171ba4ac3c2f0",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_00256_audit_5b.csv",
+      "sha256": "5a890f4a8c64661eee34455aaf18dbf75fb3c3d545689cc93ff9e3f70e56494c",
+      "bytes": 15383,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_00512_5b.json",
+      "sha256": "1783447760edf455e52b3d26e83cb67148e3031e3406294ac5197ca2b70c4c7c",
+      "bytes": 532,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_00512_5b.npy",
+      "sha256": "92e00476753d2dd52d3d7d205fc3932032088c56cfb2fcef97ae6bb596b25599",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_00512_audit_5b.csv",
+      "sha256": "d7fc7357d015a4632bcfc6951e0d57388e83d5a87cfffeb3c815840adb1e0aab",
+      "bytes": 15411,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_00768_5b.json",
+      "sha256": "82cd1e40d66c128df6cfb15b3d96bdcf439e554a62dab461ac73821155942a6b",
+      "bytes": 532,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_00768_5b.npy",
+      "sha256": "a98349e40562c906c1916349ca7e8b914bb3ad388f56a732b44d2aaa8108ba8e",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_00768_audit_5b.csv",
+      "sha256": "cfd0a036d12a34157b9dacdd410c9f90503c0c71754fc8b0967311a2df0a8de1",
+      "bytes": 15411,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_01024_5b.json",
+      "sha256": "d5468db0a2fdb59d4740547d3927757aba78e579336ef9bb54b17afcdb59d7ae",
+      "bytes": 533,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_01024_5b.npy",
+      "sha256": "33b88b6e134dcf8af93a942553bea420df41717b2b0b0bead5ee8e20e77e1d98",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_01024_audit_5b.csv",
+      "sha256": "255e8fdf63211424883361fcbed4a22f9faa47c821d9b5ef0edb2a631b4b3431",
+      "bytes": 15424,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_01280_5b.json",
+      "sha256": "70b0ae4b970b5540aff8c2607381677eeb81ff5de90298f88a7d2253dc062d41",
+      "bytes": 532,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_01280_5b.npy",
+      "sha256": "be7bbf992939d5925c9e0bb2c489fca0001e499e82c58d014a403e12c7143cec",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_01280_audit_5b.csv",
+      "sha256": "97a127c728b3f9d14728caf0badb291c7e8185cd04d179f4a6a54c42e18717eb",
+      "bytes": 15381,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_01536_5b.json",
+      "sha256": "7fbba35f6eb15512eca892cb551cca89d638cfecba68b85f6f0f8acf6fd3b17b",
+      "bytes": 533,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_01536_5b.npy",
+      "sha256": "790b1beea8f3661e3eae1e46e01f848bb2c7563ebdffdb78afb8f0310e149ff8",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_01536_audit_5b.csv",
+      "sha256": "c22704c4ac6c36d9bd5f178d2e21706bed968b9d98c58be50a04496d65c45ea3",
+      "bytes": 15443,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_01792_5b.json",
+      "sha256": "b35faae09a7e00f04dcd9f60a27939d0fe622cca56d862c653ff6c07e8497660",
+      "bytes": 533,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_01792_5b.npy",
+      "sha256": "82a7942e6b68bbad9844ffc41dea29d51d76c5b0134012ac689b6ff67cfc86bf",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_01792_audit_5b.csv",
+      "sha256": "5ac0d4ba6db099b6198f5da0620955d9a4e2b61f816754c7bc5f83c102e1f27c",
+      "bytes": 15407,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_02048_5b.json",
+      "sha256": "4f3c0940684dda9612a943b0f2643973400b24910cece8b7e045c188a533dc96",
+      "bytes": 532,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_02048_5b.npy",
+      "sha256": "9280657d7af1fb3d2fe86425f215a94e026103dbb5338939fef74e78bf917639",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_02048_audit_5b.csv",
+      "sha256": "8cce3b127f816031000f8a1fc887dfdc5bc7cb28ab179164ba88d52b74a92ff8",
+      "bytes": 15231,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_02304_5b.json",
+      "sha256": "e62fad6f03631c6fea250f9e2189ab04923de2cf1fc86c86b9874a97784b67f6",
+      "bytes": 533,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_02304_5b.npy",
+      "sha256": "993ba3b2e9c6ace8a9cd1c21f1471040bf647713457317f686119b72985fe428",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_02304_audit_5b.csv",
+      "sha256": "ccabf8c8e81518a16f9a1fb2254889fadb33e666b1c88df6a1892103deafbc31",
+      "bytes": 15131,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_02560_5b.json",
+      "sha256": "80081ab06cf335877385b652ff8ffd103efb816b72c5d0916ab2b1aa42b0f561",
+      "bytes": 533,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_02560_5b.npy",
+      "sha256": "7ee44662581dcdbfa677fec2ef78a69ea8fc184cabc5767c5b6341c159eee977",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_02560_audit_5b.csv",
+      "sha256": "77eb8745f71b677908292575751dcaad6f795c157fb731e891b86f97a7e89da7",
+      "bytes": 15092,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_02816_5b.json",
+      "sha256": "cfa08e1d530817116937d86d9bc7ab1cee821f3ed6b1a3107409e6acfb9add80",
+      "bytes": 533,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_02816_5b.npy",
+      "sha256": "19766d3fe824c9d76305fccc96a953112368ab7f9512aa69362c4bb95536b448",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_02816_audit_5b.csv",
+      "sha256": "39228c0a06c1191ad9f54bb66efab814f2dff07fb3297d26feac8ce04b8f20c8",
+      "bytes": 15130,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_03072_5b.json",
+      "sha256": "495f675673e57b9e9fc575c580cddaad026eeafeec51f68e172e8547d267b16f",
+      "bytes": 532,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_03072_5b.npy",
+      "sha256": "45462fc5f463206fa396d013dec180742dcb3a339cbfded931989f45abcc47ba",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_03072_audit_5b.csv",
+      "sha256": "d37c80fc2f28d6c4f4820ccd0c241fffa68613bc636d22656b04bcbff7716730",
+      "bytes": 15148,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_03328_5b.json",
+      "sha256": "1daed03646e4d5278a2b4574b65e275567de2aa26357bd672138f406721be784",
+      "bytes": 533,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_03328_5b.npy",
+      "sha256": "cfd9432bbeb1ac4fb13e16f782c7b39cb4b99a72fd5120e8026a552315b7f829",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_03328_audit_5b.csv",
+      "sha256": "576a48b427378ec3a62f5464527fc3b852db1f8120a5c9840e83743b6af629b2",
+      "bytes": 15131,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_03584_5b.json",
+      "sha256": "7313d0aa2397cce7cfe215e7f39ba97b32aa652a2615cb1d64cf746ce1a63c17",
+      "bytes": 533,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_03584_5b.npy",
+      "sha256": "ae9495af0dbf97690bc727aa5a5bc4d327c81d151d73e9394370e9665105ec7a",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_03584_audit_5b.csv",
+      "sha256": "350977298dec2b623eedc6a28206926981c3c23ba27c0296afb371b73b3a5bbc",
+      "bytes": 15162,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_03840_5b.json",
+      "sha256": "0ccbe2ff2ef24790be0753406c2504f25d4bacd6760231706231a655966e0986",
+      "bytes": 533,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_03840_5b.npy",
+      "sha256": "7250ec82ab924dc9e8d6b17f0243a27a4752e6493b7a0da5941d6d1256286d10",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_03840_audit_5b.csv",
+      "sha256": "606865328ae130f93a6cdc545a39680cbee08efb7654ab8605aa1111183eb1c9",
+      "bytes": 15119,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/C_04096_5b.json",
+      "sha256": "4e63c36c06347b64561174867246f8df1b13e51d6805cb340ee563c009b2878b",
+      "bytes": 531,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_04096_5b.npy",
+      "sha256": "d0e89860a9aae6ebcac95c68a49c6ba426fa162ca6258dc445508a498b1ca46a",
+      "bytes": 1622144,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/C_04096_audit_5b.csv",
+      "sha256": "2cfbfb3be7c765a2a6662b3baf641409a54cc6cae70fa77973f25360f04d4c92",
+      "bytes": 11729,
+      "rows": 198
+    },
+    {
+      "path": "checkpoints_5b/D_00000_5b.json",
+      "sha256": "ff4f9ea0c0a0d6f4bbdcf7d3c59f8928adeec9e3d2cccebfbe4aa376a7c9dc19",
+      "bytes": 500,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_00000_5b.npy",
+      "sha256": "b7b40d0b3d051a3ba6157a175f808e82cb6fd66434b22b8f34483eeb6072b0de",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_00000_audit_5b.csv",
+      "sha256": "acfef379e523989a9c57e9422636c09217a5c47cce25a2c73dc44a01651f8d9d",
+      "bytes": 15645,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_00256_5b.json",
+      "sha256": "3d53202e576f581fede03a39c37a802ceeaf875117f584a8b4aa64ecbe581d68",
+      "bytes": 502,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_00256_5b.npy",
+      "sha256": "999d528be226e24f59980b79580b3119d6e4afce2b23dcb636467dda283b6dd6",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_00256_audit_5b.csv",
+      "sha256": "98c3793c5ca12cf5014223f0d5a2a8736147d851f41618ee2b856ddd26092e64",
+      "bytes": 15558,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_00512_5b.json",
+      "sha256": "81c17513182098bd26aeb79bc9c711a2fa75f74172d4c83e6b010f4f754e69a9",
+      "bytes": 501,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_00512_5b.npy",
+      "sha256": "88b5b0c61e30de66f14bb584c672579c0eddfef9a2e3398b912bfa0cae64dc2e",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_00512_audit_5b.csv",
+      "sha256": "f2a1437c72d3d045d93e4aee8ff055e78ed12d28db19c9f6870958d56cf3b3cf",
+      "bytes": 15609,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_00768_5b.json",
+      "sha256": "f20a9a5f62cf6316b953b289f6181765777ef15ac01ec028853032f6fa00b974",
+      "bytes": 502,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_00768_5b.npy",
+      "sha256": "9aedd15ea1b8527c96ffe838d0347bd9fff8798528b408611320ac7e282476e4",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_00768_audit_5b.csv",
+      "sha256": "491c98452dbd6808727de078cfe09479b32f34af2bb9ec01c64c1cbac2b8149a",
+      "bytes": 15594,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_01024_5b.json",
+      "sha256": "8cb7691262230a38ee431b99f972e2cb0131bf9e4f0722793ce4dd7a5a4375c2",
+      "bytes": 503,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_01024_5b.npy",
+      "sha256": "03e9ce5265d7f771d5207151fd8bf785a8e1e5d9f70c982f75b135a5d6ed56e2",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_01024_audit_5b.csv",
+      "sha256": "471fed4708ed836d20de3fea283be67aef7bd23ab1b4ff4037f73b86648e271b",
+      "bytes": 15617,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_01280_5b.json",
+      "sha256": "d6c3640b90874c6e66791521a8363257e65e23577763451303a386ed9a0b0632",
+      "bytes": 503,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_01280_5b.npy",
+      "sha256": "806bd818e37a7f258b3408144a027cc8ba8bc5363e8b08a147e8e0cf270c045a",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_01280_audit_5b.csv",
+      "sha256": "dcf52278802a90a5c4222534b3c4cb9ff7439310e5b128549744f8954c9315fe",
+      "bytes": 15621,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_01536_5b.json",
+      "sha256": "3df81751332ec07af21b7ae0b86fd9b941fd0dc4aa909ea1d8c5188f679d9f52",
+      "bytes": 503,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_01536_5b.npy",
+      "sha256": "81ebc28c581c83836d89a40513fac5b217d9ac55818fbcaf8aff510cc49e61cd",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_01536_audit_5b.csv",
+      "sha256": "30f75b6fa9def060c501524842fc9fe77be37cec71ab80a4c23bcd896d98567e",
+      "bytes": 15623,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_01792_5b.json",
+      "sha256": "59a245e0019c90f2396347237f66d602d90735c6b57b17fa32fc88a959a10dd2",
+      "bytes": 502,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_01792_5b.npy",
+      "sha256": "e34cdf236fe300c07a721ca6c4f989603e0db671af2cebbeeb8b5406eb134568",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_01792_audit_5b.csv",
+      "sha256": "98461651c9f291ff012941ec7ae4689cf8f5e6f41c1ace1f9f91060ab05d9bac",
+      "bytes": 15514,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_02048_5b.json",
+      "sha256": "03af3d35a1b5c2b37729f61fdafadaffed54974d7d5ec46e1bb11fb25970189f",
+      "bytes": 503,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_02048_5b.npy",
+      "sha256": "7f577064f937c106e313c2d6f59480b5ad8d94641825d91bb82b5476b7eba693",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_02048_audit_5b.csv",
+      "sha256": "70e1b023c24126d69a8c27c864596a553d7fa4f9bd5feddc815a373b9bd18788",
+      "bytes": 15400,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_02304_5b.json",
+      "sha256": "db35b99fd1a72bd2d11c88ef54b7dc8d7018c4fb89df62f97f7dae85f3bb0d14",
+      "bytes": 503,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_02304_5b.npy",
+      "sha256": "2024a72ea5524b51f6d945dd3131a887c0ae13edaf2dcec73825989e08d368a9",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_02304_audit_5b.csv",
+      "sha256": "5470ece2e54b1b6cd11d43acfd66b72d5705f7c59796d690dbd338918379ccc2",
+      "bytes": 15298,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_02560_5b.json",
+      "sha256": "07a8080bcf9d6ebd0d563e389c485a7e5c272afd55fa890991e4b2c14ac768f5",
+      "bytes": 503,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_02560_5b.npy",
+      "sha256": "cc290e242afdd8f6eda415d5cf95326203a3d6a69c06cb873785063afc5a0d1d",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_02560_audit_5b.csv",
+      "sha256": "bf7a6aae23d885c202cb1ad0b834d74bf7889aff3f82c1602c0b697cf6581a13",
+      "bytes": 15355,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_02816_5b.json",
+      "sha256": "f4e0e29f1a8ad4f211ba35c21a8ba71411d0a362bdce7bdc26cf35b8907a7c6e",
+      "bytes": 503,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_02816_5b.npy",
+      "sha256": "38c2ae440a64a9c30ca3557a27571997ced253c1c620776e1fcd6a639f610b29",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_02816_audit_5b.csv",
+      "sha256": "b9c2bb51cab647f4d79b216982aa301e0fc47c54124f04363a947e002e639d89",
+      "bytes": 15317,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_03072_5b.json",
+      "sha256": "6770660d395f2c9efec70bbc029c2f19405c03c4810ecbe0873ab213ae402d39",
+      "bytes": 503,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_03072_5b.npy",
+      "sha256": "709791c016aefc34816ac98f90e715afe5cea42424386c6d463d251d4d729b3e",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_03072_audit_5b.csv",
+      "sha256": "4b85792874cf5f714661483d0c20dbb25626c957f6f41a17ef4ffa25776dfa32",
+      "bytes": 15286,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_03328_5b.json",
+      "sha256": "5dd8b60ca9d3d0c61d0b4805a96a3056c208a77cd4db57af2d2701233e58b22f",
+      "bytes": 503,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_03328_5b.npy",
+      "sha256": "333f84ac4d77e4df100c6ab821369f1afdba52184b255dbc3820ad0c2343198f",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_03328_audit_5b.csv",
+      "sha256": "e906bc8c97f526cc62f8f9680b4d0274f0af980ae0e41000df59e7e47778fdcb",
+      "bytes": 15363,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_03584_5b.json",
+      "sha256": "d0bc72cddddee053195fe0277b35d884149b4ed0370db6e51e557eb765a4e765",
+      "bytes": 503,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_03584_5b.npy",
+      "sha256": "90848d6ddf4f027e9a81c4ead73854237543be21963cac712d16a1f9705d3132",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_03584_audit_5b.csv",
+      "sha256": "74933eea815e60fa95ef70b6ae54aacd6bda005e66c5198b172ca9d0fd04d22c",
+      "bytes": 15294,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_03840_5b.json",
+      "sha256": "eaef0ce23b5f1167f5d02844e05be8f7e9e5a0d28a1a2348d1eaac6bc30b9d7b",
+      "bytes": 502,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_03840_5b.npy",
+      "sha256": "8f695a6a1416917c6c3d10592290162744fca528e95d3f1da4c59abc285a09e7",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_03840_audit_5b.csv",
+      "sha256": "c2f79f6fe535605774411a37f4a6eee87a3f60da663a2ee204d1101622a9f823",
+      "bytes": 15307,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/D_04096_5b.json",
+      "sha256": "5af93a61916a67e7cb00aba38063cd44c7fb12b42350a00734813ac276e25e04",
+      "bytes": 502,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_04096_5b.npy",
+      "sha256": "3510c9de9f748275bc77d463e44539f15473e60ad09816feeef4f01d1ae4abbd",
+      "bytes": 1622144,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/D_04096_audit_5b.csv",
+      "sha256": "ac563bc228b6afde6ad06c8e5b275f49a3f613be6b826771fcd3ec155b80ebbf",
+      "bytes": 11862,
+      "rows": 198
+    },
+    {
+      "path": "checkpoints_5b/F_00000_5b.json",
+      "sha256": "598d0fb2e49cb45fb262ca2e5ce5569fdae623acdb19603fde93ea462ad62cb3",
+      "bytes": 441,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_00000_5b.npy",
+      "sha256": "f8a0cb561ce3c8c733dbd17c31eb5072243b3dacf872a090e273ac7d445a5048",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_00000_audit_5b.csv",
+      "sha256": "a22921d95f8779191c1611d2b3b00ab24b6eab2166ecacadfbaf8e4fc5f685be",
+      "bytes": 14699,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_00256_5b.json",
+      "sha256": "9942df3372e129a5c705fb6c38654e606d5a66c4721bd4d21dca6ef4583e8138",
+      "bytes": 443,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_00256_5b.npy",
+      "sha256": "c8b436e0f4b49956bf0e0d31cc0c2ba67776590e3f211307b9c95e58d170d05d",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_00256_audit_5b.csv",
+      "sha256": "f90653464dd049b817c90d5ec38b6ad19aed07d6264fba661cb6a3c22d52341c",
+      "bytes": 14833,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_00512_5b.json",
+      "sha256": "b24cef1a423e1a3e247576b297fb4698d8cb4cd151e92aa56133885b311e1803",
+      "bytes": 443,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_00512_5b.npy",
+      "sha256": "dcca263a5531ca55eec52374162fcbf1316b54d8327d119c10cf5f69d579c048",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_00512_audit_5b.csv",
+      "sha256": "d566aae76acb7f7ac2c7ee38d8c445b37dff45a9e24e99aebd919fa5b6e6fdfe",
+      "bytes": 14707,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_00768_5b.json",
+      "sha256": "1f02f47d167b0c326aef6c416cd4d881dcda2ea6494f6e03b2a13dacf2f7e89c",
+      "bytes": 443,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_00768_5b.npy",
+      "sha256": "baea310d6951e02c1646531259889971faa25267f94e7e841ee82287e0ba465a",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_00768_audit_5b.csv",
+      "sha256": "9e58f0aa8ee1542bf871da39bc2cc6228b220e5ba60d3abc7ba61f4833f57b9f",
+      "bytes": 14755,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_01024_5b.json",
+      "sha256": "cc8cfe995252e6f0ad2f30733f16e0d5780cef29236fdaf36fb00a9fd71fdced",
+      "bytes": 444,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_01024_5b.npy",
+      "sha256": "2fcc7127bdedf34df271eb38272c9fa4fb6dbb9e21f232ca57fb248cc75dc4a4",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_01024_audit_5b.csv",
+      "sha256": "82a408241426cb0b1e5c515c1b5db44f6de2e935b7b8881436b3923f512392e6",
+      "bytes": 14875,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_01280_5b.json",
+      "sha256": "719604c6c69efd2c1654a7f97053f955cb2a2b6e63a4d6c6312ec10773c95e5e",
+      "bytes": 444,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_01280_5b.npy",
+      "sha256": "28e403565f12735ff86efde68554ee951b202791363e605ee6379e2a68af9478",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_01280_audit_5b.csv",
+      "sha256": "77b811b49a7d435986cfdc5753076d23762dd1a198d450573e05dcb8864235b8",
+      "bytes": 14738,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_01536_5b.json",
+      "sha256": "e9167c6637d9987fb8eda345c1e9f70c0e0e4ec1f046351f5844b5760c9ff604",
+      "bytes": 444,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_01536_5b.npy",
+      "sha256": "bdb03f99af4aaa2b79adde7920f91cea95c97193e41878c7644ff18a5f0c1b4c",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_01536_audit_5b.csv",
+      "sha256": "b4ae9da08213ceba9ff66b6805297d4e67890ff18646524a54b81b0a32548ecb",
+      "bytes": 14786,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_01792_5b.json",
+      "sha256": "df0a96a3f5d78726bb040cce15df2b1304b3a66da6b7d1ffbbf925b625f695c8",
+      "bytes": 444,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_01792_5b.npy",
+      "sha256": "f0947422e634becca582efc627dccdfeee25a8853dc32ae49231f44f100abede",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_01792_audit_5b.csv",
+      "sha256": "72e891c8dff2767c00635089fa686a234faaaea452101bea1f6b2ffa4df8e95d",
+      "bytes": 14211,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_02048_5b.json",
+      "sha256": "98ad04df744ead6eab4f0854e591a1b2cd6214d6dd89c8df7f0d4104ea0b4293",
+      "bytes": 444,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_02048_5b.npy",
+      "sha256": "cbb69e3999463436107dace92d448e0b3ce9e07051a59169bb1a409bce4d07c9",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_02048_audit_5b.csv",
+      "sha256": "9751e86878b1e1e8de830945808a4e66eee32927438aa02debe7259e8c818ab1",
+      "bytes": 14323,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_02304_5b.json",
+      "sha256": "35cf2a3429d6b9c5459927d79d2dd629e554ed5eba37729e5f46c1378e3a6d8e",
+      "bytes": 444,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_02304_5b.npy",
+      "sha256": "e398ad63bdc896f90d0c2ec0c75d3d41d3dbf852f7226447279fbbc2cd99929a",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_02304_audit_5b.csv",
+      "sha256": "b14a9cfc1129b264e8e66466a5d179f10ec1de65f76bde261a5502be54ae48fe",
+      "bytes": 14087,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_02560_5b.json",
+      "sha256": "7092d4f1dabb82795ef851026678829b3c0a1abf95e06bcddcb020e1ac6dd71c",
+      "bytes": 444,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_02560_5b.npy",
+      "sha256": "881a7e887c022a0a63a54e7fc7fdc842ad53f5d38b3d7f6daa5586034e1f1a51",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_02560_audit_5b.csv",
+      "sha256": "d485b4166af65db79f41aea42d564589fa46dc8d377925fa5e1bf2cf99c7e765",
+      "bytes": 14469,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_02816_5b.json",
+      "sha256": "4c4114bedf79dd96e302090fc9e444f0ef937aa3c0474c6b0eb32e617bf09105",
+      "bytes": 444,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_02816_5b.npy",
+      "sha256": "272428b62da579241e1fe8bf57758ccce6d9a4ba3e30e0b0b788caceb52084fd",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_02816_audit_5b.csv",
+      "sha256": "ba1e24e0b71da7ed8f6854f63708738c79a9c7999f97534c4f9f31161854d825",
+      "bytes": 14513,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_03072_5b.json",
+      "sha256": "64d79fbe2418511ffc4a808d7d59c6c06d97fc9a51fb812a231062b91f662039",
+      "bytes": 442,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_03072_5b.npy",
+      "sha256": "bc285b9179680470f799db0087c3109b069df5cef35b4f341119324b5a5fabe7",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_03072_audit_5b.csv",
+      "sha256": "23bfc7092ea601058c6c8debe1b8621b1f63d8640461c7aff05eb91577a1120c",
+      "bytes": 14389,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_03328_5b.json",
+      "sha256": "e666557c0c0dd5b315d0454dcea94842bdde5ff0dd026587e4a1d7749baba0fd",
+      "bytes": 444,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_03328_5b.npy",
+      "sha256": "5fa3de8f3dfeb097bf18fbf8cc2b679b62bf071b91ae14722eef5e98de90c5c7",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_03328_audit_5b.csv",
+      "sha256": "7d266ab94017ffe39d7d4d65ad8e441214c46235cfb97d569af96605378fa32f",
+      "bytes": 14498,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_03584_5b.json",
+      "sha256": "a1071856381ba27ab040768b82a2b47739cac9553d554498537b2034d541bf11",
+      "bytes": 444,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_03584_5b.npy",
+      "sha256": "6beab98b199bb094f6597ed067da6eb0f5f908e54f63ef3fc2de466d146c8b08",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_03584_audit_5b.csv",
+      "sha256": "df089ed262182eb9d389c75fcb37480cd7c982774075fc6e4cacc3e03f0d4ea8",
+      "bytes": 13952,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_03840_5b.json",
+      "sha256": "d89cff05d97b4b52e216376d2501d268a3637d55d8a0109026a5b7dc07be4403",
+      "bytes": 443,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_03840_5b.npy",
+      "sha256": "a27996545bd22875ce7d74ca39aa290763d2e93f7e19dbbb233dcd7eb553dec9",
+      "bytes": 2097280,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_03840_audit_5b.csv",
+      "sha256": "bb1e477ff8b98278456ca8600ac7d63fa717b8a519925607a1b265c6a592392e",
+      "bytes": 14312,
+      "rows": 256
+    },
+    {
+      "path": "checkpoints_5b/F_04096_5b.json",
+      "sha256": "a60ac15a0760687f83a372c3c02fa3782a631db8a995fab254b955442ebbe830",
+      "bytes": 443,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_04096_5b.npy",
+      "sha256": "f36a17141d8fe42eb0b94ba1db7ac3869ee9e8bb13d08483e1128027c589b925",
+      "bytes": 1622144,
+      "rows": null
+    },
+    {
+      "path": "checkpoints_5b/F_04096_audit_5b.csv",
+      "sha256": "f940d7884846abd60c0d0e4a7504e7056d2446c3af9838a934bd7c379ba4d7bd",
+      "bytes": 11287,
+      "rows": 198
+    },
+    {
+      "path": "commands_5b.txt",
+      "sha256": "a7eaf9fa7997b97334bb434f6ba9f8fde271e95539472afc9d777e6fa3aa9b39",
+      "bytes": 3439,
+      "rows": null
+    },
+    {
+      "path": "common_5b.py",
+      "sha256": "10747629f3560504172f7adc6aba9bbe2ededa2d616930425e2da267c6d5c46a",
+      "bytes": 960,
+      "rows": null
+    },
+    {
+      "path": "crop_audit_C_5b.csv",
+      "sha256": "9f1ff4d236f553af5048940f98da1955739529e81576d346d860191636ca5b4f",
+      "bytes": 255286,
+      "rows": 4294
+    },
+    {
+      "path": "crop_audit_D_5b.csv",
+      "sha256": "aec36367de69760e91eb0a919914f44ad7e116fe62ca6ed1f7aa130bc300c2d0",
+      "bytes": 258399,
+      "rows": 4294
+    },
+    {
+      "path": "crop_audit_F_5b.csv",
+      "sha256": "7e95ef2b723e3d2d60695300122dd0683750c240e71a2bc55ff8a84d565e5dba",
+      "bytes": 242570,
+      "rows": 4294
+    },
+    {
+      "path": "delivery_5b.py",
+      "sha256": "18e69884b49a6969ca5e1570d0531433564327ca9711468c5d5c1a94e978d99d",
+      "bytes": 8419,
+      "rows": null
+    },
+    {
+      "path": "design_5b.json",
+      "sha256": "2c6acc4c650ae359f05946798f00e586a2a415565889924f18f43f5847b78285",
+      "bytes": 2118,
+      "rows": null
+    },
+    {
+      "path": "dev_A_per_query_5b.csv",
+      "sha256": "453da2f9d5969c336110d6795c19c788ed0cfe59d24ffdeca7adecf2aadb2747",
+      "bytes": 449908,
+      "rows": 2660
+    },
+    {
+      "path": "dev_A_top10_5b.csv",
+      "sha256": "464b6c2574112ba94346d6b3b435855b1deb30e0709d5508991b1e5a6f905f00",
+      "bytes": 4654395,
+      "rows": 26600
+    },
+    {
+      "path": "dev_B_per_query_5b.csv",
+      "sha256": "649828d24763ef660db47fd27ba75749d4e7a1e40241f61801ccfc44d1a3425a",
+      "bytes": 450209,
+      "rows": 2660
+    },
+    {
+      "path": "dev_B_top10_5b.csv",
+      "sha256": "3c38bf32e245f5eed44c44488dcb807533eec81e91760998fc651e74ae257fc3",
+      "bytes": 4654469,
+      "rows": 26600
+    },
+    {
+      "path": "dev_gallery_5b.csv",
+      "sha256": "3f9a94ae9d8e6878565c2bd18a811d8ca1fe173a9956ea324811f993adefdbee",
+      "bytes": 666543,
+      "rows": 6798
+    },
+    {
+      "path": "dev_independent_log_5b.txt",
+      "sha256": "ed15ae766b934d9180e782183c0bdad8812785f853bbb55ce4ed9d8a9cdc412c",
+      "bytes": 35,
+      "rows": null
+    },
+    {
+      "path": "dev_log_5b.txt",
+      "sha256": "cc2b80f77de2fd8b08e4bdbb4aa5a148f8386c557143e923b114a0e187990dac",
+      "bytes": 30,
+      "rows": null
+    },
+    {
+      "path": "dev_queries_5b.csv",
+      "sha256": "32fb7775a319c2bd92dffe2f912f526826daee1a2a193592d182526115c55ca6",
+      "bytes": 255747,
+      "rows": 2660
+    },
+    {
+      "path": "dev_split_5b.csv",
+      "sha256": "9b33bb5f5c30d3f7913b699d2628c7a0cb541d20a2f49876dd44f7030ddccdd8",
+      "bytes": 922180,
+      "rows": 9458
+    },
+    {
+      "path": "doi_chieu_so_lieu_5b.csv",
+      "sha256": "de123ce4d8e75ffd171028a289d1d1864f1a9b262260e5157432385daa18457c",
+      "bytes": 81952,
+      "rows": 454
+    },
+    {
+      "path": "effects_test_5b.json",
+      "sha256": "3140a0cec8cd22eff25f556fd727308098920a5ad76f25365d184f3d27da9759",
+      "bytes": 770,
+      "rows": null
+    },
+    {
+      "path": "effects_valid_5b.json",
+      "sha256": "8f445c283dcdbc1871a170f59f5b527e91ad52d59a01379011df167330728d87",
+      "bytes": 760,
+      "rows": null
+    },
+    {
+      "path": "evaluate_5b.py",
+      "sha256": "a4a68a4f1256d3f5d43b29d8bd5d7449d3692e7c434d61b9d7a70e57fadd8571",
+      "bytes": 5051,
+      "rows": null
+    },
+    {
+      "path": "extract_5b.py",
+      "sha256": "b031f6088b491904723911b6237e21567b31fc5ad805687859ad568ee98ec8f9",
+      "bytes": 5697,
+      "rows": null
+    },
+    {
+      "path": "extraction_C_5b.json",
+      "sha256": "203070a5b0ab930495c21cf978b8e9ced99d30efc63e4f5cb8dfe36b713b4a4e",
+      "bytes": 730,
+      "rows": null
+    },
+    {
+      "path": "extraction_D_5b.json",
+      "sha256": "9aa5f57847f96037a8ed0fdaaaf0baac63c3416b47804ab6df4ca8d79c50b376",
+      "bytes": 700,
+      "rows": null
+    },
+    {
+      "path": "extraction_F_5b.json",
+      "sha256": "91d1406c4f47664da28ec7ccced0f70c672943cbe2856a6cf825bbfbafb0f43c",
+      "bytes": 649,
+      "rows": null
+    },
+    {
+      "path": "extraction_complete_5b.json",
+      "sha256": "161a66b6a7d95ca62ae614d0994db34b08cde7ced89e444cd3496fba2884cc50",
+      "bytes": 514,
+      "rows": null
+    },
+    {
+      "path": "extraction_log_5b.txt",
+      "sha256": "a05643ec4679c06939707727a55d576ff3695ca559ef200936ae301ff9bfa8ee",
+      "bytes": 1598,
+      "rows": null
+    },
+    {
+      "path": "fallback_counts_5b.csv",
+      "sha256": "d74225d5b8e4db2f7291944f11e4d54e98fa58c32a6c45584264ac8ebf93dddd",
+      "bytes": 1289,
+      "rows": 10
+    },
+    {
+      "path": "freeze_5b.json",
+      "sha256": "2daca93f51b592d19f7eaa663b9ec59dcc33b17b923159ea3b1e036ed457bc99",
+      "bytes": 5964,
+      "rows": null
+    },
+    {
+      "path": "freeze_prepare_5b.py",
+      "sha256": "f02bb4020611d8b7692eb909a29b320499013632851791b282a34b9340ca3f44",
+      "bytes": 1681,
+      "rows": null
+    },
+    {
+      "path": "ground_truth_dev_5b.csv",
+      "sha256": "5d76f657337f022b2e1af2a58bd802eff1952cd7e269d38b174d480e502d0464",
+      "bytes": 355458,
+      "rows": 6239
+    },
+    {
+      "path": "hash_cu_sau_5b.json",
+      "sha256": "17dd712cf6fcb14f8f4af2b3ea542b5437fc8e3a69b6ca5559dfa50f794f4c8d",
+      "bytes": 52616,
+      "rows": null
+    },
+    {
+      "path": "hash_cu_truoc_5b.json",
+      "sha256": "17dd712cf6fcb14f8f4af2b3ea542b5437fc8e3a69b6ca5559dfa50f794f4c8d",
+      "bytes": 52616,
+      "rows": null
+    },
+    {
+      "path": "hinh_01_recall_5b.png",
+      "sha256": "9493a2cea1149c88bcd6b008cc5e36ebf8697299477bab1673565aae9416381a",
+      "bytes": 48794,
+      "rows": null
+    },
+    {
+      "path": "hinh_02_forest_5b.png",
+      "sha256": "3edbd5fba7c8a607ba052ba99cfcc9275cc58ebff96ede02851efd8641202991",
+      "bytes": 59284,
+      "rows": null
+    },
+    {
+      "path": "independent_5b.py",
+      "sha256": "56014de054d9e1e037d6106ff9584415239040928c91eccd5abe86456b770b2d",
+      "bytes": 3006,
+      "rows": null
+    },
+    {
+      "path": "independent_dev_checks_5b.csv",
+      "sha256": "0a9348e2ec73290ae67048cbd10895dfe90d11728b7028f6f3dd8c14b089206e",
+      "bytes": 6119403,
+      "rows": 37296
+    },
+    {
+      "path": "independent_dev_result_5b.json",
+      "sha256": "9a9cf50ce0606c97206a47d9e5f0f8f712f8ee1d19c919b9f054504bb72c02c7",
+      "bytes": 186,
+      "rows": null
+    },
+    {
+      "path": "independent_test_checks_5b.csv",
+      "sha256": "6bffa6b8924e49786034e82f7ecc002b87ff594cde05d9a2e0bfe844a9f47448",
+      "bytes": 3434115,
+      "rows": 20685
+    },
+    {
+      "path": "independent_test_result_5b.json",
+      "sha256": "5d46e48d7631f3cf0b34a40d87888f1019e00d76011c2868cf4e767d3bce2df9",
+      "bytes": 185,
+      "rows": null
+    },
+    {
+      "path": "independent_valid_checks_5b.csv",
+      "sha256": "d8983e53fd0b7d679b454497dabb7929d767f5526c48ac8f08970f404ec6177a",
+      "bytes": 3349748,
+      "rows": 20055
+    },
+    {
+      "path": "independent_valid_result_5b.json",
+      "sha256": "269f40ea24efd1491809c5d3a17dad67123ad3b94ec8e313b027de10ea26906a",
+      "bytes": 185,
+      "rows": null
+    },
+    {
+      "path": "ket_qua_tuan_05b.md",
+      "sha256": "6152f2783f784287b02c044c9220a477b213e1d22dd39a0969eac1cb24a07006",
+      "bytes": 15153,
+      "rows": null
+    },
+    {
+      "path": "metrics_dev_5b.csv",
+      "sha256": "554452482ba63eefbf9e62ecc6ee4a8bd1779d0291b9459dbb10415397802e19",
+      "bytes": 2575,
+      "rows": 14
+    },
+    {
+      "path": "metrics_test_5b.csv",
+      "sha256": "b0fd594f7ab458fc94957de0ba8bb9098bf0533dfa1812402a9c4dec40249676",
+      "bytes": 6390,
+      "rows": 35
+    },
+    {
+      "path": "metrics_valid_5b.csv",
+      "sha256": "8f7da94ce90dd6d40d3c3259cd5d1203159b5e94c9d4ff75de02506ea6e5b855",
+      "bytes": 6417,
+      "rows": 35
+    },
+    {
+      "path": "paired_dev_5b.json",
+      "sha256": "339ac6bd05634c886e8ced16eefa1d4b420b9b7a97594332577617c7722846fe",
+      "bytes": 869,
+      "rows": null
+    },
+    {
+      "path": "paired_test_5b.json",
+      "sha256": "df39af82c1b1198c81bebe6f5a44300a2fbb9c632342ab4ddc9ff96742c737ae",
+      "bytes": 3739,
+      "rows": null
+    },
+    {
+      "path": "paired_valid_5b.json",
+      "sha256": "5689f931ddbce2fb15c5ff70e82a74567bcef9bb37c861287304db2fecc2c9a9",
+      "bytes": 3744,
+      "rows": null
+    },
+    {
+      "path": "preflight_5b.py",
+      "sha256": "f7db92c65958bd620af5d278edab5ceae43fc432c48bfd42b36e6d27d626d3ff",
+      "bytes": 3954,
+      "rows": null
+    },
+    {
+      "path": "preflight_log_5b.txt",
+      "sha256": "33eada7cfc1504c8aee4d93b314f21af426660b13121f2f3f6de4cdfb8279c5f",
+      "bytes": 1500,
+      "rows": null
+    },
+    {
+      "path": "reference_legacy_checks_5b.csv",
+      "sha256": "a1ef3324511cf8afb517331f6543d24f2e9b29a34fdc1a07db431da9589a228e",
+      "bytes": 8355,
+      "rows": 51
+    },
+    {
+      "path": "report_5b.py",
+      "sha256": "2f1abfe2a591b82c5ce3b82d0427456e1b897fd44795babb44d273e357b44fad",
+      "bytes": 16261,
+      "rows": null
+    },
+    {
+      "path": "split_reconstruction_5b.json",
+      "sha256": "d598385f1e5ea8050bca6c3638d3effb996bb26e50797dab53b7d46195e79bfe",
+      "bytes": 1499,
+      "rows": null
+    },
+    {
+      "path": "summary_dev_5b.json",
+      "sha256": "8ea76935dfaffa9bc5a4d2435d53a8e4a76b3d9ddf4fc8bc67a72950fd449d1a",
+      "bytes": 445,
+      "rows": null
+    },
+    {
+      "path": "summary_test_5b.json",
+      "sha256": "4f640e33321cfdf9e7e8846b3973518ea8718f2e7d46d222f73596f16b230c0d",
+      "bytes": 444,
+      "rows": null
+    },
+    {
+      "path": "summary_valid_5b.json",
+      "sha256": "9ee05eb05c9f858d1de0f087bd6e58dd05f076652323c9b82626f48ecd39d98e",
+      "bytes": 442,
+      "rows": null
+    },
+    {
+      "path": "test_A_per_query_5b.csv",
+      "sha256": "3f74795d9ac9738a535946e8b5797f8ac504a6325bd020dfd5438ad6bf131641",
+      "bytes": 101022,
+      "rows": 586
+    },
+    {
+      "path": "test_A_top10_5b.csv",
+      "sha256": "95fa744c1e4d9d6a8470131c1b411d62570debbf3ec6e4dc031cad30891f881d",
+      "bytes": 1025429,
+      "rows": 5860
+    },
+    {
+      "path": "test_B_per_query_5b.csv",
+      "sha256": "ae080a0b353043fef7dfa61dbf258b0a17b27fd066c7829dbf62c6eefa2b9c8d",
+      "bytes": 101696,
+      "rows": 586
+    },
+    {
+      "path": "test_B_top10_5b.csv",
+      "sha256": "b42c66a7cc7601b53cdb3aa91ec59427712c31a2ce9bacf8391992701f8d3fdd",
+      "bytes": 1025400,
+      "rows": 5860
+    },
+    {
+      "path": "test_C_per_query_5b.csv",
+      "sha256": "3b6f6ade5d28c093ca9c8090135146576abf83bbcab6f7569cf1869bd6be573b",
+      "bytes": 101613,
+      "rows": 586
+    },
+    {
+      "path": "test_C_top10_5b.csv",
+      "sha256": "3640cbe2da921ff8f03040cadb0781b4791305267d5de38ca866e73075f8a9df",
+      "bytes": 1025447,
+      "rows": 5860
+    },
+    {
+      "path": "test_D_per_query_5b.csv",
+      "sha256": "809fc445c732b1be9d66fc65f9c9a8af66ca72156f350a20f285b3bf2d5a1fd6",
+      "bytes": 101502,
+      "rows": 586
+    },
+    {
+      "path": "test_D_top10_5b.csv",
+      "sha256": "111fd46ae0afacca1432686b53e4cd1d4a819d48fd81812851d60d6026c07819",
+      "bytes": 1025441,
+      "rows": 5860
+    },
+    {
+      "path": "test_F_per_query_5b.csv",
+      "sha256": "361a0bf9834ff3a66be0fced2bd6fc36722946f865613d6a78f7df94136bacda",
+      "bytes": 98798,
+      "rows": 586
+    },
+    {
+      "path": "test_F_top10_5b.csv",
+      "sha256": "05bad7aad831d036e6bdbb7c6fbb01eba6c6980e6cadd045f6215b3658a8aa23",
+      "bytes": 1025428,
+      "rows": 5860
+    },
+    {
+      "path": "test_independent_log_5b.txt",
+      "sha256": "86be641e467fb3ddb1d85137f47835a015aa85830867cf818e972eaf1830c00a",
+      "bytes": 35,
+      "rows": null
+    },
+    {
+      "path": "test_log_5b.txt",
+      "sha256": "95527f57662f943389203bf3d25b367ee19507b654c1e6756dfe8e77d304793d",
+      "bytes": 80,
+      "rows": null
+    },
+    {
+      "path": "test_started_5b.json",
+      "sha256": "9c913fdc09e438ad2f5bf85339adbd8dd81b1bb126578ea6f2b1823580e19680",
+      "bytes": 259,
+      "rows": null
+    },
+    {
+      "path": "valid_A_per_query_5b.csv",
+      "sha256": "0bd56cd644c7468cb70c775f4e16ec8547eac8ff628937cc5241a23bb28e2ed3",
+      "bytes": 98647,
+      "rows": 568
+    },
+    {
+      "path": "valid_A_top10_5b.csv",
+      "sha256": "b7d3b8266450ba9419b756acabde0cd28471e9f44530d056feb75a49e3f8e263",
+      "bytes": 993931,
+      "rows": 5680
+    },
+    {
+      "path": "valid_B_per_query_5b.csv",
+      "sha256": "0aeac487f827fff1bdbbf85e4c55a486b455246f3f77623a4582eb41b3b7def4",
+      "bytes": 98511,
+      "rows": 568
+    },
+    {
+      "path": "valid_B_top10_5b.csv",
+      "sha256": "94a5e776630ace2ae16290171597f93faf68e3eb259f483f982e3312f404e081",
+      "bytes": 993927,
+      "rows": 5680
+    },
+    {
+      "path": "valid_C_per_query_5b.csv",
+      "sha256": "b79a178868f3b11051e297c9ac8a38d1bee111764a148eb775818cc133c8067a",
+      "bytes": 99044,
+      "rows": 568
+    },
+    {
+      "path": "valid_C_top10_5b.csv",
+      "sha256": "db8058b772e945491b6c73ac5451db8ccd18335e56618a9c6bd7ace792b804a1",
+      "bytes": 993969,
+      "rows": 5680
+    },
+    {
+      "path": "valid_D_per_query_5b.csv",
+      "sha256": "f1e3ace9ff6fd82a0bab76ea0f574c697e30caeaf7cd5bfa4536a5d39b6beb15",
+      "bytes": 97955,
+      "rows": 568
+    },
+    {
+      "path": "valid_D_top10_5b.csv",
+      "sha256": "b9efc2f45708f11daaa635b06c96e3c43ebbed95da9f2578d7f40feccc7528af",
+      "bytes": 993983,
+      "rows": 5680
+    },
+    {
+      "path": "valid_F_per_query_5b.csv",
+      "sha256": "d7aa682ba784fcf172db7cb1150e4495d6d01b53bff45342df5c818ed9507fb6",
+      "bytes": 95074,
+      "rows": 568
+    },
+    {
+      "path": "valid_F_top10_5b.csv",
+      "sha256": "0ff4161bd7dfb2f0d47090f9ceae6a654f35ebe12f60145951e23cb69356c90a",
+      "bytes": 993982,
+      "rows": 5680
+    },
+    {
+      "path": "valid_independent_log_5b.txt",
+      "sha256": "722c9f2a5ac0fd3c6851ce4e21ec0c83a5b772e6900d2520537bc867e490fa3d",
+      "bytes": 36,
+      "rows": null
+    },
+    {
+      "path": "valid_log_5b.txt",
+      "sha256": "866da979f85b6358931417b933d79bae496228d1d5fbc291763f60c4eb80fb55",
+      "bytes": 85,
+      "rows": null
+    },
+    {
+      "path": "vectors_C_5b.npy",
+      "sha256": "5e4b0a1f89b6613b599e46952b6c33291baf6e1a78f75a0359f580ad64a31da3",
+      "bytes": 35176576,
+      "rows": null
+    },
+    {
+      "path": "vectors_D_5b.npy",
+      "sha256": "f14a949d8c864d896cb70e4abf63f3604c97712e05b08a534481904085f7eb44",
+      "bytes": 35176576,
+      "rows": null
+    },
+    {
+      "path": "vectors_F_5b.npy",
+      "sha256": "49f95ceafb8c80a29496b7c1fc887c8fbbfdd4a4d9bcfa1d3902aab924a1aa5c",
+      "bytes": 35176576,
+      "rows": null
+    },
+    {
+      "path": "vectors_index_5b.csv",
+      "sha256": "92cb5a9a627eaa1eb6f11f0c953a1d7272a6c33c4e5fceb76620fb5bbc9d393b",
+      "bytes": 487814,
+      "rows": 4294
+    },
+    {
+      "path": "verification_5b.txt",
+      "sha256": "bb8a1d37e94e98929e82066bfef09eab768cc221ab53007d5463db44ffc30e9f",
+      "bytes": 2022,
+      "rows": null
+    }
+  ],
+  "self_reference_exclusions": "manifest excludes own hash and new ZIP; ZIP includes manifest, excludes itself; ZIP hash printed after creation"
+}

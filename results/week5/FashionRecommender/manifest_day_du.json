@@ -1,0 +1,2840 @@
+{
+  "status": "complete_week5",
+  "baseline_chinh": "B2-v1",
+  "semantic_warning": "B2-v1 KHÔNG đúng ngữ nghĩa: giữ 4,9; bỏ 13,15. Retrieval proxy; chưa giải thích nguyên nhân.",
+  "test_caveat": "Rule was specified after seeing week4 test sanity; test confirmation is not independent evidence.",
+  "protocol_sha256": "420b4a8205c81a6f629f3e5a3cc0ba04cee8ce57ae6137c74feb65b1d3c2bf25",
+  "freeze_sha256": "7ad87a68e3c14337ca03267ce4257e50d887f530236314832b6efa67e5540e2e",
+  "user_decision_sha256": "7fa536381e9d72b40eadef0ff3cfb1806f914a10969192c8b29b732f8e738151",
+  "start_utc": "2026-11-03T01:46:20.990872+00:00",
+  "finished_utc": "2026-11-03T01:55:50.851066+00:00",
+  "elapsed_seconds_since_user_decision_recorded": 569.860194,
+  "test_stage_seconds": 2.6235786249890225,
+  "environment": {
+    "python": "3.11.9",
+    "numpy": "2.2.1",
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "Pillow": "12.2.0"
+  },
+  "device": "cpu",
+  "numeric_threads": 4,
+  "seed": 42,
+  "bootstrap_replicates": 10000,
+  "ci": "95% percentile",
+  "batch_size_extraction_prior_run": 8,
+  "no_new_extraction": true,
+  "ram": "chưa kiểm tra được",
+  "official_test_runs": 1,
+  "independent_checks": {
+    "checks": 37210,
+    "test_checks": 18893,
+    "mismatches": 0,
+    "tolerance": 1e-12,
+    "status": "PASS"
+  },
+  "old_week1_4_unchanged": 242,
+  "prior_week5_unchanged": 73,
+  "inputs": [
+    {
+      "path": "results/week1/bao_cao_kiem_tra_du_lieu.json",
+      "bytes": 605,
+      "sha256": "432c53368fd527e72c7b540fd99f86ad9eb29c9572a874a3238860bbbfa63387",
+      "rows": null
+    },
+    {
+      "path": "results/week1/.DS_Store",
+      "bytes": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "rows": null
+    },
+    {
+      "path": "results/week1/ke_hoach_do_an.xlsx",
+      "bytes": 66155,
+      "sha256": "693568f5d2a80d8f570f33f3f607948fc4f3a2f0008620fe4f20b74c8d29f074",
+      "rows": null
+    },
+    {
+      "path": "results/week1/bao_cao_tuan_01.docx",
+      "bytes": 41216,
+      "sha256": "ad7720b93e8534a38ac117dd687f26557bba1f4710d16556adc5fa245568afb4",
+      "rows": null
+    },
+    {
+      "path": "results/week2/.DS_Store",
+      "bytes": 6148,
+      "sha256": "4dcaa3cf6050a5370d88ed84d71a7ffe7f3804d52f5343daa6dc5f39c10484b3",
+      "rows": null
+    },
+    {
+      "path": "results/week2/bao_cao_tuan_02.docx",
+      "bytes": 896210,
+      "sha256": "ffe085e071edf51804bea4366cecbca0b91a150a05e41f8dff0016790d0919a3",
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/thiet_ke_he_thong_nghien_cuu.md",
+      "bytes": 6230,
+      "sha256": "bf85972f0bce4792b8ae39c8387fc4d8a0753d4fa185bb066485c3b0cc1e79ef",
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/huong_dan_theo_doi_du_lieu.md",
+      "bytes": 2548,
+      "sha256": "e99ecb2ba1ed606b1617b1f2ab40fbe5521349f58db57c4345b1dc84f42c0393",
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/thiet_ke_theo_doi_du_lieu.md",
+      "bytes": 7647,
+      "sha256": "90359ec9351f19bc75e98b7a8870a8b95fda44d470264a5e081fbd38f8983635",
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/design/system_architecture.svg",
+      "bytes": 9318,
+      "sha256": "a4353f6234db19a3299d341f0b16dec15ea7c7a091b412487fabaf8f244f4b09",
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/design/system_architecture.png",
+      "bytes": 255495,
+      "sha256": "bf8b7c2085c771d324597a1445d24a227f400cbff0471d01af995788bcd6b78e",
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/design/data_tracking_erd.svg",
+      "bytes": 9466,
+      "sha256": "0bb9db3e1f4f9500da084ac5b1827c85f4da32b99f9b242c569877b60fd5f53e",
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/design/data_tracking_erd.png",
+      "bytes": 245045,
+      "sha256": "497f06244936d8ec751a1d68df11c591de58d4531db47ece4fe5119818763cf6",
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/valid.csv",
+      "bytes": 211140,
+      "sha256": "7c36ed195169b5a4706ae1862bbd55c7aedbc3658a1064d9f36e80926cec5341",
+      "rows": 2165
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_train.csv",
+      "bytes": 355458,
+      "sha256": "5d76f657337f022b2e1af2a58bd802eff1952cd7e269d38b174d480e502d0464",
+      "rows": 6239
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/test.csv",
+      "bytes": 207533,
+      "sha256": "c7fe31afd76eedbf354f307225479b0bc6be86bda1df2c5a3800293bd8b9381d",
+      "rows": 2129
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/README.md",
+      "bytes": 961,
+      "sha256": "0092255d518b7b20276b2b424d2101b25af88e1089c25b81cfb705e47a394614",
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_valid.csv",
+      "bytes": 84051,
+      "sha256": "d0ad71540e43c38bd56eeab7a9c5858da2a1eb8d04760fbd342d9f49eb812d15",
+      "rows": 1474
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/validation_report.json",
+      "bytes": 4445,
+      "sha256": "795f2ca63babf6a80bc15bc3746bca985439e38d9ba587ff0ab5ea22fe1aa54a",
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/train.csv",
+      "bytes": 922180,
+      "sha256": "9b33bb5f5c30d3f7913b699d2628c7a0cb541d20a2f49876dd44f7030ddccdd8",
+      "rows": 9458
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/inventory.csv",
+      "bytes": 1421022,
+      "sha256": "e844347c4264c69de04de0cfa3636e10aeab790669cc84728b80e3d29ca97e0a",
+      "rows": 13752
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_test.csv",
+      "bytes": 81927,
+      "sha256": "cecbc3c726b6c09a25e78933c4c86268f4cd869609ef4d356ed319b1f4335fe7",
+      "rows": 1439
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/tracking.sqlite3",
+      "bytes": 5844992,
+      "sha256": "4fbf317b0c4eaf262c4427073587233f5f0d2a566ad9e75c3a40a12413bb9e28",
+      "rows": null
+    },
+    {
+      "path": "results/week3/.DS_Store",
+      "bytes": 10244,
+      "sha256": "7a477742f8822e8c9d700bf74f382c0dff87b3f2c43c463321c0040ed910a033",
+      "rows": null
+    },
+    {
+      "path": "results/week3/danh_gia_outfit_transformer/thu_nghiem_64px/ket_qua.txt",
+      "bytes": 143,
+      "sha256": "daa725607080130a68f7aca366465352645d26093187c2dd73fdf0c6123a94b0",
+      "rows": null
+    },
+    {
+      "path": "results/week3/danh_gia_outfit_transformer/thu_nghiem_112px/ket_qua.txt",
+      "bytes": 143,
+      "sha256": "4b59e59fc9a9c41233a0072f7c1b5305b522194c17defd8750ad64b6c0eef94e",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_kiem_tra_du_lieu.json",
+      "bytes": 925,
+      "sha256": "a8ec98796c128f2ffe734a9fa0b4090f6d150b9c87d0f07978cd7caf7071eec4",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/make_report_figures.py",
+      "bytes": 4919,
+      "sha256": "6c1bff298bf1b7f096b6e02121aa2fd9dbcfedf05a2b54cf13abd2240d78e6a8",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/xep_hang_test_top5.csv",
+      "bytes": 186616,
+      "sha256": "84e009d1fd7be878491f854f543dc10684909b9090cad685139020d24085966a",
+      "rows": 2930
+    },
+    {
+      "path": "results/week3/FashionRecommender/ket_qua_test_nhieu_goc_nhin.json",
+      "bytes": 1684,
+      "sha256": "3fb0196acec3acb394fa9b0bec286fd3a54540c1790ca89ce5cbeada5a1fe6c3",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.md",
+      "bytes": 7490,
+      "sha256": "f9503c855dcabcee308e9ea9dba2ce08f45be2fff56b5e82bcb7debdedda74b3",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_test_result.docx",
+      "bytes": 1026891,
+      "sha256": "c6d63b9b10e4de8b168b7447da537e9abf556312a80ea9d17dc94a5c206102bd",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.docx",
+      "bytes": 1051813,
+      "sha256": "68b556004b6bb5068d1fa25d9aabee05321c9fba253d9b347fb0bd851338b0ae",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/ket_qua_kiem_thu_postgresql.json",
+      "bytes": 1586,
+      "sha256": "4cb47650d73bf1f0609ec346c1f90c95723bd867426266606d19598dd2462509",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_two_result_layout.docx",
+      "bytes": 1030781,
+      "sha256": "f06a915579cb665f749a12a96fbee460ab5035971043442601525056d2bd5336",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_P_run_result.docx",
+      "bytes": 1030085,
+      "sha256": "c1d182c08e7c3661366e28209ebee52742de9c010f060737645c073250b66bee",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_paper_citation.docx",
+      "bytes": 1020775,
+      "sha256": "00a1bce7de90d9ee788452822fdff73a28958faf65e0ed8a34f21bcf61a9ae62",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/ket_qua_kiem_thu.json",
+      "bytes": 914,
+      "sha256": "4c56fc6e4ca20e3578fa28a126a417441c9b375da970838aa4c0e507417408c1",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/ket_qua_goi_y_top_k.csv",
+      "bytes": 2286,
+      "sha256": "d4cd26da5577067a7d20171259300db710d51b4b35cc13495ee11cbd7355195d",
+      "rows": 50
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_gallery_term.docx",
+      "bytes": 1027073,
+      "sha256": "eadabf16c0581e53d0d30571b07e4d3eb2170d6e4a7d927846fa7b465aa36ab8",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_targeted_fix.docx",
+      "bytes": 1027704,
+      "sha256": "077b3f24c13e46a3386a514bbbd08474de3c37a3604cd7dd26cbaa869e7a90ef",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/generate_bao_cao_tuan_03.py",
+      "bytes": 6306,
+      "sha256": "99f99b88de48cf7bf93f4a8a4892eed82eb09cf8390371635ec50523bec5ec74",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/doi_chieu_cau_hinh_P.json",
+      "bytes": 15814,
+      "sha256": "74db48ca073beb02d34ee2356146b2930c5708654c06b230b0de4c2cf13b78b7",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/bao_cao_tuan_03.before_P_comparison.docx",
+      "bytes": 1030937,
+      "sha256": "e7599999cb77309cc704f3e000e6e480f9cb7aa6347f92987055281113be9080",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/figures/cong_thuc_xep_hang_paper.png",
+      "bytes": 18999,
+      "sha256": "8039f6b991ff4bf54e32d324bad2440e16d484784a56548d8cd8b2d107e45a20",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/figures/hinh_03_luong_api.png",
+      "bytes": 28326,
+      "sha256": "99f3f23d2a6ca7b911cd659de2669240a92a536782b832caa8d8416535fa8437",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/figures/hinh_02_top5_chay_thu.png",
+      "bytes": 499554,
+      "sha256": "cd9afa1c00f1f8bc2ab599e6f5b51c08c3696f098bdc5be8bceac5efdec2d1a9",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/figures/hinh_01_cap_anh_test.png",
+      "bytes": 470925,
+      "sha256": "30842e475fbefd8cfc1411b2ab08ed1993fed0092f2bd27f0e04181418cb0282",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/splits/split_val.json",
+      "bytes": 111673,
+      "sha256": "e6718903f5cb42f2c469a32b8cf69af2304e8c2e9b42e720851f5f1457a8b9e2",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/splits/split_train.json",
+      "bytes": 522028,
+      "sha256": "7ee3454e9193a244a55cc08198fde62708412e40a788fdb82cb92938a8627400",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/splits/split_manifest.json",
+      "bytes": 879,
+      "sha256": "a72455daf539aa96ce926e8c6dda8b51970e383b47ed4aeb5034ef6f128002c6",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/splits/gt_manifest.json",
+      "bytes": 676,
+      "sha256": "6526334e6a16e5378aa326f520d21b479fa16361e1b7c4c12c31d6d3d00f5d97",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/splits/split_test.json",
+      "bytes": 111830,
+      "sha256": "6f02e3700c1ca2d2ceab272da9616c68be77f77fa3fdff3ad2f62843668d4824",
+      "rows": null
+    },
+    {
+      "path": "results/week4/.DS_Store",
+      "bytes": 8196,
+      "sha256": "dbe1997a838861bdaa60c685a9f46b5412f11ab6f681ae490028467515013f2f",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/ket_qua_tuan_04.md",
+      "bytes": 9656,
+      "sha256": "7aa54606095940df9825060f28cbefa6e2529e7f311e4c5ce4c9b3e8e13d888d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/.DS_Store",
+      "bytes": 8196,
+      "sha256": "2ca7ec3d9441870b7e5dd1ef12022c1b07938c9cdafab7e4045d0814f204b3ac",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/run_week4.py",
+      "bytes": 13252,
+      "sha256": "65ae9ebdfa62e7eee082ad1d043cb16d9b2a08eacbfb2308414210fea7868b51",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/delivery_manifest.json",
+      "bytes": 1056,
+      "sha256": "713a59953b55d08f2c71a6275cbd8e496f9b99f5b9b794b8bc5b143ca7c32a05",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/verify_week4.py",
+      "bytes": 2761,
+      "sha256": "2c02f1273de8be5438063d2a3ed0da6b27a56aed6bf954907a2543b9ee06c794",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/verification.txt",
+      "bytes": 253,
+      "sha256": "7da76fb5d2eb0c5f724ccc6fef1b28cee3b4939b27b17a2605e297f143f79ae5",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/make_report.py",
+      "bytes": 10377,
+      "sha256": "155bf932480f8decd7537f9e6c36cd3bc86a58a79241d088d2ab5bf8ae950a2b",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_toan_bo_repository.md",
+      "bytes": 30021,
+      "sha256": "e22b9f30ba64894f2715b1b69c4f1e7f3afd80947fdf35e165a725b7028f8f9d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/metadata_recovery_assessment.md",
+      "bytes": 17166,
+      "sha256": "8a7580210d97b79dc3b1b10c5bd7700b26cd08ffeb83ffccb371c11267e7b264",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/verification_report.md",
+      "bytes": 28540,
+      "sha256": "cce9ed744ea4ea35fa595a2c8bac56cda2a54e797dbdeed472e8d9d90ffd0130",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts/popularity.csv",
+      "bytes": 85461,
+      "sha256": "950ec2fbbcdcdd4889e58e3aa9a1de5b059e4fdba53ffd3668da1ec5c3b2ce2a",
+      "rows": 4600
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts/popularity_lineage.json",
+      "bytes": 2216,
+      "sha256": "0c8352c07de107229a0d8b8cd87fa435af52ac3be256cf3138a43cf65cc168fd",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/popularity.csv",
+      "bytes": 85461,
+      "sha256": "950ec2fbbcdcdd4889e58e3aa9a1de5b059e4fdba53ffd3668da1ec5c3b2ce2a",
+      "rows": 4600
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/visual_top5_1.png",
+      "bytes": 221845,
+      "sha256": "973672494b83009615a42789070656237a6566f2c62c368339b830ebf486ed1c",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/sanity_checks.json",
+      "bytes": 560,
+      "sha256": "840c4770df468bfb048015fcbca5dd1f057b30a58d2d099ef4fb95723c64bc15",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/fixed_all.npy",
+      "bytes": 112656512,
+      "sha256": "aff4acc8df6036e266e4f5a2addad7cb9ed498ce8d602528da50cad3eb286f69",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/visual_top5_2.png",
+      "bytes": 164215,
+      "sha256": "df73aedb8a303f60a691a2d1295aa0da38e854b46e3ded8393e7f4a83716aaa0",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/visual_top5_3.png",
+      "bytes": 253581,
+      "sha256": "ac7df9513d48dac4facdc6f53d4726eb431972b05a098360fa341cf21a406acb",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/old_test.npy",
+      "bytes": 17440896,
+      "sha256": "b35e3fdc0329d6479878a5f48e4a7e1f188eda715ab0fe69c8adf30699c8c2c1",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/fixed_all_index.csv",
+      "bytes": 1492435,
+      "sha256": "227d2f717264d66bfad308588dd036ac942a6754f21b628fe9396dadbd84e38d",
+      "rows": 13752
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/old_test_index.csv",
+      "bytes": 217079,
+      "sha256": "3363804fd03d34c224012a6bf0e5f6cd97cdb1dc78e5ed1bf6d54ea296937670",
+      "rows": 2129
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/crop_before_after.png",
+      "bytes": 76999,
+      "sha256": "3a475ef1692b53b4472dfc6428ae397ed8b53516b8eb1927430ced3d766bb5a3",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/visual_before_top10.csv",
+      "bytes": 404268,
+      "sha256": "d78e3d39eb112c072897cf57b8a678a492f180e91aed6859c621afb39b7d07cf",
+      "rows": 5860
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/visual_only_top10.csv",
+      "bytes": 404255,
+      "sha256": "48e9a83a2830766f660dc4a39c3a0e0cad785cfa45f4ea19245556b4ed7c5d39",
+      "rows": 5860
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/manifest.json",
+      "bytes": 8487,
+      "sha256": "a86be994efd1f2c3b359298995548bbc94b5ef7d8b7f14a348ab8b63f3fe8891",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/popularity_lineage.json",
+      "bytes": 2216,
+      "sha256": "0c8352c07de107229a0d8b8cd87fa435af52ac3be256cf3138a43cf65cc168fd",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/crop_audit.csv",
+      "bytes": 633168,
+      "sha256": "40f3e1e099a77de822f89972fdeff11f40f378123ec175dd17e1d6541d03d712",
+      "rows": 15881
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/crop_checks.json",
+      "bytes": 12056,
+      "sha256": "fcee15f49e2647ec2e02cd4b9afdd2a58c5145dac961f805aa55a63918e3bf78",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/popularity_only_top10.csv",
+      "bytes": 319426,
+      "sha256": "aa3576d504217cf463c3e41cdcc289167c856f7564ba8bf1166b9c2790ca7f49",
+      "rows": 5860
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/run_ablation.py",
+      "bytes": 20827,
+      "sha256": "fa61957eace7c712a857fb126602734e130a5fbd9841dad0cf786d8789a1a28b",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/make_audit_manifest.py",
+      "bytes": 1682,
+      "sha256": "065dd200180b2b686d2d77c0a28c3c309d1212271a6de81a7b190d36515b6cfa",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/audit_manifest.json",
+      "bytes": 4497,
+      "sha256": "9aa90f185dda127d835893343e620706467e7188e3fa4c68b44e9e2147adad19",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/source_evidence.json",
+      "bytes": 5417,
+      "sha256": "388fa2ebfc4dc072d4dd3f0fe8b90c7bc41b2c4ef81fee85b924f10b2a154248",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/verify_ablation.py",
+      "bytes": 4620,
+      "sha256": "b39f537bf8b0dd732ddc6f8832af362898349255ecceff963d1b938a44d3d74d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/rgb_to_id.csv",
+      "bytes": 1220,
+      "sha256": "01526cbe4f2ff20e88028a8b5ddaaee5ce0f53be4f1298c4d806c3ff821a9eb6",
+      "rows": 16
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/analyze_crop_geometry.py",
+      "bytes": 4516,
+      "sha256": "01acf4b98104e19b703a4e127d35b5e2e6926ae3b909ae28eccc794bb051c4f7",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/ablation_config_semantics.csv",
+      "bytes": 669,
+      "sha256": "56f313e246d4864f6f9a29aab2116c7d397403a81f50ae91a0716dc0ffb4ddc0",
+      "rows": 5
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/reuse_checks.json",
+      "bytes": 321,
+      "sha256": "6efcc4494192fb89a4f2396d0f2e09e79bf23dd92e81c407a131993eaa319467",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/ablation_per_query.csv",
+      "bytes": 180982,
+      "sha256": "7268b5d57a7a2fbf3e2d88f44676fa39e6cc968f9335d5305235db971d572467",
+      "rows": 2930
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/crop_geometry.csv",
+      "bytes": 1081406,
+      "sha256": "443a7d2c9d323002820d33d43b21d4bc9b7550bb7d0bd1010c9cc78d26b919ab",
+      "rows": 10645
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/test_embeddings_C.npy",
+      "bytes": 17440896,
+      "sha256": "71187683ed64c07c3aeec02e61083ddc07917460fdfb45b582a616b9d7bbf35f",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/test_embeddings_B.npy",
+      "bytes": 17440896,
+      "sha256": "76cff96d7d2c35b99dbef704f963dad75ffc5018355dc199283f98fe245496b4",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/positive_pair_scores.csv",
+      "bytes": 553768,
+      "sha256": "6f669230c7c3b4601a551f7e916136a52d4b0cbb4f76f832832b8035f1cf81c4",
+      "rows": 7195
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/manifest.json",
+      "bytes": 7233,
+      "sha256": "38802200158b49067469871ab284dc416bc0bc5040bd4ccfebd086e0648089b4",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/ablation_groups.csv",
+      "bytes": 1702,
+      "sha256": "456f6d1c6c6f65c09ba2cd5b63957e4fd8c6daead8fa6792abc011f5b0263734",
+      "rows": 15
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/crop_geometry_summary.csv",
+      "bytes": 2166,
+      "sha256": "bfdc43fe7e3216f83fba04ed2e38ccdbff6bc3d4c57a4a4fd7ef50dfc1e82cdb",
+      "rows": 15
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/test_embeddings_D.npy",
+      "bytes": 17440896,
+      "sha256": "5fa8dd28df9e99334165adf2032eb2239160675bb48bf493e42f69debfb715cc",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/verification.json",
+      "bytes": 7139,
+      "sha256": "f4deb7244ede1e1564aa3e02668f7d08fc9a06297f55078a0b64c851b8d43e3a",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/ablation_top10.csv",
+      "bytes": 2079656,
+      "sha256": "d0137ebe6068182b0509086ed58e1cf34dac267c2c84a9f98f8194d78e46a627",
+      "rows": 29300
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/crop_audit.csv",
+      "bytes": 471421,
+      "sha256": "9855abd720b3776d332494dc25c6c9e1894c5ec95395c17b0bdf2bb6c53fce53",
+      "rows": 10645
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/artifacts/ablation_summary.csv",
+      "bytes": 1191,
+      "sha256": "bc0d15015070a61aafff6d6be1e89b578e9b90b0ff9da910cd40286e6cc62a5f",
+      "rows": 5
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/__pycache__/run_ablation.cpython-311.pyc",
+      "bytes": 36259,
+      "sha256": "b6e7a868807657b7b047f7099d1c85fadb99bc22109eaeab76b28e068818507c",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/__pycache__/verify_ablation.cpython-311.pyc",
+      "bytes": 10348,
+      "sha256": "d1c3a2e0673dfaa6f0f95ddee542863f45fe61c1fec6182c87a601a25d6ecd07",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/__pycache__/make_audit_manifest.cpython-311.pyc",
+      "bytes": 4520,
+      "sha256": "78fc2fa0894def2bb71409f22ad9adf5a21b7402ec9868ae9b23e7aaee3153ed",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/audit_verification/__pycache__/analyze_crop_geometry.cpython-311.pyc",
+      "bytes": 9192,
+      "sha256": "7b2e0a273cc2a130af1eebb03e1e848f5cf59ec01b49c4347e5f6493515bac9d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/__pycache__/run_week4.cpython-311.pyc",
+      "bytes": 42381,
+      "sha256": "7ec054e8dadabd671d6fe22c8e27085592b11b6226a309dc27eeadd225160a0c",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/top1_chuyen_trang_thai_v1_v2.csv",
+      "bytes": 28202,
+      "sha256": "6225cd99a69b3817c8afdae87e6282bbb8c34d361aa0abb45cfe93bd226cfbfd",
+      "rows": 586
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/.DS_Store",
+      "bytes": 8196,
+      "sha256": "43beb44d2debe052f1f3cf316ecbd1cfb897b100f81cf44b697fc3d61a98637e",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/build_mapping_evidence.py",
+      "bytes": 5216,
+      "sha256": "37f9c230649667bbed20dcd32524f196f803f5b56a6bb7370ed94d0906defb8a",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/run_v2.py",
+      "bytes": 11909,
+      "sha256": "9ef13255558c25f3e2be27d0f773dca4915db461c2609f4f0b31423642b7dd6d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/package_v2.py",
+      "bytes": 4023,
+      "sha256": "daed0e9de703b336d4b94e41ef3ab6a41ff4ef51402c91b2fc35f551cc48203d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/manifest_ban_giao_v2.json",
+      "bytes": 23685,
+      "sha256": "e730395a69c9a8d294f05290a4ac30ba72cdb78f4dc88aeca5489be47d0f3ec6",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/package_receipt.json",
+      "bytes": 411,
+      "sha256": "1030ae049427018c60ac3b8dd6ba685c7973b0e7ee566bf2402edf1b3649cb5d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/hash_cu_sau.json",
+      "bytes": 49605,
+      "sha256": "e3e4247d8942b7eebf63f827a6908f136d0dad3d8cdb0551562ce00fa0b32131",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/execution_attempts.json",
+      "bytes": 399,
+      "sha256": "08a46a19fa08b627e46cc46aee5bc84b34229e02e5ca19ee4e74caa0329ef0eb",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/ket_qua_tuan_04_v2.md",
+      "bytes": 11314,
+      "sha256": "25c3a6b22673e07ce7a0538e06e798e5369cf9f4a2a2b99f3b6657d27b6f883f",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/nguon_mapping.md",
+      "bytes": 3132,
+      "sha256": "e21cc76480f0d3065655b8c32333ee67dbc5e73e10c6155ce95b7ac547c0c27a",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/verify_and_report.py",
+      "bytes": 24627,
+      "sha256": "5dabee476b123b47c02e700ce63b938ed00f74504a9d05558ffcd8d5ce3c0aee",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/tuan4_v2_bao_cao_goi.zip",
+      "bytes": 45762966,
+      "sha256": "d4534900a414e5a34d29e35ce355a65f80e56c4fe6ec117ef68b78446e45d3a6",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/file_npy_bo_qua.txt",
+      "bytes": 334,
+      "sha256": "5409283731827dd2d2f6e0ab015712958d2223f7ced453e68c05c309b9ef5b7e",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/common.py",
+      "bytes": 2286,
+      "sha256": "efcc2bae6975365eab63ca52bb0741f6b78f9a7ff7d9ed93cdc076365151b99c",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/muc_luc_goi.md",
+      "bytes": 14985,
+      "sha256": "01bf55254b24f176a8f184c3b5ee7bf7b3c74334959288040fdc2462dfc7248d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/record_mapping_review.py",
+      "bytes": 8347,
+      "sha256": "fab373daf712835d5e478aea634a3eee6ad8346f9c4c25945bef4e1b9099fb7a",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/doi_chieu_so_lieu.csv",
+      "bytes": 6430,
+      "sha256": "327343c93563268e4d6dd6985a32508f65c23b9d14f839714e43253da1dc89d2",
+      "rows": 102
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/make_figures_v2.py",
+      "bytes": 7612,
+      "sha256": "944a1edfdeb683969d99b84744237009e35670c9f66b66ddc7b189a72c637016",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/danh_sach_thay_doi_so_voi_v1.md",
+      "bytes": 1408,
+      "sha256": "70b2ab76a1009968ea2bf175f5a4776f1d113ceef2e6e649e8c45bf9a7fb7360",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/verification_v2.txt",
+      "bytes": 480,
+      "sha256": "4ae3fc8f96cfbd70d927c0a3e28ee02c5f2ba5c5047309829929178f1f818f16",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/verified_values.json",
+      "bytes": 3214,
+      "sha256": "7ac0d74ccd0195ac90ced8b6a128ff117ef08a1733aabd77243c495eb7dc1276",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/hash_cu_truoc.json",
+      "bytes": 49605,
+      "sha256": "e3e4247d8942b7eebf63f827a6908f136d0dad3d8cdb0551562ce00fa0b32131",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_08.png",
+      "bytes": 1786305,
+      "sha256": "a9fa5a2eb455dd1632cce107e6faea1b776286c09790d3b5986ee7c85d0e83a7",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_09.png",
+      "bytes": 1537421,
+      "sha256": "72b3dae8f20897d403ab1f580403d442dd6c999b9a4e86f42da9e2da78ac9936",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/nhan_thong_ke.csv",
+      "bytes": 6390,
+      "sha256": "6819ed6a5c83bf3fef9e813f3391c65e0f5f057c40126fdb8a5b24fc57d8b188",
+      "rows": 64
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/nhan_atlas.md",
+      "bytes": 7498,
+      "sha256": "a9bc384da3ff195287af98222df24b53820c2dc6243be8926f3458adf87bab9f",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/evidence_manifest.json",
+      "bytes": 5601,
+      "sha256": "60f12f3304b534344b165e18b5a61275d887087e49f9c378c214a519a2da172e",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/on_dinh_giua_split.csv",
+      "bytes": 1126,
+      "sha256": "5a028c861caa5ccc8ec610d2d5b3397f443b0da2edc9efe1b302b05942bb1aac",
+      "rows": 16
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_09.png",
+      "bytes": 1025045,
+      "sha256": "1e77c014fbdb97dacd19e738f159ad280aa1f4a61b2adc050a490e882c3636a1",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_08.png",
+      "bytes": 1016872,
+      "sha256": "4a79bd948fa579babbe500310e235ac911c458bb927921bdc2893a86ade97af3",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_11.png",
+      "bytes": 527652,
+      "sha256": "aa1f6b44e56301a269e2598e5c82d3679bc6ca0849cac691be3b2f2f85769ef9",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_04.png",
+      "bytes": 922679,
+      "sha256": "f6e867ed4f1fbe157cda75d02dc9286c8b737defe0dcabcdc2bcf46e723fd8ee",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_06.png",
+      "bytes": 767230,
+      "sha256": "3983ec70fccb230d2aba52e5d7cd7101b8020aff4b7538cb0b72a4892b1a7d04",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_12.png",
+      "bytes": 460113,
+      "sha256": "557cbab24a9c6c718c10d9eec8495fdc83a6705d91d42547e565337671e0b8dd",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_13.png",
+      "bytes": 598567,
+      "sha256": "7b8fb445093707c091f2b9bf58f7e88b09d6c10328863d803ee7709f87fc7220",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_07.png",
+      "bytes": 700785,
+      "sha256": "178b380b166d306c55cb95a3371e09db4c2c32cc061b319b35036623f4e4dfdb",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/visual_review_log.json",
+      "bytes": 6347,
+      "sha256": "03d2e323996776649b06fd8cd0b91721631c4fa82978f06afbd0acfd59e51038",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_03.png",
+      "bytes": 422972,
+      "sha256": "ff04b717a4eb8e21cfc346d1405bd03c3c9f39af4e18eb050ad1b1b1727a186a",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_tong_quan.png",
+      "bytes": 1262004,
+      "sha256": "b2410db0a08f9e10cbdc77b3fca87aad754efe4c61bfd54cba1b2454642e5a7e",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_14.png",
+      "bytes": 856852,
+      "sha256": "020d8d692653fb0f646baef4200ce64623b20a9e2d6b13e7440979c87a3e8454",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/bo_sung_nhan_15.png",
+      "bytes": 459513,
+      "sha256": "4894a952d18ce8f5c1830a4dd533cf30fcd662af53d61804bc2ddc54ef038d01",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/decision.json",
+      "bytes": 671,
+      "sha256": "aa57df98669d18481b07c6c2df2a687c8870e4bb749a819c0cb358ac3ef7b1f6",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/mapping_de_xuat.csv",
+      "bytes": 4516,
+      "sha256": "f64ceab7cc1ba2dc73ddb3aa54781431a5453077d8d28f84a94d3721e725d0fc",
+      "rows": 16
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_02.png",
+      "bytes": 1582272,
+      "sha256": "67b0e8d2f251e3a53981dfdb5dd82571603d12ebc4b6b0016b42c115db39661b",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_03.png",
+      "bytes": 1319245,
+      "sha256": "f083aa31263979a5005d43ca975efa91e5650a26e5acb88a9349e78464380845",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_01.png",
+      "bytes": 1657540,
+      "sha256": "3ced23eb477ac7ee756a478dc9a5f23f3cc24d9bf96516d6ed2800c7e2a8edd2",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_15.png",
+      "bytes": 1236541,
+      "sha256": "ee35364b177da72839b363025c65809e78dea837229a528c37e68706e74c4dfe",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_14.png",
+      "bytes": 1601903,
+      "sha256": "0b637b9a04583bf4bddd40ec13c7c9fe9d69cd8073e7725204cb2b1a4ea6af1d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_00.png",
+      "bytes": 1827761,
+      "sha256": "eaadecf522a8387287ee8c859a255d2eb497d338fa6b6468faa13eae6a809563",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/thong_ke_tung_anh.csv",
+      "bytes": 8853885,
+      "sha256": "ba5117ed2525786f1fa49b34e4eaffa3524e2de311f7874adc33fc23676fe74c",
+      "rows": 94408
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_04.png",
+      "bytes": 1524755,
+      "sha256": "ac3853dca7c02f4992cd3dc2a96cd8bf08bd5ee45ef9da7c94e1811c02ccca31",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_10.png",
+      "bytes": 1461632,
+      "sha256": "792acd58601e56568874c30d4e2965a2d74571bbabb80bc45391898ef94ede61",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_11.png",
+      "bytes": 1348224,
+      "sha256": "eb5efe9714d92a1d7c5b0067e8d6254d20f78cf1ac311b445d6d55ca6795cbbb",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_05.png",
+      "bytes": 1668938,
+      "sha256": "b8d3ea1d8986813bc59b2333bdc76baa50f6cd195a48c55bcddc4d4816e27170",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/archive_inspection.json",
+      "bytes": 134,
+      "sha256": "03264d4210f876fa7e2677a0ec217d3abda38d8be02e32550b28cfed66185867",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/dong_xuat_hien.csv",
+      "bytes": 6994,
+      "sha256": "ca179106ec418fa672d12ce5e9a4d417e339c090690297e385753621f4f955fb",
+      "rows": 256
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_13.png",
+      "bytes": 1538760,
+      "sha256": "d8319fad0878653c60a0f0f8dd711814af02f9e5b54849874179e90819b71c63",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_07.png",
+      "bytes": 1469671,
+      "sha256": "aa39eb91e0b0d4b3db5d93f1dca7cc7da0e45d4014815bb49ccc949c9b55a23c",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_06.png",
+      "bytes": 1340146,
+      "sha256": "5dd7e59ce97befb0144305899aae665cbfa7b4ad339cf6a91eafcbc853dd9110",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_nhan_12.png",
+      "bytes": 1476128,
+      "sha256": "d6016769dcff31511e066eafd85ba0ce214e72baa8d948bdedf468807560fb2d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/atlas_samples.csv",
+      "bytes": 21111,
+      "sha256": "277a029057e68b50cc29ba818c92cb0a2ebe9dd3c3fbfe7cf10908579f6af4ac",
+      "rows": 516
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/references/xac_nhan.md",
+      "bytes": 12595,
+      "sha256": "718a63808fdabdc6d54e53ef2659b5981c21c9d1fa1f0cc9b8de41a2bee147c6",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/references/ket_qua_tuan_04.md",
+      "bytes": 9656,
+      "sha256": "7aa54606095940df9825060f28cbefa6e2529e7f311e4c5ce4c9b3e8e13d888d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/mo_ta_hinh.md",
+      "bytes": 1454,
+      "sha256": "023abda4eb64abfc0422fac96ab1f5059d36eeb8e6033462bee942bbbf71779a",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/hinh_03_top5_v1_v2.png",
+      "bytes": 682058,
+      "sha256": "30d22c3ee8eb35fcd25738596aa8f9dfcf08936878d2d8f88bd1ea59937f1f8f",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/hinh_06_anh_den_v2.png",
+      "bytes": 672837,
+      "sha256": "9bdc15622d8bd944ebcbdf16a8ccaf5bfe7182eadb5f9f0790a13e70c1b32586",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/hinh_04_so_do_pipeline.png",
+      "bytes": 56343,
+      "sha256": "ab771bb7a27ebaca33dfed7dfe6f9f47e65b790a38ef75875119cc73f5ad209d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/hinh_05_so_sanh_sanity.png",
+      "bytes": 54361,
+      "sha256": "58db7444708253fdf979b5f9d612e054d746b757e3b60f3e642725052f63f249",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/selections.json",
+      "bytes": 547,
+      "sha256": "cceeaf03ab67190fe1ad6d651200ab5f0ae2169ac0bcba5a6a37fe2d9d6b390a",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/hinh_01_atlas_nhan.png",
+      "bytes": 1020847,
+      "sha256": "b092d3f5718e1036732cc1ba526ad143203c996c471c5ad3d08d5eef246cd316",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/figures/hinh_02_crop_v1_v2.png",
+      "bytes": 689046,
+      "sha256": "a949774f463ce0941f05923c02519b019006e7035cfe86ee3bd411984344d104",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/popularity.csv",
+      "bytes": 85461,
+      "sha256": "950ec2fbbcdcdd4889e58e3aa9a1de5b059e4fdba53ffd3668da1ec5c3b2ce2a",
+      "rows": 4600
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/bbox_extremes.csv",
+      "bytes": 5305,
+      "sha256": "c15c0e52939ea48c2b9bd71c28450904e1903f965debd06035ccb08293fd6ff4",
+      "rows": 40
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/transition_counts.json",
+      "bytes": 642,
+      "sha256": "f0be0d332d6041c0218b17470653e2c696d1cef6438c691a10aded44d53f676c",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/replay_1.npy",
+      "bytes": 4194432,
+      "sha256": "955dd3a9eb409711f1ebe11d2e343ed5533cca2dba983a3ba34d77232957b2b4",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/replay_2.npy",
+      "bytes": 4194432,
+      "sha256": "955dd3a9eb409711f1ebe11d2e343ed5533cca2dba983a3ba34d77232957b2b4",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/black_test.csv",
+      "bytes": 179,
+      "sha256": "7acec7fad1d6cc20be8941b59128c942b6562567a67a1861d435cd76bd9b5341",
+      "rows": 4
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/sanity_checks_v2.json",
+      "bytes": 458,
+      "sha256": "5c18091f638587f12ed8b4e0d6174911bf6cf786c627e208a03765921a65b84a",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/special_crop_v2.png",
+      "bytes": 435664,
+      "sha256": "d0bfce9d61959e1d575e7d203d73eeb84f3f9531f74d8ae6ea6ec8430b82c9de",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/crop_checks_v2.json",
+      "bytes": 4649,
+      "sha256": "4eef465acb3363b42f4a4350b3a5dcd1ae0ab453905081b81d81911ee2fa9e0a",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/crop_audit_v2.csv",
+      "bytes": 2295112,
+      "sha256": "377c711e2c958535821d41acfa444fc4271e011a315141fb9b25ad15c7cdc45a",
+      "rows": 13752
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/fixed_all_v2.npy",
+      "bytes": 112656512,
+      "sha256": "9e5f2317025c050605b0820312d6034c4685a54ee3b327f5901a86e5ccf71a7a",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/manifest_v2.json",
+      "bytes": 9868,
+      "sha256": "5432717737263300cea0b7619cb8cb64aead19e2ac3b4d4cc064afe0e9cd1314",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/popularity_reference.json",
+      "bytes": 825,
+      "sha256": "c92f64c94ef0edefa0aa8c98927250a3e3c9126ed587734bd8d902431b99b403",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/popularity_lineage.json",
+      "bytes": 2216,
+      "sha256": "0c8352c07de107229a0d8b8cd87fa435af52ac3be256cf3138a43cf65cc168fd",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/tie_diagnostics.json",
+      "bytes": 649,
+      "sha256": "925f1846ed80296c0a8ef1b5858fe8a197bcdf8aeacd6dfa26322d7060bd948a",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/fixed_all_v2_index.csv",
+      "bytes": 1492435,
+      "sha256": "227d2f717264d66bfad308588dd036ac942a6754f21b628fe9396dadbd84e38d",
+      "rows": 13752
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/visual_only_v2_top10.csv",
+      "bytes": 404226,
+      "sha256": "7fbb0deca7556ab3f1c4e304258b2bc3c7fdf535650cc3138488f3b6c622bea8",
+      "rows": 5860
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/black_gallery_ranks.csv",
+      "bytes": 131339,
+      "sha256": "f3f0cce9fc41b0eca2044b48d5d2518b03a29e886018855831f9e4aaa1d77a40",
+      "rows": 1758
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/reproducibility.json",
+      "bytes": 445,
+      "sha256": "3c331424600a8b99b96d832416910477b17aa0bb0f7b5737b50aa8a48e5989a8",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/replay_index.csv",
+      "bytes": 57515,
+      "sha256": "0ab24c17e63ef207b8b089fd71ec2904d535a4f89290ff4880e779ab20b5e964",
+      "rows": 512
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/artifacts_v2/popularity_only_top10.csv",
+      "bytes": 319426,
+      "sha256": "aa3576d504217cf463c3e41cdcc289167c856f7564ba8bf1166b9c2790ca7f49",
+      "rows": 5860
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/original_files_sha256.json",
+      "bytes": 2758,
+      "sha256": "68f00319b55146f83f5a5b3d5d4b6f8f0d5a79cc0eb9e9549b1315a44ef5ceeb",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/xac_nhan.md",
+      "bytes": 12595,
+      "sha256": "718a63808fdabdc6d54e53ef2659b5981c21c9d1fa1f0cc9b8de41a2bee147c6",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figure_selection.json",
+      "bytes": 505,
+      "sha256": "9a5c9ea110cf29c8ccddbc61297cbe706017912ecad9ac969668566b69ec4f87",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/mask_label_frequency.csv",
+      "bytes": 315,
+      "sha256": "98246edeb036eb4634f647b4886e45289038794ccdb10a0ae0a7503f2ede5c1a",
+      "rows": 16
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/label_inspection.json",
+      "bytes": 614,
+      "sha256": "058b3e00bca68783654d1f460af94ee8bb7ace364a03567e5c4f3967c2c746e3",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/mask_rong_chi_tiet.csv",
+      "bytes": 5135,
+      "sha256": "9fdaf3fabde6bc4598b2cafc7bb628970742da262af22cd58fc2e077833b19e6",
+      "rows": 48
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/write_confirmation.py",
+      "bytes": 16474,
+      "sha256": "8f950c007dbda929a9a72721c7a0e5e1545a960d6857168a9d0d2141bccb73cc",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/package_receipt.json",
+      "bytes": 333,
+      "sha256": "ba7ba6349cfe45a5553e405fd8d8915830543b3c2b5c9182bf7d405bb2a13d1d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/audit_addendum.py",
+      "bytes": 8830,
+      "sha256": "fd66c95be50d04f013b9832de34fc79d6884fbfb13d7a7aa1aa6c1eef3e429cd",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/tuan4_bao_cao_goi.zip",
+      "bytes": 5407877,
+      "sha256": "5381ec7edea25d88b43f5f37f2bf81b057960dd6f3724dc25064bcb70069b4a1",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/mask_image_labels.csv",
+      "bytes": 750409,
+      "sha256": "7f620ad7325f37c1b3ce639fc7134c18bf297d9b7e5199139e4f98bbad423a53",
+      "rows": 13752
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/verification_addendum.txt",
+      "bytes": 290,
+      "sha256": "5adfb6e58cc2d2597bcb0f3b39e8d05917368db9e2c61bad41f70f7354c1e008",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/semantic_observations.json",
+      "bytes": 326,
+      "sha256": "ed7e8f05a63227d038d758805b772ca69b37c8debcb721c918567b7aee91564d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/file_npy_bo_qua.txt",
+      "bytes": 334,
+      "sha256": "0595253a6900c2fa214d257ec948723f96f36e343c4c9e6543f57d577441bec3",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/audit_results.json",
+      "bytes": 1812,
+      "sha256": "b82969407aebb9391811c0242ef00785f303566daa66b17d06dd8f2dff74694f",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/muc_luc_goi.md",
+      "bytes": 10397,
+      "sha256": "63a5c3304647487aae948248576956dfa7b1ed39c39b114f4d9a6027da6e083d",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/top1_query_transitions.csv",
+      "bytes": 19984,
+      "sha256": "56173df1a023413199e9b505070c87bfc86f8b90c38619d144cd8ed094adce47",
+      "rows": 586
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/doi_chieu_so_lieu.csv",
+      "bytes": 1386,
+      "sha256": "03f5c80df3bd18837662d8d703979eee99b4c6b54195becdb9d938bbcd942337",
+      "rows": 18
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/create_figures.py",
+      "bytes": 8763,
+      "sha256": "17c0b99cf8ac111320383546e2288f44f04e9407ba260ac7793d304ad7b3d30f",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/tuan4_bao_cao_goi.zip.sha256",
+      "bytes": 88,
+      "sha256": "5f9ca18e2e0504afd32430804086a485c49721d659e703b57d839ee0388721de",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/inspect_labels.py",
+      "bytes": 1855,
+      "sha256": "fbf45b79098cf0ee5dfe20bea6ec79e21b3859bea0e810dc7af2f7f902231188",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/thu_hang_ung_vien_den.csv",
+      "bytes": 244760,
+      "sha256": "98c36e880436dcf7bc970d6c8a902f28ff2e787422938f3274902e2f7ca149ac",
+      "rows": 3516
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/verify_addendum.py",
+      "bytes": 2135,
+      "sha256": "60574d3c9dffb4c378450091408d58f498d7b53ee1b3a9910d81b687eb354999",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/ket_qua_tuan_04_ban_sua.md",
+      "bytes": 11592,
+      "sha256": "9fe1cfed497b4b3284bfa565d89a787ed7207c8b2a9c172a333dfdc11d7a623e",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/README_addendum.md",
+      "bytes": 1398,
+      "sha256": "43ca3ef9b10078448a23fa027be2be3df31542e7e8f039e383995d698611f6c6",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/label_regions_1687.png",
+      "bytes": 67402,
+      "sha256": "c0be52d38c02b95f5687ae43f05f0d8c257840ec5e01606fc0d983dfb3e12b8a",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/danh_sach_thay_doi.md",
+      "bytes": 1404,
+      "sha256": "3597c752775520684e050e70e96ca205e0949233e4b195fae49706f4a923a110",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/anh_den_test.csv",
+      "bytes": 390,
+      "sha256": "178b2e52a493a2f3506d665bfabbd3f0ba16d3aa11775c5c22c99a705c0fdb8a",
+      "rows": 9
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/package_results.py",
+      "bytes": 5366,
+      "sha256": "b0d86afb2d417641d699f119a862ecad27489a4b3740829b94f1d5cfbc13424b",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/label_regions_all.png",
+      "bytes": 687476,
+      "sha256": "c73dc18269418578df5870d901a80db400696e4ed6a21aa1a7edca2059f3c64f",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/images/1687_011.jpg",
+      "bytes": 245639,
+      "sha256": "644b12aabcbbb7f1295509eee6348f1bfeced0656c4f5aef642f1a0d24f1d4f1",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/images/3445_011.jpg",
+      "bytes": 183238,
+      "sha256": "56c9699dc6e2b983eb425ee0f347476131fc575b301e7983036d2301ab9345cf",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/mo_ta_hinh.md",
+      "bytes": 1861,
+      "sha256": "8383cdead69006f176122a00eed3180fbed7ac6b206a5fa16b2cf87a882e9d36",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/hinh_03_so_do_pipeline.png",
+      "bytes": 58143,
+      "sha256": "99835b6b9e1f7a433de80ea9990da2e6c13399bb83829129c96e4af30c585adc",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/hinh_04_vi_du_popularity_only.png",
+      "bytes": 372479,
+      "sha256": "90a68aaf124675c40e083a325d2e60fbd8cb7347da5a70654070bdc44ab3cb1b",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/hinh_02_top5_visual_only.png",
+      "bytes": 934845,
+      "sha256": "ad8d204a99df95fbace7db981e8214abbb156e1df439d50b5315b9eaeb3c0103",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/hinh_05_anh_den_con_lai.png",
+      "bytes": 606959,
+      "sha256": "0640e534a7f7e935431a932f62f8b7d73b6808f6915967bc36bd4d9cc082c6f7",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/hinh_01_crop_truoc_sau.png",
+      "bytes": 294121,
+      "sha256": "bdeb5ef427bc10b752ef2dd882272b4db12f477027d2772428a8c32ef96e67bf",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/addendum/figures/hinh_06_so_sanh_sanity.png",
+      "bytes": 57692,
+      "sha256": "58b48bc1aea486b4a9ebb4d702e72a88c2d12fafc52ed8edc63a408bdd46ba20",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/legacy_check_valid.json",
+      "bytes": 1002,
+      "sha256": "5702f04bd94a6c3467d29bf5779b9135f778ecbac836331058a06acddac23226",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/metrics.py",
+      "bytes": 544,
+      "sha256": "773e38a27bf36e5b7f8093c5159a77cce8a47ce58c4366cbb5f667d73bbcf183",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/sanity.py",
+      "bytes": 1847,
+      "sha256": "e8b4b02f963f538e258589701075a30bf32837dfd805f153f83bfe82789dcc0d",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/sanity_log.txt",
+      "bytes": 1056,
+      "sha256": "d14b00cce7a1722ab5b27e2126eaa7d8132f7127e8fd6af51f3c6fce0e7187fd",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/tuan5_bao_cao_goi.zip",
+      "bytes": 14168043,
+      "sha256": "0e5dcf6979d2ef6bb5e9e715f83baefa846e93ea1c15490508deed396eb59abe",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_old_references.txt",
+      "bytes": 27308,
+      "sha256": "12d4fa5c38470c87f889c0cf43db003b425088b922eb4418813526e5b49918be",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/test_metrics.py",
+      "bytes": 895,
+      "sha256": "2d9dd9c0909b587bf3b245645e5c0f9ac4830680fdafb9fec2614ad000efa598",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/validation_log.txt",
+      "bytes": 45,
+      "sha256": "a5d976522ac3c200063dc04f610eed278394c72650675a8664d074dc94142bff",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/initialize.py",
+      "bytes": 4404,
+      "sha256": "6be52d884afe50d2bfbc2bd58e2cf5a7e4a745d438213a794d09320235a80482",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/ket_qua_tuan_05.md",
+      "bytes": 8058,
+      "sha256": "897bb0d623496901625c4a343e03f1445cf43e4be8bb47da3504d5f723a52771",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_v2.csv",
+      "bytes": 124354,
+      "sha256": "21cbe65e6356c2178b1d136af3649b474213d9d73a121474af9513783bcf71ac",
+      "rows": 4600
+    },
+    {
+      "path": "results/week5/FashionRecommender/sanity_reproduction.json",
+      "bytes": 1056,
+      "sha256": "d14b00cce7a1722ab5b27e2126eaa7d8132f7127e8fd6af51f3c6fce0e7187fd",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B0_per_query.csv",
+      "bytes": 39061,
+      "sha256": "e6d80528852d6b919ebe55fd42f9a75aabcfb3be8323715aa20ed680e5a4b082",
+      "rows": 568
+    },
+    {
+      "path": "results/week5/FashionRecommender/test_top10_source_checks.json",
+      "bytes": 839,
+      "sha256": "fb67e2fb0103b41c42aad5ed32d2cd3429713a8dee766163a7434d5c9ab477bf",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/baseline_chinh.json",
+      "bytes": 378,
+      "sha256": "d4cd3f1908a2079413bfd12ea2b14ed348c6b4d59457350c2e2116f8fc9082e7",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/split_source_checks.json",
+      "bytes": 2103,
+      "sha256": "0157c29c14f2c30a899b0826f7ee77d9f8518987e4f37242b3d6b0eb6d5e41f1",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B2-v1_top10.csv",
+      "bytes": 391837,
+      "sha256": "22ad2c768fcda45915335a2ed44a16d5cb40f375758f8a443f3534232a657620",
+      "rows": 5680
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_counts.csv",
+      "bytes": 236,
+      "sha256": "847f858eab0b5f04aeb616f6f1aff9aa8c4de6524e8b24df9480901543a7d5de",
+      "rows": 16
+    },
+    {
+      "path": "results/week5/FashionRecommender/verification.txt",
+      "bytes": 766,
+      "sha256": "ae0d21464e37bb911d422d82e99222c436eac51810bfca770d39b4f069b9711b",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/review_category.py",
+      "bytes": 2189,
+      "sha256": "58759d704db8ee9f2ef3bf6b255bc97e5823c5ff327d576dc15a7bd6eef13d2b",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/hash_cu_sau.json",
+      "bytes": 35621,
+      "sha256": "d0df595fc3cf630f06c5de1a63feba8873bd1ab354b60f0a85eec875eda6d527",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check_100.csv",
+      "bytes": 17045,
+      "sha256": "4191affb4388069ccedb3058faa5ad60189186514e4e62fa5728019964e58a70",
+      "rows": 100
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check_result.json",
+      "bytes": 433,
+      "sha256": "7c9166eb8dc7423984c4d4ed7117be4d668aeea8744d940667fa8721e5e82289",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/paired_valid.json",
+      "bytes": 630,
+      "sha256": "467cb1cc30b6605aab3b1aa3223c43b851b1329ce51fb04dd578cd97e0da04d9",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/old_valid.npy",
+      "bytes": 17735808,
+      "sha256": "a4ce9c4f424f24d6e74b91ce3c169a37abdd1aafb82b983fc4d7875960f9054c",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_rule_v2.json",
+      "bytes": 814,
+      "sha256": "518465d3fc020b7fd13e0ee4801b6bb4e76cf87324a8532443fb6efbeaa6e8ed",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B2-v2_top10.csv",
+      "bytes": 391833,
+      "sha256": "687eb4a1ae4d2e085cc27f47a12cb2266726b1955e8312e052f48a355d80e774",
+      "rows": 5680
+    },
+    {
+      "path": "results/week5/FashionRecommender/protocol_v1.md",
+      "bytes": 3609,
+      "sha256": "420b4a8205c81a6f629f3e5a3cc0ba04cee8ce57ae6137c74feb65b1d3c2bf25",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/extraction_log.txt",
+      "bytes": 271,
+      "sha256": "609bc22f624e97af5dec0416ef319eb2222651b2526121248532cacea88a2c5f",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/file_npy_bo_qua.txt",
+      "bytes": 192,
+      "sha256": "1fc15ac39746ca0648f6fe0becbff2bb2f5b5816b8aa2bfe5cadfa06317eeaa4",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/reproducibility_200.csv",
+      "bytes": 5223,
+      "sha256": "2db0e661c9d65e010cd35a9c18575b7756f9262dc6ff9a93a0c2b9f353af0cf8",
+      "rows": 200
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B2-v2_per_query.csv",
+      "bytes": 49143,
+      "sha256": "66a80cf3c6aec72778ca81232fb600b2e870e73463eb7c43b6efab86e8f24883",
+      "rows": 568
+    },
+    {
+      "path": "results/week5/FashionRecommender/can_dinh_chinh.md",
+      "bytes": 1269,
+      "sha256": "0c3b5e66fe364316d3903e76f3aa57e978dcd7b3217c7debf2e9d6ee66f62e63",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/muc_luc_goi.md",
+      "bytes": 9478,
+      "sha256": "1aaaaccf59f1704cc05ae13ef34dfd3625f693e33868b0830498f200c1f2c18c",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/finish_handoff.py",
+      "bytes": 18880,
+      "sha256": "0548ab435061b282cd2811d2bfe786a786560d4e7e3b62396f2da252429d7a62",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B2-v1_per_query.csv",
+      "bytes": 49215,
+      "sha256": "c6e43ae4151d221d8a013d4dd13f1e7009f64ce2b47727a60364ca7b9de85cbd",
+      "rows": 568
+    },
+    {
+      "path": "results/week5/FashionRecommender/doi_chieu_so_lieu.csv",
+      "bytes": 8846,
+      "sha256": "aae338fc71afe2c4d9eaac961d8fcecf4b57a8478dd2a09ed49b3831a725ee17",
+      "rows": 105
+    },
+    {
+      "path": "results/week5/FashionRecommender/manifest.json",
+      "bytes": 70660,
+      "sha256": "96596d06527aedd92288ad222cc8633b77ddcb970943f91e7b17b130e735abec",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B0_top10.csv",
+      "bytes": 307344,
+      "sha256": "82b0af7503d033fcb37f95d737e5f73b0b23211ab98135a8bc00ac6fd0eef89d",
+      "rows": 5680
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B2p_per_query.csv",
+      "bytes": 48720,
+      "sha256": "efb4a5a1d6b32ce2d1d35c982c60ae6f0e7647c8d53d265da0717bbc90753a18",
+      "rows": 568
+    },
+    {
+      "path": "results/week5/FashionRecommender/evaluate.py",
+      "bytes": 4643,
+      "sha256": "168a6187b0e8a9e659bb4eed281048d9e9cd8c8cb8b3fa8ab0cf7f474b77bf41",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/old_valid_index.csv",
+      "bytes": 220866,
+      "sha256": "5ba92a5b883c999cbfe863f0da32def77e9bbfda50f55866d583cf25a3d0ca88",
+      "rows": 2165
+    },
+    {
+      "path": "results/week5/FashionRecommender/commands.txt",
+      "bytes": 1183,
+      "sha256": "999654b0a3a1d342ad8776dbf07fd6a2ae85c3e6ef69741fb507956ee8ba494c",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/extraction.json",
+      "bytes": 455,
+      "sha256": "5c29847fa8c9a5fb329564be62d69630d892ab4c6459714751aecc37b2e21498",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/verify_independent.py",
+      "bytes": 2399,
+      "sha256": "a687135be4e1455ec12c92c7490ab32744488ccfc190673054e8f6d43e41f129",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/ke_hoach_do_an_cap_nhat.xlsx",
+      "bytes": 66269,
+      "sha256": "830eb947cce97cfd7d0acd91995d31cbccfd1ebc0596446dd6eaa54081f7a1d9",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/unit_tests.txt",
+      "bytes": 104,
+      "sha256": "dcd2147edfda2291b456dfb6d9f3021f0fed07760d5a1c8869fc5446f30e28fe",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_distribution_comparison.csv",
+      "bytes": 1062,
+      "sha256": "819cbb4026125e82c153155e374f2ad603b7efdd79c80d5d14474fe2eebc8640",
+      "rows": 43
+    },
+    {
+      "path": "results/week5/FashionRecommender/valid_B2p_top10.csv",
+      "bytes": 391863,
+      "sha256": "695a7c235892a4b4c4738b70cf05f9b1ab65da950ecb668bc475d0b20b2ac98f",
+      "rows": 5680
+    },
+    {
+      "path": "results/week5/FashionRecommender/t_q_valid.csv",
+      "bytes": 22884,
+      "sha256": "a383ac3ba0735a170914622c54e0221f10e12b7be973cc81b0513737c7af49b4",
+      "rows": 568
+    },
+    {
+      "path": "results/week5/FashionRecommender/independent_log.txt",
+      "bytes": 89,
+      "sha256": "6ba45f34ae065edfbf2f37e1458a57553661094be36a455716466595fe68fc9e",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/prepare.py",
+      "bytes": 6148,
+      "sha256": "8120fdfacd76a4943fcd732e1cbf6c5c1a65f74ab8e0777c562bcac5332f89e3",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/independent_validation_checks.csv",
+      "bytes": 993827,
+      "sha256": "7d4f41fbbeef2eb1a52b752409f795295f7a3a79088d02057254191f4a1e2e5a",
+      "rows": 18176
+    },
+    {
+      "path": "results/week5/FashionRecommender/metrics_valid.csv",
+      "bytes": 2576,
+      "sha256": "44b1d955ba2319d292ce4fd524dccb2c42ee142feb0e14545af3e710841200d9",
+      "rows": 32
+    },
+    {
+      "path": "results/week5/FashionRecommender/hash_cu_truoc.json",
+      "bytes": 35621,
+      "sha256": "d0df595fc3cf630f06c5de1a63feba8873bd1ab354b60f0a85eec875eda6d527",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_distribution.py",
+      "bytes": 1462,
+      "sha256": "2130a5cf21af6c60ecf78e00c7ea2ef594c82dfc3f4f24c8b7b3b2718e45ebfb",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_rule_v2_hash.json",
+      "bytes": 83,
+      "sha256": "575cd422e176910eb177c1291c80457dbbb5858d388f8ebd5da8ba744847ba41",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/check_inputs.py",
+      "bytes": 1023,
+      "sha256": "9135af4f29f979cf6b154793c82e1175027d3ca06700238a4bf8ffddcb52ea06",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_08.png",
+      "bytes": 398432,
+      "sha256": "5cc3704aca2f24bbef9fc3b11f9cb197fddd82393e81427627eb5b46843932a3",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_09.png",
+      "bytes": 462295,
+      "sha256": "7fbebde3c24ac3c8f1a645a18267d60997925b34c72ac4416bac57828b84f6be",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_04.png",
+      "bytes": 428721,
+      "sha256": "a9daacde6b5a7b4da4ed81fa5564ea5fb07279d01e8bbb1ea91b97afbdfe66be",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_10.png",
+      "bytes": 490920,
+      "sha256": "9925de0db69ccfcd4a7a19c0162cd9c9d1b7545821c2bea5e9571415ae4e9db6",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_05.png",
+      "bytes": 451216,
+      "sha256": "818e97e8bb89dec6f1b66615b8a22dd4a97ba607136f7b69bf467b3ad95df9c9",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_07.png",
+      "bytes": 446050,
+      "sha256": "7172c2aacaaf105d0cc2ea658e6da838f1cb5c72cfe7aeff97eb0b65ed8aebb3",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_06.png",
+      "bytes": 423770,
+      "sha256": "61af6ea46976fd088acace47dfe21619e1513034c0be705dca4e4f958153c349",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_02.png",
+      "bytes": 391729,
+      "sha256": "6702ee91f8328bbb764524f5c16aa3b6226fe5b37e5e0be70a65fdbd52458996",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_03.png",
+      "bytes": 398260,
+      "sha256": "e73df78fa96bf08f1d5ef744e6db58e88f76715bdb84a59acc8b7fef5f4168d5",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/page_01.png",
+      "bytes": 445575,
+      "sha256": "79dbb5109191c9adba9168f617f01ece872cbdbcf17401ae0d35ad01eaaf80e9",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/category_check/sample_100.csv",
+      "bytes": 2708,
+      "sha256": "d35bf43bb323d9ac9bf238a3470cbb719d4978bb8093b9b528145f03a7d596cd",
+      "rows": 100
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures/mo_ta_hinh.md",
+      "bytes": 1060,
+      "sha256": "05ae95d1422254ebdb9089021430e1d103fc3f2ccb8003b5d761dccfa574f014",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures/hinh_02_chuyen_trang_thai_v1_v2.png",
+      "bytes": 38063,
+      "sha256": "4e72d220ecd2307fb8a5986a8278857052cd191a87c8421d722d311c1e58226a",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures/hinh_03_category_cu_moi.png",
+      "bytes": 69777,
+      "sha256": "2b5dface6e2fa0c29175879e622cf3f1b2de2f01fd9c3072547abb3033e401e1",
+      "rows": null
+    },
+    {
+      "path": "results/week5/FashionRecommender/figures/hinh_01_metric_validation_test.png",
+      "bytes": 52172,
+      "sha256": "fc6ca997ec6cba5546f7256d73c375464379c9362bb30c1871ebdfc000789845",
+      "rows": null
+    },
+    {
+      "path": "archive.zip",
+      "bytes": 2239158848,
+      "sha256": "a7d59c2bbb29af0ce3b49ac57747639815d2643cf0fd4c221a49533cb3585d21",
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/week3_retrieval_metrics.py",
+      "bytes": 1855,
+      "sha256": "95a21ca69b93c451b65715f87324da0dc7d84b78d9406d4b1f1e4b78a56c4fa8",
+      "rows": null
+    },
+    {
+      "path": "local_request.txt",
+      "bytes": 10088,
+      "sha256": "3b4d8fbe8d70973ecae3f0d65fde176a8e55b75e0983e61ac1d8b1e77d21e7e7",
+      "rows": null
+    }
+  ],
+  "outputs": [
+    {
+      "path": "baseline_chinh.json",
+      "bytes": 378,
+      "sha256": "d4cd3f1908a2079413bfd12ea2b14ed348c6b4d59457350c2e2116f8fc9082e7",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "baseline_chinh_day_du.json",
+      "bytes": 660,
+      "sha256": "97c2f8c281e1195c3f9fe740b1e91d426c7d10af13ca06799a56f465d205a932",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "can_dinh_chinh.md",
+      "bytes": 1269,
+      "sha256": "0c3b5e66fe364316d3903e76f3aa57e978dcd7b3217c7debf2e9d6ee66f62e63",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_check/page_01.png",
+      "bytes": 445575,
+      "sha256": "79dbb5109191c9adba9168f617f01ece872cbdbcf17401ae0d35ad01eaaf80e9",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_check/page_02.png",
+      "bytes": 391729,
+      "sha256": "6702ee91f8328bbb764524f5c16aa3b6226fe5b37e5e0be70a65fdbd52458996",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_check/page_03.png",
+      "bytes": 398260,
+      "sha256": "e73df78fa96bf08f1d5ef744e6db58e88f76715bdb84a59acc8b7fef5f4168d5",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_check/page_04.png",
+      "bytes": 428721,
+      "sha256": "a9daacde6b5a7b4da4ed81fa5564ea5fb07279d01e8bbb1ea91b97afbdfe66be",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_check/page_05.png",
+      "bytes": 451216,
+      "sha256": "818e97e8bb89dec6f1b66615b8a22dd4a97ba607136f7b69bf467b3ad95df9c9",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_check/page_06.png",
+      "bytes": 423770,
+      "sha256": "61af6ea46976fd088acace47dfe21619e1513034c0be705dca4e4f958153c349",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_check/page_07.png",
+      "bytes": 446050,
+      "sha256": "7172c2aacaaf105d0cc2ea658e6da838f1cb5c72cfe7aeff97eb0b65ed8aebb3",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_check/page_08.png",
+      "bytes": 398432,
+      "sha256": "5cc3704aca2f24bbef9fc3b11f9cb197fddd82393e81427627eb5b46843932a3",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_check/page_09.png",
+      "bytes": 462295,
+      "sha256": "7fbebde3c24ac3c8f1a645a18267d60997925b34c72ac4416bac57828b84f6be",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_check/page_10.png",
+      "bytes": 490920,
+      "sha256": "9925de0db69ccfcd4a7a19c0162cd9c9d1b7545821c2bea5e9571415ae4e9db6",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_check/sample_100.csv",
+      "bytes": 2708,
+      "sha256": "d35bf43bb323d9ac9bf238a3470cbb719d4978bb8093b9b528145f03a7d596cd",
+      "rows": 100,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_check_100.csv",
+      "bytes": 17045,
+      "sha256": "4191affb4388069ccedb3058faa5ad60189186514e4e62fa5728019964e58a70",
+      "rows": 100,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_check_result.json",
+      "bytes": 433,
+      "sha256": "7c9166eb8dc7423984c4d4ed7117be4d668aeea8744d940667fa8721e5e82289",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_counts.csv",
+      "bytes": 236,
+      "sha256": "847f858eab0b5f04aeb616f6f1aff9aa8c4de6524e8b24df9480901543a7d5de",
+      "rows": 16,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_distribution.py",
+      "bytes": 1462,
+      "sha256": "2130a5cf21af6c60ecf78e00c7ea2ef594c82dfc3f4f24c8b7b3b2718e45ebfb",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_distribution_comparison.csv",
+      "bytes": 1062,
+      "sha256": "819cbb4026125e82c153155e374f2ad603b7efdd79c80d5d14474fe2eebc8640",
+      "rows": 43,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_error_groups_day_du.csv",
+      "bytes": 1622,
+      "sha256": "1eb138e56c8ceacdff5857971576d8225f56a3e0cdb45f1ffe0b586cefae4f2e",
+      "rows": 12,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "category_old_references.txt",
+      "bytes": 27308,
+      "sha256": "12d4fa5c38470c87f889c0cf43db003b425088b922eb4418813526e5b49918be",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_rule_v2.json",
+      "bytes": 814,
+      "sha256": "518465d3fc020b7fd13e0ee4801b6bb4e76cf87324a8532443fb6efbeaa6e8ed",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_rule_v2_hash.json",
+      "bytes": 83,
+      "sha256": "575cd422e176910eb177c1291c80457dbbb5858d388f8ebd5da8ba744847ba41",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "category_v2.csv",
+      "bytes": 124354,
+      "sha256": "21cbe65e6356c2178b1d136af3649b474213d9d73a121474af9513783bcf71ac",
+      "rows": 4600,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "check_delivery_day_du.py",
+      "bytes": 5356,
+      "sha256": "3271d2e74ac0c02b50b1fe7e7af2059b6ed05139c36fda48303594a674685b5f",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "check_inputs.py",
+      "bytes": 1023,
+      "sha256": "9135af4f29f979cf6b154793c82e1175027d3ca06700238a4bf8ffddcb52ea06",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "chronology_day_du.json",
+      "bytes": 1462,
+      "sha256": "1f4f49bbbc23836b5ff01ca729d1e5e282752a84bcaf53dad35b3223697e10e0",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "commands.txt",
+      "bytes": 1183,
+      "sha256": "999654b0a3a1d342ad8776dbf07fd6a2ae85c3e6ef69741fb507956ee8ba494c",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "commands_day_du.txt",
+      "bytes": 3958,
+      "sha256": "7e474370531dc8f33395b64311cd13706488b4025d1ef460fc8126328ec0ef9c",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "describe_day_du.py",
+      "bytes": 6680,
+      "sha256": "6167a665787deeb5e5e05500e27ddb296f393cffb956114414ac1ea8e789dafd",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "describe_log_day_du.txt",
+      "bytes": 80,
+      "sha256": "751c309fe8dcea1922cab796bd490375287a3ee3de4c5532ba35f01ce72a5a1a",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "doi_chieu_so_lieu.csv",
+      "bytes": 8846,
+      "sha256": "aae338fc71afe2c4d9eaac961d8fcecf4b57a8478dd2a09ed49b3831a725ee17",
+      "rows": 105,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "doi_chieu_so_lieu_day_du.csv",
+      "bytes": 103003,
+      "sha256": "f1af1d9098408b9357765efc066ae1f8d15b701fe352e9c3ac4ffa86149599be",
+      "rows": 628,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "evaluate.py",
+      "bytes": 4643,
+      "sha256": "168a6187b0e8a9e659bb4eed281048d9e9cd8c8cb8b3fa8ab0cf7f474b77bf41",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "excel_check_day_du.json",
+      "bytes": 361,
+      "sha256": "cb643b7f9b20609096cd98c117657d8e2e2eb9ab9f14fc8f3f4902807daa1202",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "extraction.json",
+      "bytes": 455,
+      "sha256": "5c29847fa8c9a5fb329564be62d69630d892ab4c6459714751aecc37b2e21498",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "extraction_log.txt",
+      "bytes": 271,
+      "sha256": "609bc22f624e97af5dec0416ef319eb2222651b2526121248532cacea88a2c5f",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "figure_checks_day_du.json",
+      "bytes": 874,
+      "sha256": "afb12048657aefdd9762c407405229df5ebfef663f2601a26689c5fd85e8b53c",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "figures/hinh_01_metric_validation_test.png",
+      "bytes": 52172,
+      "sha256": "fc6ca997ec6cba5546f7256d73c375464379c9362bb30c1871ebdfc000789845",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "figures/hinh_01_metric_validation_test_day_du.png",
+      "bytes": 61139,
+      "sha256": "925a81dd56e6cbfe9844b11ffd52dc4e5aad6681c4aa3688d9cafbd4539fa876",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "figures/hinh_02_chuyen_trang_thai_v1_v2.png",
+      "bytes": 38063,
+      "sha256": "4e72d220ecd2307fb8a5986a8278857052cd191a87c8421d722d311c1e58226a",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "figures/hinh_02_chuyen_trang_thai_v1_v2_day_du.png",
+      "bytes": 60253,
+      "sha256": "997942920ff1954d708e8a9199a4c9ef9d64e9255a660b8732b0f55fc23fec0e",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "figures/hinh_03_category_cu_moi.png",
+      "bytes": 69777,
+      "sha256": "2b5dface6e2fa0c29175879e622cf3f1b2de2f01fd9c3072547abb3033e401e1",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "figures/hinh_04_mau_v1_dung_v2_sai_day_du.png",
+      "bytes": 2341956,
+      "sha256": "00de35e10c4875d471abc84f1bc9975a4f800021df5f037ecc9bf9b3f2484809",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "figures/hinh_05_popularity_mae_day_du.png",
+      "bytes": 53528,
+      "sha256": "58b7ebe920959aacaf79e09d0bcca128d223e886369d0f9d3253eb029d7d87ef",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "figures/mo_ta_hinh.md",
+      "bytes": 1060,
+      "sha256": "05ae95d1422254ebdb9089021430e1d103fc3f2ccb8003b5d761dccfa574f014",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "figures/mo_ta_hinh_day_du.md",
+      "bytes": 1960,
+      "sha256": "834cad78f1804773fffd6280dc7fc47b552d264092d48573478c7ad9104b1c74",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "figures_day_du.py",
+      "bytes": 5018,
+      "sha256": "fa7f512a1423cdd3ad8f99adea39492680913d637c0aa59ea4b8a66c5bb233c2",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "file_npy_bo_qua.txt",
+      "bytes": 192,
+      "sha256": "1fc15ac39746ca0648f6fe0becbff2bb2f5b5816b8aa2bfe5cadfa06317eeaa4",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "finish_handoff.py",
+      "bytes": 18880,
+      "sha256": "0548ab435061b282cd2811d2bfe786a786560d4e7e3b62396f2da252429d7a62",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "freeze.json",
+      "bytes": 1508,
+      "sha256": "7ad87a68e3c14337ca03267ce4257e50d887f530236314832b6efa67e5540e2e",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "group_membership_day_du.csv",
+      "bytes": 89900,
+      "sha256": "410f6e4645672abf87988863ada091230a83d2ed80e7a8940cfe4c929acce7cf",
+      "rows": 1154,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "group_metrics_day_du.csv",
+      "bytes": 13158,
+      "sha256": "0936c962d8e3eb145f3ec5d0e3762db2af9346ea11fc64774bf6f866ab8d022e",
+      "rows": 56,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "group_rules_day_du.json",
+      "bytes": 750,
+      "sha256": "86e903bb4429cdba62c8dc1bb10d2afcf6707db89b0fc3d10ddf3a8696634855",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "hash_cu_sau.json",
+      "bytes": 35621,
+      "sha256": "d0df595fc3cf630f06c5de1a63feba8873bd1ab354b60f0a85eec875eda6d527",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "hash_cu_sau_day_du.json",
+      "bytes": 33343,
+      "sha256": "ff20a88ee191749e0571e8b44a90ca1e6605328ad74b44ac3b118064787fdfc0",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "hash_cu_truoc.json",
+      "bytes": 35621,
+      "sha256": "d0df595fc3cf630f06c5de1a63feba8873bd1ab354b60f0a85eec875eda6d527",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "hash_cu_truoc_day_du.json",
+      "bytes": 33343,
+      "sha256": "ff20a88ee191749e0571e8b44a90ca1e6605328ad74b44ac3b118064787fdfc0",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "hash_week5_sau_day_du.json",
+      "bytes": 6942,
+      "sha256": "ff03d8e343a7e519b666e8cc59b7b46856569ed9070bd8a9c7b0637e96569a16",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "hash_week5_truoc_day_du.json",
+      "bytes": 6942,
+      "sha256": "ff03d8e343a7e519b666e8cc59b7b46856569ed9070bd8a9c7b0637e96569a16",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "independent_groups_day_du.csv",
+      "bytes": 9125,
+      "sha256": "a837682b52e317b0f1627984d4f66813e8c946e4c544c16bbca84211791cc558",
+      "rows": 112,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "independent_log.txt",
+      "bytes": 89,
+      "sha256": "6ba45f34ae065edfbf2f37e1458a57553661094be36a455716466595fe68fc9e",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "independent_log_day_du.txt",
+      "bytes": 47,
+      "sha256": "34ed24b120d2b961dd908c55f67a3a898d6847a760a017a26ff75579d2061381",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "independent_result_day_du.json",
+      "bytes": 106,
+      "sha256": "812f647048eaf2c3eafd4793da6fe5e222deff54a038a150d80041ac578b1cfb",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "independent_scores_day_du.csv",
+      "bytes": 423898,
+      "sha256": "a68ec07651bef1ac643361669ea14c89bca65a0848332294def54b615e0f180e",
+      "rows": 4616,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "independent_test_checks.csv",
+      "bytes": 2618578,
+      "sha256": "7aa0d0e940f9f8032512257e4e30eb34fb672c93783bca79d651c545dd533679",
+      "rows": 37210,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "independent_validation_checks.csv",
+      "bytes": 993827,
+      "sha256": "7d4f41fbbeef2eb1a52b752409f795295f7a3a79088d02057254191f4a1e2e5a",
+      "rows": 18176,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "initialize.py",
+      "bytes": 4404,
+      "sha256": "6be52d884afe50d2bfbc2bd58e2cf5a7e4a745d438213a794d09320235a80482",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "ke_hoach_do_an_cap_nhat.xlsx",
+      "bytes": 66269,
+      "sha256": "830eb947cce97cfd7d0acd91995d31cbccfd1ebc0596446dd6eaa54081f7a1d9",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "ke_hoach_do_an_cap_nhat_day_du.xlsx",
+      "bytes": 66899,
+      "sha256": "4b9bdab8eb268fa9e90629efb06d22c621554b49f9e855f1d97712be425f6684",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "ket_qua_tuan_05.md",
+      "bytes": 8058,
+      "sha256": "897bb0d623496901625c4a343e03f1445cf43e4be8bb47da3504d5f723a52771",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "ket_qua_tuan_05_day_du.md",
+      "bytes": 23321,
+      "sha256": "82c9d087661363617767eb5ea01830629ec2b93ae4eab7b1810fd27d231894f7",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "legacy_check_test_day_du.json",
+      "bytes": 2297,
+      "sha256": "f16764f4c871bfa1a8e35b00598ad5f5d8a3d80544bd5d651bb749512a63fbc0",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "legacy_check_valid.json",
+      "bytes": 1002,
+      "sha256": "5702f04bd94a6c3467d29bf5779b9135f778ecbac836331058a06acddac23226",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 70660,
+      "sha256": "96596d06527aedd92288ad222cc8633b77ddcb970943f91e7b17b130e735abec",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "metrics.py",
+      "bytes": 544,
+      "sha256": "773e38a27bf36e5b7f8093c5159a77cce8a47ce58c4366cbb5f667d73bbcf183",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "metrics_test_day_du.csv",
+      "bytes": 6112,
+      "sha256": "8baec0d522681f9a1d7e83fa0a99e4601d23fa462ad6215d5fb331b0a3c9501a",
+      "rows": 32,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "metrics_valid.csv",
+      "bytes": 2576,
+      "sha256": "44b1d955ba2319d292ce4fd524dccb2c42ee142feb0e14545af3e710841200d9",
+      "rows": 32,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "montage_selection_day_du.csv",
+      "bytes": 1101,
+      "sha256": "16227906fde67fddac5220598be599d187a708332559b1823b5dbd12e95f6ab0",
+      "rows": 10,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "muc_luc_goi.md",
+      "bytes": 9478,
+      "sha256": "1aaaaccf59f1704cc05ae13ef34dfd3625f693e33868b0830498f200c1f2c18c",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "old_valid.npy",
+      "bytes": 17735808,
+      "sha256": "a4ce9c4f424f24d6e74b91ce3c169a37abdd1aafb82b983fc4d7875960f9054c",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "old_valid_index.csv",
+      "bytes": 220866,
+      "sha256": "5ba92a5b883c999cbfe863f0da32def77e9bbfda50f55866d583cf25a3d0ca88",
+      "rows": 2165,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "package_day_du.py",
+      "bytes": 6400,
+      "sha256": "022ec5551e24e6c32331fdbd8bdebc38878f00861a4df3f31b394a121b262932",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "paired_day_du.json",
+      "bytes": 4748,
+      "sha256": "dc36db2794922bb3add32e3e389ab7920d576760b78cd8471b6da2a1776a160c",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "paired_valid.json",
+      "bytes": 630,
+      "sha256": "467cb1cc30b6605aab3b1aa3223c43b851b1329ce51fb04dd578cd97e0da04d9",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "popularity_reference_test_day_du.csv",
+      "bytes": 26071,
+      "sha256": "e76554b293ba0b41aff2dc8410b9ca4e7229df216fe249541140782a086532a3",
+      "rows": 586,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "popularity_reference_valid_day_du.csv",
+      "bytes": 25257,
+      "sha256": "def814e236f97bf2fdef8ffe55a07d0668dc053dd5e4da00330c144c64881f46",
+      "rows": 568,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "prepare.py",
+      "bytes": 6148,
+      "sha256": "8120fdfacd76a4943fcd732e1cbf6c5c1a65f74ab8e0777c562bcac5332f89e3",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "protocol_v1.md",
+      "bytes": 3609,
+      "sha256": "420b4a8205c81a6f629f3e5a3cc0ba04cee8ce57ae6137c74feb65b1d3c2bf25",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "reference_levels_day_du.csv",
+      "bytes": 802,
+      "sha256": "37631f9a4512110fdeec72a71ff0dc3071a0e6dfd807d632fd106c915d6f5dad",
+      "rows": 2,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "report_day_du.py",
+      "bytes": 22880,
+      "sha256": "00ba219729121776de82d85abe4b9edd73295053fd1da94411cfb37c962c0974",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "reproducibility_200.csv",
+      "bytes": 5223,
+      "sha256": "2db0e661c9d65e010cd35a9c18575b7756f9262dc6ff9a93a0c2b9f353af0cf8",
+      "rows": 200,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "review_category.py",
+      "bytes": 2189,
+      "sha256": "58759d704db8ee9f2ef3bf6b255bc97e5823c5ff327d576dc15a7bd6eef13d2b",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "run_test_day_du.py",
+      "bytes": 6136,
+      "sha256": "1d43dba5670331e1d240d6df496d369b25c6ca23b7bdb3eaaf565e8c56c596bd",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "sanity.py",
+      "bytes": 1847,
+      "sha256": "e8b4b02f963f538e258589701075a30bf32837dfd805f153f83bfe82789dcc0d",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "sanity_log.txt",
+      "bytes": 1056,
+      "sha256": "d14b00cce7a1722ab5b27e2126eaa7d8132f7127e8fd6af51f3c6fce0e7187fd",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "sanity_reproduction.json",
+      "bytes": 1056,
+      "sha256": "d14b00cce7a1722ab5b27e2126eaa7d8132f7127e8fd6af51f3c6fce0e7187fd",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "split_source_checks.json",
+      "bytes": 2103,
+      "sha256": "0157c29c14f2c30a899b0826f7ee77d9f8518987e4f37242b3d6b0eb6d5e41f1",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "t_q_test.csv",
+      "bytes": 23636,
+      "sha256": "dbb2bb453e914109ae9ac30c68dabbebb0d9dcb89dfe3dfcbd27745f92085349",
+      "rows": 586,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "t_q_valid.csv",
+      "bytes": 22884,
+      "sha256": "a383ac3ba0735a170914622c54e0221f10e12b7be973cc81b0513737c7af49b4",
+      "rows": 568,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "test_B0_per_query_day_du.csv",
+      "bytes": 40302,
+      "sha256": "3ddbdf502adf0eb6b06c3ccf6a63197d6b075a76c47395f868ad7348cbc98dfe",
+      "rows": 586,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "test_B2-v1_per_query_day_du.csv",
+      "bytes": 50072,
+      "sha256": "12c281319b35fa96ee96a2fae840989981475540b4e1c9b1e99bb22b0e32f284",
+      "rows": 586,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "test_B2-v2_per_query_day_du.csv",
+      "bytes": 50804,
+      "sha256": "3c58859246dd0b541c570e3229b092fa2069b2e8a8f85c7301004ad74535e2da",
+      "rows": 586,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "test_B2p_per_query_day_du.csv",
+      "bytes": 50374,
+      "sha256": "a56d87c6a1fd16459bcf6b53f6090f9dc1b6268e8de8b05682dbace262d73e8e",
+      "rows": 586,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "test_log_day_du.txt",
+      "bytes": 69,
+      "sha256": "9094afd3102707c9d57eb55654f74d2dd50a612032fda66436c1c567f889cdbb",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "test_metrics.py",
+      "bytes": 895,
+      "sha256": "2d9dd9c0909b587bf3b245645e5c0f9ac4830680fdafb9fec2614ad000efa598",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "test_run_completed_day_du.json",
+      "bytes": 437,
+      "sha256": "d274ac66f1d58ec973e958edae9e44584794a30660c6f1815ec994e585f9e9d1",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "test_run_started_day_du.json",
+      "bytes": 161,
+      "sha256": "36e380b2422a3bf9559e9c1396bda510a19bb7193bfb1b03addca8839cc63dae",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "test_top10_source_checks.json",
+      "bytes": 839,
+      "sha256": "fb67e2fb0103b41c42aad5ed32d2cd3429713a8dee766163a7434d5c9ab477bf",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "tuan5_bao_cao_goi.zip",
+      "bytes": 14168043,
+      "sha256": "0e5dcf6979d2ef6bb5e9e715f83baefa846e93ea1c15490508deed396eb59abe",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "unit_tests.txt",
+      "bytes": 104,
+      "sha256": "dcd2147edfda2291b456dfb6d9f3021f0fed07760d5a1c8869fc5446f30e28fe",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "user_decision.json",
+      "bytes": 579,
+      "sha256": "7fa536381e9d72b40eadef0ff3cfb1806f914a10969192c8b29b732f8e738151",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "valid_B0_per_query.csv",
+      "bytes": 39061,
+      "sha256": "e6d80528852d6b919ebe55fd42f9a75aabcfb3be8323715aa20ed680e5a4b082",
+      "rows": 568,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "valid_B0_top10.csv",
+      "bytes": 307344,
+      "sha256": "82b0af7503d033fcb37f95d737e5f73b0b23211ab98135a8bc00ac6fd0eef89d",
+      "rows": 5680,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "valid_B2-v1_per_query.csv",
+      "bytes": 49215,
+      "sha256": "c6e43ae4151d221d8a013d4dd13f1e7009f64ce2b47727a60364ca7b9de85cbd",
+      "rows": 568,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "valid_B2-v1_top10.csv",
+      "bytes": 391837,
+      "sha256": "22ad2c768fcda45915335a2ed44a16d5cb40f375758f8a443f3534232a657620",
+      "rows": 5680,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "valid_B2-v2_per_query.csv",
+      "bytes": 49143,
+      "sha256": "66a80cf3c6aec72778ca81232fb600b2e870e73463eb7c43b6efab86e8f24883",
+      "rows": 568,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "valid_B2-v2_top10.csv",
+      "bytes": 391833,
+      "sha256": "687eb4a1ae4d2e085cc27f47a12cb2266726b1955e8312e052f48a355d80e774",
+      "rows": 5680,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "valid_B2p_per_query.csv",
+      "bytes": 48720,
+      "sha256": "efb4a5a1d6b32ce2d1d35c982c60ae6f0e7647c8d53d265da0717bbc90753a18",
+      "rows": 568,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "valid_B2p_top10.csv",
+      "bytes": 391863,
+      "sha256": "695a7c235892a4b4c4738b70cf05f9b1ab65da950ecb668bc475d0b20b2ac98f",
+      "rows": 5680,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "validation_log.txt",
+      "bytes": 45,
+      "sha256": "a5d976522ac3c200063dc04f610eed278394c72650675a8664d074dc94142bff",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "verification.txt",
+      "bytes": 766,
+      "sha256": "ae0d21464e37bb911d422d82e99222c436eac51810bfca770d39b4f069b9711b",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "verification_day_du.txt",
+      "bytes": 2082,
+      "sha256": "1236570fa7804c362d9c7ea1f4e60644442aa5696d3a3f57ba8cf0d0277a865d",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "verify_independent.py",
+      "bytes": 2399,
+      "sha256": "a687135be4e1455ec12c92c7490ab32744488ccfc190673054e8f6d43e41f129",
+      "rows": null,
+      "prior_delivery_file": true
+    },
+    {
+      "path": "verify_test_day_du.py",
+      "bytes": 4936,
+      "sha256": "60df8387ffb6f8e19b34d26fe231076351d626e283be5b137e6591d74840c9c0",
+      "rows": null,
+      "prior_delivery_file": false
+    },
+    {
+      "path": "yeu_cau_tiep_tuc_day_du.txt",
+      "bytes": 10088,
+      "sha256": "3b4d8fbe8d70973ecae3f0d65fde176a8e55b75e0983e61ac1d8b1e77d21e7e7",
+      "rows": null,
+      "prior_delivery_file": false
+    }
+  ],
+  "self_reference_exclusions": "manifest_day_du.json omits own hash, index and new ZIP; index hashes manifest but omits itself and new ZIP. New ZIP includes all files except itself, including old ZIP. ZIP hash printed after package creation.",
+  "deviations": [
+    "Category error categories overlap for item3304: 13 flags,12 unique products; no extra error fabricated.",
+    "ZIP is report archive explicitly requested in E.4; no software packaging/demo.",
+    "Explicit names freeze.json,user_decision.json,t_q_test.csv,independent_test_checks.csv retained as requested.",
+    "No test metric recomputation for model selection; independent verification uses same frozen ranking.",
+    "Grouped tables only v1/v2 and B0-reference table follow specific requested comparisons; overall metric tables include all4 configurations."
+  ]
+}

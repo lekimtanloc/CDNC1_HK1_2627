@@ -1,0 +1,455 @@
+source,location,reported,independent,match,note
+aggregate_dev,A/Top-1 value,0.212406015037594,0.212406015037594,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/Top-1 ci_low,0.19699248120300752,0.19699248120300752,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/Top-1 ci_high,0.22781954887218045,0.22781954887218045,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/Recall@1 value,0.1196737471438349,0.1196737471438349,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/Recall@1 ci_low,0.10907032913112621,0.10907032913112621,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/Recall@1 ci_high,0.13065108471214587,0.13065108471214587,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/Recall@5 value,0.22359057874195853,0.22359057874195853,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/Recall@5 ci_low,0.209699827469724,0.209699827469724,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/Recall@5 ci_high,0.23757962540453767,0.23757962540453767,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/Recall@10 value,0.2740525379564606,0.2740525379564606,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/Recall@10 ci_low,0.25939082292034893,0.25939082292034893,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/Recall@10 ci_high,0.28900288629769993,0.28900288629769993,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/NDCG@5 value,0.20881360478405145,0.20881360478405145,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/NDCG@5 ci_low,0.19647852196150378,0.19647852196150378,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/NDCG@5 ci_high,0.22132276031007303,0.221322760310073,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/NDCG@10 value,0.22438919729818912,0.22438919729818912,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/NDCG@10 ci_low,0.21205593797970815,0.21205593797970815,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/NDCG@10 ci_high,0.2368213139501959,0.2368213139501959,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/MRR@10 value,0.2714598997493734,0.27145989974937346,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/MRR@10 ci_low,0.25634166890440385,0.25634166890440385,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,A/MRR@10 ci_high,0.28664774286907746,0.28664774286907746,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/Top-1 value,0.2161654135338346,0.2161654135338346,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/Top-1 ci_low,0.20037593984962407,0.20037593984962407,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/Top-1 ci_high,0.2319548872180451,0.2319548872180451,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/Recall@1 value,0.11531999067375821,0.11531999067375821,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/Recall@1 ci_low,0.10519143277633712,0.10519143277633712,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/Recall@1 ci_high,0.12614781922461046,0.12614781922461046,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/Recall@5 value,0.20585860438636897,0.20585860438636897,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/Recall@5 ci_low,0.1927825970810371,0.1927825970810371,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/Recall@5 ci_high,0.21905485494652757,0.21905485494652757,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/Recall@10 value,0.26206420057774216,0.2620642005777422,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/Recall@10 ci_low,0.2477090160122902,0.2477090160122902,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/Recall@10 ci_high,0.2763941427588682,0.2763941427588682,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/NDCG@5 value,0.19918831164016065,0.19918831164016063,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/NDCG@5 ci_low,0.18707342317974934,0.18707342317974934,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/NDCG@5 ci_high,0.2114084881936832,0.2114084881936832,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/NDCG@10 value,0.21586177813568627,0.21586177813568627,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/NDCG@10 ci_low,0.20394367409137945,0.20394367409137945,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/NDCG@10 ci_high,0.22792857426178684,0.22792857426178686,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/MRR@10 value,0.2693009308986753,0.2693009308986753,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/MRR@10 ci_low,0.2537899212316505,0.2537899212316505,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_dev,B/MRR@10 ci_high,0.28471867167919795,0.28471867167919795,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/Top-1 value,0.35563380281690143,0.35563380281690143,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/Top-1 ci_low,0.31514084507042256,0.31514084507042256,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/Top-1 ci_high,0.3961267605633803,0.3961267605633803,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/Recall@1 value,0.2047577792068443,0.2047577792068443,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/Recall@1 ci_low,0.17564204309009887,0.17564204309009887,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/Recall@1 ci_high,0.23399627520810437,0.23399627520810437,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/Recall@5 value,0.3539019120344739,0.3539019120344739,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/Recall@5 ci_low,0.31908229082036954,0.31908229082036954,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/Recall@5 ci_high,0.38868824968505483,0.38868824968505483,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/Recall@10 value,0.4139522144481273,0.4139522144481273,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/Recall@10 ci_low,0.3783725606813175,0.3783725606813175,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/Recall@10 ci_high,0.45011037679436305,0.45011037679436305,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/NDCG@5 value,0.33485804332763597,0.334858043327636,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/NDCG@5 ci_low,0.30339816148568005,0.30339816148568005,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/NDCG@5 ci_high,0.36638760606767806,0.36638760606767806,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/NDCG@10 value,0.35032035888646207,0.3503203588864621,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/NDCG@10 ci_low,0.31953095590169045,0.3195309559016905,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/NDCG@10 ci_high,0.3812341414953973,0.3812341414953973,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/MRR@10 value,0.41847753185781356,0.41847753185781356,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/MRR@10 ci_low,0.38130190867426783,0.38130190867426783,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,A/MRR@10 ci_high,0.455241832942097,0.455241832942097,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/Top-1 value,0.3221830985915493,0.3221830985915493,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/Top-1 ci_low,0.2834507042253521,0.2834507042253521,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/Top-1 ci_high,0.3609154929577465,0.3609154929577465,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/Recall@1 value,0.17910877615130644,0.17910877615130644,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/Recall@1 ci_low,0.15196741680996378,0.15196741680996378,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/Recall@1 ci_high,0.20609503830949688,0.20609503830949688,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/Recall@5 value,0.3138761369714341,0.3138761369714341,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/Recall@5 ci_low,0.28103706692822605,0.28103706692822605,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/Recall@5 ci_high,0.34713390987187714,0.34713390987187714,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/Recall@10 value,0.3741740430199277,0.3741740430199276,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/Recall@10 ci_low,0.3401921042322133,0.3401921042322133,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/Recall@10 ci_high,0.40942047103397555,0.40942047103397555,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/NDCG@5 value,0.3037991219245321,0.3037991219245321,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/NDCG@5 ci_low,0.2730392242444282,0.2730392242444282,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/NDCG@5 ci_high,0.33442451841456267,0.33442451841456267,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/NDCG@10 value,0.31855641508233895,0.31855641508233895,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/NDCG@10 ci_low,0.28861541954778,0.28861541954778,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/NDCG@10 ci_high,0.3481885731884978,0.3481885731884978,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/MRR@10 value,0.3855053934719428,0.38550539347194274,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/MRR@10 ci_low,0.3481992999664654,0.3481992999664654,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,B/MRR@10 ci_high,0.42158141557679407,0.42158141557679407,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/Top-1 value,0.352112676056338,0.352112676056338,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/Top-1 ci_low,0.31338028169014087,0.31338028169014087,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/Top-1 ci_high,0.3908450704225352,0.3908450704225352,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/Recall@1 value,0.2034485648837008,0.2034485648837008,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/Recall@1 ci_low,0.17494642030507035,0.17494642030507035,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/Recall@1 ci_high,0.23319124192967816,0.23319124192967816,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/Recall@5 value,0.34940014393806745,0.34940014393806745,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/Recall@5 ci_low,0.3155837430021216,0.3155837430021216,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/Recall@5 ci_high,0.38417567883206655,0.38417567883206655,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/Recall@10 value,0.4296769967620948,0.4296769967620948,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/Recall@10 ci_low,0.3940589986661372,0.3940589986661372,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/Recall@10 ci_high,0.46538965093244816,0.46538965093244816,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/NDCG@5 value,0.33247175893371667,0.33247175893371667,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/NDCG@5 ci_low,0.3014331635068578,0.3014331635068578,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/NDCG@5 ci_high,0.3635867728151061,0.3635867728151061,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/NDCG@10 value,0.35479732360046684,0.3547973236004668,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/NDCG@10 ci_low,0.3248344663637958,0.3248344663637958,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/NDCG@10 ci_high,0.38525472322393384,0.38525472322393384,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/MRR@10 value,0.42213139950816003,0.4221313995081601,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/MRR@10 ci_low,0.38570340445450485,0.38570340445450485,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,C/MRR@10 ci_high,0.45838524200760117,0.45838524200760117,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/Top-1 value,0.29577464788732394,0.29577464788732394,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/Top-1 ci_low,0.25880281690140844,0.25880281690140844,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/Top-1 ci_high,0.33274647887323944,0.33274647887323944,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/Recall@1 value,0.17143565408557873,0.17143565408557873,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/Recall@1 ci_low,0.14380207004853687,0.14380207004853687,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/Recall@1 ci_high,0.19856827865580687,0.19856827865580687,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/Recall@5 value,0.30809691786783927,0.30809691786783927,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/Recall@5 ci_low,0.27531882173853484,0.27531882173853484,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/Recall@5 ci_high,0.3415291519848406,0.3415291519848406,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/Recall@10 value,0.35956253759133155,0.35956253759133155,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/Recall@10 ci_low,0.32532340439342744,0.32532340439342744,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/Recall@10 ci_high,0.39439217952207556,0.39439217952207556,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/NDCG@5 value,0.2945896977935224,0.2945896977935224,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/NDCG@5 ci_low,0.2643231818377112,0.2643231818377112,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/NDCG@5 ci_high,0.3251784131356374,0.3251784131356374,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/NDCG@10 value,0.30777837823028203,0.3077783782302821,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/NDCG@10 ci_low,0.27809517888005963,0.27809517888005963,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/NDCG@10 ci_high,0.3375297260245625,0.3375297260245625,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/MRR@10 value,0.3661769226469931,0.3661769226469931,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/MRR@10 ci_low,0.3300657591381623,0.3300657591381623,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,D/MRR@10 ci_high,0.40155130435390124,0.40155130435390124,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/Top-1 value,0.15140845070422534,0.15140845070422534,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/Top-1 ci_low,0.12323943661971831,0.12323943661971831,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/Top-1 ci_high,0.1813380281690141,0.1813380281690141,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/Recall@1 value,0.0751987947985434,0.0751987947985434,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/Recall@1 ci_low,0.05713675896095304,0.05713675896095304,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/Recall@1 ci_high,0.09464174711030338,0.09464174711030338,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/Recall@5 value,0.15978467680031652,0.15978467680031652,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/Recall@5 ci_low,0.13397509215087017,0.13397509215087017,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/Recall@5 ci_high,0.18649095594497597,0.18649095594497597,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/Recall@10 value,0.2037313256154766,0.2037313256154766,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/Recall@10 ci_low,0.17465949722515903,0.17465949722515903,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/Recall@10 ci_high,0.23326654754348342,0.23326654754348342,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/NDCG@5 value,0.149914423929039,0.149914423929039,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/NDCG@5 ci_low,0.12682967580940732,0.12682967580940735,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/NDCG@5 ci_high,0.17395911692681784,0.17395911692681784,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/NDCG@10 value,0.16213283978411933,0.16213283978411933,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/NDCG@10 ci_low,0.13880482369331001,0.13880482369331001,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/NDCG@10 ci_high,0.18606082576442262,0.18606082576442262,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/MRR@10 value,0.2015886988598256,0.2015886988598256,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/MRR@10 ci_low,0.17176547130002232,0.17176547130002232,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_valid,F/MRR@10 ci_high,0.23184670523138828,0.23184670523138828,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/Top-1 value,0.30887372013651876,0.30887372013651876,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/Top-1 ci_low,0.27303754266211605,0.27303754266211605,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/Top-1 ci_high,0.3447098976109215,0.3447098976109215,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/Recall@1 value,0.17519868131027858,0.17519868131027855,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/Recall@1 ci_low,0.14959503434043783,0.14959503434043783,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/Recall@1 ci_high,0.20146965061813682,0.20146965061813682,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/Recall@5 value,0.33511468228906455,0.33511468228906455,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/Recall@5 ci_low,0.30196273153476855,0.30196273153476855,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/Recall@5 ci_high,0.3682010786884589,0.3682010786884589,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/Recall@10 value,0.3963836075187145,0.3963836075187145,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/Recall@10 ci_low,0.3623316724283316,0.3623316724283316,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/Recall@10 ci_high,0.4313152389112427,0.4313152389112427,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/NDCG@5 value,0.31267611188279815,0.31267611188279815,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/NDCG@5 ci_low,0.2828150439033703,0.28281504390337037,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/NDCG@5 ci_high,0.34325077543145044,0.34325077543145044,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/NDCG@10 value,0.3311113548088857,0.3311113548088857,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/NDCG@10 ci_low,0.30178181324861697,0.30178181324861697,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/NDCG@10 ci_high,0.3608777118561543,0.3608777118561543,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/MRR@10 value,0.37622230348339564,0.37622230348339564,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/MRR@10 ci_low,0.34175937212200014,0.34175937212200014,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,A/MRR@10 ci_high,0.4110117693266157,0.4110117693266157,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/Top-1 value,0.3122866894197952,0.3122866894197952,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/Top-1 ci_low,0.27474402730375425,0.27474402730375425,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/Top-1 ci_high,0.34982935153583616,0.34982935153583616,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/Recall@1 value,0.16036687444281517,0.16036687444281514,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/Recall@1 ci_low,0.13625759261730175,0.13625759261730175,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/Recall@1 ci_high,0.18575059018920542,0.18575059018920542,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/Recall@5 value,0.29605407913393317,0.2960540791339332,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/Recall@5 ci_low,0.26495569575468647,0.26495569575468647,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/Recall@5 ci_high,0.32761058066119675,0.32761058066119675,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/Recall@10 value,0.37688905970597025,0.3768890597059702,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/Recall@10 ci_low,0.34319000524958054,0.34319000524958054,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/Recall@10 ci_high,0.4110685172328822,0.4110685172328822,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/NDCG@5 value,0.29054081748120114,0.29054081748120114,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/NDCG@5 ci_low,0.2613938778474525,0.2613938778474525,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/NDCG@5 ci_high,0.3204445986074129,0.3204445986074129,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/NDCG@10 value,0.3136263099511486,0.31362630995114865,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/NDCG@10 ci_low,0.28509048181334135,0.28509048181334135,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/NDCG@10 ci_high,0.3430147992068271,0.3430147992068271,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/MRR@10 value,0.3790826967874749,0.37908269678747497,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/MRR@10 ci_low,0.34410490817487405,0.34410490817487405,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,B/MRR@10 ci_high,0.4146011092150171,0.4146011092150171,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/Top-1 value,0.3242320819112628,0.3242320819112628,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/Top-1 ci_low,0.28668941979522183,0.28668941979522183,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/Top-1 ci_high,0.36177474402730375,0.36177474402730375,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/Recall@1 value,0.16926550754434033,0.1692655075443403,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/Recall@1 ci_low,0.14437115234322004,0.14437115234322004,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/Recall@1 ci_high,0.19525391574625864,0.19525391574625864,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/Recall@5 value,0.32870338260452225,0.3287033826045223,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/Recall@5 ci_low,0.2958711948998487,0.2958711948998487,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/Recall@5 ci_high,0.36174402507793774,0.36174402507793774,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/Recall@10 value,0.38882870314814594,0.3888287031481459,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/Recall@10 ci_low,0.35425999610845876,0.35425999610845876,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/Recall@10 ci_high,0.4235631711145162,0.4235631711145162,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/NDCG@5 value,0.31349725720781363,0.31349725720781363,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/NDCG@5 ci_low,0.28310279349742845,0.28310279349742845,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/NDCG@5 ci_high,0.3443545632699115,0.3443545632699115,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/NDCG@10 value,0.33183359156013864,0.33183359156013864,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/NDCG@10 ci_low,0.3017591451163443,0.3017591451163443,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/NDCG@10 ci_high,0.36202511746746346,0.36202511746746346,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/MRR@10 value,0.3911486266861694,0.39114862668616934,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/MRR@10 ci_low,0.35452093152391784,0.35452093152391784,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,C/MRR@10 ci_high,0.4266052298336855,0.4266052298336855,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/Top-1 value,0.30887372013651876,0.30887372013651876,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/Top-1 ci_low,0.27303754266211605,0.27303754266211605,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/Top-1 ci_high,0.3464163822525597,0.3464163822525597,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/Recall@1 value,0.17402798580017226,0.17402798580017226,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/Recall@1 ci_low,0.14838692263495587,0.14838692263495587,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/Recall@1 ci_high,0.20075097746270137,0.20075097746270137,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/Recall@5 value,0.3173255366408552,0.3173255366408552,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/Recall@5 ci_low,0.28464703363693333,0.28464703363693333,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/Recall@5 ci_high,0.34991199858758065,0.34991199858758065,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/Recall@10 value,0.3996445870103041,0.39964458701030414,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/Recall@10 ci_low,0.3651976878238411,0.3651976878238411,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/Recall@10 ci_high,0.4342136639522837,0.4342136639522837,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/NDCG@5 value,0.2994510446718223,0.2994510446718224,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/NDCG@5 ci_low,0.27004683606423746,0.27004683606423746,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/NDCG@5 ci_high,0.32930796783384036,0.32930796783384036,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/NDCG@10 value,0.32663401054998137,0.32663401054998137,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/NDCG@10 ci_low,0.2973862176058367,0.2973862176058367,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/NDCG@10 ci_high,0.35604246753595686,0.35604246753595686,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/MRR@10 value,0.38019800639254564,0.38019800639254564,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/MRR@10 ci_low,0.34502322715206674,0.34502322715206674,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,D/MRR@10 ci_high,0.4150023023999133,0.4150023023999133,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/Top-1 value,0.14675767918088736,0.14675767918088736,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/Top-1 ci_low,0.11945392491467577,0.11945392491467577,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/Top-1 ci_high,0.1757679180887372,0.1757679180887372,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/Recall@1 value,0.07997216812448564,0.07997216812448564,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/Recall@1 ci_low,0.061552157023435784,0.061552157023435784,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/Recall@1 ci_high,0.09981171339990699,0.09981171339990699,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/Recall@5 value,0.1798203106212719,0.17982031062127193,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/Recall@5 ci_low,0.15356781051143567,0.15356781051143567,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/Recall@5 ci_high,0.20705650974035703,0.20705650974035703,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/Recall@10 value,0.24914583017248781,0.24914583017248787,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/Recall@10 ci_low,0.21911756450993283,0.21911756450993283,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/Recall@10 ci_high,0.2807397537047707,0.2807397537047707,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/NDCG@5 value,0.1607561962713753,0.1607561962713753,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/NDCG@5 ci_low,0.13774353009842022,0.13774353009842022,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/NDCG@5 ci_high,0.18480644822081121,0.18480644822081121,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/NDCG@10 value,0.18297907631113328,0.18297907631113325,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/NDCG@10 ci_low,0.1598010307960867,0.1598010307960867,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/NDCG@10 ci_high,0.20692026392128937,0.20692026392128934,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/MRR@10 value,0.21140432851183705,0.21140432851183705,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/MRR@10 ci_low,0.1831030425537678,0.1831030425537678,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+aggregate_test,F/MRR@10 ci_high,0.24025317934340973,0.24025317934340973,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,B-A/Recall@5 difference,-0.01773197435558957,-0.017731974355589566,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,B-A/Recall@5 ci_low,-0.031154625672437788,-0.031154625672437763,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,B-A/Recall@5 ci_high,-0.004089725136005819,-0.004089725136005847,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,B-A/NDCG@5 difference,-0.00962529314389079,-0.009625293143890792,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,B-A/NDCG@5 ci_low,-0.021130019318604847,-0.021130019318604837,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,B-A/NDCG@5 ci_high,0.0022734241740393307,0.0022734241740393437,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,B-A/MRR@10 difference,-0.002158968850698174,-0.0021589688506981736,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,B-A/MRR@10 ci_low,-0.016064032849982098,-0.016064032849982084,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,B-A/MRR@10 ci_high,0.011837301587301582,0.011837301587301584,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-B/Recall@5 difference,0.03552400696663331,0.03552400696663332,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-B/Recall@5 ci_low,0.0069520526088333685,0.006952052608833326,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-B/Recall@5 ci_high,0.06504265366035249,0.06504265366035247,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-B/NDCG@5 difference,0.028672637009184532,0.028672637009184525,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-B/NDCG@5 ci_low,0.0030961163348007395,0.003096116334800759,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-B/NDCG@5 ci_high,0.054382521268879096,0.05438252126887911,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-B/MRR@10 difference,0.0366260060362173,0.0366260060362173,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-B/MRR@10 ci_low,0.00771708375251509,0.007717083752515076,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-B/MRR@10 ci_high,0.06612543315448245,0.0661254331544824,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,A-D/Recall@5 difference,0.0458049941666346,0.0458049941666346,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,A-D/Recall@5 ci_low,0.01733259683982033,0.01733259683982027,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,A-D/Recall@5 ci_high,0.07468405127736112,0.07468405127736115,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,A-D/NDCG@5 difference,0.040268345534113625,0.04026834553411363,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,A-D/NDCG@5 ci_low,0.016072559669903768,0.01607255966990376,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,A-D/NDCG@5 ci_high,0.06463030840214089,0.0646303084021409,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,A-D/MRR@10 difference,0.05230060921082047,0.05230060921082048,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,A-D/MRR@10 ci_low,0.025199530516431926,0.02519953051643197,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,A-D/MRR@10 ci_high,0.08012832201542588,0.08012832201542594,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-A/Recall@5 difference,-0.004501768096406413,-0.004501768096406412,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-A/Recall@5 ci_low,-0.03331435765414639,-0.03331435765414633,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-A/Recall@5 ci_high,0.023026398244299213,0.023026398244299254,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-A/NDCG@5 difference,-0.0023862843939193197,-0.0023862843939193214,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-A/NDCG@5 ci_low,-0.024647309630743863,-0.024647309630743856,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-A/NDCG@5 ci_high,0.019457838927770144,0.019457838927770175,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-A/MRR@10 difference,0.0036538676503465248,0.003653867650346523,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-A/MRR@10 ci_low,-0.021240288955957976,-0.021240288955958007,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-A/MRR@10 ci_high,0.028600072658171244,0.02860007265817116,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,B-D/Recall@5 difference,0.00577921910359487,0.005779219103594871,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,B-D/Recall@5 ci_low,-0.022549285299754907,-0.02254928529975494,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,B-D/Recall@5 ci_high,0.03373210088863167,0.033732100888631676,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,B-D/NDCG@5 difference,0.009209424131009778,0.00920942413100978,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,B-D/NDCG@5 ci_low,-0.012937954870723132,-0.012937954870723103,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,B-D/NDCG@5 ci_high,0.030674971209654428,0.03067497120965447,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,B-D/MRR@10 difference,0.0193284708249497,0.0193284708249497,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,B-D/MRR@10 ci_low,-0.007045222725240331,-0.007045222725240289,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,B-D/MRR@10 ci_high,0.04561989995528728,0.04561989995528728,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,F-A/Recall@5 difference,-0.19411723523415736,-0.19411723523415736,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,F-A/Recall@5 ci_low,-0.2345889305420944,-0.23458893054209434,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,F-A/Recall@5 ci_high,-0.15451384029185394,-0.15451384029185397,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,F-A/NDCG@5 difference,-0.184943619398597,-0.184943619398597,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,F-A/NDCG@5 ci_low,-0.21980934605405716,-0.21980934605405725,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,F-A/NDCG@5 ci_high,-0.15098287202724314,-0.15098287202724314,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,F-A/MRR@10 difference,-0.21688883299798795,-0.21688883299798795,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,F-A/MRR@10 ci_low,-0.2564810390118488,-0.25648103901184893,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,F-A/MRR@10 ci_high,-0.17799975198412699,-0.17799975198412699,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-B/Recall@5 difference,0.032649303470589044,0.032649303470589044,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-B/Recall@5 ci_low,0.006238146872407232,0.006238146872407206,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-B/Recall@5 ci_high,0.05921767486943284,0.05921767486943279,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-B/NDCG@5 difference,0.022956439726612463,0.022956439726612463,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-B/NDCG@5 ci_low,0.001202128715693399,0.0012021287156934442,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-B/NDCG@5 ci_high,0.04495935957009958,0.04495935957009958,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-B/MRR@10 difference,0.012065929898694401,0.012065929898694403,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-B/MRR@10 ci_low,-0.013029179533019125,-0.013029179533019046,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-B/MRR@10 ci_high,0.03725454046806434,0.03725454046806432,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,A-D/Recall@5 difference,0.01778914564820926,0.01778914564820926,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,A-D/Recall@5 ci_low,-0.011324367500299859,-0.011324367500299855,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,A-D/Recall@5 ci_high,0.04675847200507532,0.046758472005075304,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,A-D/NDCG@5 difference,0.013225067210975782,0.01322506721097578,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,A-D/NDCG@5 ci_low,-0.01003199465924957,-0.010031994659249572,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,A-D/NDCG@5 ci_high,0.03628693277184853,0.03628693277184853,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,A-D/MRR@10 difference,-0.003975702909150007,-0.003975702909150008,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,A-D/MRR@10 ci_low,-0.029680338859093124,-0.02968033885909315,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,A-D/MRR@10 ci_high,0.02220979603445473,0.022209796034454773,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-A/Recall@5 difference,-0.0064112996845422324,-0.006411299684542234,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-A/Recall@5 ci_low,-0.03140106057910776,-0.03140106057910778,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-A/Recall@5 ci_high,0.017667481570350974,0.01766748157035097,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-A/NDCG@5 difference,0.0008211453250154983,0.0008211453250155026,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-A/NDCG@5 ci_low,-0.020443108555299662,-0.02044310855529962,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-A/NDCG@5 ci_high,0.022101119121592374,0.022101119121592388,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-A/MRR@10 difference,0.014926323202773715,0.014926323202773715,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-A/MRR@10 ci_low,-0.009954527601711902,-0.009954527601711973,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-A/MRR@10 ci_high,0.04030115729454465,0.040301157294544594,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,B-D/Recall@5 difference,-0.02127145750692202,-0.021271457506922015,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,B-D/Recall@5 ci_low,-0.04831599913483297,-0.04831599913483295,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,B-D/Recall@5 ci_high,0.004935012082227451,0.004935012082227464,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,B-D/NDCG@5 difference,-0.008910227190621178,-0.008910227190621182,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,B-D/NDCG@5 ci_low,-0.031248072822364213,-0.03124807282236424,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,B-D/NDCG@5 ci_high,0.013503370651552587,0.013503370651552543,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,B-D/MRR@10 difference,-0.0011153096050707015,-0.001115309605070697,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,B-D/MRR@10 ci_low,-0.025778414323636166,-0.025778414323636232,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,B-D/MRR@10 ci_high,0.02389711658269678,0.02389711658269678,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,F-A/Recall@5 difference,-0.15529437166779259,-0.15529437166779259,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,F-A/Recall@5 ci_low,-0.19376921216816415,-0.19376921216816415,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,F-A/Recall@5 ci_high,-0.11730862137343932,-0.1173086213734393,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,F-A/NDCG@5 difference,-0.15191991561142282,-0.15191991561142282,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,F-A/NDCG@5 ci_low,-0.18509834822945473,-0.18509834822945473,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,F-A/NDCG@5 ci_high,-0.11885839708513653,-0.11885839708513657,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,F-A/MRR@10 difference,-0.16481797497155862,-0.1648179749715586,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,F-A/MRR@10 ci_low,-0.2031286228939813,-0.2031286228939813,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,F-A/MRR@10 ci_high,-0.1267457439460426,-0.12674574394604254,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,B-A/McNemar p,0.6787292782679865,0.6787292782679865,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,"B-A/McNemar cell 0,0",1854,1854,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,"B-A/McNemar cell 0,1",241,241,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,"B-A/McNemar cell 1,0",231,231,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_dev,"B-A/McNemar cell 1,1",334,334,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-B/McNemar p,0.12847543208575976,0.12847543208575976,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"C-B/McNemar cell 0,0",321,321,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"C-B/McNemar cell 0,1",64,64,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"C-B/McNemar cell 1,0",47,47,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"C-B/McNemar cell 1,1",136,136,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,A-D/McNemar p,0.000986536808184603,0.000986536808184603,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"A-D/McNemar cell 0,0",332,332,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"A-D/McNemar cell 0,1",68,68,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"A-D/McNemar cell 1,0",34,34,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"A-D/McNemar cell 1,1",134,134,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,C-A/McNemar p,0.9110721212260928,0.9110721212260926,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"C-A/McNemar cell 0,0",327,327,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"C-A/McNemar cell 0,1",39,39,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"C-A/McNemar cell 1,0",41,41,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"C-A/McNemar cell 1,1",161,161,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,B-D/McNemar p,0.1329018851954619,0.1329018851954619,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"B-D/McNemar cell 0,0",349,349,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"B-D/McNemar cell 0,1",51,51,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"B-D/McNemar cell 1,0",36,36,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"B-D/McNemar cell 1,1",132,132,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,F-A/McNemar p,5.2105017704252105e-20,5.21050177042521e-20,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"F-A/McNemar cell 0,0",338,338,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"F-A/McNemar cell 0,1",28,28,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"F-A/McNemar cell 1,0",144,144,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_valid,"F-A/McNemar cell 1,1",58,58,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-B/McNemar p,0.5202915935750737,0.5202915935750735,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"C-B/McNemar cell 0,0",356,356,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"C-B/McNemar cell 0,1",47,47,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"C-B/McNemar cell 1,0",40,40,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"C-B/McNemar cell 1,1",143,143,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,A-D/McNemar p,1.0,1.0,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"A-D/McNemar cell 0,0",360,360,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"A-D/McNemar cell 0,1",45,45,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"A-D/McNemar cell 1,0",45,45,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"A-D/McNemar cell 1,1",136,136,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,C-A/McNemar p,0.379999396411918,0.37999939641191804,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"C-A/McNemar cell 0,0",359,359,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"C-A/McNemar cell 0,1",46,46,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"C-A/McNemar cell 1,0",37,37,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"C-A/McNemar cell 1,1",144,144,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,B-D/McNemar p,0.9142116370824501,0.9142116370824499,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"B-D/McNemar cell 0,0",361,361,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"B-D/McNemar cell 0,1",44,44,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"B-D/McNemar cell 1,0",42,42,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"B-D/McNemar cell 1,1",139,139,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,F-A/McNemar p,1.4805269604825365e-13,1.4805269604825373e-13,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"F-A/McNemar cell 0,0",367,367,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"F-A/McNemar cell 0,1",38,38,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"F-A/McNemar cell 1,0",133,133,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+paired_test,"F-A/McNemar cell 1,1",48,48,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_dev_5b.json,queries,2660,2660,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_dev_5b.json,gallery,6798,6798,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_dev_5b.json,truth_pairs,6239,6239,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_dev_5b.json,random_Top-1,0.0003450262903507666,0.0003450262903507666,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_dev_5b.json,random_Recall@5,0.0007355104442483084,0.0007355104442483084,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_valid_5b.json,queries,568,568,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_valid_5b.json,gallery,1597,1597,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_valid_5b.json,truth_pairs,1474,1474,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_valid_5b.json,random_Top-1,0.001624965825006394,0.001624965825006394,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_valid_5b.json,random_Recall@5,0.0031308703819661866,0.0031308703819661866,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_test_5b.json,queries,586,586,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_test_5b.json,gallery,1543,1543,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_test_5b.json,truth_pairs,1439,1439,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_test_5b.json,random_Top-1,0.0015914655860773856,0.0015914655860773856,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+summary_test_5b.json,random_Recall@5,0.0032404406999351912,0.0032404406999351912,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/A/images,2165,2165,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/A/fallback,8,8,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/A/all_black,8,8,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/A/images,2129,2129,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/A/fallback,9,9,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/A/all_black,9,9,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/B/images,2165,2165,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/B/fallback,3,3,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/B/all_black,3,3,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/B/images,2129,2129,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/B/fallback,4,4,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/B/all_black,4,4,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/C/images,2165,2165,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/C/fallback,2,2,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/C/all_black,2,2,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/C/images,2129,2129,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/C/fallback,4,4,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/C/all_black,4,4,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/D/images,2165,2165,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/D/fallback,9,9,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/D/all_black,9,9,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/D/images,2129,2129,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/D/fallback,9,9,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/D/all_black,9,9,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/F/images,2165,2165,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/F/fallback,121,121,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,valid/F/all_black,121,121,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/F/images,2129,2129,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/F/fallback,158,158,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+fallback_counts_5b.csv,test/F/all_black,158,158,recounted source audit,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+extraction_C_5b.json,seconds,205.01404262504366,205.01404262504366,True,sum checkpoint elapsed times; no repeat benchmark. BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+extraction_D_5b.json,seconds,207.14582042198163,207.14582042198163,True,sum checkpoint elapsed times; no repeat benchmark. BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+extraction_F_5b.json,seconds,219.05397804103268,219.05397804103268,True,sum checkpoint elapsed times; no repeat benchmark. BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).

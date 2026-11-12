@@ -1,0 +1,15 @@
+{
+  "images": 200,
+  "equal": 200,
+  "passed": true,
+  "seconds": 9.376823084006901,
+  "versions": {
+    "python": "3.11.9",
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "numpy": "2.2.1",
+    "pillow": "12.2.0"
+  },
+  "weights_sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+}

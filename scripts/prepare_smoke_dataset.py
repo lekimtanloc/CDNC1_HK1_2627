@@ -1,0 +1,272 @@
+#!/usr/bin/env python3
+"""Create a small, licensed smoke-test dataset for FashionRecommender.
+
+This adapter converts 40 Fashion-MNIST examples into the filename and paired
+mask layout expected by ``FashionRecommender/final_recommandation.py``.
+It is intended only to validate that the pipeline can execute end to end.
+It is not a substitute for DeepFashion and must not be used to claim research
+quality, personalization, or retrieval performance.
+"""
+
+from __future__ import annotations
+
+import csv
+import gzip
+import hashlib
+import json
+import shutil
+import struct
+import zipfile
+from collections import defaultdict
+from pathlib import Path
+
+import numpy as np
+from PIL import Image
+
+
+ROOT = Path(__file__).resolve().parent.parent
+SOURCE_REPO = ROOT / "dataset_sources" / "fashion-mnist"
+RAW_DIR = SOURCE_REPO / "data" / "fashion"
+OUTPUT_DIR = ROOT / "FashionRecommender" / "data" / "smoke"
+ZIP_PATH = ROOT / "fashion_recommender_smoke_dataset.zip"
+
+IMAGE_GZ = RAW_DIR / "train-images-idx3-ubyte.gz"
+LABEL_GZ = RAW_DIR / "train-labels-idx1-ubyte.gz"
+LICENSE_PATH = SOURCE_REPO / "LICENSE"
+EXPECTED_MD5 = {
+    "train-images-idx3-ubyte.gz": "8d4fb7e6c68d591d4c3dfef9ec88bf0d",
+    "train-labels-idx1-ubyte.gz": "25c81989df183df01b3e8a0aad5dffbe",
+}
+SAMPLES_PER_CLASS = 4
+
+LABEL_TO_CATEGORY = {
+    0: "Tees_Tanks",
+    1: "Pants",
+    2: "Sweaters",
+    3: "Dresses",
+    4: "Jackets_Coats",
+    5: "Footwear",
+    6: "Shirts_Polos",
+    7: "Footwear",
+    8: "Bags",
+    9: "Footwear",
+}
+LABEL_NAMES = {
+    0: "T-shirt/top",
+    1: "Trouser",
+    2: "Pullover",
+    3: "Dress",
+    4: "Coat",
+    5: "Sandal",
+    6: "Shirt",
+    7: "Sneaker",
+    8: "Bag",
+    9: "Ankle boot",
+}
+
+
+def digest(path: Path, algorithm: str = "sha256") -> str:
+    hasher = hashlib.new(algorithm)
+    with path.open("rb") as stream:
+        for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+            hasher.update(chunk)
+    return hasher.hexdigest()
+
+
+def verify_source() -> None:
+    for path in (IMAGE_GZ, LABEL_GZ, LICENSE_PATH):
+        if not path.exists():
+            raise FileNotFoundError(f"Missing source file: {path}")
+    for filename, expected in EXPECTED_MD5.items():
+        actual = digest(RAW_DIR / filename, "md5")
+        if actual != expected:
+            raise ValueError(f"MD5 mismatch for {filename}: {actual} != {expected}")
+
+
+def load_idx() -> tuple[np.ndarray, np.ndarray]:
+    with gzip.open(IMAGE_GZ, "rb") as stream:
+        magic, count, rows, cols = struct.unpack(">IIII", stream.read(16))
+        if magic != 2051:
+            raise ValueError(f"Unexpected image magic number: {magic}")
+        images = np.frombuffer(stream.read(), dtype=np.uint8).reshape(count, rows, cols)
+    with gzip.open(LABEL_GZ, "rb") as stream:
+        magic, count_labels = struct.unpack(">II", stream.read(8))
+        if magic != 2049:
+            raise ValueError(f"Unexpected label magic number: {magic}")
+        labels = np.frombuffer(stream.read(), dtype=np.uint8)
+    if count != count_labels or len(images) != len(labels):
+        raise ValueError("Fashion-MNIST image/label counts do not match")
+    return images, labels
+
+
+def select_balanced(labels: np.ndarray) -> list[int]:
+    selected: list[int] = []
+    counts: defaultdict[int, int] = defaultdict(int)
+    for index, value in enumerate(labels.tolist()):
+        label = int(value)
+        if counts[label] < SAMPLES_PER_CLASS:
+            selected.append(index)
+            counts[label] += 1
+        if len(selected) == 10 * SAMPLES_PER_CLASS:
+            break
+    if len(selected) != 10 * SAMPLES_PER_CLASS:
+        raise ValueError("Could not select a balanced 10-class subset")
+    return selected
+
+
+def save_pair(array: np.ndarray, image_path: Path, mask_path: Path) -> None:
+    image = Image.fromarray(array, mode="L").resize((224, 224), Image.Resampling.BILINEAR)
+    image_rgb = Image.merge("RGB", (image, image, image))
+    image_rgb.save(image_path, optimize=True)
+
+    # Repository masking removes pixels where the mask is black. White pixels
+    # represent the garment and therefore remain visible.
+    binary = Image.fromarray((array > 12).astype(np.uint8) * 255, mode="L")
+    binary = binary.resize((224, 224), Image.Resampling.NEAREST)
+    mask_rgb = Image.merge("RGB", (binary, binary, binary))
+    mask_rgb.save(mask_path, optimize=True)
+
+
+def write_readme() -> None:
+    content = """# FashionRecommender smoke-test dataset
+
+This package contains 40 balanced examples adapted from Fashion-MNIST. It is
+only a technical fixture for checking the repository's image/mask loading,
+feature extraction, recommendation, and CSV output paths.
+
+It is **not DeepFashion**, has no real user histories, and must not be used to
+report or compare scientific recommendation performance.
+
+## Provenance and license
+
+- Source: https://github.com/zalandoresearch/fashion-mnist
+- Source dataset: Fashion-MNIST, 2017, Zalando SE
+- License: MIT; see `LICENSE-fashion-mnist.txt`
+- Adapter: generated by `prepare_smoke_dataset.py`
+
+## Layout
+
+- `train_images/`: 40 RGB PNG files following the upstream repo's strict name pattern.
+- `segm/`: paired binary RGB masks with `_segm.png` suffix.
+- `labels.csv`: mapping to the original Fashion-MNIST row and label.
+- `manifest.json`: source checksums and SHA-256 for every generated artifact.
+
+## Intended command
+
+```bash
+python final_recommandation.py \
+  --train_folder data/smoke/train_images \
+  --seg_folder data/smoke/segm \
+  --num_customers 4 \
+  --max_purchases_per_customer 2 \
+  --top_k 2
+```
+
+The repository's dependency and evaluation bugs must still be fixed before
+that command can be considered a successful end-to-end validation.
+"""
+    (OUTPUT_DIR / "README.md").write_text(content, encoding="utf-8")
+
+
+def make_zip() -> None:
+    if ZIP_PATH.exists():
+        ZIP_PATH.unlink()
+    with zipfile.ZipFile(ZIP_PATH, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+        for path in sorted(OUTPUT_DIR.rglob("*")):
+            if path.is_file():
+                archive.write(path, Path("fashion_recommender_smoke_dataset") / path.relative_to(OUTPUT_DIR))
+
+
+def main() -> None:
+    verify_source()
+    images, labels = load_idx()
+    selected = select_balanced(labels)
+
+    if OUTPUT_DIR.exists():
+        shutil.rmtree(OUTPUT_DIR)
+    image_dir = OUTPUT_DIR / "train_images"
+    mask_dir = OUTPUT_DIR / "segm"
+    image_dir.mkdir(parents=True)
+    mask_dir.mkdir(parents=True)
+
+    records = []
+    for item_number, source_index in enumerate(selected, start=1):
+        label = int(labels[source_index])
+        category = LABEL_TO_CATEGORY[label]
+        gender = "WOMEN" if item_number % 2 else "MEN"
+        item_id = f"id_{item_number:08d}-01_1"
+        stem = f"{gender}-{category}-{item_id}_front"
+        image_path = image_dir / f"{stem}.png"
+        mask_path = mask_dir / f"{stem}_segm.png"
+        save_pair(images[source_index], image_path, mask_path)
+        records.append(
+            {
+                "filename": image_path.name,
+                "mask_filename": mask_path.name,
+                "source_index": source_index,
+                "source_label": label,
+                "source_label_name": LABEL_NAMES[label],
+                "mapped_category": category,
+                "synthetic_gender": gender,
+                "item_id": item_id,
+            }
+        )
+
+    with (OUTPUT_DIR / "labels.csv").open("w", newline="", encoding="utf-8") as stream:
+        writer = csv.DictWriter(stream, fieldnames=list(records[0]))
+        writer.writeheader()
+        writer.writerows(records)
+
+    shutil.copy2(LICENSE_PATH, OUTPUT_DIR / "LICENSE-fashion-mnist.txt")
+    write_readme()
+
+    files = []
+    for path in sorted(OUTPUT_DIR.rglob("*")):
+        if path.is_file() and path.name != "manifest.json":
+            files.append(
+                {
+                    "path": str(path.relative_to(OUTPUT_DIR)),
+                    "bytes": path.stat().st_size,
+                    "sha256": digest(path),
+                }
+            )
+    manifest = {
+        "manifest_version": 1,
+        "dataset_name": "fashion-recommender-smoke-fashion-mnist",
+        "created_for": "FashionRecommender end-to-end smoke testing only",
+        "sample_count": len(records),
+        "image_size": [224, 224],
+        "source": {
+            "name": "Fashion-MNIST",
+            "url": "https://github.com/zalandoresearch/fashion-mnist",
+            "repository_commit": "b2617bb6d3ffa2e429640350f613e3291e10b141",
+            "license": "MIT",
+            "raw_files": [
+                {
+                    "name": name,
+                    "md5": expected,
+                    "sha256": digest(RAW_DIR / name),
+                }
+                for name, expected in EXPECTED_MD5.items()
+            ],
+        },
+        "limitations": [
+            "Not DeepFashion and not a scientific evaluation dataset.",
+            "No real user behavior or personalization ground truth.",
+            "Gender values are synthetic and only exercise parsing paths.",
+            "Masks are threshold-derived binary fixtures, not human annotations.",
+        ],
+        "files": files,
+    }
+    (OUTPUT_DIR / "manifest.json").write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    make_zip()
+
+    print(f"Created {len(records)} image/mask pairs in {OUTPUT_DIR}")
+    print(f"Archive: {ZIP_PATH}")
+    print(f"Archive SHA-256: {digest(ZIP_PATH)}")
+
+
+if __name__ == "__main__":
+    main()

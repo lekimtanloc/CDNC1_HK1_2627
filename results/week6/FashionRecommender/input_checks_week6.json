@@ -1,0 +1,12 @@
+{
+  "valid": {
+    "rows": 568,
+    "hash_formula_matches": true,
+    "gallery_expected_from_reports": 1597
+  },
+  "test": {
+    "rows": 586,
+    "hash_formula_matches": true,
+    "gallery_expected_from_reports": 1543
+  }
+}

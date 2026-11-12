@@ -50,8 +50,8 @@ def parse_args():
 
 
 
-    parser.add_argument('--train_folder', type=str, default="/home/mohamed/Desktop/humancentered/FashionRecommender/data/datasets/train_images", help="Path to training images folder")
-    parser.add_argument('--seg_folder', type=str, default="/home/mohamed/Desktop/humancentered/FashionRecommender/data/datasets/segm", help="Path to segmentation images folder")
+    parser.add_argument('--train_folder', type=str, default="data/datasets/train_images", help="Path to training images folder")
+    parser.add_argument('--seg_folder', type=str, default="data/datasets/segm", help="Path to segmentation images folder")
 
     return parser.parse_args()
 
@@ -430,8 +430,8 @@ def demo_masking():
 #    original_path = "/mnt/isilon/maliousalah/FashionRecommender/data/datasets/train_images/MEN-Denim-id_00000080-01_7_additional.png"
 #    seg_path = "/mnt/isilon/maliousalah/FashionRecommender/data/datasets/segm/MEN-Denim-id_00000080-01_7_additional_segm.png"
 
-    original_path = "/home/mohamed/Desktop/humancentered/FashionRecommender/data/datasets/train_images/MEN-Denim-id_00000080-01_7_additional.png"
-    seg_path = "/home/mohamed/Desktop/humancentered/FashionRecommender/data/datasets/segm/MEN-Denim-id_00000080-01_7_additional_segm.png"
+    original_path = "data/datasets/train_images/MEN-Denim-id_00000080-01_7_additional.png"
+    seg_path = "data/datasets/segm/MEN-Denim-id_00000080-01_7_additional_segm.png"
 
     original_img = load_image(original_path)
     seg_img = load_image(seg_path)  # load the segmentation mask in RGB

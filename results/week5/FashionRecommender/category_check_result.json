@@ -1,0 +1,9 @@
+{
+  "correct": 88,
+  "total": 100,
+  "passed": false,
+  "reviewer": "agent",
+  "human_review_required": true,
+  "uncertain_counted_incorrect": true,
+  "note": "Đánh giá ngữ nghĩa ảnh đại diện so với category sản phẩm; không suy nhãn thật từ diện tích mask. Không phải đo accuracy của mã majority trên toàn bộ ảnh. Mẫu trải đều strata, không phải ngẫu nhiên đơn toàn tập."
+}

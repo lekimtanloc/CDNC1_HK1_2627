@@ -1,0 +1,17 @@
+split,category,count
+test,1,458
+test,13,80
+test,2,8
+test,5,90
+test,8,54
+train,1,2157
+train,13,343
+train,2,43
+train,5,413
+train,8,261
+train,accessory_or_unknown,2
+valid,1,472
+valid,13,60
+valid,2,14
+valid,5,89
+valid,8,56

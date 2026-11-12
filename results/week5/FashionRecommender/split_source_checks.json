@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/inventory.csv",
+      "sha256": "e844347c4264c69de04de0cfa3636e10aeab790669cc84728b80e3d29ca97e0a",
+      "match_week2": true,
+      "is_protocol_csv": true
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/train.csv",
+      "sha256": "9b33bb5f5c30d3f7913b699d2628c7a0cb541d20a2f49876dd44f7030ddccdd8",
+      "match_week2": true,
+      "is_protocol_csv": true
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_train.csv",
+      "sha256": "5d76f657337f022b2e1af2a58bd802eff1952cd7e269d38b174d480e502d0464",
+      "match_week2": true,
+      "is_protocol_csv": true
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/valid.csv",
+      "sha256": "7c36ed195169b5a4706ae1862bbd55c7aedbc3658a1064d9f36e80926cec5341",
+      "match_week2": true,
+      "is_protocol_csv": true
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_valid.csv",
+      "sha256": "d0ad71540e43c38bd56eeab7a9c5858da2a1eb8d04760fbd342d9f49eb812d15",
+      "match_week2": true,
+      "is_protocol_csv": true
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/test.csv",
+      "sha256": "c7fe31afd76eedbf354f307225479b0bc6be86bda1df2c5a3800293bd8b9381d",
+      "match_week2": true,
+      "is_protocol_csv": true
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_test.csv",
+      "sha256": "cecbc3c726b6c09a25e78933c4c86268f4cd869609ef4d356ed319b1f4335fe7",
+      "match_week2": true,
+      "is_protocol_csv": true
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/README.md",
+      "sha256": "0092255d518b7b20276b2b424d2101b25af88e1089c25b81cfb705e47a394614",
+      "match_week2": false,
+      "is_protocol_csv": false
+    }
+  ],
+  "note": "README.md differs from original week2 validation_report hash, but matches hash at start of this task. All CSV split/inventory/ground_truth hashes match original week2; README not used as numeric input."
+}

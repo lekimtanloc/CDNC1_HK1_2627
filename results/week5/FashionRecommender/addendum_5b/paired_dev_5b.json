@@ -1,0 +1,35 @@
+{
+  "note": "Phân tích hậu nghiệm sau tuần 5; giữ baseline chính B2-v1 với bộ lọc sai ngữ nghĩa.",
+  "pairs": {
+    "B-A": {
+      "Recall@5": {
+        "difference": -0.01773197435558957,
+        "ci_low": -0.031154625672437788,
+        "ci_high": -0.004089725136005819
+      },
+      "NDCG@5": {
+        "difference": -0.00962529314389079,
+        "ci_low": -0.021130019318604847,
+        "ci_high": 0.0022734241740393307
+      },
+      "MRR@10": {
+        "difference": -0.002158968850698174,
+        "ci_low": -0.016064032849982098,
+        "ci_high": 0.011837301587301582
+      },
+      "McNemar": {
+        "table_rows_subtrahend_cols_minuend": [
+          [
+            1854,
+            241
+          ],
+          [
+            231,
+            334
+          ]
+        ],
+        "p_exact_two_sided": 0.6787292782679865
+      }
+    }
+  }
+}

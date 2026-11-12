@@ -1,0 +1,19 @@
+quantity,reported,recalculated,match,source
+Ảnh đen test cũ,100,100,True,CSV/vector nguồn
+Ảnh đen test sửa,9,9,True,CSV/vector nguồn
+Vector đại diện trùng cũ,162,162,True,CSV/vector nguồn
+Vector đại diện trùng sửa,11,11,True,CSV/vector nguồn
+Ảnh đen toàn split,48,48,True,CSV/vector nguồn
+Rỗng nhãn 1–12,48,48,True,CSV/vector nguồn
+Sản phẩm vector trùng toàn split,39,39,True,CSV/vector nguồn
+Cosine 1687–3445,0.4951092,0.4951092004776001,True,CSV/vector nguồn
+Thời gian (s),915.47,915.4718147499952,True,manifest.json (không đo lại)
+RSS (MiB),815.61,815.609375,True,manifest.json (không đo lại)
+visual_before/top1,0.30204778156996587,0.30204778156996587,True,CSV/vector nguồn
+visual_before/recall_at_5,0.32196823028114135,0.32196823028114135,True,CSV/vector nguồn
+visual_only/top1,0.30887372013651876,0.30887372013651876,True,CSV/vector nguồn
+visual_only/recall_at_5,0.33511468228906455,0.33511468228906455,True,CSV/vector nguồn
+popularity_only/top1,0.0017064846416382253,0.0017064846416382253,True,CSV/vector nguồn
+popularity_only/recall_at_5,0.006257110352673493,0.006257110352673493,True,CSV/vector nguồn
+week3_saved_top5/top1,0.30204778156996587,0.30204778156996587,True,CSV/vector nguồn
+week3_saved_top5/recall_at_5,0.32196823028114135,0.32196823028114135,True,CSV/vector nguồn

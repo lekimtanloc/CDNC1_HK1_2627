@@ -1,0 +1,715 @@
+{
+  "status": "passed",
+  "created_at_utc": "2026-10-20T18:12:38.854918+00:00",
+  "comparison_scope": "same cached embeddings, synthetic popularity/trendiness, queries and candidates as Week 3 smoke run",
+  "paper_reference": "https://arxiv.org/pdf/2506.07773 section 4.2",
+  "week3_configuration": {
+    "visual": 0.6,
+    "category": 0.1,
+    "popularity": 0.3,
+    "popularity_exponent": 4
+  },
+  "p_configuration": {
+    "visual": 0.7,
+    "category": 0.0,
+    "popularity": 0.3,
+    "popularity_exponent": 2
+  },
+  "p_category_note": "The paper's main numeric configuration does not specify a category weight; P comparison uses only the two stated weights.",
+  "queries": 10,
+  "candidate_items": 4600,
+  "top_k": 5,
+  "seed": 42,
+  "source_cache_manifest_sha256": "3be41b2c51497355ecadcbbc51e57163870bfc1b043b977aea4a5079fc09672f",
+  "week3_topk_csv_sha256": "d4cd26da5577067a7d20171259300db710d51b4b35cc13495ee11cbd7355195d",
+  "summary": {
+    "total_common_top5_items": 24,
+    "total_top5_slots": 50,
+    "queries_same_top1": 6,
+    "queries_same_top5_order": 1,
+    "week3_category_exact_match": 0.78,
+    "p_category_exact_match": 0.54,
+    "week3_popularity_mae": 0.207151,
+    "p_popularity_mae": 0.094045
+  },
+  "per_query": [
+    {
+      "query_number": 1,
+      "user_id": 1,
+      "query_item": "4901",
+      "week3_top5": [
+        "2235",
+        "3974",
+        "3928",
+        "3524",
+        "5180"
+      ],
+      "p_top5": [
+        "5501",
+        "2235",
+        "4923",
+        "5151",
+        "2776"
+      ],
+      "common_items": 1,
+      "same_top1": false,
+      "same_order": false
+    },
+    {
+      "query_number": 2,
+      "user_id": 1,
+      "query_item": "2066",
+      "week3_top5": [
+        "4988",
+        "2652",
+        "5486",
+        "2206",
+        "3733"
+      ],
+      "p_top5": [
+        "4988",
+        "5486",
+        "2206",
+        "4659",
+        "4814"
+      ],
+      "common_items": 3,
+      "same_top1": true,
+      "same_order": false
+    },
+    {
+      "query_number": 3,
+      "user_id": 1,
+      "query_item": "3530",
+      "week3_top5": [
+        "4954",
+        "3742",
+        "3449",
+        "1177",
+        "4231"
+      ],
+      "p_top5": [
+        "4954",
+        "3742",
+        "3548",
+        "4665",
+        "3366"
+      ],
+      "common_items": 2,
+      "same_top1": true,
+      "same_order": false
+    },
+    {
+      "query_number": 4,
+      "user_id": 1,
+      "query_item": "2953",
+      "week3_top5": [
+        "4220",
+        "3145",
+        "2461",
+        "5486",
+        "3339"
+      ],
+      "p_top5": [
+        "3145",
+        "2461",
+        "5486",
+        "3859",
+        "1993"
+      ],
+      "common_items": 3,
+      "same_top1": false,
+      "same_order": false
+    },
+    {
+      "query_number": 5,
+      "user_id": 1,
+      "query_item": "4628",
+      "week3_top5": [
+        "5030",
+        "5128",
+        "4573",
+        "2922",
+        "2096"
+      ],
+      "p_top5": [
+        "5030",
+        "4573",
+        "5128",
+        "4261",
+        "2007"
+      ],
+      "common_items": 3,
+      "same_top1": true,
+      "same_order": false
+    },
+    {
+      "query_number": 6,
+      "user_id": 2,
+      "query_item": "3210",
+      "week3_top5": [
+        "4894",
+        "4102",
+        "1933",
+        "5193",
+        "1049"
+      ],
+      "p_top5": [
+        "4894",
+        "1392",
+        "2541",
+        "4079",
+        "5193"
+      ],
+      "common_items": 2,
+      "same_top1": true,
+      "same_order": false
+    },
+    {
+      "query_number": 7,
+      "user_id": 3,
+      "query_item": "5543",
+      "week3_top5": [
+        "1971",
+        "5114",
+        "2896",
+        "1124",
+        "1312"
+      ],
+      "p_top5": [
+        "1971",
+        "2896",
+        "3335",
+        "5114",
+        "5255"
+      ],
+      "common_items": 3,
+      "same_top1": true,
+      "same_order": false
+    },
+    {
+      "query_number": 8,
+      "user_id": 4,
+      "query_item": "1687",
+      "week3_top5": [
+        "3445",
+        "5596",
+        "4238",
+        "4427",
+        "2427"
+      ],
+      "p_top5": [
+        "3445",
+        "5596",
+        "4238",
+        "4427",
+        "2427"
+      ],
+      "common_items": 5,
+      "same_top1": true,
+      "same_order": true
+    },
+    {
+      "query_number": 9,
+      "user_id": 4,
+      "query_item": "4827",
+      "week3_top5": [
+        "2243",
+        "4401",
+        "4489",
+        "3781",
+        "5316"
+      ],
+      "p_top5": [
+        "4401",
+        "2243",
+        "3386",
+        "5269",
+        "5421"
+      ],
+      "common_items": 2,
+      "same_top1": false,
+      "same_order": false
+    },
+    {
+      "query_number": 10,
+      "user_id": 4,
+      "query_item": "1225",
+      "week3_top5": [
+        "2500",
+        "4065",
+        "4968",
+        "2201",
+        "2275"
+      ],
+      "p_top5": [
+        "2203",
+        "5094",
+        "4380",
+        "3325",
+        "1422"
+      ],
+      "common_items": 0,
+      "same_top1": false,
+      "same_order": false
+    }
+  ],
+  "p_topk_rows": [
+    {
+      "user_id": 1,
+      "query_item": "4901",
+      "rank": 1,
+      "candidate_item": "5501",
+      "visual_score": 0.712092,
+      "popularity_score": 0.99119,
+      "final_score": 0.795821
+    },
+    {
+      "user_id": 1,
+      "query_item": "4901",
+      "rank": 2,
+      "candidate_item": "2235",
+      "visual_score": 0.706181,
+      "popularity_score": 0.990758,
+      "final_score": 0.791554
+    },
+    {
+      "user_id": 1,
+      "query_item": "4901",
+      "rank": 3,
+      "candidate_item": "4923",
+      "visual_score": 0.679432,
+      "popularity_score": 0.99974,
+      "final_score": 0.775524
+    },
+    {
+      "user_id": 1,
+      "query_item": "4901",
+      "rank": 4,
+      "candidate_item": "5151",
+      "visual_score": 0.682611,
+      "popularity_score": 0.99119,
+      "final_score": 0.775184
+    },
+    {
+      "user_id": 1,
+      "query_item": "4901",
+      "rank": 5,
+      "candidate_item": "2776",
+      "visual_score": 0.681648,
+      "popularity_score": 0.988735,
+      "final_score": 0.773774
+    },
+    {
+      "user_id": 1,
+      "query_item": "2066",
+      "rank": 1,
+      "candidate_item": "4988",
+      "visual_score": 0.8254,
+      "popularity_score": 0.999317,
+      "final_score": 0.877575
+    },
+    {
+      "user_id": 1,
+      "query_item": "2066",
+      "rank": 2,
+      "candidate_item": "5486",
+      "visual_score": 0.819088,
+      "popularity_score": 0.989212,
+      "final_score": 0.870125
+    },
+    {
+      "user_id": 1,
+      "query_item": "2066",
+      "rank": 3,
+      "candidate_item": "2206",
+      "visual_score": 0.816461,
+      "popularity_score": 0.992967,
+      "final_score": 0.869413
+    },
+    {
+      "user_id": 1,
+      "query_item": "2066",
+      "rank": 4,
+      "candidate_item": "4659",
+      "visual_score": 0.813586,
+      "popularity_score": 0.997099,
+      "final_score": 0.86864
+    },
+    {
+      "user_id": 1,
+      "query_item": "2066",
+      "rank": 5,
+      "candidate_item": "4814",
+      "visual_score": 0.810203,
+      "popularity_score": 0.996849,
+      "final_score": 0.866196
+    },
+    {
+      "user_id": 1,
+      "query_item": "3530",
+      "rank": 1,
+      "candidate_item": "4954",
+      "visual_score": 0.77418,
+      "popularity_score": 0.976326,
+      "final_score": 0.834824
+    },
+    {
+      "user_id": 1,
+      "query_item": "3530",
+      "rank": 2,
+      "candidate_item": "3742",
+      "visual_score": 0.742743,
+      "popularity_score": 0.994544,
+      "final_score": 0.818283
+    },
+    {
+      "user_id": 1,
+      "query_item": "3530",
+      "rank": 3,
+      "candidate_item": "3548",
+      "visual_score": 0.72972,
+      "popularity_score": 0.998853,
+      "final_score": 0.81046
+    },
+    {
+      "user_id": 1,
+      "query_item": "3530",
+      "rank": 4,
+      "candidate_item": "4665",
+      "visual_score": 0.725802,
+      "popularity_score": 0.999808,
+      "final_score": 0.808004
+    },
+    {
+      "user_id": 1,
+      "query_item": "3530",
+      "rank": 5,
+      "candidate_item": "3366",
+      "visual_score": 0.727024,
+      "popularity_score": 0.990758,
+      "final_score": 0.806144
+    },
+    {
+      "user_id": 1,
+      "query_item": "2953",
+      "rank": 1,
+      "candidate_item": "3145",
+      "visual_score": 0.71599,
+      "popularity_score": 0.999985,
+      "final_score": 0.801188
+    },
+    {
+      "user_id": 1,
+      "query_item": "2953",
+      "rank": 2,
+      "candidate_item": "2461",
+      "visual_score": 0.713143,
+      "popularity_score": 0.98409,
+      "final_score": 0.794427
+    },
+    {
+      "user_id": 1,
+      "query_item": "2953",
+      "rank": 3,
+      "candidate_item": "5486",
+      "visual_score": 0.703655,
+      "popularity_score": 0.989212,
+      "final_score": 0.789322
+    },
+    {
+      "user_id": 1,
+      "query_item": "2953",
+      "rank": 4,
+      "candidate_item": "3859",
+      "visual_score": 0.691928,
+      "popularity_score": 0.999808,
+      "final_score": 0.784292
+    },
+    {
+      "user_id": 1,
+      "query_item": "2953",
+      "rank": 5,
+      "candidate_item": "1993",
+      "visual_score": 0.689911,
+      "popularity_score": 0.999962,
+      "final_score": 0.782926
+    },
+    {
+      "user_id": 1,
+      "query_item": "4628",
+      "rank": 1,
+      "candidate_item": "5030",
+      "visual_score": 0.82965,
+      "popularity_score": 0.989212,
+      "final_score": 0.877519
+    },
+    {
+      "user_id": 1,
+      "query_item": "4628",
+      "rank": 2,
+      "candidate_item": "4573",
+      "visual_score": 0.825235,
+      "popularity_score": 0.988735,
+      "final_score": 0.874285
+    },
+    {
+      "user_id": 1,
+      "query_item": "4628",
+      "rank": 3,
+      "candidate_item": "5128",
+      "visual_score": 0.825938,
+      "popularity_score": 0.987035,
+      "final_score": 0.874267
+    },
+    {
+      "user_id": 1,
+      "query_item": "4628",
+      "rank": 4,
+      "candidate_item": "4261",
+      "visual_score": 0.80942,
+      "popularity_score": 0.998076,
+      "final_score": 0.866017
+    },
+    {
+      "user_id": 1,
+      "query_item": "4628",
+      "rank": 5,
+      "candidate_item": "2007",
+      "visual_score": 0.807625,
+      "popularity_score": 0.995921,
+      "final_score": 0.864114
+    },
+    {
+      "user_id": 2,
+      "query_item": "3210",
+      "rank": 1,
+      "candidate_item": "4894",
+      "visual_score": 0.680571,
+      "popularity_score": 0.918572,
+      "final_score": 0.751971
+    },
+    {
+      "user_id": 2,
+      "query_item": "3210",
+      "rank": 2,
+      "candidate_item": "1392",
+      "visual_score": 0.643719,
+      "popularity_score": 0.997943,
+      "final_score": 0.749986
+    },
+    {
+      "user_id": 2,
+      "query_item": "3210",
+      "rank": 3,
+      "candidate_item": "2541",
+      "visual_score": 0.64298,
+      "popularity_score": 0.992835,
+      "final_score": 0.747937
+    },
+    {
+      "user_id": 2,
+      "query_item": "3210",
+      "rank": 4,
+      "candidate_item": "4079",
+      "visual_score": 0.643718,
+      "popularity_score": 0.984286,
+      "final_score": 0.745888
+    },
+    {
+      "user_id": 2,
+      "query_item": "3210",
+      "rank": 5,
+      "candidate_item": "5193",
+      "visual_score": 0.66861,
+      "popularity_score": 0.913185,
+      "final_score": 0.741982
+    },
+    {
+      "user_id": 3,
+      "query_item": "5543",
+      "rank": 1,
+      "candidate_item": "1971",
+      "visual_score": 0.939547,
+      "popularity_score": 0.989654,
+      "final_score": 0.954579
+    },
+    {
+      "user_id": 3,
+      "query_item": "5543",
+      "rank": 2,
+      "candidate_item": "2896",
+      "visual_score": 0.88496,
+      "popularity_score": 0.996603,
+      "final_score": 0.918453
+    },
+    {
+      "user_id": 3,
+      "query_item": "5543",
+      "rank": 3,
+      "candidate_item": "3335",
+      "visual_score": 0.870248,
+      "popularity_score": 0.999666,
+      "final_score": 0.909073
+    },
+    {
+      "user_id": 3,
+      "query_item": "5543",
+      "rank": 4,
+      "candidate_item": "5114",
+      "visual_score": 0.891642,
+      "popularity_score": 0.946309,
+      "final_score": 0.908042
+    },
+    {
+      "user_id": 3,
+      "query_item": "5543",
+      "rank": 5,
+      "candidate_item": "5255",
+      "visual_score": 0.862172,
+      "popularity_score": 0.963246,
+      "final_score": 0.892494
+    },
+    {
+      "user_id": 4,
+      "query_item": "1687",
+      "rank": 1,
+      "candidate_item": "3445",
+      "visual_score": 1.0,
+      "popularity_score": 0.999996,
+      "final_score": 0.999999
+    },
+    {
+      "user_id": 4,
+      "query_item": "1687",
+      "rank": 2,
+      "candidate_item": "5596",
+      "visual_score": 1.0,
+      "popularity_score": 0.999996,
+      "final_score": 0.999999
+    },
+    {
+      "user_id": 4,
+      "query_item": "1687",
+      "rank": 3,
+      "candidate_item": "4238",
+      "visual_score": 1.0,
+      "popularity_score": 0.999934,
+      "final_score": 0.99998
+    },
+    {
+      "user_id": 4,
+      "query_item": "1687",
+      "rank": 4,
+      "candidate_item": "4427",
+      "visual_score": 1.0,
+      "popularity_score": 0.999934,
+      "final_score": 0.99998
+    },
+    {
+      "user_id": 4,
+      "query_item": "1687",
+      "rank": 5,
+      "candidate_item": "2427",
+      "visual_score": 1.0,
+      "popularity_score": 0.999859,
+      "final_score": 0.999958
+    },
+    {
+      "user_id": 4,
+      "query_item": "4827",
+      "rank": 1,
+      "candidate_item": "4401",
+      "visual_score": 0.693274,
+      "popularity_score": 0.999521,
+      "final_score": 0.785148
+    },
+    {
+      "user_id": 4,
+      "query_item": "4827",
+      "rank": 2,
+      "candidate_item": "2243",
+      "visual_score": 0.764025,
+      "popularity_score": 0.833438,
+      "final_score": 0.784849
+    },
+    {
+      "user_id": 4,
+      "query_item": "4827",
+      "rank": 3,
+      "candidate_item": "3386",
+      "visual_score": 0.686683,
+      "popularity_score": 0.996171,
+      "final_score": 0.779529
+    },
+    {
+      "user_id": 4,
+      "query_item": "4827",
+      "rank": 4,
+      "candidate_item": "5269",
+      "visual_score": 0.726443,
+      "popularity_score": 0.8415,
+      "final_score": 0.76096
+    },
+    {
+      "user_id": 4,
+      "query_item": "4827",
+      "rank": 5,
+      "candidate_item": "5421",
+      "visual_score": 0.662844,
+      "popularity_score": 0.98962,
+      "final_score": 0.760877
+    },
+    {
+      "user_id": 4,
+      "query_item": "1225",
+      "rank": 1,
+      "candidate_item": "2203",
+      "visual_score": 0.808311,
+      "popularity_score": 0.980923,
+      "final_score": 0.860094
+    },
+    {
+      "user_id": 4,
+      "query_item": "1225",
+      "rank": 2,
+      "candidate_item": "5094",
+      "visual_score": 0.792774,
+      "popularity_score": 0.996171,
+      "final_score": 0.853793
+    },
+    {
+      "user_id": 4,
+      "query_item": "1225",
+      "rank": 3,
+      "candidate_item": "4380",
+      "visual_score": 0.783514,
+      "popularity_score": 0.996622,
+      "final_score": 0.847447
+    },
+    {
+      "user_id": 4,
+      "query_item": "1225",
+      "rank": 4,
+      "candidate_item": "3325",
+      "visual_score": 0.777399,
+      "popularity_score": 0.99536,
+      "final_score": 0.842787
+    },
+    {
+      "user_id": 4,
+      "query_item": "1225",
+      "rank": 5,
+      "candidate_item": "1422",
+      "visual_score": 0.777983,
+      "popularity_score": 0.983585,
+      "final_score": 0.839663
+    }
+  ],
+  "limitations": [
+    "This compares ranking on 10 cached queries, not the paper's full experimental results.",
+    "The adjusted archive has no gender labels; gender filtering and alignment are not evaluated.",
+    "Popularity, trendiness and purchases are synthetic, not real website events.",
+    "The cache has one embedding per product, not one per view; this is not a multi-view retrieval test."
+  ]
+}

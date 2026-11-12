@@ -1,0 +1,120 @@
+{
+  "inventory_columns": [
+    "split",
+    "role",
+    "item_id",
+    "image_path",
+    "mask_path",
+    "image_bytes",
+    "mask_bytes",
+    "width",
+    "height",
+    "mask_label",
+    "view_category",
+    "item_category"
+  ],
+  "sqlite_columns": {
+    "schema_metadata": [
+      "version",
+      "applied_at_utc"
+    ],
+    "datasets": [
+      "dataset_id",
+      "name",
+      "archive_path",
+      "archive_bytes",
+      "archive_sha256",
+      "image_count",
+      "item_count",
+      "created_at_utc"
+    ],
+    "data_builds": [
+      "build_id",
+      "dataset_id",
+      "created_at_utc",
+      "seed",
+      "train_ratio",
+      "valid_ratio",
+      "test_ratio",
+      "status",
+      "elapsed_seconds",
+      "error_count",
+      "warning_count",
+      "protocol_json"
+    ],
+    "items": [
+      "build_id",
+      "item_id",
+      "split",
+      "category",
+      "image_count"
+    ],
+    "images": [
+      "build_id",
+      "image_path",
+      "item_id",
+      "mask_path",
+      "split",
+      "role",
+      "width",
+      "height",
+      "mask_label",
+      "view_category"
+    ],
+    "retrieval_ground_truth": [
+      "build_id",
+      "split",
+      "query_image_path",
+      "relevant_gallery_path",
+      "item_id"
+    ],
+    "validation_events": [
+      "event_id",
+      "build_id",
+      "severity",
+      "message"
+    ],
+    "sqlite_sequence": [
+      "name",
+      "seq"
+    ],
+    "build_artifacts": [
+      "build_id",
+      "path",
+      "kind",
+      "bytes",
+      "sha256"
+    ],
+    "experiment_runs": [
+      "run_id",
+      "build_id",
+      "started_at_utc",
+      "completed_at_utc",
+      "status",
+      "variant",
+      "backbone",
+      "seed",
+      "config_json",
+      "code_revision",
+      "notes"
+    ],
+    "metrics": [
+      "metric_id",
+      "run_id",
+      "split",
+      "name",
+      "k",
+      "value",
+      "recorded_at_utc"
+    ],
+    "experiment_artifacts": [
+      "run_id",
+      "path",
+      "kind",
+      "bytes",
+      "sha256"
+    ]
+  },
+  "source": "week3_verify_and_smoke.py smoke(): default_rng(42).integers(0,101,len(metadata)), min-max normalized; metadata order preserved. Not purchases-derived, not trendiness compatibility.",
+  "seed": 42
+}

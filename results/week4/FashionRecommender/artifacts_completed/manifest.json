@@ -1,0 +1,241 @@
+{
+  "status": "completed",
+  "created_at_utc": "2026-10-27T03:37:15.443613+00:00",
+  "seed": 42,
+  "device": "cpu",
+  "threads": 4,
+  "batch_size": 8,
+  "deterministic_algorithms": true,
+  "weights": "ResNet50_Weights.IMAGENET1K_V2",
+  "weights_sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "versions": {
+    "python": "3.11.9",
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "numpy": "2.2.1",
+    "pillow": "12.2.0",
+    "platform": "macOS-26.5.2-arm64-arm-64bit"
+  },
+  "elapsed_seconds": 915.4718147499952,
+  "stage_seconds": {
+    "fixed_all": 743.3044115410303,
+    "old_test": 127.5258970829891
+  },
+  "peak_rss_bytes": 855228416,
+  "command": "python3 CDNC1_HK1_2627/results/week4/FashionRecommender/run_week4.py --batch-size 8 --output-dir CDNC1_HK1_2627/results/week4/FashionRecommender/artifacts_completed",
+  "rerun": "Use --output-dir with a new directory; existing output is never overwritten.",
+  "inputs": [
+    {
+      "path": "archive.zip",
+      "bytes": 2239158848,
+      "sha256": "a7d59c2bbb29af0ce3b49ac57747639815d2643cf0fd4c221a49533cb3585d21",
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_test.csv",
+      "bytes": 81927,
+      "sha256": "cecbc3c726b6c09a25e78933c4c86268f4cd869609ef4d356ed319b1f4335fe7",
+      "rows": 1439
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_train.csv",
+      "bytes": 355458,
+      "sha256": "5d76f657337f022b2e1af2a58bd802eff1952cd7e269d38b174d480e502d0464",
+      "rows": 6239
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_valid.csv",
+      "bytes": 84051,
+      "sha256": "d0ad71540e43c38bd56eeab7a9c5858da2a1eb8d04760fbd342d9f49eb812d15",
+      "rows": 1474
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/inventory.csv",
+      "bytes": 1421022,
+      "sha256": "e844347c4264c69de04de0cfa3636e10aeab790669cc84728b80e3d29ca97e0a",
+      "rows": 13752
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/test.csv",
+      "bytes": 207533,
+      "sha256": "c7fe31afd76eedbf354f307225479b0bc6be86bda1df2c5a3800293bd8b9381d",
+      "rows": 2129
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/train.csv",
+      "bytes": 922180,
+      "sha256": "9b33bb5f5c30d3f7913b699d2628c7a0cb541d20a2f49876dd44f7030ddccdd8",
+      "rows": 9458
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/valid.csv",
+      "bytes": 211140,
+      "sha256": "7c36ed195169b5a4706ae1862bbd55c7aedbc3658a1064d9f36e80926cec5341",
+      "rows": 2165
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/validation_report.json",
+      "bytes": 4445,
+      "sha256": "795f2ca63babf6a80bc15bc3746bca985439e38d9ba587ff0ab5ea22fe1aa54a",
+      "rows": null
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/tracking.sqlite3",
+      "bytes": 5844992,
+      "sha256": "4fbf317b0c4eaf262c4427073587233f5f0d2a566ad9e75c3a40a12413bb9e28",
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/repro_outputs_resnet50_full/metadata.csv",
+      "bytes": 414379,
+      "sha256": "d38ca05cf0d39d0e5888b409c607e6206f695164e02060238e10c868e9f5879f",
+      "rows": 4600
+    },
+    {
+      "path": "FashionRecommender/repro_outputs_resnet50_full/features_resnet50.pt",
+      "bytes": 37684847,
+      "sha256": "85f86de5698cffdd225638ebb80dd131508f88ec2c49b0f886dca4843cb35568",
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/repro_outputs_resnet50_full/run_manifest.json",
+      "bytes": 2605,
+      "sha256": "3be41b2c51497355ecadcbbc51e57163870bfc1b043b977aea4a5079fc09672f",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/ket_qua_kiem_thu.json",
+      "bytes": 914,
+      "sha256": "4c56fc6e4ca20e3578fa28a126a417441c9b375da970838aa4c0e507417408c1",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/ket_qua_test_nhieu_goc_nhin.json",
+      "bytes": 1684,
+      "sha256": "3fb0196acec3acb394fa9b0bec286fd3a54540c1790ca89ce5cbeada5a1fe6c3",
+      "rows": null
+    },
+    {
+      "path": "results/week3/FashionRecommender/xep_hang_test_top5.csv",
+      "bytes": 186616,
+      "sha256": "84e009d1fd7be878491f854f543dc10684909b9090cad685139020d24085966a",
+      "rows": 2930
+    },
+    {
+      "path": "FashionRecommender/week3_verify_and_smoke.py",
+      "bytes": 10727,
+      "sha256": "c384a12a6b3e32713ce9ddfbd4b4f23aecd92b9c8facb29e8b4dbf727f6c0d8c",
+      "rows": null
+    },
+    {
+      "path": "FashionRecommender/week3_retrieval_metrics.py",
+      "bytes": 1855,
+      "sha256": "95a21ca69b93c451b65715f87324da0dc7d84b78d9406d4b1f1e4b78a56c4fa8",
+      "rows": null
+    },
+    {
+      "path": "results/week4/FashionRecommender/run_week4.py",
+      "bytes": 13252,
+      "sha256": "65ae9ebdfa62e7eee082ad1d043cb16d9b2a08eacbfb2308414210fea7868b51",
+      "rows": null
+    }
+  ],
+  "outputs": [
+    {
+      "path": "crop_audit.csv",
+      "bytes": 633168,
+      "sha256": "40f3e1e099a77de822f89972fdeff11f40f378123ec175dd17e1d6541d03d712",
+      "rows": 15881
+    },
+    {
+      "path": "crop_before_after.png",
+      "bytes": 76999,
+      "sha256": "3a475ef1692b53b4472dfc6428ae397ed8b53516b8eb1927430ced3d766bb5a3",
+      "rows": null
+    },
+    {
+      "path": "crop_checks.json",
+      "bytes": 12056,
+      "sha256": "fcee15f49e2647ec2e02cd4b9afdd2a58c5145dac961f805aa55a63918e3bf78",
+      "rows": null
+    },
+    {
+      "path": "fixed_all.npy",
+      "bytes": 112656512,
+      "sha256": "aff4acc8df6036e266e4f5a2addad7cb9ed498ce8d602528da50cad3eb286f69",
+      "rows": 13752
+    },
+    {
+      "path": "fixed_all_index.csv",
+      "bytes": 1492435,
+      "sha256": "227d2f717264d66bfad308588dd036ac942a6754f21b628fe9396dadbd84e38d",
+      "rows": 13752
+    },
+    {
+      "path": "old_test.npy",
+      "bytes": 17440896,
+      "sha256": "b35e3fdc0329d6479878a5f48e4a7e1f188eda715ab0fe69c8adf30699c8c2c1",
+      "rows": 2129
+    },
+    {
+      "path": "old_test_index.csv",
+      "bytes": 217079,
+      "sha256": "3363804fd03d34c224012a6bf0e5f6cd97cdb1dc78e5ed1bf6d54ea296937670",
+      "rows": 2129
+    },
+    {
+      "path": "popularity.csv",
+      "bytes": 85461,
+      "sha256": "950ec2fbbcdcdd4889e58e3aa9a1de5b059e4fdba53ffd3668da1ec5c3b2ce2a",
+      "rows": 4600
+    },
+    {
+      "path": "popularity_lineage.json",
+      "bytes": 2216,
+      "sha256": "0c8352c07de107229a0d8b8cd87fa435af52ac3be256cf3138a43cf65cc168fd",
+      "rows": null
+    },
+    {
+      "path": "popularity_only_top10.csv",
+      "bytes": 319426,
+      "sha256": "aa3576d504217cf463c3e41cdcc289167c856f7564ba8bf1166b9c2790ca7f49",
+      "rows": 5860
+    },
+    {
+      "path": "sanity_checks.json",
+      "bytes": 560,
+      "sha256": "840c4770df468bfb048015fcbca5dd1f057b30a58d2d099ef4fb95723c64bc15",
+      "rows": null
+    },
+    {
+      "path": "visual_before_top10.csv",
+      "bytes": 404268,
+      "sha256": "d78e3d39eb112c072897cf57b8a678a492f180e91aed6859c621afb39b7d07cf",
+      "rows": 5860
+    },
+    {
+      "path": "visual_only_top10.csv",
+      "bytes": 404255,
+      "sha256": "48e9a83a2830766f660dc4a39c3a0e0cad785cfa45f4ea19245556b4ed7c5d39",
+      "rows": 5860
+    },
+    {
+      "path": "visual_top5_1.png",
+      "bytes": 221845,
+      "sha256": "973672494b83009615a42789070656237a6566f2c62c368339b830ebf486ed1c",
+      "rows": null
+    },
+    {
+      "path": "visual_top5_2.png",
+      "bytes": 164215,
+      "sha256": "df73aedb8a303f60a691a2d1295aa0da38e854b46e3ded8393e7f4a83716aaa0",
+      "rows": null
+    },
+    {
+      "path": "visual_top5_3.png",
+      "bytes": 253581,
+      "sha256": "ac7df9513d48dac4facdc6f53d4726eb431972b05a098360fa341cf21a406acb",
+      "rows": null
+    }
+  ]
+}

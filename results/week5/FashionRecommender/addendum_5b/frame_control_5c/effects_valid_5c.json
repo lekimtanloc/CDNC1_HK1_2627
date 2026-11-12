@@ -1,0 +1,23 @@
+{
+  "face_hair": {
+    "comparisons": [
+      "G0-G1",
+      "G2-G4"
+    ],
+    "conclusion": "có",
+    "direction": "positive",
+    "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+  },
+  "background": {
+    "comparisons": [
+      "G2-G0",
+      "G4-G1"
+    ],
+    "conclusion": "có",
+    "direction": "positive",
+    "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+  },
+  "frame": "G1-B and G3-F numbers/CIs only, no threshold",
+  "G3": "descriptive vsG0 and random; no person identity claims",
+  "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+}

@@ -1,0 +1,23 @@
+{
+  "category_rule_version": "v2",
+  "main": {
+    "1": "áo thân trên",
+    "2": "chân váy",
+    "5": "váy liền",
+    "8": "áo khoác",
+    "13": "quần"
+  },
+  "accessories": {
+    "6": "túi",
+    "7": "trang sức",
+    "10": "mũ",
+    "11": "kính",
+    "12": "thắt lưng",
+    "15": "giày",
+    "3": "tất"
+  },
+  "image": "main label with largest pixel count; tie smallest numeric label; absent accessory_or_unknown",
+  "product": "majority image category; tie smallest numeric label; unknown ordered after numeric labels",
+  "review": "100 products seed42, allocate evenly across split/category strata, then distribute remainder to strata with capacity; representative image smallest image_path; compare visible dominant main garment with assigned product category",
+  "pass_threshold": 90
+}

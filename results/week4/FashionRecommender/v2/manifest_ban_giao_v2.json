@@ -1,0 +1,628 @@
+{
+  "files": [
+    {
+      "path": "artifacts_v2/bbox_extremes.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 5305,
+      "sha256": "c15c0e52939ea48c2b9bd71c28450904e1903f965debd06035ccb08293fd6ff4",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/black_gallery_ranks.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 131339,
+      "sha256": "f3f0cce9fc41b0eca2044b48d5d2518b03a29e886018855831f9e4aaa1d77a40",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/black_test.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 179,
+      "sha256": "7acec7fad1d6cc20be8941b59128c942b6562567a67a1861d435cd76bd9b5341",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/crop_audit_v2.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 2295112,
+      "sha256": "377c711e2c958535821d41acfa444fc4271e011a315141fb9b25ad15c7cdc45a",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/crop_checks_v2.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 4649,
+      "sha256": "4eef465acb3363b42f4a4350b3a5dcd1ae0ab453905081b81d81911ee2fa9e0a",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/fixed_all_v2.npy",
+      "description": "Vector float32 đã trích, mỗi dòng một ảnh",
+      "bytes": 112656512,
+      "sha256": "9e5f2317025c050605b0820312d6034c4685a54ee3b327f5901a86e5ccf71a7a",
+      "included_in_zip": false
+    },
+    {
+      "path": "artifacts_v2/fixed_all_v2_index.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 1492435,
+      "sha256": "227d2f717264d66bfad308588dd036ac942a6754f21b628fe9396dadbd84e38d",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/manifest_v2.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 9868,
+      "sha256": "5432717737263300cea0b7619cb8cb64aead19e2ac3b4d4cc064afe0e9cd1314",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/popularity.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 85461,
+      "sha256": "950ec2fbbcdcdd4889e58e3aa9a1de5b059e4fdba53ffd3668da1ec5c3b2ce2a",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/popularity_lineage.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 2216,
+      "sha256": "0c8352c07de107229a0d8b8cd87fa435af52ac3be256cf3138a43cf65cc168fd",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/popularity_only_top10.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 319426,
+      "sha256": "aa3576d504217cf463c3e41cdcc289167c856f7564ba8bf1166b9c2790ca7f49",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/popularity_reference.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 825,
+      "sha256": "c92f64c94ef0edefa0aa8c98927250a3e3c9126ed587734bd8d902431b99b403",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/replay_1.npy",
+      "description": "Vector float32 đã trích, mỗi dòng một ảnh",
+      "bytes": 4194432,
+      "sha256": "955dd3a9eb409711f1ebe11d2e343ed5533cca2dba983a3ba34d77232957b2b4",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/replay_2.npy",
+      "description": "Vector float32 đã trích, mỗi dòng một ảnh",
+      "bytes": 4194432,
+      "sha256": "955dd3a9eb409711f1ebe11d2e343ed5533cca2dba983a3ba34d77232957b2b4",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/replay_index.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 57515,
+      "sha256": "0ab24c17e63ef207b8b089fd71ec2904d535a4f89290ff4880e779ab20b5e964",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/reproducibility.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 445,
+      "sha256": "3c331424600a8b99b96d832416910477b17aa0bb0f7b5737b50aa8a48e5989a8",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/sanity_checks_v2.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 458,
+      "sha256": "5c18091f638587f12ed8b4e0d6174911bf6cf786c627e208a03765921a65b84a",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/special_crop_v2.png",
+      "description": "Hình minh chứng hoặc minh họa",
+      "bytes": 435664,
+      "sha256": "d0bfce9d61959e1d575e7d203d73eeb84f3f9531f74d8ae6ea6ec8430b82c9de",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/tie_diagnostics.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 649,
+      "sha256": "925f1846ed80296c0a8ef1b5858fe8a197bcdf8aeacd6dfa26322d7060bd948a",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/transition_counts.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 642,
+      "sha256": "f0be0d332d6041c0218b17470653e2c696d1cef6438c691a10aded44d53f676c",
+      "included_in_zip": true
+    },
+    {
+      "path": "artifacts_v2/visual_only_v2_top10.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 404226,
+      "sha256": "7fbb0deca7556ab3f1c4e304258b2bc3c7fdf535650cc3138488f3b6c622bea8",
+      "included_in_zip": true
+    },
+    {
+      "path": "build_mapping_evidence.py",
+      "description": "Mã tái lập và kiểm tra",
+      "bytes": 5216,
+      "sha256": "37f9c230649667bbed20dcd32524f196f803f5b56a6bb7370ed94d0906defb8a",
+      "included_in_zip": true
+    },
+    {
+      "path": "common.py",
+      "description": "Mã tái lập và kiểm tra",
+      "bytes": 2286,
+      "sha256": "efcc2bae6975365eab63ca52bb0741f6b78f9a7ff7d9ed93cdc076365151b99c",
+      "included_in_zip": true
+    },
+    {
+      "path": "danh_sach_thay_doi_so_voi_v1.md",
+      "description": "Báo cáo, chú thích hoặc nhật ký",
+      "bytes": 1408,
+      "sha256": "70b2ab76a1009968ea2bf175f5a4776f1d113ceef2e6e649e8c45bf9a7fb7360",
+      "included_in_zip": true
+    },
+    {
+      "path": "doi_chieu_so_lieu.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 6430,
+      "sha256": "327343c93563268e4d6dd6985a32508f65c23b9d14f839714e43253da1dc89d2",
+      "included_in_zip": true
+    },
+    {
+      "path": "execution_attempts.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 399,
+      "sha256": "08a46a19fa08b627e46cc46aee5bc84b34229e02e5ca19ee4e74caa0329ef0eb",
+      "included_in_zip": true
+    },
+    {
+      "path": "figures/hinh_01_atlas_nhan.png",
+      "description": "Hình minh chứng hoặc minh họa",
+      "bytes": 1020847,
+      "sha256": "b092d3f5718e1036732cc1ba526ad143203c996c471c5ad3d08d5eef246cd316",
+      "included_in_zip": true
+    },
+    {
+      "path": "figures/hinh_02_crop_v1_v2.png",
+      "description": "Hình minh chứng hoặc minh họa",
+      "bytes": 689046,
+      "sha256": "a949774f463ce0941f05923c02519b019006e7035cfe86ee3bd411984344d104",
+      "included_in_zip": true
+    },
+    {
+      "path": "figures/hinh_03_top5_v1_v2.png",
+      "description": "Hình minh chứng hoặc minh họa",
+      "bytes": 682058,
+      "sha256": "30d22c3ee8eb35fcd25738596aa8f9dfcf08936878d2d8f88bd1ea59937f1f8f",
+      "included_in_zip": true
+    },
+    {
+      "path": "figures/hinh_04_so_do_pipeline.png",
+      "description": "Hình minh chứng hoặc minh họa",
+      "bytes": 56343,
+      "sha256": "ab771bb7a27ebaca33dfed7dfe6f9f47e65b790a38ef75875119cc73f5ad209d",
+      "included_in_zip": true
+    },
+    {
+      "path": "figures/hinh_05_so_sanh_sanity.png",
+      "description": "Hình minh chứng hoặc minh họa",
+      "bytes": 54361,
+      "sha256": "58db7444708253fdf979b5f9d612e054d746b757e3b60f3e642725052f63f249",
+      "included_in_zip": true
+    },
+    {
+      "path": "figures/hinh_06_anh_den_v2.png",
+      "description": "Hình minh chứng hoặc minh họa",
+      "bytes": 672837,
+      "sha256": "9bdc15622d8bd944ebcbdf16a8ccaf5bfe7182eadb5f9f0790a13e70c1b32586",
+      "included_in_zip": true
+    },
+    {
+      "path": "figures/mo_ta_hinh.md",
+      "description": "Báo cáo, chú thích hoặc nhật ký",
+      "bytes": 1454,
+      "sha256": "023abda4eb64abfc0422fac96ab1f5059d36eeb8e6033462bee942bbbf71779a",
+      "included_in_zip": true
+    },
+    {
+      "path": "figures/selections.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 547,
+      "sha256": "cceeaf03ab67190fe1ad6d651200ab5f0ae2169ac0bcba5a6a37fe2d9d6b390a",
+      "included_in_zip": true
+    },
+    {
+      "path": "file_npy_bo_qua.txt",
+      "description": "Báo cáo, chú thích hoặc nhật ký",
+      "bytes": 334,
+      "sha256": "5409283731827dd2d2f6e0ab015712958d2223f7ced453e68c05c309b9ef5b7e",
+      "included_in_zip": true
+    },
+    {
+      "path": "hash_cu_sau.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 49605,
+      "sha256": "e3e4247d8942b7eebf63f827a6908f136d0dad3d8cdb0551562ce00fa0b32131",
+      "included_in_zip": true
+    },
+    {
+      "path": "hash_cu_truoc.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 49605,
+      "sha256": "e3e4247d8942b7eebf63f827a6908f136d0dad3d8cdb0551562ce00fa0b32131",
+      "included_in_zip": true
+    },
+    {
+      "path": "ket_qua_tuan_04_v2.md",
+      "description": "Báo cáo, chú thích hoặc nhật ký",
+      "bytes": 11314,
+      "sha256": "25c3a6b22673e07ce7a0538e06e798e5369cf9f4a2a2b99f3b6657d27b6f883f",
+      "included_in_zip": true
+    },
+    {
+      "path": "make_figures_v2.py",
+      "description": "Mã tái lập và kiểm tra",
+      "bytes": 7612,
+      "sha256": "944a1edfdeb683969d99b84744237009e35670c9f66b66ddc7b189a72c637016",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/archive_inspection.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 134,
+      "sha256": "03264d4210f876fa7e2677a0ec217d3abda38d8be02e32550b28cfed66185867",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_00.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1827761,
+      "sha256": "eaadecf522a8387287ee8c859a255d2eb497d338fa6b6468faa13eae6a809563",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_01.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1657540,
+      "sha256": "3ced23eb477ac7ee756a478dc9a5f23f3cc24d9bf96516d6ed2800c7e2a8edd2",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_02.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1582272,
+      "sha256": "67b0e8d2f251e3a53981dfdb5dd82571603d12ebc4b6b0016b42c115db39661b",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_03.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1319245,
+      "sha256": "f083aa31263979a5005d43ca975efa91e5650a26e5acb88a9349e78464380845",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_04.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1524755,
+      "sha256": "ac3853dca7c02f4992cd3dc2a96cd8bf08bd5ee45ef9da7c94e1811c02ccca31",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_05.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1668938,
+      "sha256": "b8d3ea1d8986813bc59b2333bdc76baa50f6cd195a48c55bcddc4d4816e27170",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_06.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1340146,
+      "sha256": "5dd7e59ce97befb0144305899aae665cbfa7b4ad339cf6a91eafcbc853dd9110",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_07.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1469671,
+      "sha256": "aa39eb91e0b0d4b3db5d93f1dca7cc7da0e45d4014815bb49ccc949c9b55a23c",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_08.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1786305,
+      "sha256": "a9fa5a2eb455dd1632cce107e6faea1b776286c09790d3b5986ee7c85d0e83a7",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_09.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1537421,
+      "sha256": "72b3dae8f20897d403ab1f580403d442dd6c999b9a4e86f42da9e2da78ac9936",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_10.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1461632,
+      "sha256": "792acd58601e56568874c30d4e2965a2d74571bbabb80bc45391898ef94ede61",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_11.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1348224,
+      "sha256": "eb5efe9714d92a1d7c5b0067e8d6254d20f78cf1ac311b445d6d55ca6795cbbb",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_12.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1476128,
+      "sha256": "d6016769dcff31511e066eafd85ba0ce214e72baa8d948bdedf468807560fb2d",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_13.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1538760,
+      "sha256": "d8319fad0878653c60a0f0f8dd711814af02f9e5b54849874179e90819b71c63",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_14.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1601903,
+      "sha256": "0b637b9a04583bf4bddd40ec13c7c9fe9d69cd8073e7725204cb2b1a4ea6af1d",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_nhan_15.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1236541,
+      "sha256": "ee35364b177da72839b363025c65809e78dea837229a528c37e68706e74c4dfe",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_samples.csv",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 21111,
+      "sha256": "277a029057e68b50cc29ba818c92cb0a2ebe9dd3c3fbfe7cf10908579f6af4ac",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/atlas_tong_quan.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1262004,
+      "sha256": "b2410db0a08f9e10cbdc77b3fca87aad754efe4c61bfd54cba1b2454642e5a7e",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/bo_sung_nhan_03.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 422972,
+      "sha256": "ff04b717a4eb8e21cfc346d1405bd03c3c9f39af4e18eb050ad1b1b1727a186a",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/bo_sung_nhan_04.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 922679,
+      "sha256": "f6e867ed4f1fbe157cda75d02dc9286c8b737defe0dcabcdc2bcf46e723fd8ee",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/bo_sung_nhan_06.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 767230,
+      "sha256": "3983ec70fccb230d2aba52e5d7cd7101b8020aff4b7538cb0b72a4892b1a7d04",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/bo_sung_nhan_07.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 700785,
+      "sha256": "178b380b166d306c55cb95a3371e09db4c2c32cc061b319b35036623f4e4dfdb",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/bo_sung_nhan_08.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1016872,
+      "sha256": "4a79bd948fa579babbe500310e235ac911c458bb927921bdc2893a86ade97af3",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/bo_sung_nhan_09.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 1025045,
+      "sha256": "1e77c014fbdb97dacd19e738f159ad280aa1f4a61b2adc050a490e882c3636a1",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/bo_sung_nhan_11.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 527652,
+      "sha256": "aa1f6b44e56301a269e2598e5c82d3679bc6ca0849cac691be3b2f2f85769ef9",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/bo_sung_nhan_12.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 460113,
+      "sha256": "557cbab24a9c6c718c10d9eec8495fdc83a6705d91d42547e565337671e0b8dd",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/bo_sung_nhan_13.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 598567,
+      "sha256": "7b8fb445093707c091f2b9bf58f7e88b09d6c10328863d803ee7709f87fc7220",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/bo_sung_nhan_14.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 856852,
+      "sha256": "020d8d692653fb0f646baef4200ce64623b20a9e2d6b13e7440979c87a3e8454",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/bo_sung_nhan_15.png",
+      "description": "Atlas và mẫu vùng nhãn để xác minh mapping",
+      "bytes": 459513,
+      "sha256": "4894a952d18ce8f5c1830a4dd533cf30fcd662af53d61804bc2ddc54ef038d01",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/decision.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 671,
+      "sha256": "aa57df98669d18481b07c6c2df2a687c8870e4bb749a819c0cb358ac3ef7b1f6",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/dong_xuat_hien.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 6994,
+      "sha256": "ca179106ec418fa672d12ce5e9a4d417e339c090690297e385753621f4f955fb",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/evidence_manifest.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 5601,
+      "sha256": "60f12f3304b534344b165e18b5a61275d887087e49f9c378c214a519a2da172e",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/mapping_de_xuat.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 4516,
+      "sha256": "f64ceab7cc1ba2dc73ddb3aa54781431a5453077d8d28f84a94d3721e725d0fc",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/nhan_atlas.md",
+      "description": "Báo cáo, chú thích hoặc nhật ký",
+      "bytes": 7498,
+      "sha256": "a9bc384da3ff195287af98222df24b53820c2dc6243be8926f3458adf87bab9f",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/nhan_thong_ke.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 6390,
+      "sha256": "6819ed6a5c83bf3fef9e813f3391c65e0f5f057c40126fdb8a5b24fc57d8b188",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/on_dinh_giua_split.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 1126,
+      "sha256": "5a028c861caa5ccc8ec610d2d5b3397f443b0da2edc9efe1b302b05942bb1aac",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/thong_ke_tung_anh.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 8853885,
+      "sha256": "ba5117ed2525786f1fa49b34e4eaffa3524e2de311f7874adc33fc23676fe74c",
+      "included_in_zip": true
+    },
+    {
+      "path": "mapping/visual_review_log.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 6347,
+      "sha256": "03d2e323996776649b06fd8cd0b91721631c4fa82978f06afbd0acfd59e51038",
+      "included_in_zip": true
+    },
+    {
+      "path": "nguon_mapping.md",
+      "description": "Báo cáo, chú thích hoặc nhật ký",
+      "bytes": 3132,
+      "sha256": "e21cc76480f0d3065655b8c32333ee67dbc5e73e10c6155ce95b7ac547c0c27a",
+      "included_in_zip": true
+    },
+    {
+      "path": "package_v2.py",
+      "description": "Mã tái lập và kiểm tra",
+      "bytes": 4023,
+      "sha256": "daed0e9de703b336d4b94e41ef3ab6a41ff4ef51402c91b2fc35f551cc48203d",
+      "included_in_zip": true
+    },
+    {
+      "path": "record_mapping_review.py",
+      "description": "Mã tái lập và kiểm tra",
+      "bytes": 8347,
+      "sha256": "fab373daf712835d5e478aea634a3eee6ad8346f9c4c25945bef4e1b9099fb7a",
+      "included_in_zip": true
+    },
+    {
+      "path": "references/ket_qua_tuan_04.md",
+      "description": "Báo cáo, chú thích hoặc nhật ký",
+      "bytes": 9656,
+      "sha256": "7aa54606095940df9825060f28cbefa6e2529e7f311e4c5ce4c9b3e8e13d888d",
+      "included_in_zip": true
+    },
+    {
+      "path": "references/xac_nhan.md",
+      "description": "Báo cáo, chú thích hoặc nhật ký",
+      "bytes": 12595,
+      "sha256": "718a63808fdabdc6d54e53ef2659b5981c21c9d1fa1f0cc9b8de41a2bee147c6",
+      "included_in_zip": true
+    },
+    {
+      "path": "run_v2.py",
+      "description": "Mã tái lập và kiểm tra",
+      "bytes": 11909,
+      "sha256": "9ef13255558c25f3e2be27d0f773dca4915db461c2609f4f0b31423642b7dd6d",
+      "included_in_zip": true
+    },
+    {
+      "path": "top1_chuyen_trang_thai_v1_v2.csv",
+      "description": "Bảng dữ liệu hoặc đối chiếu chi tiết",
+      "bytes": 28202,
+      "sha256": "6225cd99a69b3817c8afdae87e6282bbb8c34d361aa0abb45cfe93bd226cfbfd",
+      "included_in_zip": true
+    },
+    {
+      "path": "verification_v2.txt",
+      "description": "Báo cáo, chú thích hoặc nhật ký",
+      "bytes": 480,
+      "sha256": "4ae3fc8f96cfbd70d927c0a3e28ee02c5f2ba5c5047309829929178f1f818f16",
+      "included_in_zip": true
+    },
+    {
+      "path": "verified_values.json",
+      "description": "Cấu hình, số liệu hoặc manifest kiểm chứng",
+      "bytes": 3214,
+      "sha256": "7ac0d74ccd0195ac90ced8b6a128ff117ef08a1733aabd77243c495eb7dc1276",
+      "included_in_zip": true
+    },
+    {
+      "path": "verify_and_report.py",
+      "description": "Mã tái lập và kiểm tra",
+      "bytes": 24627,
+      "sha256": "5dabee476b123b47c02e700ce63b938ed00f74504a9d05558ffcd8d5ce3c0aee",
+      "included_in_zip": true
+    }
+  ],
+  "old_files_unchanged": 279,
+  "estimated_full_zip_bytes": 112124387,
+  "excluded_self_and_later": [
+    "manifest_ban_giao_v2.json",
+    "muc_luc_goi.md",
+    "tuan4_v2_bao_cao_goi.zip",
+    "package_receipt.json"
+  ]
+}

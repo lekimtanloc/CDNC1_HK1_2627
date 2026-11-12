@@ -1,0 +1,21 @@
+{
+  "gallery": 1597,
+  "queries": 568,
+  "query_gallery_intersection": 0,
+  "t_query_pop_pearson": -0.05209382520892131,
+  "popularity_rng_lineage_exact": true,
+  "gallery_products": 691,
+  "unique_normpop_values": 101,
+  "largest_pop_tie_products": 13,
+  "normpop_mean": 0.49871201157742406,
+  "normpop_std": 0.2964218687927031,
+  "queries_each_unique_product": true,
+  "note": "Pearson descriptive only; exact deterministic provenance does not prove population independence. Official score code has no ground truth input except evaluation. Oracle stored separately.",
+  "hashes": {
+    "results/week2/FashionRecommender/data_protocol/valid.csv": "7c36ed195169b5a4706ae1862bbd55c7aedbc3658a1064d9f36e80926cec5341",
+    "results/week2/FashionRecommender/data_protocol/ground_truth_valid.csv": "d0ad71540e43c38bd56eeab7a9c5858da2a1eb8d04760fbd342d9f49eb812d15",
+    "results/week5/FashionRecommender/t_q_valid.csv": "a383ac3ba0735a170914622c54e0221f10e12b7be973cc81b0513737c7af49b4",
+    "results/week4/FashionRecommender/artifacts_completed/popularity.csv": "950ec2fbbcdcdd4889e58e3aa9a1de5b059e4fdba53ffd3668da1ec5c3b2ce2a",
+    "FashionRecommender/repro_outputs_resnet50_full/metadata.csv": "d38ca05cf0d39d0e5888b409c607e6206f695164e02060238e10c868e9f5879f"
+  }
+}

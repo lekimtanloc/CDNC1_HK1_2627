@@ -1,0 +1,21 @@
+{
+  "note": "Chỉ để kiểm tra pipeline; không phải kết quả đánh giá chính thức tuần 5.",
+  "results": {
+    "visual_before": {
+      "top1": 0.30204778156996587,
+      "recall_at_5": 0.32196823028114135
+    },
+    "visual_only": {
+      "top1": 0.30887372013651876,
+      "recall_at_5": 0.33511468228906455
+    },
+    "popularity_only": {
+      "top1": 0.0017064846416382253,
+      "recall_at_5": 0.006257110352673493
+    },
+    "week3_saved_top5": {
+      "top1": 0.30204778156996587,
+      "recall_at_5": 0.32196823028114135
+    }
+  }
+}

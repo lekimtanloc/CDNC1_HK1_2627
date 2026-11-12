@@ -1,0 +1,561 @@
+source,location,reported,independent,match,note
+aggregate_valid,G0/Top-1 value,0.352112676056338,0.352112676056338,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/Top-1 ci_low,0.31338028169014087,0.31338028169014087,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/Top-1 ci_high,0.3908450704225352,0.3908450704225352,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/Recall@1 value,0.2034485648837008,0.2034485648837008,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/Recall@1 ci_low,0.17494642030507035,0.17494642030507035,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/Recall@1 ci_high,0.23319124192967816,0.23319124192967816,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/Recall@5 value,0.34940014393806745,0.34940014393806745,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/Recall@5 ci_low,0.3155837430021216,0.3155837430021216,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/Recall@5 ci_high,0.38417567883206655,0.38417567883206655,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/Recall@10 value,0.4296769967620948,0.4296769967620948,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/Recall@10 ci_low,0.3940589986661372,0.3940589986661372,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/Recall@10 ci_high,0.46538965093244816,0.46538965093244816,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/NDCG@5 value,0.33247175893371667,0.33247175893371667,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/NDCG@5 ci_low,0.3014331635068578,0.3014331635068578,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/NDCG@5 ci_high,0.3635867728151061,0.3635867728151061,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/NDCG@10 value,0.35479732360046684,0.3547973236004668,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/NDCG@10 ci_low,0.3248344663637958,0.3248344663637958,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/NDCG@10 ci_high,0.38525472322393384,0.38525472322393384,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/MRR@10 value,0.42213139950816003,0.4221313995081601,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/MRR@10 ci_low,0.38570340445450485,0.38570340445450485,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G0/MRR@10 ci_high,0.45838524200760117,0.45838524200760117,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/Top-1 value,0.26936619718309857,0.26936619718309857,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/Top-1 ci_low,0.2323943661971831,0.2323943661971831,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/Top-1 ci_high,0.30633802816901406,0.30633802816901406,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/Recall@1 value,0.15174330125062024,0.15174330125062024,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/Recall@1 ci_low,0.12595622265495762,0.12595622265495762,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/Recall@1 ci_high,0.17819514296637123,0.17819514296637123,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/Recall@5 value,0.27562262456972375,0.27562262456972375,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/Recall@5 ci_low,0.24428714809863836,0.24428714809863836,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/Recall@5 ci_high,0.3071490049419173,0.3071490049419173,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/Recall@10 value,0.3412169562426772,0.3412169562426772,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/Recall@10 ci_low,0.30768552314716996,0.30768552314716996,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/Recall@10 ci_high,0.3752968577465049,0.3752968577465049,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/NDCG@5 value,0.26477016352264826,0.2647701635226482,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/NDCG@5 ci_low,0.23622607026179807,0.23622607026179807,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/NDCG@5 ci_high,0.29349230141415383,0.29349230141415383,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/NDCG@10 value,0.2833995549263319,0.28339955492633195,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/NDCG@10 ci_low,0.2549841270424271,0.2549841270424271,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/NDCG@10 ci_high,0.31150788952367475,0.31150788952367475,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/MRR@10 value,0.3419677788955958,0.3419677788955958,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/MRR@10 ci_low,0.3067427656215068,0.3067427656215068,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G1/MRR@10 ci_high,0.37662176182092555,0.37662176182092555,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/Top-1 value,0.3873239436619718,0.3873239436619718,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/Top-1 ci_low,0.34683098591549294,0.34683098591549294,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/Top-1 ci_high,0.4278169014084507,0.4278169014084507,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/Recall@1 value,0.23411620758919563,0.23411620758919563,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/Recall@1 ci_low,0.2045931877728951,0.2045931877728951,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/Recall@1 ci_high,0.2650406518887011,0.2650406518887011,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/Recall@5 value,0.4219282496838796,0.42192824968387954,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/Recall@5 ci_low,0.3861584117812356,0.3861584117812356,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/Recall@5 ci_high,0.4589483364871106,0.4589483364871106,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/Recall@10 value,0.488580667808716,0.4885806678087161,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/Recall@10 ci_low,0.4522228632875822,0.4522228632875822,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/Recall@10 ci_high,0.5257143347819259,0.5257143347819259,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/NDCG@5 value,0.39116797158607564,0.39116797158607564,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/NDCG@5 ci_low,0.35898024883518037,0.35898024883518037,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/NDCG@5 ci_high,0.4245145733880463,0.4245145733880464,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/NDCG@10 value,0.4092770469958567,0.4092770469958567,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/NDCG@10 ci_low,0.3781666574984492,0.3781666574984492,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/NDCG@10 ci_high,0.44174426644179215,0.44174426644179215,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/MRR@10 value,0.46512128325508606,0.46512128325508606,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/MRR@10 ci_low,0.42801389936843287,0.42801389936843287,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G2/MRR@10 ci_high,0.5017927879778671,0.5017927879778671,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/Top-1 value,0.09330985915492958,0.09330985915492958,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/Top-1 ci_low,0.07042253521126761,0.07042253521126761,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/Top-1 ci_high,0.11795774647887323,0.11795774647887323,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/Recall@1 value,0.04462764134783319,0.04462764134783319,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/Recall@1 ci_low,0.030696052687690014,0.030696052687690014,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/Recall@1 ci_high,0.05999241373854355,0.05999241373854355,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/Recall@5 value,0.10778594512336978,0.10778594512336978,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/Recall@5 ci_low,0.08593555206388392,0.08593555206388392,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/Recall@5 ci_high,0.1304959907713511,0.1304959907713511,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/Recall@10 value,0.15763557934800398,0.15763557934800398,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/Recall@10 ci_low,0.13184755161104061,0.13184755161104061,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/Recall@10 ci_high,0.1852717127793505,0.1852717127793505,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/NDCG@5 value,0.09930901022076968,0.09930901022076968,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/NDCG@5 ci_low,0.080083701323157,0.08008370132315701,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/NDCG@5 ci_high,0.11914069245129591,0.11914069245129591,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/NDCG@10 value,0.11533053644863468,0.11533053644863468,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/NDCG@10 ci_low,0.09613623134722002,0.09613623134722002,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/NDCG@10 ci_high,0.13529817153097812,0.13529817153097812,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/MRR@10 value,0.14378353454057682,0.1437835345405768,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/MRR@10 ci_low,0.1190858519170579,0.1190858519170579,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G3/MRR@10 ci_high,0.16932637491616365,0.16932637491616365,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/Top-1 value,0.3257042253521127,0.3257042253521127,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/Top-1 ci_low,0.2869718309859155,0.2869718309859155,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/Top-1 ci_high,0.3644366197183099,0.3644366197183099,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/Recall@1 value,0.18594324889687072,0.18594324889687072,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/Recall@1 ci_low,0.1585134730277178,0.1585134730277178,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/Recall@1 ci_high,0.2141018133310803,0.2141018133310803,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/Recall@5 value,0.3539360093368857,0.3539360093368857,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/Recall@5 ci_low,0.319414388737199,0.319414388737199,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/Recall@5 ci_high,0.38858985896031156,0.38858985896031156,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/Recall@10 value,0.4264066456258911,0.4264066456258911,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/Recall@10 ci_low,0.3906670574206303,0.3906670574206303,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/Recall@10 ci_high,0.46197994596090614,0.46197994596090614,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/NDCG@5 value,0.3258433454099724,0.3258433454099724,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/NDCG@5 ci_low,0.29536451209631476,0.29536451209631476,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/NDCG@5 ci_high,0.35682863562737815,0.35682863562737815,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/NDCG@10 value,0.3473294348912391,0.347329434891239,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/NDCG@10 ci_low,0.3174258494190285,0.3174258494190285,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/NDCG@10 ci_high,0.37792806712768734,0.37792806712768734,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/MRR@10 value,0.4036405935613683,0.4036405935613682,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/MRR@10 ci_low,0.3677959772524033,0.3677959772524033,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,G4/MRR@10 ci_high,0.43967974513749164,0.43967974513749164,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/Top-1 value,0.3221830985915493,0.3221830985915493,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/Top-1 ci_low,0.2834507042253521,0.2834507042253521,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/Top-1 ci_high,0.3609154929577465,0.3609154929577465,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/Recall@1 value,0.17910877615130644,0.17910877615130644,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/Recall@1 ci_low,0.15196741680996378,0.15196741680996378,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/Recall@1 ci_high,0.20609503830949688,0.20609503830949688,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/Recall@5 value,0.3138761369714341,0.3138761369714341,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/Recall@5 ci_low,0.28103706692822605,0.28103706692822605,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/Recall@5 ci_high,0.34713390987187714,0.34713390987187714,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/Recall@10 value,0.3741740430199277,0.3741740430199276,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/Recall@10 ci_low,0.3401921042322133,0.3401921042322133,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/Recall@10 ci_high,0.40942047103397555,0.40942047103397555,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/NDCG@5 value,0.3037991219245321,0.3037991219245321,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/NDCG@5 ci_low,0.2730392242444282,0.2730392242444282,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/NDCG@5 ci_high,0.33442451841456267,0.33442451841456267,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/NDCG@10 value,0.31855641508233895,0.31855641508233895,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/NDCG@10 ci_low,0.28861541954778,0.28861541954778,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/NDCG@10 ci_high,0.3481885731884978,0.3481885731884978,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/MRR@10 value,0.3855053934719428,0.38550539347194274,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/MRR@10 ci_low,0.3481992999664654,0.3481992999664654,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,B/MRR@10 ci_high,0.42158141557679407,0.42158141557679407,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/Top-1 value,0.15140845070422534,0.15140845070422534,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/Top-1 ci_low,0.12323943661971831,0.12323943661971831,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/Top-1 ci_high,0.1813380281690141,0.1813380281690141,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/Recall@1 value,0.0751987947985434,0.0751987947985434,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/Recall@1 ci_low,0.05713675896095304,0.05713675896095304,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/Recall@1 ci_high,0.09464174711030338,0.09464174711030338,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/Recall@5 value,0.15978467680031652,0.15978467680031652,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/Recall@5 ci_low,0.13397509215087017,0.13397509215087017,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/Recall@5 ci_high,0.18649095594497597,0.18649095594497597,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/Recall@10 value,0.2037313256154766,0.2037313256154766,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/Recall@10 ci_low,0.17465949722515903,0.17465949722515903,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/Recall@10 ci_high,0.23326654754348342,0.23326654754348342,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/NDCG@5 value,0.149914423929039,0.149914423929039,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/NDCG@5 ci_low,0.12682967580940732,0.12682967580940735,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/NDCG@5 ci_high,0.17395911692681784,0.17395911692681784,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/NDCG@10 value,0.16213283978411933,0.16213283978411933,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/NDCG@10 ci_low,0.13880482369331001,0.13880482369331001,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/NDCG@10 ci_high,0.18606082576442262,0.18606082576442262,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/MRR@10 value,0.2015886988598256,0.2015886988598256,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/MRR@10 ci_low,0.17176547130002232,0.17176547130002232,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_valid,F/MRR@10 ci_high,0.23184670523138828,0.23184670523138828,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/Top-1 value,0.3242320819112628,0.3242320819112628,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/Top-1 ci_low,0.28668941979522183,0.28668941979522183,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/Top-1 ci_high,0.36177474402730375,0.36177474402730375,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/Recall@1 value,0.16926550754434033,0.1692655075443403,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/Recall@1 ci_low,0.14437115234322004,0.14437115234322004,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/Recall@1 ci_high,0.19525391574625864,0.19525391574625864,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/Recall@5 value,0.32870338260452225,0.3287033826045223,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/Recall@5 ci_low,0.2958711948998487,0.2958711948998487,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/Recall@5 ci_high,0.36174402507793774,0.36174402507793774,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/Recall@10 value,0.38882870314814594,0.3888287031481459,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/Recall@10 ci_low,0.35425999610845876,0.35425999610845876,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/Recall@10 ci_high,0.4235631711145162,0.4235631711145162,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/NDCG@5 value,0.31349725720781363,0.31349725720781363,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/NDCG@5 ci_low,0.28310279349742845,0.28310279349742845,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/NDCG@5 ci_high,0.3443545632699115,0.3443545632699115,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/NDCG@10 value,0.33183359156013864,0.33183359156013864,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/NDCG@10 ci_low,0.3017591451163443,0.3017591451163443,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/NDCG@10 ci_high,0.36202511746746346,0.36202511746746346,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/MRR@10 value,0.3911486266861694,0.39114862668616934,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/MRR@10 ci_low,0.35452093152391784,0.35452093152391784,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G0/MRR@10 ci_high,0.4266052298336855,0.4266052298336855,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/Top-1 value,0.28498293515358364,0.28498293515358364,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/Top-1 ci_low,0.24914675767918087,0.24914675767918087,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/Top-1 ci_high,0.3225255972696246,0.3225255972696246,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/Recall@1 value,0.13593299395091418,0.13593299395091418,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/Recall@1 ci_low,0.11379099042816851,0.11379099042816851,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/Recall@1 ci_high,0.15906960955902472,0.15906960955902472,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/Recall@5 value,0.2556164568579866,0.2556164568579866,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/Recall@5 ci_low,0.22606430293590796,0.22606430293590796,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/Recall@5 ci_high,0.28555667724032074,0.28555667724032074,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/Recall@10 value,0.33034519486114405,0.33034519486114405,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/Recall@10 ci_low,0.2982952806931026,0.2982952806931026,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/Recall@10 ci_high,0.36338259905954273,0.36338259905954273,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/NDCG@5 value,0.25440822543464015,0.25440822543464015,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/NDCG@5 ci_low,0.226146918043224,0.226146918043224,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/NDCG@5 ci_high,0.2828635083567252,0.2828635083567252,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/NDCG@10 value,0.2759820092567159,0.2759820092567159,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/NDCG@10 ci_low,0.24862957499756452,0.24862957499756452,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/NDCG@10 ci_high,0.30378459468666824,0.30378459468666835,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/MRR@10 value,0.3442893710385178,0.3442893710385178,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/MRR@10 ci_low,0.3090637527764234,0.3090637527764234,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G1/MRR@10 ci_high,0.3797901599490763,0.3797901599490763,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/Top-1 value,0.3771331058020478,0.3771331058020478,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/Top-1 ci_low,0.3378839590443686,0.3378839590443686,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/Top-1 ci_high,0.41638225255972694,0.41638225255972694,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/Recall@1 value,0.2210692593480921,0.2210692593480921,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/Recall@1 ci_low,0.19283298134609625,0.19283298134609625,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/Recall@1 ci_high,0.25102978995395836,0.25102978995395836,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/Recall@5 value,0.4064150756581576,0.40641507565815765,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/Recall@5 ci_low,0.37127111184060246,0.37127111184060246,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/Recall@5 ci_high,0.4420100851712507,0.4420100851712507,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/Recall@10 value,0.48839314067635686,0.48839314067635686,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/Recall@10 ci_low,0.4526531793445882,0.4526531793445882,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/Recall@10 ci_high,0.5242843753304754,0.5242843753304754,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/NDCG@5 value,0.3778410824123256,0.3778410824123256,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/NDCG@5 ci_low,0.34684928630480416,0.34684928630480416,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/NDCG@5 ci_high,0.40981145992912,0.40981145992912,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/NDCG@10 value,0.4031994085936619,0.4031994085936619,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/NDCG@10 ci_low,0.37298028782359743,0.37298028782359743,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/NDCG@10 ci_high,0.4344188293496178,0.43441882934961784,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/MRR@10 value,0.45522035321523374,0.45522035321523374,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/MRR@10 ci_low,0.41961133457933797,0.41961133457933797,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G2/MRR@10 ci_high,0.4909429004821496,0.4909429004821496,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/Top-1 value,0.10068259385665529,0.10068259385665529,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/Top-1 ci_low,0.07679180887372014,0.07679180887372014,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/Top-1 ci_high,0.12627986348122866,0.12627986348122866,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/Recall@1 value,0.04025730865706644,0.04025730865706644,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/Recall@1 ci_low,0.028285039955915494,0.028285039955915494,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/Recall@1 ci_high,0.05326588576887898,0.05326588576887898,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/Recall@5 value,0.11567479503871665,0.11567479503871665,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/Recall@5 ci_low,0.09454945275833199,0.09454945275833199,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/Recall@5 ci_high,0.13780113266994665,0.13780113266994665,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/Recall@10 value,0.16526276410538218,0.16526276410538218,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/Recall@10 ci_low,0.13950320542226438,0.13950320542226438,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/Recall@10 ci_high,0.1907606779299089,0.1907606779299089,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/NDCG@5 value,0.10202151289798632,0.10202151289798632,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/NDCG@5 ci_low,0.08449339086750242,0.08449339086750242,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/NDCG@5 ci_high,0.12074822287557785,0.12074822287557785,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/NDCG@10 value,0.11794836398008209,0.11794836398008209,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/NDCG@10 ci_low,0.09974565326400442,0.09974565326400442,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/NDCG@10 ci_high,0.1365958104688073,0.1365958104688073,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/MRR@10 value,0.14977043718511296,0.14977043718511296,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/MRR@10 ci_low,0.12488679302779132,0.12488679302779132,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G3/MRR@10 ci_high,0.1751859865106452,0.1751859865106452,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/Top-1 value,0.30716723549488056,0.30716723549488056,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/Top-1 ci_low,0.2696245733788396,0.2696245733788396,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/Top-1 ci_high,0.3464163822525597,0.3464163822525597,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/Recall@1 value,0.16727664032509768,0.16727664032509768,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/Recall@1 ci_low,0.14129430604354745,0.14129430604354745,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/Recall@1 ci_high,0.19369865653745258,0.19369865653745258,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/Recall@5 value,0.3312491798427112,0.3312491798427112,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/Recall@5 ci_low,0.29850271951257806,0.29850271951257806,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/Recall@5 ci_high,0.3645372290759744,0.3645372290759744,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/Recall@10 value,0.4114400903320812,0.4114400903320812,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/Recall@10 ci_low,0.377022198942665,0.377022198942665,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/Recall@10 ci_high,0.44698186611731905,0.44698186611731905,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/NDCG@5 value,0.3096493826558618,0.3096493826558618,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/NDCG@5 ci_low,0.2794663396502875,0.2794663396502875,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/NDCG@5 ci_high,0.33975465569833174,0.33975465569833174,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/NDCG@10 value,0.3332084963364752,0.33320849633647515,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/NDCG@10 ci_low,0.30373303569404075,0.30373303569404075,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/NDCG@10 ci_high,0.3630584431283516,0.36305844312835156,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/MRR@10 value,0.38377620672842516,0.38377620672842516,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/MRR@10 ci_low,0.34914289777344387,0.34914289777344387,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,G4/MRR@10 ci_high,0.42010897461942676,0.42010897461942676,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/Top-1 value,0.3122866894197952,0.3122866894197952,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/Top-1 ci_low,0.27474402730375425,0.27474402730375425,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/Top-1 ci_high,0.34982935153583616,0.34982935153583616,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/Recall@1 value,0.16036687444281517,0.16036687444281514,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/Recall@1 ci_low,0.13625759261730175,0.13625759261730175,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/Recall@1 ci_high,0.18575059018920542,0.18575059018920542,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/Recall@5 value,0.29605407913393317,0.2960540791339332,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/Recall@5 ci_low,0.26495569575468647,0.26495569575468647,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/Recall@5 ci_high,0.32761058066119675,0.32761058066119675,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/Recall@10 value,0.37688905970597025,0.3768890597059702,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/Recall@10 ci_low,0.34319000524958054,0.34319000524958054,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/Recall@10 ci_high,0.4110685172328822,0.4110685172328822,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/NDCG@5 value,0.29054081748120114,0.29054081748120114,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/NDCG@5 ci_low,0.2613938778474525,0.2613938778474525,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/NDCG@5 ci_high,0.3204445986074129,0.3204445986074129,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/NDCG@10 value,0.3136263099511486,0.31362630995114865,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/NDCG@10 ci_low,0.28509048181334135,0.28509048181334135,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/NDCG@10 ci_high,0.3430147992068271,0.3430147992068271,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/MRR@10 value,0.3790826967874749,0.37908269678747497,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/MRR@10 ci_low,0.34410490817487405,0.34410490817487405,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,B/MRR@10 ci_high,0.4146011092150171,0.4146011092150171,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/Top-1 value,0.14675767918088736,0.14675767918088736,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/Top-1 ci_low,0.11945392491467577,0.11945392491467577,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/Top-1 ci_high,0.1757679180887372,0.1757679180887372,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/Recall@1 value,0.07997216812448564,0.07997216812448564,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/Recall@1 ci_low,0.061552157023435784,0.061552157023435784,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/Recall@1 ci_high,0.09981171339990699,0.09981171339990699,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/Recall@5 value,0.1798203106212719,0.17982031062127193,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/Recall@5 ci_low,0.15356781051143567,0.15356781051143567,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/Recall@5 ci_high,0.20705650974035703,0.20705650974035703,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/Recall@10 value,0.24914583017248781,0.24914583017248787,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/Recall@10 ci_low,0.21911756450993283,0.21911756450993283,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/Recall@10 ci_high,0.2807397537047707,0.2807397537047707,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/NDCG@5 value,0.1607561962713753,0.1607561962713753,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/NDCG@5 ci_low,0.13774353009842022,0.13774353009842022,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/NDCG@5 ci_high,0.18480644822081121,0.18480644822081121,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/NDCG@10 value,0.18297907631113328,0.18297907631113325,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/NDCG@10 ci_low,0.1598010307960867,0.1598010307960867,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/NDCG@10 ci_high,0.20692026392128937,0.20692026392128934,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/MRR@10 value,0.21140432851183705,0.21140432851183705,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/MRR@10 ci_low,0.1831030425537678,0.1831030425537678,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+aggregate_test,F/MRR@10 ci_high,0.24025317934340973,0.24025317934340973,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G1-B/Recall@5 difference,-0.03825351240171041,-0.03825351240171041,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G1-B/Recall@5 ci_low,-0.062044165208065896,-0.06204416520806589,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G1-B/Recall@5 ci_high,-0.013720545605837142,-0.013720545605837077,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G1-B/NDCG@5 difference,-0.039028958401883904,-0.03902895840188391,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G1-B/NDCG@5 ci_low,-0.057759652322629716,-0.057759652322629744,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G1-B/NDCG@5 ci_high,-0.02012141451170778,-0.020121414511707725,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G1-B/MRR@10 difference,-0.04353761457634697,-0.043537614576346965,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G1-B/MRR@10 ci_low,-0.06613381678962664,-0.06613381678962661,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G1-B/MRR@10 ci_high,-0.020924819751844397,-0.02092481975184441,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G0-G1/Recall@5 difference,0.07377751936834372,0.07377751936834372,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G0-G1/Recall@5 ci_low,0.04416384502652108,0.044163845026521056,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G0-G1/Recall@5 ci_high,0.10281608741219346,0.10281608741219343,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G0-G1/NDCG@5 difference,0.06770159541106845,0.06770159541106843,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G0-G1/NDCG@5 ci_low,0.044061846208998535,0.04406184620899851,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G0-G1/NDCG@5 ci_high,0.09159142372988727,0.09159142372988728,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G0-G1/MRR@10 difference,0.08016362061256427,0.08016362061256428,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G0-G1/MRR@10 ci_low,0.053837923373574785,0.05383792337357483,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G0-G1/MRR@10 ci_high,0.10696776142968924,0.10696776142968928,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G4/Recall@5 difference,0.06799224034699386,0.06799224034699386,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G4/Recall@5 ci_low,0.042762616207928705,0.04276261620792869,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G4/Recall@5 ci_high,0.09426593808900144,0.09426593808900131,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G4/NDCG@5 difference,0.06532462617610324,0.06532462617610324,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G4/NDCG@5 ci_low,0.04474467586135253,0.044744675861352515,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G4/NDCG@5 ci_high,0.08652115975948567,0.08652115975948572,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G4/MRR@10 difference,0.06148068969371786,0.06148068969371786,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G4/MRR@10 ci_low,0.03876917756539235,0.03876917756539239,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G4/MRR@10 ci_high,0.08453720587413369,0.08453720587413374,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G0/Recall@5 difference,0.07252810574581209,0.07252810574581207,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G0/Recall@5 ci_low,0.03806996052138165,0.03806996052138164,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G0/Recall@5 ci_high,0.10752228831014489,0.10752228831014485,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G0/NDCG@5 difference,0.05869621265235896,0.05869621265235895,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G0/NDCG@5 ci_low,0.028413584970207188,0.02841358497020712,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G0/NDCG@5 ci_high,0.08843247644342801,0.08843247644342797,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G0/MRR@10 difference,0.04298988374692601,0.042989883746926,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G0/MRR@10 ci_low,0.009878489688128772,0.00987848968812881,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G0/MRR@10 ci_high,0.07537799714956404,0.0753779971495641,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G4-G1/Recall@5 difference,0.07831338476716194,0.07831338476716194,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G4-G1/Recall@5 ci_low,0.04478281631803852,0.044782816318038474,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G4-G1/Recall@5 ci_high,0.11124916540803324,0.11124916540803328,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G4-G1/NDCG@5 difference,0.061073181887324156,0.061073181887324156,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G4-G1/NDCG@5 ci_low,0.0338650235302483,0.033865023530248305,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G4-G1/NDCG@5 ci_high,0.08778569389070728,0.08778569389070731,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G4-G1/MRR@10 difference,0.061672814665772416,0.061672814665772416,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G4-G1/MRR@10 ci_low,0.031245982841493405,0.03124598284149339,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G4-G1/MRR@10 ci_high,0.09212322546389447,0.09212322546389454,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-F/Recall@5 difference,-0.05199873167694676,-0.05199873167694676,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-F/Recall@5 ci_low,-0.07843067475695505,-0.07843067475695505,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-F/Recall@5 ci_high,-0.025682413290981008,-0.02568241329098101,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-F/NDCG@5 difference,-0.050605413708269334,-0.050605413708269334,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-F/NDCG@5 ci_low,-0.07291424341352767,-0.07291424341352765,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-F/NDCG@5 ci_high,-0.02847805982725072,-0.028478059827250744,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-F/MRR@10 difference,-0.05780516431924883,-0.05780516431924883,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-F/MRR@10 ci_low,-0.08548986628101946,-0.0854898662810195,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-F/MRR@10 ci_high,-0.029765240750055894,-0.029765240750055915,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-G0/Recall@5 difference,-0.2416141988146977,-0.2416141988146977,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-G0/Recall@5 ci_low,-0.2797432930043885,-0.2797432930043885,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-G0/Recall@5 ci_high,-0.2045652536773934,-0.20456525367739345,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-G0/NDCG@5 difference,-0.233162748712947,-0.233162748712947,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-G0/NDCG@5 ci_low,-0.2673270486201018,-0.2673270486201018,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-G0/NDCG@5 ci_high,-0.20066232423254932,-0.20066232423254932,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-G0/MRR@10 difference,-0.2783478649675833,-0.2783478649675833,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-G0/MRR@10 ci_low,-0.3172777638050525,-0.31727776380505246,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-G0/MRR@10 ci_high,-0.24044286552649224,-0.2404428655264923,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G1-B/Recall@5 difference,-0.04043762227594662,-0.04043762227594662,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G1-B/Recall@5 ci_low,-0.06273395925273058,-0.06273395925273059,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G1-B/Recall@5 ci_high,-0.01861968593613562,-0.018619685936135694,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G1-B/NDCG@5 difference,-0.036132592046561,-0.036132592046560996,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G1-B/NDCG@5 ci_low,-0.05417184698809203,-0.054171846988091986,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G1-B/NDCG@5 ci_high,-0.018329615422218604,-0.018329615422218642,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G1-B/MRR@10 difference,-0.034793325748957146,-0.034793325748957146,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G1-B/MRR@10 ci_low,-0.055708241914513235,-0.055708241914513235,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G1-B/MRR@10 ci_high,-0.013999810390595379,-0.013999810390595358,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G0-G1/Recall@5 difference,0.07308692574653566,0.07308692574653566,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G0-G1/Recall@5 ci_low,0.04859004533453294,0.048590045334532934,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G0-G1/Recall@5 ci_high,0.09795700326849102,0.09795700326849102,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G0-G1/NDCG@5 difference,0.05908903177317347,0.059089031773173456,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G0-G1/NDCG@5 ci_low,0.037876944699402955,0.037876944699402976,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G0-G1/NDCG@5 ci_high,0.08062985640489144,0.08062985640489141,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G0-G1/MRR@10 difference,0.04685925564765155,0.04685925564765155,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G0-G1/MRR@10 ci_low,0.022251340809361288,0.02225134080936131,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G0-G1/MRR@10 ci_high,0.071904643398884,0.071904643398884,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G4/Recall@5 difference,0.07516589581544644,0.07516589581544646,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G4/Recall@5 ci_low,0.04908212232152415,0.049082122321524174,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G4/Recall@5 ci_high,0.10166100221277402,0.10166100221277402,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G4/NDCG@5 difference,0.06819169975646387,0.06819169975646387,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G4/NDCG@5 ci_low,0.04750348516561869,0.04750348516561867,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G4/NDCG@5 ci_high,0.08883887440004341,0.08883887440004345,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G4/MRR@10 difference,0.07144414648680861,0.07144414648680861,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G4/MRR@10 ci_low,0.048953931686440216,0.04895393168644022,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G4/MRR@10 ci_high,0.09413053930332085,0.09413053930332084,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G0/Recall@5 difference,0.07771169305363537,0.07771169305363537,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G0/Recall@5 ci_low,0.04339989897156065,0.04339989897156061,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G0/Recall@5 ci_high,0.11122658302761718,0.11122658302761719,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G0/NDCG@5 difference,0.06434382520451198,0.06434382520451198,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G0/NDCG@5 ci_low,0.036800366862449065,0.03680036686244902,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G0/NDCG@5 ci_high,0.09168775292242676,0.09168775292242672,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G0/MRR@10 difference,0.06407172652906441,0.06407172652906441,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G0/MRR@10 ci_low,0.033821459044368604,0.03382145904436867,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G0/MRR@10 ci_high,0.09460043203857196,0.09460043203857194,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G4-G1/Recall@5 difference,0.07563272298472458,0.07563272298472458,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G4-G1/Recall@5 ci_low,0.04475293159194641,0.0447529315919464,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G4-G1/Recall@5 ci_high,0.10675059267850046,0.10675059267850046,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G4-G1/NDCG@5 difference,0.05524115722122158,0.05524115722122158,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G4-G1/NDCG@5 ci_low,0.02845989477972555,0.02845989477972555,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G4-G1/NDCG@5 ci_high,0.0823559031981218,0.08235590319812183,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G4-G1/MRR@10 difference,0.03948683568990736,0.03948683568990736,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G4-G1/MRR@10 ci_low,0.008688376943496395,0.008688376943496381,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G4-G1/MRR@10 ci_high,0.06976119372663739,0.06976119372663737,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-F/Recall@5 difference,-0.06414551558255528,-0.06414551558255528,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-F/Recall@5 ci_low,-0.09122145490678812,-0.09122145490678812,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-F/Recall@5 ci_high,-0.038086871227588845,-0.03808687122758886,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-F/NDCG@5 difference,-0.05873468337338899,-0.05873468337338899,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-F/NDCG@5 ci_low,-0.08125659708532094,-0.08125659708532092,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-F/NDCG@5 ci_high,-0.03659135495283946,-0.03659135495283949,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-F/MRR@10 difference,-0.06163389132672408,-0.06163389132672408,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-F/MRR@10 ci_low,-0.08971727883417303,-0.08971727883417302,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-F/MRR@10 ci_high,-0.0334598976109215,-0.033459897610921455,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-G0/Recall@5 difference,-0.21302858756580562,-0.21302858756580564,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-G0/Recall@5 ci_low,-0.24859789340064878,-0.24859789340064872,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-G0/Recall@5 ci_high,-0.1769531645788541,-0.1769531645788541,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-G0/NDCG@5 difference,-0.2114757443098273,-0.21147574430982732,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-G0/NDCG@5 ci_low,-0.24220486488460263,-0.24220486488460266,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-G0/NDCG@5 ci_high,-0.1798501611426543,-0.17985016114265429,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-G0/MRR@10 difference,-0.24137818950105638,-0.24137818950105638,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-G0/MRR@10 ci_low,-0.277428761037976,-0.277428761037976,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-G0/MRR@10 ci_high,-0.2039817467089225,-0.2039817467089225,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G1-B/McNemar p,0.0007645817391550472,0.0007645817391550476,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G1-B/McNemar cell 0,0",362,362,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G1-B/McNemar cell 0,1",23,23,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G1-B/McNemar cell 1,0",53,53,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G1-B/McNemar cell 1,1",130,130,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G0-G1/McNemar p,1.1026255560645484e-06,1.1026255560645484e-06,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G0-G1/McNemar cell 0,0",345,345,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G0-G1/McNemar cell 0,1",70,70,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G0-G1/McNemar cell 1,0",23,23,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G0-G1/McNemar cell 1,1",130,130,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G4/McNemar p,0.00012661115196447534,0.0001266111519644753,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G2-G4/McNemar cell 0,0",325,325,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G2-G4/McNemar cell 0,1",58,58,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G2-G4/McNemar cell 1,0",23,23,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G2-G4/McNemar cell 1,1",162,162,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G2-G0/McNemar p,0.09012286584573267,0.09012286584573247,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G2-G0/McNemar cell 0,0",295,295,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G2-G0/McNemar cell 0,1",73,73,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G2-G0/McNemar cell 1,0",53,53,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G2-G0/McNemar cell 1,1",147,147,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G4-G1/McNemar p,0.004455023177550954,0.004455023177550935,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G4-G1/McNemar cell 0,0",339,339,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G4-G1/McNemar cell 0,1",76,76,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G4-G1/McNemar cell 1,0",44,44,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G4-G1/McNemar cell 1,1",109,109,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-F/McNemar p,0.00026363677646526896,0.000263636776465269,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G3-F/McNemar cell 0,0",459,459,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G3-F/McNemar cell 0,1",23,23,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G3-F/McNemar cell 1,0",56,56,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G3-F/McNemar cell 1,1",30,30,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,G3-G0/McNemar p,6.37558348165626e-31,6.375583481656258e-31,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G3-G0/McNemar cell 0,0",350,350,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G3-G0/McNemar cell 0,1",18,18,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G3-G0/McNemar cell 1,0",165,165,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_valid,"G3-G0/McNemar cell 1,1",35,35,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G1-B/McNemar p,0.05589722669971113,0.05589722669971112,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G1-B/McNemar cell 0,0",380,380,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G1-B/McNemar cell 0,1",23,23,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G1-B/McNemar cell 1,0",39,39,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G1-B/McNemar cell 1,1",144,144,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G0-G1/McNemar p,0.02201858837392333,0.022018588373923325,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G0-G1/McNemar cell 0,0",361,361,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G0-G1/McNemar cell 0,1",58,58,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G0-G1/McNemar cell 1,0",35,35,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G0-G1/McNemar cell 1,1",132,132,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G4/McNemar p,2.1823279653758547e-06,2.1823279653758543e-06,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G2-G4/McNemar cell 0,0",348,348,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G2-G4/McNemar cell 0,1",58,58,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G2-G4/McNemar cell 1,0",17,17,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G2-G4/McNemar cell 1,1",163,163,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G2-G0/McNemar p,0.0045535564660325436,0.004553556466032556,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G2-G0/McNemar cell 0,0",324,324,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G2-G0/McNemar cell 0,1",72,72,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G2-G0/McNemar cell 1,0",41,41,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G2-G0/McNemar cell 1,1",149,149,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G4-G1/McNemar p,0.26305395754293526,0.2630539575429353,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G4-G1/McNemar cell 0,0",355,355,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G4-G1/McNemar cell 0,1",64,64,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G4-G1/McNemar cell 1,0",51,51,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G4-G1/McNemar cell 1,1",116,116,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-F/McNemar p,0.004039208886669412,0.004039208886669413,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G3-F/McNemar cell 0,0",472,472,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G3-F/McNemar cell 0,1",28,28,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G3-F/McNemar cell 1,0",55,55,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G3-F/McNemar cell 1,1",31,31,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,G3-G0/McNemar p,1.875816089097913e-26,1.875816089097913e-26,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G3-G0/McNemar cell 0,0",377,377,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G3-G0/McNemar cell 0,1",19,19,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G3-G0/McNemar cell 1,0",150,150,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+paired_test,"G3-G0/McNemar cell 1,1",40,40,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+summary_valid_5c.json,queries,568,568,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+summary_valid_5c.json,gallery,1597,1597,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+summary_valid_5c.json,truth_pairs,1474,1474,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+summary_valid_5c.json,random_Top-1,0.001624965825006394,0.001624965825006394,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+summary_valid_5c.json,random_Recall@5,0.0031308703819661866,0.0031308703819661866,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+summary_test_5c.json,queries,586,586,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+summary_test_5c.json,gallery,1543,1543,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+summary_test_5c.json,truth_pairs,1439,1439,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+summary_test_5c.json,random_Top-1,0.0015914655860773856,0.0015914655860773856,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+summary_test_5c.json,random_Recall@5,0.0032404406999351912,0.0032404406999351912,True,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+extraction_G1_5c.json,seconds,273.048960125976,273.048960125976,True,sum immutable checkpoint timings; not a repeat benchmark. BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+extraction_G2_5c.json,seconds,277.366926082017,277.366926082017,True,sum immutable checkpoint timings; not a repeat benchmark. BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+extraction_G3_5c.json,seconds,248.70969508202688,248.70969508202688,True,sum immutable checkpoint timings; not a repeat benchmark. BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+extraction_G4_5c.json,seconds,241.24776566501532,241.24776566501532,True,sum immutable checkpoint timings; not a repeat benchmark. BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G0/images,2165,2165,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G0/fallback,2,2,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G0/all_black,2,2,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G0/black_without_bbox_fallback,0,0,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G0/images,2129,2129,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G0/fallback,4,4,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G0/all_black,4,4,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G0/black_without_bbox_fallback,0,0,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G1/images,2165,2165,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G1/fallback,2,2,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G1/all_black,3,3,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G1/black_without_bbox_fallback,1,1,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G1/images,2129,2129,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G1/fallback,4,4,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G1/all_black,4,4,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G1/black_without_bbox_fallback,0,0,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G2/images,2165,2165,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G2/fallback,2,2,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G2/all_black,2,2,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G2/black_without_bbox_fallback,0,0,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G2/images,2129,2129,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G2/fallback,4,4,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G2/all_black,4,4,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G2/black_without_bbox_fallback,0,0,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G3/images,2165,2165,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G3/fallback,2,2,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G3/all_black,121,121,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G3/black_without_bbox_fallback,119,119,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G3/images,2129,2129,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G3/fallback,4,4,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G3/all_black,158,158,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G3/black_without_bbox_fallback,154,154,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G4/images,2165,2165,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G4/fallback,2,2,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G4/all_black,2,2,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/G4/black_without_bbox_fallback,0,0,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G4/images,2129,2129,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G4/fallback,4,4,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G4/all_black,4,4,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/G4/black_without_bbox_fallback,0,0,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/B/images,2165,2165,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/B/fallback,3,3,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/B/all_black,3,3,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/B/black_without_bbox_fallback,0,0,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/B/images,2129,2129,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/B/fallback,4,4,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/B/all_black,4,4,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/B/black_without_bbox_fallback,0,0,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/F/images,2165,2165,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/F/fallback,121,121,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/F/all_black,121,121,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,valid/F/black_without_bbox_fallback,0,0,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/F/images,2129,2129,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/F/fallback,158,158,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/F/all_black,158,158,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.
+fallback_counts_5c.csv,test/F/black_without_bbox_fallback,0,0,recounted source audit; final verification checks again,BỔ SUNG HẬU NGHIỆM 5c; không đổi baseline B2-v1 (bộ lọc sai ngữ nghĩa); không kết luận nguyên nhân/nhận diện người.

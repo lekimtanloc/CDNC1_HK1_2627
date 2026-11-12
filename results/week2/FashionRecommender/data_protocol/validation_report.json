@@ -1,0 +1,160 @@
+{
+  "status": "passed",
+  "created_at_utc": "2026-10-13T03:57:23.672344+00:00",
+  "dataset_id": "adjusted-deepfashion-a7d59c2bbb29",
+  "build_id": "week2-seed42-a7d59c2bbb29",
+  "archive": "../archive.zip",
+  "archive_bytes": 2239158848,
+  "archive_sha256": "a7d59c2bbb29af0ce3b49ac57747639815d2643cf0fd4c221a49533cb3585d21",
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "valid": 0.15,
+    "test": 0.15
+  },
+  "protocol": {
+    "split_unit": "item_id",
+    "query_gallery_rule": "one deterministic query view; remaining views are positives",
+    "primary_relevance": "same item_id, different image",
+    "uses_popularity_for_ground_truth": false,
+    "image_content_verified": true
+  },
+  "archive_stats": {
+    "zip_members": 27504,
+    "image_members": 13752,
+    "mask_members": 13752,
+    "paired_members": 13752,
+    "valid_pairs": 13752,
+    "missing_masks": 0,
+    "orphan_masks": 0,
+    "duplicate_members": 0
+  },
+  "dataset_stats": {
+    "items": 4600,
+    "images": 13752,
+    "multi_view_items": 3814,
+    "single_view_items": 786
+  },
+  "split_stats": {
+    "train": {
+      "items": 3219,
+      "images": 9458,
+      "queries": 2660,
+      "gallery_images": 6798,
+      "retrievable_items": 2660,
+      "ground_truth_pairs": 6239,
+      "item_category_image_counts": {
+        "Bags": 6,
+        "Dresses": 5,
+        "Footwear": 9,
+        "Headwear": 273,
+        "Jackets_Coats": 981,
+        "Leggings": 2,
+        "Neckwear": 830,
+        "Pants": 2,
+        "Skirts": 187,
+        "Tees_Tanks": 7158,
+        "Unknown": 5
+      }
+    },
+    "valid": {
+      "items": 691,
+      "images": 2165,
+      "queries": 568,
+      "gallery_images": 1597,
+      "retrievable_items": 568,
+      "ground_truth_pairs": 1474,
+      "item_category_image_counts": {
+        "Bags": 2,
+        "Footwear": 2,
+        "Headwear": 52,
+        "Jackets_Coats": 233,
+        "Neckwear": 205,
+        "Skirts": 43,
+        "Tees_Tanks": 1627,
+        "Unknown": 1
+      }
+    },
+    "test": {
+      "items": 690,
+      "images": 2129,
+      "queries": 586,
+      "gallery_images": 1543,
+      "retrievable_items": 586,
+      "ground_truth_pairs": 1439,
+      "item_category_image_counts": {
+        "Bags": 2,
+        "Footwear": 2,
+        "Headwear": 105,
+        "Jackets_Coats": 227,
+        "Neckwear": 211,
+        "Skirts": 40,
+        "Tees_Tanks": 1540,
+        "Unknown": 2
+      }
+    }
+  },
+  "errors": [],
+  "warnings": [
+    "train: 559 single-view items are gallery negatives only",
+    "valid: 123 single-view items are gallery negatives only",
+    "test: 104 single-view items are gallery negatives only"
+  ],
+  "limitations": [
+    "Same-item retrieval evaluates visual identity retrieval, not real user preference.",
+    "The adjusted archive has no real user behaviour or gender labels.",
+    "Categories are coarse labels derived from masks and are secondary metrics only."
+  ],
+  "elapsed_seconds": 42.837169375037774,
+  "tracking_database": "tracking.sqlite3",
+  "outputs": [
+    {
+      "path": "inventory.csv",
+      "bytes": 1421022,
+      "sha256": "e844347c4264c69de04de0cfa3636e10aeab790669cc84728b80e3d29ca97e0a",
+      "kind": "inventory"
+    },
+    {
+      "path": "train.csv",
+      "bytes": 922180,
+      "sha256": "9b33bb5f5c30d3f7913b699d2628c7a0cb541d20a2f49876dd44f7030ddccdd8",
+      "kind": "split"
+    },
+    {
+      "path": "ground_truth_train.csv",
+      "bytes": 355458,
+      "sha256": "5d76f657337f022b2e1af2a58bd802eff1952cd7e269d38b174d480e502d0464",
+      "kind": "ground_truth"
+    },
+    {
+      "path": "valid.csv",
+      "bytes": 211140,
+      "sha256": "7c36ed195169b5a4706ae1862bbd55c7aedbc3658a1064d9f36e80926cec5341",
+      "kind": "split"
+    },
+    {
+      "path": "ground_truth_valid.csv",
+      "bytes": 84051,
+      "sha256": "d0ad71540e43c38bd56eeab7a9c5858da2a1eb8d04760fbd342d9f49eb812d15",
+      "kind": "ground_truth"
+    },
+    {
+      "path": "test.csv",
+      "bytes": 207533,
+      "sha256": "c7fe31afd76eedbf354f307225479b0bc6be86bda1df2c5a3800293bd8b9381d",
+      "kind": "split"
+    },
+    {
+      "path": "ground_truth_test.csv",
+      "bytes": 81927,
+      "sha256": "cecbc3c726b6c09a25e78933c4c86268f4cd869609ef4d356ed319b1f4335fe7",
+      "kind": "ground_truth"
+    },
+    {
+      "path": "README.md",
+      "bytes": 915,
+      "sha256": "43da3f8fb5b88f5fbd3fccf39f2eddf852af687787b1994eb9253b3abbbdb104",
+      "kind": "documentation"
+    }
+  ]
+}

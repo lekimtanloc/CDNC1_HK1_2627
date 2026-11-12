@@ -1,0 +1,24 @@
+{
+  "union_counts": {
+    "13_or_15": 11833,
+    "4_or_7_or_14": 13699
+  },
+  "examples": {
+    "0": "images/1000_031.jpg",
+    "1": "images/1000_031.jpg",
+    "4": "images/1000_031.jpg",
+    "9": "images/1000_031.jpg",
+    "10": "images/1000_031.jpg",
+    "13": "images/1000_031.jpg",
+    "14": "images/1000_031.jpg",
+    "7": "images/1000_041.jpg",
+    "5": "images/1001_011.jpg",
+    "6": "images/1001_011.jpg",
+    "15": "images/1001_011.jpg",
+    "2": "images/1004_011.jpg",
+    "8": "images/1004_011.jpg",
+    "12": "images/1015_031.jpg",
+    "11": "images/1041_041.jpg",
+    "3": "images/1085_011.jpg"
+  }
+}

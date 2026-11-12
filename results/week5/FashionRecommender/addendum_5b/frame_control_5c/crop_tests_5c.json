@@ -1,0 +1,71 @@
+{
+  "source_sha256": "99030b9cd478290642ff259db79ad1c1a5ff0ba8cdda25e0e77a1a2a83f98a87",
+  "checks": [
+    {
+      "check": "exact known pixels G0",
+      "passed": true,
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    {
+      "check": "exact known pixels G1",
+      "passed": true,
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    {
+      "check": "exact known pixels G2",
+      "passed": true,
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    {
+      "check": "exact known pixels G3",
+      "passed": true,
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    {
+      "check": "exact known pixels G4",
+      "passed": true,
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    {
+      "check": "empty C bbox black fallback G0",
+      "passed": true,
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    {
+      "check": "empty C bbox black fallback G1",
+      "passed": true,
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    {
+      "check": "empty C bbox black fallback G2",
+      "passed": true,
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    {
+      "check": "empty C bbox black fallback G3",
+      "passed": true,
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    {
+      "check": "empty C bbox black fallback G4",
+      "passed": true,
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    {
+      "check": "black retained content with NONempty C bbox G1",
+      "passed": true,
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    {
+      "check": "black retained content with NONempty C bbox G4",
+      "passed": true,
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    {
+      "check": "G0 nonsquare contain/pad equals original C",
+      "passed": true,
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    }
+  ],
+  "passed": true
+}

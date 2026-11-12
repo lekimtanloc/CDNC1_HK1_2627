@@ -1,5 +1,5 @@
 {
-  "archive": "/Users/trilinh/Documents/CDNC1/archive.zip",
+  "archive": "../archive.zip",
   "archive_bytes": 2239158848,
   "total_image_files": 13752,
   "unique_item_ids": 4600,

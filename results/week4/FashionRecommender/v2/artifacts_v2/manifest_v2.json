@@ -1,0 +1,265 @@
+{
+  "status": "completed",
+  "created_at_utc": "2026-10-27T08:39:24.510426+00:00",
+  "seed": 42,
+  "device": "cpu",
+  "threads": 4,
+  "batch_size": 8,
+  "deterministic_algorithms": true,
+  "weights": "ResNet50_Weights.IMAGENET1K_V2",
+  "weights_sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "versions": {
+    "python": "3.11.9",
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "numpy": "2.2.1",
+    "pillow": "12.2.0",
+    "platform": "macOS-26.5.2-arm64-arm-64bit"
+  },
+  "command": "python3 -B CDNC1_HK1_2627/results/week4/FashionRecommender/v2/run_v2.py",
+  "elapsed_seconds": 972.7064887500019,
+  "stage_seconds": {
+    "fixed_all_v2": 836.2287009590073,
+    "replay_1": 59.62963233300252,
+    "replay_2": 71.45692929200595
+  },
+  "peak_rss_bytes": 829652992,
+  "inputs": [
+    {
+      "path": "archive.zip",
+      "sha256": "a7d59c2bbb29af0ce3b49ac57747639815d2643cf0fd4c221a49533cb3585d21",
+      "bytes": 2239158848
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/valid.csv",
+      "sha256": "7c36ed195169b5a4706ae1862bbd55c7aedbc3658a1064d9f36e80926cec5341",
+      "bytes": 211140
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_train.csv",
+      "sha256": "5d76f657337f022b2e1af2a58bd802eff1952cd7e269d38b174d480e502d0464",
+      "bytes": 355458
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/test.csv",
+      "sha256": "c7fe31afd76eedbf354f307225479b0bc6be86bda1df2c5a3800293bd8b9381d",
+      "bytes": 207533
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_valid.csv",
+      "sha256": "d0ad71540e43c38bd56eeab7a9c5858da2a1eb8d04760fbd342d9f49eb812d15",
+      "bytes": 84051
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/train.csv",
+      "sha256": "9b33bb5f5c30d3f7913b699d2628c7a0cb541d20a2f49876dd44f7030ddccdd8",
+      "bytes": 922180
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/inventory.csv",
+      "sha256": "e844347c4264c69de04de0cfa3636e10aeab790669cc84728b80e3d29ca97e0a",
+      "bytes": 1421022
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/ground_truth_test.csv",
+      "sha256": "cecbc3c726b6c09a25e78933c4c86268f4cd869609ef4d356ed319b1f4335fe7",
+      "bytes": 81927
+    },
+    {
+      "path": "results/week2/FashionRecommender/data_protocol/validation_report.json",
+      "sha256": "795f2ca63babf6a80bc15bc3746bca985439e38d9ba587ff0ab5ea22fe1aa54a",
+      "bytes": 4445
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/fixed_all.npy",
+      "sha256": "aff4acc8df6036e266e4f5a2addad7cb9ed498ce8d602528da50cad3eb286f69",
+      "bytes": 112656512
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/fixed_all_index.csv",
+      "sha256": "227d2f717264d66bfad308588dd036ac942a6754f21b628fe9396dadbd84e38d",
+      "bytes": 1492435
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/crop_audit.csv",
+      "sha256": "40f3e1e099a77de822f89972fdeff11f40f378123ec175dd17e1d6541d03d712",
+      "bytes": 633168
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/visual_only_top10.csv",
+      "sha256": "48e9a83a2830766f660dc4a39c3a0e0cad785cfa45f4ea19245556b4ed7c5d39",
+      "bytes": 404255
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/popularity_only_top10.csv",
+      "sha256": "aa3576d504217cf463c3e41cdcc289167c856f7564ba8bf1166b9c2790ca7f49",
+      "bytes": 319426
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/popularity.csv",
+      "sha256": "950ec2fbbcdcdd4889e58e3aa9a1de5b059e4fdba53ffd3668da1ec5c3b2ce2a",
+      "bytes": 85461
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/popularity_lineage.json",
+      "sha256": "0c8352c07de107229a0d8b8cd87fa435af52ac3be256cf3138a43cf65cc168fd",
+      "bytes": 2216
+    },
+    {
+      "path": "results/week4/FashionRecommender/artifacts_completed/manifest.json",
+      "sha256": "a86be994efd1f2c3b359298995548bbc94b5ef7d8b7f14a348ab8b63f3fe8891",
+      "bytes": 8487
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/decision.json",
+      "sha256": "aa57df98669d18481b07c6c2df2a687c8870e4bb749a819c0cb358ac3ef7b1f6",
+      "bytes": 671
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/mapping/mapping_de_xuat.csv",
+      "sha256": "f64ceab7cc1ba2dc73ddb3aa54781431a5453077d8d28f84a94d3721e725d0fc",
+      "bytes": 4516
+    },
+    {
+      "path": "FashionRecommender/week3_retrieval_metrics.py",
+      "sha256": "95a21ca69b93c451b65715f87324da0dc7d84b78d9406d4b1f1e4b78a56c4fa8",
+      "bytes": 1855
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/run_v2.py",
+      "sha256": "9ef13255558c25f3e2be27d0f773dca4915db461c2609f4f0b31423642b7dd6d",
+      "bytes": 11909
+    },
+    {
+      "path": "results/week4/FashionRecommender/v2/common.py",
+      "sha256": "efcc2bae6975365eab63ca52bb0741f6b78f9a7ff7d9ed93cdc076365151b99c",
+      "bytes": 2286
+    },
+    {
+      "path": "weights/resnet50-11ad3fa6.pth",
+      "sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+      "bytes": 102540417
+    }
+  ],
+  "outputs": [
+    {
+      "path": "artifacts_v2/bbox_extremes.csv",
+      "sha256": "c15c0e52939ea48c2b9bd71c28450904e1903f965debd06035ccb08293fd6ff4",
+      "bytes": 5305,
+      "rows": 40
+    },
+    {
+      "path": "artifacts_v2/black_gallery_ranks.csv",
+      "sha256": "f3f0cce9fc41b0eca2044b48d5d2518b03a29e886018855831f9e4aaa1d77a40",
+      "bytes": 131339,
+      "rows": 1758
+    },
+    {
+      "path": "artifacts_v2/black_test.csv",
+      "sha256": "7acec7fad1d6cc20be8941b59128c942b6562567a67a1861d435cd76bd9b5341",
+      "bytes": 179,
+      "rows": 4
+    },
+    {
+      "path": "artifacts_v2/crop_audit_v2.csv",
+      "sha256": "377c711e2c958535821d41acfa444fc4271e011a315141fb9b25ad15c7cdc45a",
+      "bytes": 2295112,
+      "rows": 13752
+    },
+    {
+      "path": "artifacts_v2/crop_checks_v2.json",
+      "sha256": "4eef465acb3363b42f4a4350b3a5dcd1ae0ab453905081b81d81911ee2fa9e0a",
+      "bytes": 4649,
+      "rows": null
+    },
+    {
+      "path": "artifacts_v2/fixed_all_v2.npy",
+      "sha256": "9e5f2317025c050605b0820312d6034c4685a54ee3b327f5901a86e5ccf71a7a",
+      "bytes": 112656512,
+      "rows": 13752
+    },
+    {
+      "path": "artifacts_v2/fixed_all_v2_index.csv",
+      "sha256": "227d2f717264d66bfad308588dd036ac942a6754f21b628fe9396dadbd84e38d",
+      "bytes": 1492435,
+      "rows": 13752
+    },
+    {
+      "path": "artifacts_v2/popularity.csv",
+      "sha256": "950ec2fbbcdcdd4889e58e3aa9a1de5b059e4fdba53ffd3668da1ec5c3b2ce2a",
+      "bytes": 85461,
+      "rows": 4600
+    },
+    {
+      "path": "artifacts_v2/popularity_lineage.json",
+      "sha256": "0c8352c07de107229a0d8b8cd87fa435af52ac3be256cf3138a43cf65cc168fd",
+      "bytes": 2216,
+      "rows": null
+    },
+    {
+      "path": "artifacts_v2/popularity_only_top10.csv",
+      "sha256": "aa3576d504217cf463c3e41cdcc289167c856f7564ba8bf1166b9c2790ca7f49",
+      "bytes": 319426,
+      "rows": 5860
+    },
+    {
+      "path": "artifacts_v2/popularity_reference.json",
+      "sha256": "c92f64c94ef0edefa0aa8c98927250a3e3c9126ed587734bd8d902431b99b403",
+      "bytes": 825,
+      "rows": null
+    },
+    {
+      "path": "artifacts_v2/replay_1.npy",
+      "sha256": "955dd3a9eb409711f1ebe11d2e343ed5533cca2dba983a3ba34d77232957b2b4",
+      "bytes": 4194432,
+      "rows": 512
+    },
+    {
+      "path": "artifacts_v2/replay_2.npy",
+      "sha256": "955dd3a9eb409711f1ebe11d2e343ed5533cca2dba983a3ba34d77232957b2b4",
+      "bytes": 4194432,
+      "rows": 512
+    },
+    {
+      "path": "artifacts_v2/replay_index.csv",
+      "sha256": "0ab24c17e63ef207b8b089fd71ec2904d535a4f89290ff4880e779ab20b5e964",
+      "bytes": 57515,
+      "rows": 512
+    },
+    {
+      "path": "artifacts_v2/reproducibility.json",
+      "sha256": "3c331424600a8b99b96d832416910477b17aa0bb0f7b5737b50aa8a48e5989a8",
+      "bytes": 445,
+      "rows": null
+    },
+    {
+      "path": "artifacts_v2/sanity_checks_v2.json",
+      "sha256": "5c18091f638587f12ed8b4e0d6174911bf6cf786c627e208a03765921a65b84a",
+      "bytes": 458,
+      "rows": null
+    },
+    {
+      "path": "artifacts_v2/special_crop_v2.png",
+      "sha256": "d0bfce9d61959e1d575e7d203d73eeb84f3f9531f74d8ae6ea6ec8430b82c9de",
+      "bytes": 435664,
+      "rows": null
+    },
+    {
+      "path": "artifacts_v2/transition_counts.json",
+      "sha256": "f0be0d332d6041c0218b17470653e2c696d1cef6438c691a10aded44d53f676c",
+      "bytes": 642,
+      "rows": null
+    },
+    {
+      "path": "artifacts_v2/visual_only_v2_top10.csv",
+      "sha256": "7fbb0deca7556ab3f1c4e304258b2bc3c7fdf535650cc3138488f3b6c622bea8",
+      "bytes": 404226,
+      "rows": 5860
+    },
+    {
+      "path": "top1_chuyen_trang_thai_v1_v2.csv",
+      "sha256": "6225cd99a69b3817c8afdae87e6282bbb8c34d361aa0abb45cfe93bd226cfbfd",
+      "rows": 586
+    }
+  ]
+}

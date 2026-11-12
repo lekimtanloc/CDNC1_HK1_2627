@@ -1,0 +1,11 @@
+variant,split,images,fallback,all_black,note
+A,valid,2165,8,8,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+A,test,2129,9,9,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+B,valid,2165,3,3,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+B,test,2129,4,4,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+C,valid,2165,2,2,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+C,test,2129,4,4,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+D,valid,2165,9,9,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+D,test,2129,9,9,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+F,valid,2165,121,121,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+F,test,2129,158,158,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).

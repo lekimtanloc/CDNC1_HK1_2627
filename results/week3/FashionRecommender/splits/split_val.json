@@ -1,0 +1,4825 @@
+[
+  {
+    "item_id": "4475",
+    "image_path": "images/4475_011.jpg",
+    "mask_path": "masks/4475_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3045",
+    "image_path": "images/3045_021.jpg",
+    "mask_path": "masks/3045_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3596",
+    "image_path": "images/3596_011.jpg",
+    "mask_path": "masks/3596_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5293",
+    "image_path": "images/5293_021.jpg",
+    "mask_path": "masks/5293_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5391",
+    "image_path": "images/5391_011.jpg",
+    "mask_path": "masks/5391_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3934",
+    "image_path": "images/3934_021.jpg",
+    "mask_path": "masks/3934_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5210",
+    "image_path": "images/5210_011.jpg",
+    "mask_path": "masks/5210_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4685",
+    "image_path": "images/4685_031.jpg",
+    "mask_path": "masks/4685_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2248",
+    "image_path": "images/2248_011.jpg",
+    "mask_path": "masks/2248_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1429",
+    "image_path": "images/1429_022.jpg",
+    "mask_path": "masks/1429_022.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4747",
+    "image_path": "images/4747_021.jpg",
+    "mask_path": "masks/4747_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4531",
+    "image_path": "images/4531_021.jpg",
+    "mask_path": "masks/4531_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4087",
+    "image_path": "images/4087_021.jpg",
+    "mask_path": "masks/4087_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1821",
+    "image_path": "images/1821_031.jpg",
+    "mask_path": "masks/1821_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3516",
+    "image_path": "images/3516_011.jpg",
+    "mask_path": "masks/3516_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2301",
+    "image_path": "images/2301_011.jpg",
+    "mask_path": "masks/2301_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5528",
+    "image_path": "images/5528_021.jpg",
+    "mask_path": "masks/5528_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2203",
+    "image_path": "images/2203_021.jpg",
+    "mask_path": "masks/2203_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3806",
+    "image_path": "images/3806_021.jpg",
+    "mask_path": "masks/3806_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "5018",
+    "image_path": "images/5018_051.jpg",
+    "mask_path": "masks/5018_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4122",
+    "image_path": "images/4122_051.jpg",
+    "mask_path": "masks/4122_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3979",
+    "image_path": "images/3979_011.jpg",
+    "mask_path": "masks/3979_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4567",
+    "image_path": "images/4567_031.jpg",
+    "mask_path": "masks/4567_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2916",
+    "image_path": "images/2916_011.jpg",
+    "mask_path": "masks/2916_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5080",
+    "image_path": "images/5080_011.jpg",
+    "mask_path": "masks/5080_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2472",
+    "image_path": "images/2472_021.jpg",
+    "mask_path": "masks/2472_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5287",
+    "image_path": "images/5287_011.jpg",
+    "mask_path": "masks/5287_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2618",
+    "image_path": "images/2618_022.jpg",
+    "mask_path": "masks/2618_022.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3435",
+    "image_path": "images/3435_031.jpg",
+    "mask_path": "masks/3435_031.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "2178",
+    "image_path": "images/2178_011.jpg",
+    "mask_path": "masks/2178_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2386",
+    "image_path": "images/2386_031.jpg",
+    "mask_path": "masks/2386_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4072",
+    "image_path": "images/4072_021.jpg",
+    "mask_path": "masks/4072_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1583",
+    "image_path": "images/1583_031.jpg",
+    "mask_path": "masks/1583_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1573",
+    "image_path": "images/1573_031.jpg",
+    "mask_path": "masks/1573_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4413",
+    "image_path": "images/4413_011.jpg",
+    "mask_path": "masks/4413_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4366",
+    "image_path": "images/4366_021.jpg",
+    "mask_path": "masks/4366_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "5506",
+    "image_path": "images/5506_051.jpg",
+    "mask_path": "masks/5506_051.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4919",
+    "image_path": "images/4919_041.jpg",
+    "mask_path": "masks/4919_041.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3602",
+    "image_path": "images/3602_031.jpg",
+    "mask_path": "masks/3602_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4768",
+    "image_path": "images/4768_021.jpg",
+    "mask_path": "masks/4768_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4684",
+    "image_path": "images/4684_021.jpg",
+    "mask_path": "masks/4684_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4056",
+    "image_path": "images/4056_011.jpg",
+    "mask_path": "masks/4056_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2158",
+    "image_path": "images/2158_031.jpg",
+    "mask_path": "masks/2158_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1874",
+    "image_path": "images/1874_031.jpg",
+    "mask_path": "masks/1874_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2545",
+    "image_path": "images/2545_011.jpg",
+    "mask_path": "masks/2545_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1053",
+    "image_path": "images/1053_011.jpg",
+    "mask_path": "masks/1053_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2489",
+    "image_path": "images/2489_012.jpg",
+    "mask_path": "masks/2489_012.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1626",
+    "image_path": "images/1626_041.jpg",
+    "mask_path": "masks/1626_041.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "5057",
+    "image_path": "images/5057_011.jpg",
+    "mask_path": "masks/5057_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2429",
+    "image_path": "images/2429_012.jpg",
+    "mask_path": "masks/2429_012.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3231",
+    "image_path": "images/3231_061.jpg",
+    "mask_path": "masks/3231_061.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3204",
+    "image_path": "images/3204_031.jpg",
+    "mask_path": "masks/3204_031.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "1136",
+    "image_path": "images/1136_031.jpg",
+    "mask_path": "masks/1136_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4299",
+    "image_path": "images/4299_021.jpg",
+    "mask_path": "masks/4299_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2799",
+    "image_path": "images/2799_021.jpg",
+    "mask_path": "masks/2799_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2995",
+    "image_path": "images/2995_031.jpg",
+    "mask_path": "masks/2995_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1034",
+    "image_path": "images/1034_011.jpg",
+    "mask_path": "masks/1034_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2078",
+    "image_path": "images/2078_021.jpg",
+    "mask_path": "masks/2078_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5550",
+    "image_path": "images/5550_041.jpg",
+    "mask_path": "masks/5550_041.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "1616",
+    "image_path": "images/1616_011.jpg",
+    "mask_path": "masks/1616_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2778",
+    "image_path": "images/2778_021.jpg",
+    "mask_path": "masks/2778_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1681",
+    "image_path": "images/1681_021.jpg",
+    "mask_path": "masks/1681_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1238",
+    "image_path": "images/1238_011.jpg",
+    "mask_path": "masks/1238_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5086",
+    "image_path": "images/5086_051.jpg",
+    "mask_path": "masks/5086_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3152",
+    "image_path": "images/3152_011.jpg",
+    "mask_path": "masks/3152_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "2249",
+    "image_path": "images/2249_061.jpg",
+    "mask_path": "masks/2249_061.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2037",
+    "image_path": "images/2037_012.jpg",
+    "mask_path": "masks/2037_012.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5466",
+    "image_path": "images/5466_031.jpg",
+    "mask_path": "masks/5466_031.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4391",
+    "image_path": "images/4391_011.jpg",
+    "mask_path": "masks/4391_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3488",
+    "image_path": "images/3488_021.jpg",
+    "mask_path": "masks/3488_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2562",
+    "image_path": "images/2562_011.jpg",
+    "mask_path": "masks/2562_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5336",
+    "image_path": "images/5336_031.jpg",
+    "mask_path": "masks/5336_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2690",
+    "image_path": "images/2690_011.jpg",
+    "mask_path": "masks/2690_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2503",
+    "image_path": "images/2503_021.jpg",
+    "mask_path": "masks/2503_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3671",
+    "image_path": "images/3671_011.jpg",
+    "mask_path": "masks/3671_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5361",
+    "image_path": "images/5361_011.jpg",
+    "mask_path": "masks/5361_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3310",
+    "image_path": "images/3310_021.jpg",
+    "mask_path": "masks/3310_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4665",
+    "image_path": "images/4665_011.jpg",
+    "mask_path": "masks/4665_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4761",
+    "image_path": "images/4761_021.jpg",
+    "mask_path": "masks/4761_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3343",
+    "image_path": "images/3343_011.jpg",
+    "mask_path": "masks/3343_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4880",
+    "image_path": "images/4880_031.jpg",
+    "mask_path": "masks/4880_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3509",
+    "image_path": "images/3509_011.jpg",
+    "mask_path": "masks/3509_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1193",
+    "image_path": "images/1193_011.jpg",
+    "mask_path": "masks/1193_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2881",
+    "image_path": "images/2881_031.jpg",
+    "mask_path": "masks/2881_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1116",
+    "image_path": "images/1116_011.jpg",
+    "mask_path": "masks/1116_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1224",
+    "image_path": "images/1224_021.jpg",
+    "mask_path": "masks/1224_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3569",
+    "image_path": "images/3569_011.jpg",
+    "mask_path": "masks/3569_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4515",
+    "image_path": "images/4515_011.jpg",
+    "mask_path": "masks/4515_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3002",
+    "image_path": "images/3002_011.jpg",
+    "mask_path": "masks/3002_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1865",
+    "image_path": "images/1865_061.jpg",
+    "mask_path": "masks/1865_061.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4814",
+    "image_path": "images/4814_031.jpg",
+    "mask_path": "masks/4814_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2808",
+    "image_path": "images/2808_061.jpg",
+    "mask_path": "masks/2808_061.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3402",
+    "image_path": "images/3402_011.jpg",
+    "mask_path": "masks/3402_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4757",
+    "image_path": "images/4757_011.jpg",
+    "mask_path": "masks/4757_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5298",
+    "image_path": "images/5298_011.jpg",
+    "mask_path": "masks/5298_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4612",
+    "image_path": "images/4612_041.jpg",
+    "mask_path": "masks/4612_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1290",
+    "image_path": "images/1290_031.jpg",
+    "mask_path": "masks/1290_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2825",
+    "image_path": "images/2825_032.jpg",
+    "mask_path": "masks/2825_032.png",
+    "mask_label": 9,
+    "category": "Headwear"
+  },
+  {
+    "item_id": "3206",
+    "image_path": "images/3206_031.jpg",
+    "mask_path": "masks/3206_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2397",
+    "image_path": "images/2397_031.jpg",
+    "mask_path": "masks/2397_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4472",
+    "image_path": "images/4472_011.jpg",
+    "mask_path": "masks/4472_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3497",
+    "image_path": "images/3497_011.jpg",
+    "mask_path": "masks/3497_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3111",
+    "image_path": "images/3111_011.jpg",
+    "mask_path": "masks/3111_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2193",
+    "image_path": "images/2193_011.jpg",
+    "mask_path": "masks/2193_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1725",
+    "image_path": "images/1725_011.jpg",
+    "mask_path": "masks/1725_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1149",
+    "image_path": "images/1149_041.jpg",
+    "mask_path": "masks/1149_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3288",
+    "image_path": "images/3288_011.jpg",
+    "mask_path": "masks/3288_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1830",
+    "image_path": "images/1830_021.jpg",
+    "mask_path": "masks/1830_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2331",
+    "image_path": "images/2331_011.jpg",
+    "mask_path": "masks/2331_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1680",
+    "image_path": "images/1680_011.jpg",
+    "mask_path": "masks/1680_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5369",
+    "image_path": "images/5369_011.jpg",
+    "mask_path": "masks/5369_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3883",
+    "image_path": "images/3883_011.jpg",
+    "mask_path": "masks/3883_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3706",
+    "image_path": "images/3706_011.jpg",
+    "mask_path": "masks/3706_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2049",
+    "image_path": "images/2049_011.jpg",
+    "mask_path": "masks/2049_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1910",
+    "image_path": "images/1910_011.jpg",
+    "mask_path": "masks/1910_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5462",
+    "image_path": "images/5462_021.jpg",
+    "mask_path": "masks/5462_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4305",
+    "image_path": "images/4305_011.jpg",
+    "mask_path": "masks/4305_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5000",
+    "image_path": "images/5000_021.jpg",
+    "mask_path": "masks/5000_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "5274",
+    "image_path": "images/5274_021.jpg",
+    "mask_path": "masks/5274_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1656",
+    "image_path": "images/1656_021.jpg",
+    "mask_path": "masks/1656_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3424",
+    "image_path": "images/3424_031.jpg",
+    "mask_path": "masks/3424_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2042",
+    "image_path": "images/2042_061.jpg",
+    "mask_path": "masks/2042_061.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3079",
+    "image_path": "images/3079_021.jpg",
+    "mask_path": "masks/3079_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1334",
+    "image_path": "images/1334_021.jpg",
+    "mask_path": "masks/1334_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1803",
+    "image_path": "images/1803_021.jpg",
+    "mask_path": "masks/1803_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "2357",
+    "image_path": "images/2357_021.jpg",
+    "mask_path": "masks/2357_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2806",
+    "image_path": "images/2806_012.jpg",
+    "mask_path": "masks/2806_012.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2073",
+    "image_path": "images/2073_041.jpg",
+    "mask_path": "masks/2073_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3807",
+    "image_path": "images/3807_021.jpg",
+    "mask_path": "masks/3807_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3486",
+    "image_path": "images/3486_011.jpg",
+    "mask_path": "masks/3486_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4933",
+    "image_path": "images/4933_041.jpg",
+    "mask_path": "masks/4933_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3172",
+    "image_path": "images/3172_021.jpg",
+    "mask_path": "masks/3172_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2170",
+    "image_path": "images/2170_021.jpg",
+    "mask_path": "masks/2170_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4800",
+    "image_path": "images/4800_021.jpg",
+    "mask_path": "masks/4800_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4276",
+    "image_path": "images/4276_031.jpg",
+    "mask_path": "masks/4276_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4926",
+    "image_path": "images/4926_021.jpg",
+    "mask_path": "masks/4926_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2459",
+    "image_path": "images/2459_011.jpg",
+    "mask_path": "masks/2459_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1951",
+    "image_path": "images/1951_011.jpg",
+    "mask_path": "masks/1951_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1511",
+    "image_path": "images/1511_021.jpg",
+    "mask_path": "masks/1511_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3993",
+    "image_path": "images/3993_021.jpg",
+    "mask_path": "masks/3993_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3959",
+    "image_path": "images/3959_041.jpg",
+    "mask_path": "masks/3959_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5368",
+    "image_path": "images/5368_021.jpg",
+    "mask_path": "masks/5368_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3689",
+    "image_path": "images/3689_021.jpg",
+    "mask_path": "masks/3689_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4260",
+    "image_path": "images/4260_011.jpg",
+    "mask_path": "masks/4260_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4900",
+    "image_path": "images/4900_021.jpg",
+    "mask_path": "masks/4900_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2184",
+    "image_path": "images/2184_011.jpg",
+    "mask_path": "masks/2184_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2966",
+    "image_path": "images/2966_041.jpg",
+    "mask_path": "masks/2966_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1433",
+    "image_path": "images/1433_011.jpg",
+    "mask_path": "masks/1433_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5534",
+    "image_path": "images/5534_021.jpg",
+    "mask_path": "masks/5534_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4774",
+    "image_path": "images/4774_011.jpg",
+    "mask_path": "masks/4774_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1322",
+    "image_path": "images/1322_032.jpg",
+    "mask_path": "masks/1322_032.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5495",
+    "image_path": "images/5495_021.jpg",
+    "mask_path": "masks/5495_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1019",
+    "image_path": "images/1019_031.jpg",
+    "mask_path": "masks/1019_031.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3489",
+    "image_path": "images/3489_011.jpg",
+    "mask_path": "masks/3489_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5010",
+    "image_path": "images/5010_021.jpg",
+    "mask_path": "masks/5010_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3381",
+    "image_path": "images/3381_011.jpg",
+    "mask_path": "masks/3381_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4988",
+    "image_path": "images/4988_011.jpg",
+    "mask_path": "masks/4988_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3096",
+    "image_path": "images/3096_011.jpg",
+    "mask_path": "masks/3096_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4226",
+    "image_path": "images/4226_021.jpg",
+    "mask_path": "masks/4226_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1065",
+    "image_path": "images/1065_011.jpg",
+    "mask_path": "masks/1065_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2300",
+    "image_path": "images/2300_011.jpg",
+    "mask_path": "masks/2300_011.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "1131",
+    "image_path": "images/1131_021.jpg",
+    "mask_path": "masks/1131_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2483",
+    "image_path": "images/2483_012.jpg",
+    "mask_path": "masks/2483_012.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3392",
+    "image_path": "images/3392_011.jpg",
+    "mask_path": "masks/3392_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1808",
+    "image_path": "images/1808_041.jpg",
+    "mask_path": "masks/1808_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5130",
+    "image_path": "images/5130_021.jpg",
+    "mask_path": "masks/5130_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2017",
+    "image_path": "images/2017_011.jpg",
+    "mask_path": "masks/2017_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3599",
+    "image_path": "images/3599_031.jpg",
+    "mask_path": "masks/3599_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4463",
+    "image_path": "images/4463_012.jpg",
+    "mask_path": "masks/4463_012.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4744",
+    "image_path": "images/4744_011.jpg",
+    "mask_path": "masks/4744_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3484",
+    "image_path": "images/3484_021.jpg",
+    "mask_path": "masks/3484_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4263",
+    "image_path": "images/4263_021.jpg",
+    "mask_path": "masks/4263_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2945",
+    "image_path": "images/2945_011.jpg",
+    "mask_path": "masks/2945_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4736",
+    "image_path": "images/4736_011.jpg",
+    "mask_path": "masks/4736_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1247",
+    "image_path": "images/1247_011.jpg",
+    "mask_path": "masks/1247_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5572",
+    "image_path": "images/5572_021.jpg",
+    "mask_path": "masks/5572_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4498",
+    "image_path": "images/4498_011.jpg",
+    "mask_path": "masks/4498_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "5406",
+    "image_path": "images/5406_031.jpg",
+    "mask_path": "masks/5406_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2928",
+    "image_path": "images/2928_041.jpg",
+    "mask_path": "masks/2928_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2675",
+    "image_path": "images/2675_011.jpg",
+    "mask_path": "masks/2675_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1398",
+    "image_path": "images/1398_011.jpg",
+    "mask_path": "masks/1398_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4547",
+    "image_path": "images/4547_091.jpg",
+    "mask_path": "masks/4547_091.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2244",
+    "image_path": "images/2244_021.jpg",
+    "mask_path": "masks/2244_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2573",
+    "image_path": "images/2573_022.jpg",
+    "mask_path": "masks/2573_022.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1417",
+    "image_path": "images/1417_021.jpg",
+    "mask_path": "masks/1417_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1778",
+    "image_path": "images/1778_031.jpg",
+    "mask_path": "masks/1778_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2804",
+    "image_path": "images/2804_021.jpg",
+    "mask_path": "masks/2804_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3010",
+    "image_path": "images/3010_031.jpg",
+    "mask_path": "masks/3010_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3572",
+    "image_path": "images/3572_011.jpg",
+    "mask_path": "masks/3572_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1650",
+    "image_path": "images/1650_011.jpg",
+    "mask_path": "masks/1650_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1166",
+    "image_path": "images/1166_011.jpg",
+    "mask_path": "masks/1166_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2883",
+    "image_path": "images/2883_011.jpg",
+    "mask_path": "masks/2883_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "5308",
+    "image_path": "images/5308_021.jpg",
+    "mask_path": "masks/5308_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2261",
+    "image_path": "images/2261_012.jpg",
+    "mask_path": "masks/2261_012.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4304",
+    "image_path": "images/4304_011.jpg",
+    "mask_path": "masks/4304_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1377",
+    "image_path": "images/1377_021.jpg",
+    "mask_path": "masks/1377_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3427",
+    "image_path": "images/3427_011.jpg",
+    "mask_path": "masks/3427_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4760",
+    "image_path": "images/4760_011.jpg",
+    "mask_path": "masks/4760_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3344",
+    "image_path": "images/3344_011.jpg",
+    "mask_path": "masks/3344_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1982",
+    "image_path": "images/1982_011.jpg",
+    "mask_path": "masks/1982_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4773",
+    "image_path": "images/4773_031.jpg",
+    "mask_path": "masks/4773_031.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1839",
+    "image_path": "images/1839_021.jpg",
+    "mask_path": "masks/1839_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4158",
+    "image_path": "images/4158_051.jpg",
+    "mask_path": "masks/4158_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5456",
+    "image_path": "images/5456_011.jpg",
+    "mask_path": "masks/5456_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1901",
+    "image_path": "images/1901_011.jpg",
+    "mask_path": "masks/1901_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1210",
+    "image_path": "images/1210_021.jpg",
+    "mask_path": "masks/1210_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4434",
+    "image_path": "images/4434_031.jpg",
+    "mask_path": "masks/4434_031.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1439",
+    "image_path": "images/1439_021.jpg",
+    "mask_path": "masks/1439_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1393",
+    "image_path": "images/1393_011.jpg",
+    "mask_path": "masks/1393_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3240",
+    "image_path": "images/3240_021.jpg",
+    "mask_path": "masks/3240_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4921",
+    "image_path": "images/4921_011.jpg",
+    "mask_path": "masks/4921_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2423",
+    "image_path": "images/2423_011.jpg",
+    "mask_path": "masks/2423_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5206",
+    "image_path": "images/5206_011.jpg",
+    "mask_path": "masks/5206_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1997",
+    "image_path": "images/1997_011.jpg",
+    "mask_path": "masks/1997_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2648",
+    "image_path": "images/2648_011.jpg",
+    "mask_path": "masks/2648_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3582",
+    "image_path": "images/3582_021.jpg",
+    "mask_path": "masks/3582_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1014",
+    "image_path": "images/1014_011.jpg",
+    "mask_path": "masks/1014_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4766",
+    "image_path": "images/4766_021.jpg",
+    "mask_path": "masks/4766_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3401",
+    "image_path": "images/3401_021.jpg",
+    "mask_path": "masks/3401_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4043",
+    "image_path": "images/4043_041.jpg",
+    "mask_path": "masks/4043_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3108",
+    "image_path": "images/3108_011.jpg",
+    "mask_path": "masks/3108_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3419",
+    "image_path": "images/3419_011.jpg",
+    "mask_path": "masks/3419_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2081",
+    "image_path": "images/2081_021.jpg",
+    "mask_path": "masks/2081_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4473",
+    "image_path": "images/4473_021.jpg",
+    "mask_path": "masks/4473_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2533",
+    "image_path": "images/2533_011.jpg",
+    "mask_path": "masks/2533_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "5470",
+    "image_path": "images/5470_021.jpg",
+    "mask_path": "masks/5470_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "2368",
+    "image_path": "images/2368_011.jpg",
+    "mask_path": "masks/2368_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2530",
+    "image_path": "images/2530_011.jpg",
+    "mask_path": "masks/2530_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2504",
+    "image_path": "images/2504_021.jpg",
+    "mask_path": "masks/2504_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2656",
+    "image_path": "images/2656_041.jpg",
+    "mask_path": "masks/2656_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4622",
+    "image_path": "images/4622_021.jpg",
+    "mask_path": "masks/4622_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3293",
+    "image_path": "images/3293_031.jpg",
+    "mask_path": "masks/3293_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3406",
+    "image_path": "images/3406_031.jpg",
+    "mask_path": "masks/3406_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2268",
+    "image_path": "images/2268_011.jpg",
+    "mask_path": "masks/2268_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2145",
+    "image_path": "images/2145_011.jpg",
+    "mask_path": "masks/2145_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2385",
+    "image_path": "images/2385_031.jpg",
+    "mask_path": "masks/2385_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4302",
+    "image_path": "images/4302_022.jpg",
+    "mask_path": "masks/4302_022.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3070",
+    "image_path": "images/3070_011.jpg",
+    "mask_path": "masks/3070_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2052",
+    "image_path": "images/2052_021.jpg",
+    "mask_path": "masks/2052_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3714",
+    "image_path": "images/3714_021.jpg",
+    "mask_path": "masks/3714_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3505",
+    "image_path": "images/3505_021.jpg",
+    "mask_path": "masks/3505_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2862",
+    "image_path": "images/2862_041.jpg",
+    "mask_path": "masks/2862_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2932",
+    "image_path": "images/2932_021.jpg",
+    "mask_path": "masks/2932_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "2584",
+    "image_path": "images/2584_021.jpg",
+    "mask_path": "masks/2584_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4624",
+    "image_path": "images/4624_011.jpg",
+    "mask_path": "masks/4624_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2653",
+    "image_path": "images/2653_021.jpg",
+    "mask_path": "masks/2653_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4512",
+    "image_path": "images/4512_022.jpg",
+    "mask_path": "masks/4512_022.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4785",
+    "image_path": "images/4785_031.jpg",
+    "mask_path": "masks/4785_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4277",
+    "image_path": "images/4277_021.jpg",
+    "mask_path": "masks/4277_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2486",
+    "image_path": "images/2486_011.jpg",
+    "mask_path": "masks/2486_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3247",
+    "image_path": "images/3247_011.jpg",
+    "mask_path": "masks/3247_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4003",
+    "image_path": "images/4003_021.jpg",
+    "mask_path": "masks/4003_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1955",
+    "image_path": "images/1955_011.jpg",
+    "mask_path": "masks/1955_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4126",
+    "image_path": "images/4126_021.jpg",
+    "mask_path": "masks/4126_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "5592",
+    "image_path": "images/5592_011.jpg",
+    "mask_path": "masks/5592_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4065",
+    "image_path": "images/4065_011.jpg",
+    "mask_path": "masks/4065_011.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "5345",
+    "image_path": "images/5345_021.jpg",
+    "mask_path": "masks/5345_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3390",
+    "image_path": "images/3390_011.jpg",
+    "mask_path": "masks/3390_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "5141",
+    "image_path": "images/5141_021.jpg",
+    "mask_path": "masks/5141_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2779",
+    "image_path": "images/2779_011.jpg",
+    "mask_path": "masks/2779_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2854",
+    "image_path": "images/2854_031.jpg",
+    "mask_path": "masks/2854_031.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "5455",
+    "image_path": "images/5455_021.jpg",
+    "mask_path": "masks/5455_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5106",
+    "image_path": "images/5106_021.jpg",
+    "mask_path": "masks/5106_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1540",
+    "image_path": "images/1540_011.jpg",
+    "mask_path": "masks/1540_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1992",
+    "image_path": "images/1992_041.jpg",
+    "mask_path": "masks/1992_041.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "2885",
+    "image_path": "images/2885_011.jpg",
+    "mask_path": "masks/2885_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1156",
+    "image_path": "images/1156_011.jpg",
+    "mask_path": "masks/1156_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3639",
+    "image_path": "images/3639_011.jpg",
+    "mask_path": "masks/3639_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2205",
+    "image_path": "images/2205_012.jpg",
+    "mask_path": "masks/2205_012.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2121",
+    "image_path": "images/2121_041.jpg",
+    "mask_path": "masks/2121_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2623",
+    "image_path": "images/2623_011.jpg",
+    "mask_path": "masks/2623_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1614",
+    "image_path": "images/1614_011.jpg",
+    "mask_path": "masks/1614_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2305",
+    "image_path": "images/2305_021.jpg",
+    "mask_path": "masks/2305_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2829",
+    "image_path": "images/2829_021.jpg",
+    "mask_path": "masks/2829_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2650",
+    "image_path": "images/2650_021.jpg",
+    "mask_path": "masks/2650_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2500",
+    "image_path": "images/2500_041.jpg",
+    "mask_path": "masks/2500_041.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "3762",
+    "image_path": "images/3762_011.jpg",
+    "mask_path": "masks/3762_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2547",
+    "image_path": "images/2547_031.jpg",
+    "mask_path": "masks/2547_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2410",
+    "image_path": "images/2410_011.jpg",
+    "mask_path": "masks/2410_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1157",
+    "image_path": "images/1157_041.jpg",
+    "mask_path": "masks/1157_041.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1623",
+    "image_path": "images/1623_011.jpg",
+    "mask_path": "masks/1623_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4510",
+    "image_path": "images/4510_131.jpg",
+    "mask_path": "masks/4510_131.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2663",
+    "image_path": "images/2663_021.jpg",
+    "mask_path": "masks/2663_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2295",
+    "image_path": "images/2295_011.jpg",
+    "mask_path": "masks/2295_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1879",
+    "image_path": "images/1879_021.jpg",
+    "mask_path": "masks/1879_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4187",
+    "image_path": "images/4187_041.jpg",
+    "mask_path": "masks/4187_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1964",
+    "image_path": "images/1964_021.jpg",
+    "mask_path": "masks/1964_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1066",
+    "image_path": "images/1066_051.jpg",
+    "mask_path": "masks/1066_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1244",
+    "image_path": "images/1244_011.jpg",
+    "mask_path": "masks/1244_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4080",
+    "image_path": "images/4080_021.jpg",
+    "mask_path": "masks/4080_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3037",
+    "image_path": "images/3037_011.jpg",
+    "mask_path": "masks/3037_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4447",
+    "image_path": "images/4447_031.jpg",
+    "mask_path": "masks/4447_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4689",
+    "image_path": "images/4689_011.jpg",
+    "mask_path": "masks/4689_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5085",
+    "image_path": "images/5085_011.jpg",
+    "mask_path": "masks/5085_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3119",
+    "image_path": "images/3119_021.jpg",
+    "mask_path": "masks/3119_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "2699",
+    "image_path": "images/2699_031.jpg",
+    "mask_path": "masks/2699_031.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1487",
+    "image_path": "images/1487_041.jpg",
+    "mask_path": "masks/1487_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2112",
+    "image_path": "images/2112_031.jpg",
+    "mask_path": "masks/2112_031.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "1529",
+    "image_path": "images/1529_011.jpg",
+    "mask_path": "masks/1529_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1453",
+    "image_path": "images/1453_011.jpg",
+    "mask_path": "masks/1453_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3823",
+    "image_path": "images/3823_011.jpg",
+    "mask_path": "masks/3823_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "2811",
+    "image_path": "images/2811_011.jpg",
+    "mask_path": "masks/2811_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1690",
+    "image_path": "images/1690_021.jpg",
+    "mask_path": "masks/1690_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3875",
+    "image_path": "images/3875_031.jpg",
+    "mask_path": "masks/3875_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1075",
+    "image_path": "images/1075_011.jpg",
+    "mask_path": "masks/1075_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1455",
+    "image_path": "images/1455_011.jpg",
+    "mask_path": "masks/1455_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2830",
+    "image_path": "images/2830_011.jpg",
+    "mask_path": "masks/2830_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3631",
+    "image_path": "images/3631_021.jpg",
+    "mask_path": "masks/3631_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3969",
+    "image_path": "images/3969_011.jpg",
+    "mask_path": "masks/3969_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1963",
+    "image_path": "images/1963_011.jpg",
+    "mask_path": "masks/1963_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3292",
+    "image_path": "images/3292_011.jpg",
+    "mask_path": "masks/3292_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1548",
+    "image_path": "images/1548_011.jpg",
+    "mask_path": "masks/1548_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3851",
+    "image_path": "images/3851_011.jpg",
+    "mask_path": "masks/3851_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2718",
+    "image_path": "images/2718_011.jpg",
+    "mask_path": "masks/2718_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3764",
+    "image_path": "images/3764_011.jpg",
+    "mask_path": "masks/3764_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3723",
+    "image_path": "images/3723_021.jpg",
+    "mask_path": "masks/3723_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3405",
+    "image_path": "images/3405_011.jpg",
+    "mask_path": "masks/3405_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2228",
+    "image_path": "images/2228_021.jpg",
+    "mask_path": "masks/2228_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2818",
+    "image_path": "images/2818_041.jpg",
+    "mask_path": "masks/2818_041.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4951",
+    "image_path": "images/4951_041.jpg",
+    "mask_path": "masks/4951_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1674",
+    "image_path": "images/1674_021.jpg",
+    "mask_path": "masks/1674_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4054",
+    "image_path": "images/4054_031.jpg",
+    "mask_path": "masks/4054_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1688",
+    "image_path": "images/1688_021.jpg",
+    "mask_path": "masks/1688_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4155",
+    "image_path": "images/4155_021.jpg",
+    "mask_path": "masks/4155_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4916",
+    "image_path": "images/4916_011.jpg",
+    "mask_path": "masks/4916_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4822",
+    "image_path": "images/4822_011.jpg",
+    "mask_path": "masks/4822_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3378",
+    "image_path": "images/3378_021.jpg",
+    "mask_path": "masks/3378_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5313",
+    "image_path": "images/5313_031.jpg",
+    "mask_path": "masks/5313_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4633",
+    "image_path": "images/4633_021.jpg",
+    "mask_path": "masks/4633_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2328",
+    "image_path": "images/2328_011.jpg",
+    "mask_path": "masks/2328_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2939",
+    "image_path": "images/2939_011.jpg",
+    "mask_path": "masks/2939_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5403",
+    "image_path": "images/5403_021.jpg",
+    "mask_path": "masks/5403_021.png",
+    "mask_label": 9,
+    "category": "Headwear"
+  },
+  {
+    "item_id": "2347",
+    "image_path": "images/2347_021.jpg",
+    "mask_path": "masks/2347_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2742",
+    "image_path": "images/2742_011.jpg",
+    "mask_path": "masks/2742_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3325",
+    "image_path": "images/3325_021.jpg",
+    "mask_path": "masks/3325_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1112",
+    "image_path": "images/1112_031.jpg",
+    "mask_path": "masks/1112_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4189",
+    "image_path": "images/4189_032.jpg",
+    "mask_path": "masks/4189_032.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3830",
+    "image_path": "images/3830_021.jpg",
+    "mask_path": "masks/3830_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1218",
+    "image_path": "images/1218_031.jpg",
+    "mask_path": "masks/1218_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2190",
+    "image_path": "images/2190_021.jpg",
+    "mask_path": "masks/2190_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1569",
+    "image_path": "images/1569_011.jpg",
+    "mask_path": "masks/1569_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5554",
+    "image_path": "images/5554_011.jpg",
+    "mask_path": "masks/5554_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4284",
+    "image_path": "images/4284_022.jpg",
+    "mask_path": "masks/4284_022.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3570",
+    "image_path": "images/3570_021.jpg",
+    "mask_path": "masks/3570_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3365",
+    "image_path": "images/3365_031.jpg",
+    "mask_path": "masks/3365_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2590",
+    "image_path": "images/2590_031.jpg",
+    "mask_path": "masks/2590_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2831",
+    "image_path": "images/2831_031.jpg",
+    "mask_path": "masks/2831_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5415",
+    "image_path": "images/5415_012.jpg",
+    "mask_path": "masks/5415_012.png",
+    "mask_label": 0,
+    "category": "Unknown"
+  },
+  {
+    "item_id": "4217",
+    "image_path": "images/4217_011.jpg",
+    "mask_path": "masks/4217_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5083",
+    "image_path": "images/5083_021.jpg",
+    "mask_path": "masks/5083_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4792",
+    "image_path": "images/4792_031.jpg",
+    "mask_path": "masks/4792_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4340",
+    "image_path": "images/4340_011.jpg",
+    "mask_path": "masks/4340_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2594",
+    "image_path": "images/2594_031.jpg",
+    "mask_path": "masks/2594_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4827",
+    "image_path": "images/4827_021.jpg",
+    "mask_path": "masks/4827_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3147",
+    "image_path": "images/3147_051.jpg",
+    "mask_path": "masks/3147_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4940",
+    "image_path": "images/4940_021.jpg",
+    "mask_path": "masks/4940_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4362",
+    "image_path": "images/4362_011.jpg",
+    "mask_path": "masks/4362_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1859",
+    "image_path": "images/1859_022.jpg",
+    "mask_path": "masks/1859_022.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3797",
+    "image_path": "images/3797_021.jpg",
+    "mask_path": "masks/3797_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4203",
+    "image_path": "images/4203_011.jpg",
+    "mask_path": "masks/4203_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4132",
+    "image_path": "images/4132_091.jpg",
+    "mask_path": "masks/4132_091.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "5099",
+    "image_path": "images/5099_021.jpg",
+    "mask_path": "masks/5099_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2887",
+    "image_path": "images/2887_031.jpg",
+    "mask_path": "masks/2887_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2851",
+    "image_path": "images/2851_021.jpg",
+    "mask_path": "masks/2851_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2315",
+    "image_path": "images/2315_011.jpg",
+    "mask_path": "masks/2315_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2613",
+    "image_path": "images/2613_031.jpg",
+    "mask_path": "masks/2613_031.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1148",
+    "image_path": "images/1148_011.jpg",
+    "mask_path": "masks/1148_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3619",
+    "image_path": "images/3619_031.jpg",
+    "mask_path": "masks/3619_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1642",
+    "image_path": "images/1642_021.jpg",
+    "mask_path": "masks/1642_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2575",
+    "image_path": "images/2575_011.jpg",
+    "mask_path": "masks/2575_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1837",
+    "image_path": "images/1837_011.jpg",
+    "mask_path": "masks/1837_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5134",
+    "image_path": "images/5134_021.jpg",
+    "mask_path": "masks/5134_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3792",
+    "image_path": "images/3792_021.jpg",
+    "mask_path": "masks/3792_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4715",
+    "image_path": "images/4715_021.jpg",
+    "mask_path": "masks/4715_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2708",
+    "image_path": "images/2708_041.jpg",
+    "mask_path": "masks/2708_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4641",
+    "image_path": "images/4641_021.jpg",
+    "mask_path": "masks/4641_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2856",
+    "image_path": "images/2856_021.jpg",
+    "mask_path": "masks/2856_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1930",
+    "image_path": "images/1930_021.jpg",
+    "mask_path": "masks/1930_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4416",
+    "image_path": "images/4416_011.jpg",
+    "mask_path": "masks/4416_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3403",
+    "image_path": "images/3403_011.jpg",
+    "mask_path": "masks/3403_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2006",
+    "image_path": "images/2006_021.jpg",
+    "mask_path": "masks/2006_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1274",
+    "image_path": "images/1274_021.jpg",
+    "mask_path": "masks/1274_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3709",
+    "image_path": "images/3709_022.jpg",
+    "mask_path": "masks/3709_022.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1419",
+    "image_path": "images/1419_011.jpg",
+    "mask_path": "masks/1419_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2855",
+    "image_path": "images/2855_031.jpg",
+    "mask_path": "masks/2855_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2147",
+    "image_path": "images/2147_011.jpg",
+    "mask_path": "masks/2147_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5056",
+    "image_path": "images/5056_021.jpg",
+    "mask_path": "masks/5056_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4123",
+    "image_path": "images/4123_011.jpg",
+    "mask_path": "masks/4123_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3121",
+    "image_path": "images/3121_031.jpg",
+    "mask_path": "masks/3121_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5224",
+    "image_path": "images/5224_021.jpg",
+    "mask_path": "masks/5224_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4194",
+    "image_path": "images/4194_041.jpg",
+    "mask_path": "masks/4194_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2511",
+    "image_path": "images/2511_011.jpg",
+    "mask_path": "masks/2511_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1008",
+    "image_path": "images/1008_011.jpg",
+    "mask_path": "masks/1008_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5379",
+    "image_path": "images/5379_011.jpg",
+    "mask_path": "masks/5379_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2696",
+    "image_path": "images/2696_021.jpg",
+    "mask_path": "masks/2696_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1278",
+    "image_path": "images/1278_041.jpg",
+    "mask_path": "masks/1278_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4014",
+    "image_path": "images/4014_011.jpg",
+    "mask_path": "masks/4014_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "5549",
+    "image_path": "images/5549_021.jpg",
+    "mask_path": "masks/5549_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "5310",
+    "image_path": "images/5310_031.jpg",
+    "mask_path": "masks/5310_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4059",
+    "image_path": "images/4059_021.jpg",
+    "mask_path": "masks/4059_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3905",
+    "image_path": "images/3905_021.jpg",
+    "mask_path": "masks/3905_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1350",
+    "image_path": "images/1350_011.jpg",
+    "mask_path": "masks/1350_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1565",
+    "image_path": "images/1565_021.jpg",
+    "mask_path": "masks/1565_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4891",
+    "image_path": "images/4891_031.jpg",
+    "mask_path": "masks/4891_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1151",
+    "image_path": "images/1151_011.jpg",
+    "mask_path": "masks/1151_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3804",
+    "image_path": "images/3804_021.jpg",
+    "mask_path": "masks/3804_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4560",
+    "image_path": "images/4560_031.jpg",
+    "mask_path": "masks/4560_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2568",
+    "image_path": "images/2568_031.jpg",
+    "mask_path": "masks/2568_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4548",
+    "image_path": "images/4548_011.jpg",
+    "mask_path": "masks/4548_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3587",
+    "image_path": "images/3587_011.jpg",
+    "mask_path": "masks/3587_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4327",
+    "image_path": "images/4327_031.jpg",
+    "mask_path": "masks/4327_031.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1043",
+    "image_path": "images/1043_021.jpg",
+    "mask_path": "masks/1043_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4582",
+    "image_path": "images/4582_011.jpg",
+    "mask_path": "masks/4582_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4180",
+    "image_path": "images/4180_011.jpg",
+    "mask_path": "masks/4180_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1537",
+    "image_path": "images/1537_021.jpg",
+    "mask_path": "masks/1537_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1371",
+    "image_path": "images/1371_031.jpg",
+    "mask_path": "masks/1371_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2098",
+    "image_path": "images/2098_021.jpg",
+    "mask_path": "masks/2098_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1382",
+    "image_path": "images/1382_041.jpg",
+    "mask_path": "masks/1382_041.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2496",
+    "image_path": "images/2496_051.jpg",
+    "mask_path": "masks/2496_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5109",
+    "image_path": "images/5109_051.jpg",
+    "mask_path": "masks/5109_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5360",
+    "image_path": "images/5360_021.jpg",
+    "mask_path": "masks/5360_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4152",
+    "image_path": "images/4152_021.jpg",
+    "mask_path": "masks/4152_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5356",
+    "image_path": "images/5356_032.jpg",
+    "mask_path": "masks/5356_032.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4287",
+    "image_path": "images/4287_011.jpg",
+    "mask_path": "masks/4287_011.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "2625",
+    "image_path": "images/2625_031.jpg",
+    "mask_path": "masks/2625_031.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3613",
+    "image_path": "images/3613_042.jpg",
+    "mask_path": "masks/3613_042.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3881",
+    "image_path": "images/3881_051.jpg",
+    "mask_path": "masks/3881_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3440",
+    "image_path": "images/3440_041.jpg",
+    "mask_path": "masks/3440_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1661",
+    "image_path": "images/1661_021.jpg",
+    "mask_path": "masks/1661_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1890",
+    "image_path": "images/1890_052.jpg",
+    "mask_path": "masks/1890_052.png",
+    "mask_label": 9,
+    "category": "Headwear"
+  },
+  {
+    "item_id": "4103",
+    "image_path": "images/4103_021.jpg",
+    "mask_path": "masks/4103_021.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "2553",
+    "image_path": "images/2553_041.jpg",
+    "mask_path": "masks/2553_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2197",
+    "image_path": "images/2197_011.jpg",
+    "mask_path": "masks/2197_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1738",
+    "image_path": "images/1738_011.jpg",
+    "mask_path": "masks/1738_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4075",
+    "image_path": "images/4075_011.jpg",
+    "mask_path": "masks/4075_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2982",
+    "image_path": "images/2982_021.jpg",
+    "mask_path": "masks/2982_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3576",
+    "image_path": "images/3576_011.jpg",
+    "mask_path": "masks/3576_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5275",
+    "image_path": "images/5275_011.jpg",
+    "mask_path": "masks/5275_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3470",
+    "image_path": "images/3470_041.jpg",
+    "mask_path": "masks/3470_041.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4589",
+    "image_path": "images/4589_051.jpg",
+    "mask_path": "masks/4589_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2333",
+    "image_path": "images/2333_021.jpg",
+    "mask_path": "masks/2333_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1580",
+    "image_path": "images/1580_012.jpg",
+    "mask_path": "masks/1580_012.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3624",
+    "image_path": "images/3624_011.jpg",
+    "mask_path": "masks/3624_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2046",
+    "image_path": "images/2046_021.jpg",
+    "mask_path": "masks/2046_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2936",
+    "image_path": "images/2936_021.jpg",
+    "mask_path": "masks/2936_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2607",
+    "image_path": "images/2607_011.jpg",
+    "mask_path": "masks/2607_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3665",
+    "image_path": "images/3665_051.jpg",
+    "mask_path": "masks/3665_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1115",
+    "image_path": "images/1115_011.jpg",
+    "mask_path": "masks/1115_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3900",
+    "image_path": "images/3900_032.jpg",
+    "mask_path": "masks/3900_032.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2947",
+    "image_path": "images/2947_011.jpg",
+    "mask_path": "masks/2947_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4718",
+    "image_path": "images/4718_031.jpg",
+    "mask_path": "masks/4718_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1273",
+    "image_path": "images/1273_021.jpg",
+    "mask_path": "masks/1273_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4909",
+    "image_path": "images/4909_011.jpg",
+    "mask_path": "masks/4909_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4658",
+    "image_path": "images/4658_021.jpg",
+    "mask_path": "masks/4658_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4150",
+    "image_path": "images/4150_021.jpg",
+    "mask_path": "masks/4150_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3144",
+    "image_path": "images/3144_021.jpg",
+    "mask_path": "masks/3144_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5562",
+    "image_path": "images/5562_021.jpg",
+    "mask_path": "masks/5562_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4360",
+    "image_path": "images/4360_011.jpg",
+    "mask_path": "masks/4360_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3549",
+    "image_path": "images/3549_031.jpg",
+    "mask_path": "masks/3549_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4275",
+    "image_path": "images/4275_011.jpg",
+    "mask_path": "masks/4275_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3318",
+    "image_path": "images/3318_011.jpg",
+    "mask_path": "masks/3318_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4701",
+    "image_path": "images/4701_011.jpg",
+    "mask_path": "masks/4701_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5560",
+    "image_path": "images/5560_011.jpg",
+    "mask_path": "masks/5560_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1001",
+    "image_path": "images/1001_011.jpg",
+    "mask_path": "masks/1001_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3816",
+    "image_path": "images/3816_021.jpg",
+    "mask_path": "masks/3816_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2083",
+    "image_path": "images/2083_021.jpg",
+    "mask_path": "masks/2083_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2420",
+    "image_path": "images/2420_041.jpg",
+    "mask_path": "masks/2420_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2551",
+    "image_path": "images/2551_041.jpg",
+    "mask_path": "masks/2551_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4408",
+    "image_path": "images/4408_021.jpg",
+    "mask_path": "masks/4408_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1996",
+    "image_path": "images/1996_011.jpg",
+    "mask_path": "masks/1996_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4218",
+    "image_path": "images/4218_021.jpg",
+    "mask_path": "masks/4218_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3693",
+    "image_path": "images/3693_011.jpg",
+    "mask_path": "masks/3693_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3943",
+    "image_path": "images/3943_011.jpg",
+    "mask_path": "masks/3943_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4570",
+    "image_path": "images/4570_051.jpg",
+    "mask_path": "masks/4570_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4557",
+    "image_path": "images/4557_011.jpg",
+    "mask_path": "masks/4557_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5045",
+    "image_path": "images/5045_031.jpg",
+    "mask_path": "masks/5045_031.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "5383",
+    "image_path": "images/5383_041.jpg",
+    "mask_path": "masks/5383_041.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "2512",
+    "image_path": "images/2512_031.jpg",
+    "mask_path": "masks/2512_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3439",
+    "image_path": "images/3439_011.jpg",
+    "mask_path": "masks/3439_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2131",
+    "image_path": "images/2131_021.jpg",
+    "mask_path": "masks/2131_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3184",
+    "image_path": "images/3184_012.jpg",
+    "mask_path": "masks/3184_012.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1794",
+    "image_path": "images/1794_011.jpg",
+    "mask_path": "masks/1794_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1551",
+    "image_path": "images/1551_021.jpg",
+    "mask_path": "masks/1551_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1092",
+    "image_path": "images/1092_011.jpg",
+    "mask_path": "masks/1092_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3413",
+    "image_path": "images/3413_021.jpg",
+    "mask_path": "masks/3413_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2762",
+    "image_path": "images/2762_041.jpg",
+    "mask_path": "masks/2762_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3728",
+    "image_path": "images/3728_021.jpg",
+    "mask_path": "masks/3728_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3930",
+    "image_path": "images/3930_011.jpg",
+    "mask_path": "masks/3930_011.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "4323",
+    "image_path": "images/4323_021.jpg",
+    "mask_path": "masks/4323_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4385",
+    "image_path": "images/4385_011.jpg",
+    "mask_path": "masks/4385_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1179",
+    "image_path": "images/1179_021.jpg",
+    "mask_path": "masks/1179_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4358",
+    "image_path": "images/4358_021.jpg",
+    "mask_path": "masks/4358_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2433",
+    "image_path": "images/2433_041.jpg",
+    "mask_path": "masks/2433_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1448",
+    "image_path": "images/1448_031.jpg",
+    "mask_path": "masks/1448_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3462",
+    "image_path": "images/3462_051.jpg",
+    "mask_path": "masks/3462_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4135",
+    "image_path": "images/4135_011.jpg",
+    "mask_path": "masks/4135_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3476",
+    "image_path": "images/3476_012.jpg",
+    "mask_path": "masks/3476_012.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3726",
+    "image_path": "images/3726_011.jpg",
+    "mask_path": "masks/3726_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1343",
+    "image_path": "images/1343_011.jpg",
+    "mask_path": "masks/1343_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2524",
+    "image_path": "images/2524_031.jpg",
+    "mask_path": "masks/2524_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3510",
+    "image_path": "images/3510_021.jpg",
+    "mask_path": "masks/3510_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1691",
+    "image_path": "images/1691_011.jpg",
+    "mask_path": "masks/1691_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2827",
+    "image_path": "images/2827_021.jpg",
+    "mask_path": "masks/2827_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1834",
+    "image_path": "images/1834_011.jpg",
+    "mask_path": "masks/1834_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2929",
+    "image_path": "images/2929_051.jpg",
+    "mask_path": "masks/2929_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3187",
+    "image_path": "images/3187_021.jpg",
+    "mask_path": "masks/3187_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4296",
+    "image_path": "images/4296_011.jpg",
+    "mask_path": "masks/4296_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1533",
+    "image_path": "images/1533_041.jpg",
+    "mask_path": "masks/1533_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4890",
+    "image_path": "images/4890_031.jpg",
+    "mask_path": "masks/4890_031.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1613",
+    "image_path": "images/1613_011.jpg",
+    "mask_path": "masks/1613_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3024",
+    "image_path": "images/3024_021.jpg",
+    "mask_path": "masks/3024_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1286",
+    "image_path": "images/1286_031.jpg",
+    "mask_path": "masks/1286_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5393",
+    "image_path": "images/5393_022.jpg",
+    "mask_path": "masks/5393_022.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1461",
+    "image_path": "images/1461_022.jpg",
+    "mask_path": "masks/1461_022.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4683",
+    "image_path": "images/4683_021.jpg",
+    "mask_path": "masks/4683_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2306",
+    "image_path": "images/2306_061.jpg",
+    "mask_path": "masks/2306_061.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2882",
+    "image_path": "images/2882_021.jpg",
+    "mask_path": "masks/2882_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2548",
+    "image_path": "images/2548_021.jpg",
+    "mask_path": "masks/2548_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "4417",
+    "image_path": "images/4417_011.jpg",
+    "mask_path": "masks/4417_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3886",
+    "image_path": "images/3886_011.jpg",
+    "mask_path": "masks/3886_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3205",
+    "image_path": "images/3205_011.jpg",
+    "mask_path": "masks/3205_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4192",
+    "image_path": "images/4192_011.jpg",
+    "mask_path": "masks/4192_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4011",
+    "image_path": "images/4011_011.jpg",
+    "mask_path": "masks/4011_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5433",
+    "image_path": "images/5433_011.jpg",
+    "mask_path": "masks/5433_011.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "5434",
+    "image_path": "images/5434_011.jpg",
+    "mask_path": "masks/5434_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1347",
+    "image_path": "images/1347_011.jpg",
+    "mask_path": "masks/1347_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2671",
+    "image_path": "images/2671_111.jpg",
+    "mask_path": "masks/2671_111.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5016",
+    "image_path": "images/5016_022.jpg",
+    "mask_path": "masks/5016_022.png",
+    "mask_label": 0,
+    "category": "Unknown"
+  },
+  {
+    "item_id": "4403",
+    "image_path": "images/4403_011.jpg",
+    "mask_path": "masks/4403_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4491",
+    "image_path": "images/4491_041.jpg",
+    "mask_path": "masks/4491_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3441",
+    "image_path": "images/3441_031.jpg",
+    "mask_path": "masks/3441_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5593",
+    "image_path": "images/5593_021.jpg",
+    "mask_path": "masks/5593_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "5458",
+    "image_path": "images/5458_011.jpg",
+    "mask_path": "masks/5458_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1694",
+    "image_path": "images/1694_021.jpg",
+    "mask_path": "masks/1694_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4489",
+    "image_path": "images/4489_011.jpg",
+    "mask_path": "masks/4489_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3557",
+    "image_path": "images/3557_021.jpg",
+    "mask_path": "masks/3557_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3522",
+    "image_path": "images/3522_021.jpg",
+    "mask_path": "masks/3522_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1431",
+    "image_path": "images/1431_012.jpg",
+    "mask_path": "masks/1431_012.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2704",
+    "image_path": "images/2704_021.jpg",
+    "mask_path": "masks/2704_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5245",
+    "image_path": "images/5245_041.jpg",
+    "mask_path": "masks/5245_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2522",
+    "image_path": "images/2522_021.jpg",
+    "mask_path": "masks/2522_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3897",
+    "image_path": "images/3897_021.jpg",
+    "mask_path": "masks/3897_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2404",
+    "image_path": "images/2404_012.jpg",
+    "mask_path": "masks/2404_012.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2515",
+    "image_path": "images/2515_021.jpg",
+    "mask_path": "masks/2515_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2940",
+    "image_path": "images/2940_011.jpg",
+    "mask_path": "masks/2940_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "5397",
+    "image_path": "images/5397_051.jpg",
+    "mask_path": "masks/5397_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2221",
+    "image_path": "images/2221_051.jpg",
+    "mask_path": "masks/2221_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4692",
+    "image_path": "images/4692_021.jpg",
+    "mask_path": "masks/4692_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2336",
+    "image_path": "images/2336_011.jpg",
+    "mask_path": "masks/2336_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2059",
+    "image_path": "images/2059_021.jpg",
+    "mask_path": "masks/2059_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3813",
+    "image_path": "images/3813_031.jpg",
+    "mask_path": "masks/3813_031.png",
+    "mask_label": 9,
+    "category": "Headwear"
+  },
+  {
+    "item_id": "5150",
+    "image_path": "images/5150_021.jpg",
+    "mask_path": "masks/5150_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1809",
+    "image_path": "images/1809_011.jpg",
+    "mask_path": "masks/1809_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5243",
+    "image_path": "images/5243_041.jpg",
+    "mask_path": "masks/5243_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1500",
+    "image_path": "images/1500_021.jpg",
+    "mask_path": "masks/1500_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1861",
+    "image_path": "images/1861_021.jpg",
+    "mask_path": "masks/1861_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1032",
+    "image_path": "images/1032_011.jpg",
+    "mask_path": "masks/1032_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5510",
+    "image_path": "images/5510_021.jpg",
+    "mask_path": "masks/5510_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2127",
+    "image_path": "images/2127_031.jpg",
+    "mask_path": "masks/2127_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3858",
+    "image_path": "images/3858_041.jpg",
+    "mask_path": "masks/3858_041.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3213",
+    "image_path": "images/3213_021.jpg",
+    "mask_path": "masks/3213_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1222",
+    "image_path": "images/1222_031.jpg",
+    "mask_path": "masks/1222_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1421",
+    "image_path": "images/1421_021.jpg",
+    "mask_path": "masks/1421_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2959",
+    "image_path": "images/2959_031.jpg",
+    "mask_path": "masks/2959_031.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3222",
+    "image_path": "images/3222_021.jpg",
+    "mask_path": "masks/3222_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2636",
+    "image_path": "images/2636_011.jpg",
+    "mask_path": "masks/2636_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2076",
+    "image_path": "images/2076_031.jpg",
+    "mask_path": "masks/2076_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4143",
+    "image_path": "images/4143_011.jpg",
+    "mask_path": "masks/4143_011.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "3672",
+    "image_path": "images/3672_011.jpg",
+    "mask_path": "masks/3672_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4731",
+    "image_path": "images/4731_012.jpg",
+    "mask_path": "masks/4731_012.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4894",
+    "image_path": "images/4894_011.jpg",
+    "mask_path": "masks/4894_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4185",
+    "image_path": "images/4185_022.jpg",
+    "mask_path": "masks/4185_022.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4213",
+    "image_path": "images/4213_061.jpg",
+    "mask_path": "masks/4213_061.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2058",
+    "image_path": "images/2058_011.jpg",
+    "mask_path": "masks/2058_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4526",
+    "image_path": "images/4526_011.jpg",
+    "mask_path": "masks/4526_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5267",
+    "image_path": "images/5267_051.jpg",
+    "mask_path": "masks/5267_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3038",
+    "image_path": "images/3038_021.jpg",
+    "mask_path": "masks/3038_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5039",
+    "image_path": "images/5039_011.jpg",
+    "mask_path": "masks/5039_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3915",
+    "image_path": "images/3915_011.jpg",
+    "mask_path": "masks/3915_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1319",
+    "image_path": "images/1319_011.jpg",
+    "mask_path": "masks/1319_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3396",
+    "image_path": "images/3396_011.jpg",
+    "mask_path": "masks/3396_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2528",
+    "image_path": "images/2528_021.jpg",
+    "mask_path": "masks/2528_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3314",
+    "image_path": "images/3314_021.jpg",
+    "mask_path": "masks/3314_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3200",
+    "image_path": "images/3200_011.jpg",
+    "mask_path": "masks/3200_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2664",
+    "image_path": "images/2664_011.jpg",
+    "mask_path": "masks/2664_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3590",
+    "image_path": "images/3590_011.jpg",
+    "mask_path": "masks/3590_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5522",
+    "image_path": "images/5522_011.jpg",
+    "mask_path": "masks/5522_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5429",
+    "image_path": "images/5429_021.jpg",
+    "mask_path": "masks/5429_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1260",
+    "image_path": "images/1260_011.jpg",
+    "mask_path": "masks/1260_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "5143",
+    "image_path": "images/5143_011.jpg",
+    "mask_path": "masks/5143_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3191",
+    "image_path": "images/3191_021.jpg",
+    "mask_path": "masks/3191_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4209",
+    "image_path": "images/4209_011.jpg",
+    "mask_path": "masks/4209_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3978",
+    "image_path": "images/3978_011.jpg",
+    "mask_path": "masks/3978_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1669",
+    "image_path": "images/1669_021.jpg",
+    "mask_path": "masks/1669_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3634",
+    "image_path": "images/3634_021.jpg",
+    "mask_path": "masks/3634_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5027",
+    "image_path": "images/5027_011.jpg",
+    "mask_path": "masks/5027_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1450",
+    "image_path": "images/1450_011.jpg",
+    "mask_path": "masks/1450_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3127",
+    "image_path": "images/3127_021.jpg",
+    "mask_path": "masks/3127_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4707",
+    "image_path": "images/4707_021.jpg",
+    "mask_path": "masks/4707_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "2815",
+    "image_path": "images/2815_021.jpg",
+    "mask_path": "masks/2815_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1454",
+    "image_path": "images/1454_021.jpg",
+    "mask_path": "masks/1454_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2309",
+    "image_path": "images/2309_011.jpg",
+    "mask_path": "masks/2309_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "2616",
+    "image_path": "images/2616_011.jpg",
+    "mask_path": "masks/2616_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4272",
+    "image_path": "images/4272_021.jpg",
+    "mask_path": "masks/4272_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3852",
+    "image_path": "images/3852_011.jpg",
+    "mask_path": "masks/3852_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "5160",
+    "image_path": "images/5160_071.jpg",
+    "mask_path": "masks/5160_071.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1172",
+    "image_path": "images/1172_011.jpg",
+    "mask_path": "masks/1172_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3251",
+    "image_path": "images/3251_061.jpg",
+    "mask_path": "masks/3251_061.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1952",
+    "image_path": "images/1952_021.jpg",
+    "mask_path": "masks/1952_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2377",
+    "image_path": "images/2377_081.jpg",
+    "mask_path": "masks/2377_081.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4270",
+    "image_path": "images/4270_011.jpg",
+    "mask_path": "masks/4270_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "3628",
+    "image_path": "images/3628_011.jpg",
+    "mask_path": "masks/3628_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4661",
+    "image_path": "images/4661_021.jpg",
+    "mask_path": "masks/4661_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1141",
+    "image_path": "images/1141_011.jpg",
+    "mask_path": "masks/1141_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1497",
+    "image_path": "images/1497_051.jpg",
+    "mask_path": "masks/1497_051.png",
+    "mask_label": 9,
+    "category": "Headwear"
+  },
+  {
+    "item_id": "4993",
+    "image_path": "images/4993_011.jpg",
+    "mask_path": "masks/4993_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1410",
+    "image_path": "images/1410_022.jpg",
+    "mask_path": "masks/1410_022.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2211",
+    "image_path": "images/2211_011.jpg",
+    "mask_path": "masks/2211_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5013",
+    "image_path": "images/5013_011.jpg",
+    "mask_path": "masks/5013_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3250",
+    "image_path": "images/3250_011.jpg",
+    "mask_path": "masks/3250_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5104",
+    "image_path": "images/5104_021.jpg",
+    "mask_path": "masks/5104_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4932",
+    "image_path": "images/4932_011.jpg",
+    "mask_path": "masks/4932_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1208",
+    "image_path": "images/1208_021.jpg",
+    "mask_path": "masks/1208_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3821",
+    "image_path": "images/3821_051.jpg",
+    "mask_path": "masks/3821_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4716",
+    "image_path": "images/4716_021.jpg",
+    "mask_path": "masks/4716_021.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "3041",
+    "image_path": "images/3041_021.jpg",
+    "mask_path": "masks/3041_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "2085",
+    "image_path": "images/2085_011.jpg",
+    "mask_path": "masks/2085_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1427",
+    "image_path": "images/1427_021.jpg",
+    "mask_path": "masks/1427_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1002",
+    "image_path": "images/1002_011.jpg",
+    "mask_path": "masks/1002_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2012",
+    "image_path": "images/2012_011.jpg",
+    "mask_path": "masks/2012_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2725",
+    "image_path": "images/2725_051.jpg",
+    "mask_path": "masks/2725_051.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1842",
+    "image_path": "images/1842_021.jpg",
+    "mask_path": "masks/1842_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1557",
+    "image_path": "images/1557_011.jpg",
+    "mask_path": "masks/1557_011.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "1155",
+    "image_path": "images/1155_031.jpg",
+    "mask_path": "masks/1155_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3433",
+    "image_path": "images/3433_012.jpg",
+    "mask_path": "masks/3433_012.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3857",
+    "image_path": "images/3857_011.jpg",
+    "mask_path": "masks/3857_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2880",
+    "image_path": "images/2880_091.jpg",
+    "mask_path": "masks/2880_091.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3149",
+    "image_path": "images/3149_071.jpg",
+    "mask_path": "masks/3149_071.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4238",
+    "image_path": "images/4238_011.jpg",
+    "mask_path": "masks/4238_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3352",
+    "image_path": "images/3352_021.jpg",
+    "mask_path": "masks/3352_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2857",
+    "image_path": "images/2857_021.jpg",
+    "mask_path": "masks/2857_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4758",
+    "image_path": "images/4758_011.jpg",
+    "mask_path": "masks/4758_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2907",
+    "image_path": "images/2907_021.jpg",
+    "mask_path": "masks/2907_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5326",
+    "image_path": "images/5326_031.jpg",
+    "mask_path": "masks/5326_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1539",
+    "image_path": "images/1539_011.jpg",
+    "mask_path": "masks/1539_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2476",
+    "image_path": "images/2476_021.jpg",
+    "mask_path": "masks/2476_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "5272",
+    "image_path": "images/5272_011.jpg",
+    "mask_path": "masks/5272_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3366",
+    "image_path": "images/3366_011.jpg",
+    "mask_path": "masks/3366_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1199",
+    "image_path": "images/1199_021.jpg",
+    "mask_path": "masks/1199_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4706",
+    "image_path": "images/4706_011.jpg",
+    "mask_path": "masks/4706_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2677",
+    "image_path": "images/2677_041.jpg",
+    "mask_path": "masks/2677_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4532",
+    "image_path": "images/4532_011.jpg",
+    "mask_path": "masks/4532_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1367",
+    "image_path": "images/1367_011.jpg",
+    "mask_path": "masks/1367_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4562",
+    "image_path": "images/4562_021.jpg",
+    "mask_path": "masks/4562_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3863",
+    "image_path": "images/3863_051.jpg",
+    "mask_path": "masks/3863_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2785",
+    "image_path": "images/2785_021.jpg",
+    "mask_path": "masks/2785_021.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "3546",
+    "image_path": "images/3546_011.jpg",
+    "mask_path": "masks/3546_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5088",
+    "image_path": "images/5088_011.jpg",
+    "mask_path": "masks/5088_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4051",
+    "image_path": "images/4051_021.jpg",
+    "mask_path": "masks/4051_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3285",
+    "image_path": "images/3285_031.jpg",
+    "mask_path": "masks/3285_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5136",
+    "image_path": "images/5136_021.jpg",
+    "mask_path": "masks/5136_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2523",
+    "image_path": "images/2523_011.jpg",
+    "mask_path": "masks/2523_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3831",
+    "image_path": "images/3831_011.jpg",
+    "mask_path": "masks/3831_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4694",
+    "image_path": "images/4694_011.jpg",
+    "mask_path": "masks/4694_011.png",
+    "mask_label": 8,
+    "category": "Neckwear"
+  },
+  {
+    "item_id": "1404",
+    "image_path": "images/1404_031.jpg",
+    "mask_path": "masks/1404_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1495",
+    "image_path": "images/1495_011.jpg",
+    "mask_path": "masks/1495_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4453",
+    "image_path": "images/4453_031.jpg",
+    "mask_path": "masks/4453_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5426",
+    "image_path": "images/5426_011.jpg",
+    "mask_path": "masks/5426_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2229",
+    "image_path": "images/2229_491.jpg",
+    "mask_path": "masks/2229_491.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4118",
+    "image_path": "images/4118_021.jpg",
+    "mask_path": "masks/4118_021.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "4775",
+    "image_path": "images/4775_021.jpg",
+    "mask_path": "masks/4775_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4113",
+    "image_path": "images/4113_021.jpg",
+    "mask_path": "masks/4113_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4625",
+    "image_path": "images/4625_011.jpg",
+    "mask_path": "masks/4625_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1386",
+    "image_path": "images/1386_011.jpg",
+    "mask_path": "masks/1386_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1067",
+    "image_path": "images/1067_011.jpg",
+    "mask_path": "masks/1067_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4021",
+    "image_path": "images/4021_011.jpg",
+    "mask_path": "masks/4021_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3614",
+    "image_path": "images/3614_021.jpg",
+    "mask_path": "masks/3614_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4984",
+    "image_path": "images/4984_011.jpg",
+    "mask_path": "masks/4984_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "4369",
+    "image_path": "images/4369_051.jpg",
+    "mask_path": "masks/4369_051.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3372",
+    "image_path": "images/3372_022.jpg",
+    "mask_path": "masks/3372_022.png",
+    "mask_label": 9,
+    "category": "Headwear"
+  },
+  {
+    "item_id": "2057",
+    "image_path": "images/2057_031.jpg",
+    "mask_path": "masks/2057_031.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1920",
+    "image_path": "images/1920_021.jpg",
+    "mask_path": "masks/1920_021.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "1922",
+    "image_path": "images/1922_031.jpg",
+    "mask_path": "masks/1922_031.png",
+    "mask_label": 9,
+    "category": "Headwear"
+  },
+  {
+    "item_id": "4629",
+    "image_path": "images/4629_011.jpg",
+    "mask_path": "masks/4629_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "5123",
+    "image_path": "images/5123_011.jpg",
+    "mask_path": "masks/5123_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "2266",
+    "image_path": "images/2266_011.jpg",
+    "mask_path": "masks/2266_011.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  },
+  {
+    "item_id": "3300",
+    "image_path": "images/3300_021.jpg",
+    "mask_path": "masks/3300_021.png",
+    "mask_label": 5,
+    "category": "Jackets_Coats"
+  },
+  {
+    "item_id": "4230",
+    "image_path": "images/4230_021.jpg",
+    "mask_path": "masks/4230_021.png",
+    "mask_label": 2,
+    "category": "Skirts"
+  },
+  {
+    "item_id": "3970",
+    "image_path": "images/3970_041.jpg",
+    "mask_path": "masks/3970_041.png",
+    "mask_label": 1,
+    "category": "Tees_Tanks"
+  }
+]

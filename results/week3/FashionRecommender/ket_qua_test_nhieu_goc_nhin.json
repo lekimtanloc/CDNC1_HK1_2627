@@ -1,0 +1,38 @@
+{
+  "status": "completed",
+  "created_at_utc": "2026-10-20T18:16:28.557613+00:00",
+  "protocol": "Week 2 frozen test, query image vs other-view gallery image from same item",
+  "archive_sha256": "a7d59c2bbb29af0ce3b49ac57747639815d2643cf0fd4c221a49533cb3585d21",
+  "test_csv_sha256": "c7fe31afd76eedbf354f307225479b0bc6be86bda1df2c5a3800293bd8b9381d",
+  "ground_truth_test_csv_sha256": "cecbc3c726b6c09a25e78933c4c86268f4cd869609ef4d356ed319b1f4335fe7",
+  "model": "ResNet-50 pretrained IMAGENET1K_V2, masked garment, Resize(256), CenterCrop(224), ImageNet normalization",
+  "training": "none; pretrained weights used only for feature extraction",
+  "queries": 586,
+  "gallery_images": 1543,
+  "ground_truth_pairs": 1439,
+  "top_k": 5,
+  "top1_accuracy": 0.30204778156996587,
+  "recall_at_5": 0.32196823028114135,
+  "ndcg_at_5": 0.300317204975561,
+  "mrr_at_5": 0.36493174061433453,
+  "all_black_center_crops": 100,
+  "all_black_center_crop_examples": [
+    "images/1051_011.jpg",
+    "images/1088_011.jpg",
+    "images/1106_011.jpg",
+    "images/1186_012.jpg",
+    "images/1251_022.jpg",
+    "images/1509_011.jpg",
+    "images/1530_041.jpg",
+    "images/1579_052.jpg",
+    "images/1588_042.jpg",
+    "images/2010_012.jpg"
+  ],
+  "elapsed_seconds": 98.87,
+  "limitations": [
+    "This is image-to-image retrieval on the DeepFashion test split, not ranking on the website's H&M catalog.",
+    "The existing CenterCrop preprocessing is retained; fully black crops are counted and may lower retrieval scores.",
+    "Popularity and category fusion are not used in this visual-retrieval test."
+  ],
+  "top5_csv_sha256": "84e009d1fd7be878491f854f543dc10684909b9090cad685139020d24085966a"
+}

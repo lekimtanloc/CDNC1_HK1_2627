@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-11-09T16:33:22.504960+00:00",
+  "before_version": "v1 wording, unchanged numerical results",
+  "after_version": "v2 wording, unchanged numerical results",
+  "changes": [
+    {
+      "file": "phan_bien_tuan_06.md",
+      "before_sha256": "bd0cd68015751b9748021830656ebecb32a6643185e1cdb57a8665ccfe899455",
+      "after_sha256": "1bae79cffb19467773776653b73476f2c98f2b4587f6d1e7ef95181ad5318993"
+    },
+    {
+      "file": "ket_qua_tuan_06.md",
+      "before_sha256": "d913118f339f7d3281aa3b4bd5547e60fdcbf59775b38c366485bb065d6ebd76",
+      "after_sha256": "a5697b3dd59c3648be9fee32edc62a0fea9b41a6aefbe2c73775865be339bd3c"
+    }
+  ],
+  "timeline_rechecked": true,
+  "test_marker_freeze_hash_rechecked": true,
+  "replacement_language_verified": true,
+  "test_rerun": false
+}

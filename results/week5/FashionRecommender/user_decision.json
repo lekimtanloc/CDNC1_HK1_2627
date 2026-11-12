@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-03T01:46:20.990872+00:00",
+  "baseline_chinh": "B2-v1",
+  "authorized_continue_week5": true,
+  "protocol_unchanged": true,
+  "semantic_warning": "B2-v1 nhãn 1–12: giữ 4,9; bỏ 13,15 mà v2 giữ; KHÔNG đúng ngữ nghĩa. Lựa chọn retrieval proxy validation, chưa giải thích nguyên nhân.",
+  "test_caveat": "Luật chọn đặt sau khi đã thấy sanity tuần4 trên test (v1 Recall@5 cao hơn v2); test chỉ xác nhận, không phải bằng chứng độc lập.",
+  "source": "Yêu cầu người dùng chạy tiếp, mục 0"
+}

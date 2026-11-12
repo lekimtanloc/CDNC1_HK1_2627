@@ -1,0 +1,19 @@
+{
+  "variant": "G4",
+  "images": 4294,
+  "seconds": 241.24776566501532,
+  "vector_sha256": "4031965eaf3b29ca61341d34ddd023bfe773a21064d5d8dd690456fb56df50ea",
+  "counts": {
+    "valid": {
+      "images": 2165,
+      "fallback": 2,
+      "all_black": 2
+    },
+    "test": {
+      "images": 2129,
+      "fallback": 4,
+      "all_black": 4
+    }
+  },
+  "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+}

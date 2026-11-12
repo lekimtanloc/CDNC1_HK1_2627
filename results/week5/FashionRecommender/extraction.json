@@ -1,0 +1,15 @@
+{
+  "seconds": 116.58514037499845,
+  "versions": {
+    "python": "3.11.9",
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "numpy": "2.2.1",
+    "Pillow": "12.2.0"
+  },
+  "reproduced": 200,
+  "equal": 200,
+  "sampling": "25 random full batches, seed42; 200 images",
+  "source_crop_sha256": "65ae9ebdfa62e7eee082ad1d043cb16d9b2a08eacbfb2308414210fea7868b51",
+  "weights_sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca"
+}

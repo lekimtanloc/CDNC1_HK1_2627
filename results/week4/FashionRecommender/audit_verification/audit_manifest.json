@@ -1,0 +1,138 @@
+{
+  "status": "completed",
+  "created_at_utc": "2026-10-27T14:11:57.819135+00:00",
+  "files": [
+    {
+      "path": "audit_verification/ablation_config_semantics.csv",
+      "bytes": 669,
+      "sha256": "56f313e246d4864f6f9a29aab2116c7d397403a81f50ae91a0716dc0ffb4ddc0",
+      "rows": 5
+    },
+    {
+      "path": "audit_verification/analyze_crop_geometry.py",
+      "bytes": 4516,
+      "sha256": "01acf4b98104e19b703a4e127d35b5e2e6926ae3b909ae28eccc794bb051c4f7",
+      "rows": null
+    },
+    {
+      "path": "audit_verification/artifacts/ablation_groups.csv",
+      "bytes": 1702,
+      "sha256": "456f6d1c6c6f65c09ba2cd5b63957e4fd8c6daead8fa6792abc011f5b0263734",
+      "rows": 15
+    },
+    {
+      "path": "audit_verification/artifacts/ablation_per_query.csv",
+      "bytes": 180982,
+      "sha256": "7268b5d57a7a2fbf3e2d88f44676fa39e6cc968f9335d5305235db971d572467",
+      "rows": 2930
+    },
+    {
+      "path": "audit_verification/artifacts/ablation_summary.csv",
+      "bytes": 1191,
+      "sha256": "bc0d15015070a61aafff6d6be1e89b578e9b90b0ff9da910cd40286e6cc62a5f",
+      "rows": 5
+    },
+    {
+      "path": "audit_verification/artifacts/ablation_top10.csv",
+      "bytes": 2079656,
+      "sha256": "d0137ebe6068182b0509086ed58e1cf34dac267c2c84a9f98f8194d78e46a627",
+      "rows": 29300
+    },
+    {
+      "path": "audit_verification/artifacts/crop_audit.csv",
+      "bytes": 471421,
+      "sha256": "9855abd720b3776d332494dc25c6c9e1894c5ec95395c17b0bdf2bb6c53fce53",
+      "rows": 10645
+    },
+    {
+      "path": "audit_verification/artifacts/crop_geometry.csv",
+      "bytes": 1081406,
+      "sha256": "443a7d2c9d323002820d33d43b21d4bc9b7550bb7d0bd1010c9cc78d26b919ab",
+      "rows": 10645
+    },
+    {
+      "path": "audit_verification/artifacts/crop_geometry_summary.csv",
+      "bytes": 2166,
+      "sha256": "bfdc43fe7e3216f83fba04ed2e38ccdbff6bc3d4c57a4a4fd7ef50dfc1e82cdb",
+      "rows": 15
+    },
+    {
+      "path": "audit_verification/artifacts/manifest.json",
+      "bytes": 7233,
+      "sha256": "38802200158b49067469871ab284dc416bc0bc5040bd4ccfebd086e0648089b4",
+      "rows": null
+    },
+    {
+      "path": "audit_verification/artifacts/positive_pair_scores.csv",
+      "bytes": 553768,
+      "sha256": "6f669230c7c3b4601a551f7e916136a52d4b0cbb4f76f832832b8035f1cf81c4",
+      "rows": 7195
+    },
+    {
+      "path": "audit_verification/artifacts/reuse_checks.json",
+      "bytes": 321,
+      "sha256": "6efcc4494192fb89a4f2396d0f2e09e79bf23dd92e81c407a131993eaa319467",
+      "rows": null
+    },
+    {
+      "path": "audit_verification/artifacts/test_embeddings_B.npy",
+      "bytes": 17440896,
+      "sha256": "76cff96d7d2c35b99dbef704f963dad75ffc5018355dc199283f98fe245496b4",
+      "rows": null
+    },
+    {
+      "path": "audit_verification/artifacts/test_embeddings_C.npy",
+      "bytes": 17440896,
+      "sha256": "71187683ed64c07c3aeec02e61083ddc07917460fdfb45b582a616b9d7bbf35f",
+      "rows": null
+    },
+    {
+      "path": "audit_verification/artifacts/test_embeddings_D.npy",
+      "bytes": 17440896,
+      "sha256": "5fa8dd28df9e99334165adf2032eb2239160675bb48bf493e42f69debfb715cc",
+      "rows": null
+    },
+    {
+      "path": "audit_verification/artifacts/verification.json",
+      "bytes": 7139,
+      "sha256": "f4deb7244ede1e1564aa3e02668f7d08fc9a06297f55078a0b64c851b8d43e3a",
+      "rows": null
+    },
+    {
+      "path": "audit_verification/make_audit_manifest.py",
+      "bytes": 1682,
+      "sha256": "065dd200180b2b686d2d77c0a28c3c309d1212271a6de81a7b190d36515b6cfa",
+      "rows": null
+    },
+    {
+      "path": "audit_verification/rgb_to_id.csv",
+      "bytes": 1220,
+      "sha256": "01526cbe4f2ff20e88028a8b5ddaaee5ce0f53be4f1298c4d806c3ff821a9eb6",
+      "rows": 16
+    },
+    {
+      "path": "audit_verification/run_ablation.py",
+      "bytes": 20827,
+      "sha256": "fa61957eace7c712a857fb126602734e130a5fbd9841dad0cf786d8789a1a28b",
+      "rows": null
+    },
+    {
+      "path": "audit_verification/source_evidence.json",
+      "bytes": 5417,
+      "sha256": "388fa2ebfc4dc072d4dd3f0fe8b90c7bc41b2c4ef81fee85b924f10b2a154248",
+      "rows": null
+    },
+    {
+      "path": "audit_verification/verify_ablation.py",
+      "bytes": 4620,
+      "sha256": "b39f537bf8b0dd732ddc6f8832af362898349255ecceff963d1b938a44d3d74d",
+      "rows": null
+    },
+    {
+      "path": "verification_report.md",
+      "bytes": 28540,
+      "sha256": "cce9ed744ea4ea35fa595a2c8bac56cda2a54e797dbdeed472e8d9d90ffd0130",
+      "rows": null
+    }
+  ]
+}

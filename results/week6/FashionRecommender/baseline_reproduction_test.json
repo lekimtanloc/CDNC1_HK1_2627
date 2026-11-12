@@ -1,0 +1,124 @@
+[
+  {
+    "base": "A",
+    "split": "test",
+    "gallery": 1543,
+    "queries": 586,
+    "rows_matched": 5860,
+    "all_six_columns_exact": true,
+    "metrics": [
+      {
+        "metric": "Top-1",
+        "max_error": 0.0
+      },
+      {
+        "metric": "Recall@1",
+        "max_error": 0.0
+      },
+      {
+        "metric": "Recall@5",
+        "max_error": 0.0
+      },
+      {
+        "metric": "Recall@10",
+        "max_error": 0.0
+      },
+      {
+        "metric": "NDCG@5",
+        "max_error": 0.0
+      },
+      {
+        "metric": "NDCG@10",
+        "max_error": 0.0
+      },
+      {
+        "metric": "MRR@10",
+        "max_error": 0.0
+      },
+      {
+        "metric": "MAE@10",
+        "max_error": 0.0
+      }
+    ]
+  },
+  {
+    "base": "B",
+    "split": "test",
+    "gallery": 1543,
+    "queries": 586,
+    "rows_matched": 5860,
+    "all_six_columns_exact": true,
+    "metrics": [
+      {
+        "metric": "Top-1",
+        "max_error": 0.0
+      },
+      {
+        "metric": "Recall@1",
+        "max_error": 0.0
+      },
+      {
+        "metric": "Recall@5",
+        "max_error": 0.0
+      },
+      {
+        "metric": "Recall@10",
+        "max_error": 0.0
+      },
+      {
+        "metric": "NDCG@5",
+        "max_error": 0.0
+      },
+      {
+        "metric": "NDCG@10",
+        "max_error": 0.0
+      },
+      {
+        "metric": "MRR@10",
+        "max_error": 0.0
+      },
+      {
+        "metric": "MAE@10",
+        "max_error": 5.551115123125783e-17
+      }
+    ]
+  },
+  {
+    "base": "G2",
+    "split": "test",
+    "gallery": 1543,
+    "queries": 586,
+    "rows_matched": 5860,
+    "all_six_columns_exact": true,
+    "metrics": [
+      {
+        "metric": "Top-1",
+        "max_error": 0.0
+      },
+      {
+        "metric": "Recall@1",
+        "max_error": 0.0
+      },
+      {
+        "metric": "Recall@5",
+        "max_error": 0.0
+      },
+      {
+        "metric": "Recall@10",
+        "max_error": 0.0
+      },
+      {
+        "metric": "NDCG@5",
+        "max_error": 0.0
+      },
+      {
+        "metric": "NDCG@10",
+        "max_error": 0.0
+      },
+      {
+        "metric": "MRR@10",
+        "max_error": 0.0
+      }
+    ]
+  }
+]

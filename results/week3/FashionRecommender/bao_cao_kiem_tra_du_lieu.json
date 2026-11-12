@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "build_id": "week2-seed42-a7d59c2bbb29",
+  "checks": {
+    "archive_sha256_matches": true,
+    "artifact_hashes_match": true,
+    "split_counts": {
+      "train": {
+        "items": 3219,
+        "images": 9458,
+        "queries": 2660,
+        "gallery_images": 6798,
+        "ground_truth_pairs": 6239
+      },
+      "valid": {
+        "items": 691,
+        "images": 2165,
+        "queries": 568,
+        "gallery_images": 1597,
+        "ground_truth_pairs": 1474
+      },
+      "test": {
+        "items": 690,
+        "images": 2129,
+        "queries": 586,
+        "gallery_images": 1543,
+        "ground_truth_pairs": 1439
+      }
+    },
+    "no_item_leakage": true,
+    "ground_truth_exact": true,
+    "sqlite_integrity": "ok",
+    "sqlite_foreign_key_errors": 0,
+    "sqlite_counts": {
+      "items": 4600,
+      "images": 13752,
+      "ground_truth_pairs": 9152
+    }
+  },
+  "errors": []
+}

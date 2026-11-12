@@ -1,0 +1,7 @@
+from common_5c import *
+assert json.loads((O/'independent_valid_result_5c.json').read_text())['mismatches']==0
+assert json.loads((O/'G0_byte_result_5c.json').read_text())['passed']
+old=json.loads((O/'hash_cu_truoc_5c.json').read_text());assert all(sha(R/p)==h for p,h in old.items()),'STOP old input files changed'
+files=list(O.glob('*.py'))+[O/'design_5c.json',O/'G0_byte_result_5c.json',O/'crop_tests_5c.json',O/'extraction_complete_5c.json',O/'metrics_valid_5c.csv',O/'paired_valid_5c.json',O/'effects_valid_5c.json',O/'vectors_index_5c.csv',BASE/'vectors_C_5b.npy',BASE/'vectors_index_5b.csv',W/'v2/common.py',PRIOR/'protocol_v1.md',PRIOR/'baseline_chinh.json',PRIOR/'freeze.json',BASE/'freeze_5b.json']+[O/f'vectors_{c}_5c.npy' for c in VARIANTS if c!='G0']+[P/f'{s}.csv' for s in ('valid','test')]+[P/f'ground_truth_{s}.csv' for s in ('valid','test')]+[BASE/f'{s}_{c}_top10_5b.csv' for s in ('valid','test') for c in ('B','F')]
+dump(O/'freeze_5c.json',{'timestamp':now(),'note':NOTE,'baseline_unchanged':'B2-v1','design':json.loads((O/'design_5c.json').read_text()),'validation_effects':json.loads((O/'effects_valid_5c.json').read_text()),'test_passes_planned':1,'weights_sha256':json.loads((O/'extraction_complete_5c.json').read_text())['weights_sha256'],'hashes':{str(p.relative_to(R)):sha(p) for p in sorted(set(files))},'test_exposure_caveat':'All analyses posthoc after prior test exposure; no independent held-out evidence claim'})
+print('Freeze5c committed before test')

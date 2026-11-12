@@ -1,0 +1,49 @@
+item_id,image_path,mask_path,split,role,labels,background_ratio,classification
+1012,images/1012_021.jpg,masks/1012_021.png,train,gallery,"[0, 13, 14, 15]",0.7132231304874357,ii_chi_nhan_ngoai_1_12
+1012,images/1012_022.jpg,masks/1012_022.png,train,query,"[0, 13, 14, 15]",0.736808961550106,ii_chi_nhan_ngoai_1_12
+1375,images/1375_027.jpg,masks/1375_027.png,train,gallery,[0],1.0,i_toan_nen
+1488,images/1488_017.jpg,masks/1488_017.png,train,gallery,[0],1.0,i_toan_nen
+1582,images/1582_011.jpg,masks/1582_011.png,train,query,"[0, 13]",0.5535719043293975,ii_chi_nhan_ngoai_1_12
+2030,images/2030_033.jpg,masks/2030_033.png,train,gallery,"[0, 14]",0.9571432031486528,ii_chi_nhan_ngoai_1_12
+2331,images/2331_013.jpg,masks/2331_013.png,train,query,[0],1.0,i_toan_nen
+2390,images/2390_012.jpg,masks/2390_012.png,train,gallery,"[0, 13, 14, 15]",0.7517263094156827,ii_chi_nhan_ngoai_1_12
+2752,images/2752_012.jpg,masks/2752_012.png,train,query,"[0, 13, 14, 15]",0.7942415985467757,ii_chi_nhan_ngoai_1_12
+2783,images/2783_011.jpg,masks/2783_011.png,train,gallery,"[0, 13]",0.6325001513775356,ii_chi_nhan_ngoai_1_12
+2986,images/2986_012.jpg,masks/2986_012.png,train,gallery,"[0, 13, 14, 15]",0.7187175295186194,ii_chi_nhan_ngoai_1_12
+3157,images/3157_011.jpg,masks/3157_011.png,train,query,"[0, 13]",0.5033908567968514,ii_chi_nhan_ngoai_1_12
+3157,images/3157_021.jpg,masks/3157_021.png,train,gallery,"[0, 13]",0.5091892219194671,ii_chi_nhan_ngoai_1_12
+3214,images/3214_047.jpg,masks/3214_047.png,train,gallery,"[0, 13, 14]",0.6240726612170754,ii_chi_nhan_ngoai_1_12
+3221,images/3221_012.jpg,masks/3221_012.png,train,query,"[0, 13, 14, 15]",0.7904668483197094,ii_chi_nhan_ngoai_1_12
+3332,images/3332_046.jpg,masks/3332_046.png,train,gallery,[0],1.0,i_toan_nen
+3518,images/3518_024.jpg,masks/3518_024.png,train,gallery,[0],1.0,i_toan_nen
+4092,images/4092_031.jpg,masks/4092_031.png,train,gallery,"[0, 13]",0.7240060551014229,ii_chi_nhan_ngoai_1_12
+4145,images/4145_023.jpg,masks/4145_023.png,train,gallery,[0],1.0,i_toan_nen
+4296,images/4296_014.jpg,masks/4296_014.png,train,gallery,[0],1.0,i_toan_nen
+4438,images/4438_022.jpg,masks/4438_022.png,train,query,"[0, 13, 14, 15]",0.7217014834998486,ii_chi_nhan_ngoai_1_12
+4610,images/4610_012.jpg,masks/4610_012.png,train,gallery,"[0, 13, 14, 15]",0.6379461095973358,ii_chi_nhan_ngoai_1_12
+4915,images/4915_037.jpg,masks/4915_037.png,train,gallery,[0],1.0,i_toan_nen
+5036,images/5036_067.jpg,masks/5036_067.png,train,gallery,"[0, 15]",0.9999806236754466,ii_chi_nhan_ngoai_1_12
+5087,images/5087_052.jpg,masks/5087_052.png,train,gallery,"[0, 13, 14, 15]",0.7335198304571602,ii_chi_nhan_ngoai_1_12
+5087,images/5087_053.jpg,masks/5087_053.png,train,gallery,"[0, 13, 14, 15]",0.6599370269452013,ii_chi_nhan_ngoai_1_12
+5087,images/5087_072.jpg,masks/5087_072.png,train,gallery,"[0, 13, 14, 15]",0.723958825310324,ii_chi_nhan_ngoai_1_12
+5087,images/5087_082.jpg,masks/5087_082.png,train,query,"[0, 13, 14, 15]",0.7472770208901,ii_chi_nhan_ngoai_1_12
+5282,images/5282_017.jpg,masks/5282_017.png,train,gallery,"[0, 13]",0.9981350287617318,ii_chi_nhan_ngoai_1_12
+5299,images/5299_012.jpg,masks/5299_012.png,train,query,"[0, 13, 14, 15]",0.7800557069330911,ii_chi_nhan_ngoai_1_12
+5415,images/5415_012.jpg,masks/5415_012.png,train,gallery,"[0, 13, 14, 15]",0.7443136542537088,ii_chi_nhan_ngoai_1_12
+1784,images/1784_032.jpg,masks/1784_032.png,valid,gallery,"[0, 13, 14, 15]",0.7979448985770512,ii_chi_nhan_ngoai_1_12
+1784,images/1784_042.jpg,masks/1784_042.png,valid,gallery,"[0, 13, 14, 15]",0.8168356039963669,ii_chi_nhan_ngoai_1_12
+1784,images/1784_052.jpg,masks/1784_052.png,valid,gallery,"[0, 13, 14, 15]",0.7619097789887981,ii_chi_nhan_ngoai_1_12
+2982,images/2982_032.jpg,masks/2982_032.png,valid,gallery,"[0, 13, 14, 15]",0.7288489252194974,ii_chi_nhan_ngoai_1_12
+4007,images/4007_034.jpg,masks/4007_034.png,valid,gallery,[0],1.0,i_toan_nen
+5016,images/5016_022.jpg,masks/5016_022.png,valid,gallery,"[0, 13, 14, 15]",0.6883257644565547,ii_chi_nhan_ngoai_1_12
+5068,images/5068_022.jpg,masks/5068_022.png,valid,query,"[0, 13, 14, 15]",0.7201029367241901,ii_chi_nhan_ngoai_1_12
+5408,images/5408_023.jpg,masks/5408_023.png,valid,gallery,"[0, 14]",0.9999951559188617,ii_chi_nhan_ngoai_1_12
+2156,images/2156_027.jpg,masks/2156_027.png,test,gallery,[0],1.0,i_toan_nen
+2261,images/2261_013.jpg,masks/2261_013.png,test,query,[0],1.0,i_toan_nen
+3020,images/3020_042.jpg,masks/3020_042.png,test,query,"[0, 13, 14, 15]",0.7472988192552226,ii_chi_nhan_ngoai_1_12
+3020,images/3020_052.jpg,masks/3020_052.png,test,gallery,"[0, 13, 14, 15]",0.7736264002422041,ii_chi_nhan_ngoai_1_12
+3233,images/3233_021.jpg,masks/3233_021.png,test,query,"[0, 13, 14, 15]",0.7223844989403573,ii_chi_nhan_ngoai_1_12
+3233,images/3233_022.jpg,masks/3233_022.png,test,gallery,"[0, 13, 14, 15]",0.7426787768695126,ii_chi_nhan_ngoai_1_12
+4904,images/4904_024.jpg,masks/4904_024.png,test,gallery,[0],1.0,i_toan_nen
+5100,images/5100_343.jpg,masks/5100_343.png,test,gallery,[0],1.0,i_toan_nen
+5596,images/5596_011.jpg,masks/5596_011.png,test,gallery,"[0, 13]",0.5686067211625795,ii_chi_nhan_ngoai_1_12

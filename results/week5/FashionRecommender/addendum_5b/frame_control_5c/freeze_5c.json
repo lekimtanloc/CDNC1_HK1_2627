@@ -1,0 +1,235 @@
+{
+  "timestamp": "2026-11-03T12:43:58.855035+00:00",
+  "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người.",
+  "baseline_unchanged": "B2-v1",
+  "design": {
+    "timestamp": "2026-11-03T12:18:27.428311+00:00",
+    "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người.",
+    "user_decision": "Replace original 5c G0–G3 design; BLACK fill, not ImageNet mean; user explicitly selected option2",
+    "bbox_labels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15
+    ],
+    "fill_rgb": [
+      0,
+      0,
+      0
+    ],
+    "padding_rgb": [
+      0,
+      0,
+      0
+    ],
+    "fallback": "bbox C empty => black224x224 for ALL variants including original RGB G2; empty retained content inside nonempty C bbox is black but not bbox fallback",
+    "variants": {
+      "G0": {
+        "keep_labels": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "bbox": "C",
+        "source": "reuse C after >=200 byte-identical replay"
+      },
+      "G1": {
+        "keep_labels": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "bbox": "C"
+      },
+      "G2": {
+        "keep": "all original RGB pixels",
+        "bbox": "C"
+      },
+      "G3": {
+        "keep_labels": [
+          4,
+          9
+        ],
+        "bbox": "C"
+      },
+      "G4": {
+        "drop_labels": [
+          4,
+          9
+        ],
+        "keep": "all other original RGB pixels including background",
+        "bbox": "C"
+      },
+      "B": {
+        "keep_labels": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "bbox": "B",
+        "source": "5b B reference, unchanged"
+      },
+      "F": {
+        "keep_labels": [
+          4,
+          9
+        ],
+        "bbox": "F",
+        "source": "5b F reference, unchanged"
+      }
+    },
+    "resize": "v2 ImageOps.contain bbox crop to224, BILINEAR, black centered padding; identical Normalize/ImageNet ResNet50V2 weights",
+    "pairs": [
+      "G1-B",
+      "G0-G1",
+      "G2-G4",
+      "G2-G0",
+      "G4-G1",
+      "G3-F",
+      "G3-G0"
+    ],
+    "face_hair": [
+      "G0-G1",
+      "G2-G4"
+    ],
+    "background": [
+      "G2-G0",
+      "G4-G1"
+    ],
+    "effect_rule": "có only if BOTH paired Recall@5 95% CIs exclude0 in SAME direction; otherwise không kết luận. G1-B and G3-F only numbers/CIs; G3-G0 and random descriptive, no threshold.",
+    "metrics": [
+      "Top-1",
+      "Recall@1",
+      "Recall@5",
+      "Recall@10",
+      "NDCG@5",
+      "NDCG@10",
+      "MRR@10"
+    ],
+    "bootstrap": {
+      "seed": 42,
+      "replicates": 10000,
+      "unit": "query",
+      "percentile": [
+        2.5,
+        97.5
+      ]
+    },
+    "device": "cpu",
+    "threads": 4,
+    "batch_size": 8,
+    "deterministic": true,
+    "G0_replay": "25 random complete cacheC batches seed42,200 images, preserve original batch geometry",
+    "test": "extract embeddings before freeze permitted; no new test ranking/metrics until freeze_5c; one official pass then independent verification",
+    "prior_exposure": "test already seen in weeks4,5,5b; this is posthoc, not independent holdout evidence",
+    "sources": {
+      "crop_sha256": "efcc2bae6975365eab63ca52bb0741f6b78f9a7ff7d9ed93cdc076365151b99c",
+      "C_vector_sha256": "5e4b0a1f89b6613b599e46952b6c33291baf6e1a78f75a0359f580ad64a31da3",
+      "C_index_sha256": "92cb5a9a627eaa1eb6f11f0c953a1d7272a6c33c4e5fceb76620fb5bbc9d393b",
+      "protocol_sha256": "420b4a8205c81a6f629f3e5a3cc0ba04cee8ce57ae6137c74feb65b1d3c2bf25"
+    }
+  },
+  "validation_effects": {
+    "face_hair": {
+      "comparisons": [
+        "G0-G1",
+        "G2-G4"
+      ],
+      "conclusion": "có",
+      "direction": "positive",
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    "background": {
+      "comparisons": [
+        "G2-G0",
+        "G4-G1"
+      ],
+      "conclusion": "có",
+      "direction": "positive",
+      "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+    },
+    "frame": "G1-B and G3-F numbers/CIs only, no threshold",
+    "G3": "descriptive vsG0 and random; no person identity claims",
+    "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+  },
+  "test_passes_planned": 1,
+  "weights_sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+  "hashes": {
+    "results/week2/FashionRecommender/data_protocol/ground_truth_test.csv": "cecbc3c726b6c09a25e78933c4c86268f4cd869609ef4d356ed319b1f4335fe7",
+    "results/week2/FashionRecommender/data_protocol/ground_truth_valid.csv": "d0ad71540e43c38bd56eeab7a9c5858da2a1eb8d04760fbd342d9f49eb812d15",
+    "results/week2/FashionRecommender/data_protocol/test.csv": "c7fe31afd76eedbf354f307225479b0bc6be86bda1df2c5a3800293bd8b9381d",
+    "results/week2/FashionRecommender/data_protocol/valid.csv": "7c36ed195169b5a4706ae1862bbd55c7aedbc3658a1064d9f36e80926cec5341",
+    "results/week4/FashionRecommender/v2/common.py": "efcc2bae6975365eab63ca52bb0741f6b78f9a7ff7d9ed93cdc076365151b99c",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/G0_byte_result_5c.json": "a3d3937d3209f77ecf66b163b6c2efdf9ec1fd5fd2571edc727693aa2bc34c72",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/common_5c.py": "02f69bda531aa3d9792923908fcf3c78b5ef53082f7a4f28a82179bbde7fe37e",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/crop_tests_5c.json": "85805b5933c18478a706f78c7dc54cb0e4260df4b484451e0e0422ca66e32d1d",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/crop_tests_5c.py": "73d9aa72330ff1b022242ca2b1a75894ce28d1e6c335c610162bf2b47ed5dbac",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/delivery_5c.py": "640c85cc7c0611c15f850386d4a4970c5f9720d354be021a28b4d8e0ac19bbc0",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/design_5c.json": "9cdb2dda1d024d78de264e73875197c171c889dfffa400d68ac871a7c70ba0db",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/effects_valid_5c.json": "44666a6ab5ec86397dd2047e46bf9a88a3907ad87674102507847ab3ce8cf049",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/evaluate_5c.py": "91f6a97667b8254f10edd79bae20d7bbc8db872d95f73cc73501a4f494e2b0e3",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/extract_5c.py": "99030b9cd478290642ff259db79ad1c1a5ff0ba8cdda25e0e77a1a2a83f98a87",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/extraction_complete_5c.json": "962510570429c05cb2201b794f8285f5cf9d7f9dccee6181417920220ad5976f",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/freeze_prepare_5c.py": "cfc2872a15d4cddc87d430bc78e06924e0006ad03611072ab99c85715ad1859c",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/independent_5c.py": "f6c0ca6d59acc13858779630d348044b519bd9a36aca3b2e3b1de7ed95a34498",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/initialize_5c.py": "f6816d8ecae6a3e12775c7bbf87ed65b861de81a59a6598ca4514f7b0274f207",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/metrics_valid_5c.csv": "7338daeb1bfe8919795755027f05f71e01e783c4fc783d2aed6a97abec6ccc4b",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/paired_valid_5c.json": "f340d90a221e3851a049675785370d418ef0ee76ce1f1b6216bc083fe7c75754",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/report_5c.py": "25c36ed04b1d789e535a8eb00d665c3f7d6e5957cda82b8099bb0bc715f25e22",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/vectors_G1_5c.npy": "c585c2313a49fd50bca955032ae106a8fcc96e2afa00197a6b40013ba2bd9750",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/vectors_G2_5c.npy": "8d44c8ba4a7850a039555744c5d99fe86b84258135ccc5591c4bb81cf6d4b990",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/vectors_G3_5c.npy": "f98e943dd4603f2404be9825f59fe3e2f18422a77e84c36976a3ae3b1878f708",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/vectors_G4_5c.npy": "4031965eaf3b29ca61341d34ddd023bfe773a21064d5d8dd690456fb56df50ea",
+    "results/week5/FashionRecommender/addendum_5b/frame_control_5c/vectors_index_5c.csv": "92cb5a9a627eaa1eb6f11f0c953a1d7272a6c33c4e5fceb76620fb5bbc9d393b",
+    "results/week5/FashionRecommender/addendum_5b/freeze_5b.json": "2daca93f51b592d19f7eaa663b9ec59dcc33b17b923159ea3b1e036ed457bc99",
+    "results/week5/FashionRecommender/addendum_5b/test_B_top10_5b.csv": "b42c66a7cc7601b53cdb3aa91ec59427712c31a2ce9bacf8391992701f8d3fdd",
+    "results/week5/FashionRecommender/addendum_5b/test_F_top10_5b.csv": "05bad7aad831d036e6bdbb7c6fbb01eba6c6980e6cadd045f6215b3658a8aa23",
+    "results/week5/FashionRecommender/addendum_5b/valid_B_top10_5b.csv": "94a5e776630ace2ae16290171597f93faf68e3eb259f483f982e3312f404e081",
+    "results/week5/FashionRecommender/addendum_5b/valid_F_top10_5b.csv": "0ff4161bd7dfb2f0d47090f9ceae6a654f35ebe12f60145951e23cb69356c90a",
+    "results/week5/FashionRecommender/addendum_5b/vectors_C_5b.npy": "5e4b0a1f89b6613b599e46952b6c33291baf6e1a78f75a0359f580ad64a31da3",
+    "results/week5/FashionRecommender/addendum_5b/vectors_index_5b.csv": "92cb5a9a627eaa1eb6f11f0c953a1d7272a6c33c4e5fceb76620fb5bbc9d393b",
+    "results/week5/FashionRecommender/baseline_chinh.json": "d4cd3f1908a2079413bfd12ea2b14ed348c6b4d59457350c2e2116f8fc9082e7",
+    "results/week5/FashionRecommender/freeze.json": "7ad87a68e3c14337ca03267ce4257e50d887f530236314832b6efa67e5540e2e",
+    "results/week5/FashionRecommender/protocol_v1.md": "420b4a8205c81a6f629f3e5a3cc0ba04cee8ce57ae6137c74feb65b1d3c2bf25"
+  },
+  "test_exposure_caveat": "All analyses posthoc after prior test exposure; no independent held-out evidence claim"
+}

@@ -1,0 +1,52 @@
+split,metric,main,independent,match,note
+dev,queries,2660,2660,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,gallery,6798,6798,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,truth_pairs,6239,6239,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,random_Top-1,0.0003450262903507666,0.0003450262903507666,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,random_Recall@5,0.0007355104442483084,0.0007355104442483084,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,A Recall@1,0.1196737471438349,0.11967374714383468,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,A Recall@5,0.22359057874195853,0.22359057874195828,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,A Recall@10,0.2740525379564606,0.27405253795646084,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,B Recall@1,0.11531999067375821,0.11531999067375805,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,B Recall@5,0.20585860438636897,0.20585860438636863,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+dev,B Recall@10,0.26206420057774216,0.2620642005777424,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,queries,568,568,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,gallery,1597,1597,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,truth_pairs,1474,1474,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,random_Top-1,0.001624965825006394,0.001624965825006394,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,random_Recall@5,0.0031308703819661866,0.0031308703819661866,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,A Recall@1,0.2047577792068443,0.20475777920684424,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,A Recall@5,0.3539019120344739,0.35390191203447396,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,A Recall@10,0.4139522144481273,0.4139522144481275,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,B Recall@1,0.17910877615130644,0.17910877615130646,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,B Recall@5,0.3138761369714341,0.3138761369714341,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,B Recall@10,0.3741740430199277,0.3741740430199277,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,C Recall@1,0.2034485648837008,0.20344856488370072,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,C Recall@5,0.34940014393806745,0.3494001439380675,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,C Recall@10,0.4296769967620948,0.429676996762095,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,D Recall@1,0.17143565408557873,0.1714356540855788,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,D Recall@5,0.30809691786783927,0.3080969178678393,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,D Recall@10,0.35956253759133155,0.35956253759133167,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,F Recall@1,0.0751987947985434,0.0751987947985434,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,F Recall@5,0.15978467680031652,0.15978467680031658,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+valid,F Recall@10,0.2037313256154766,0.2037313256154766,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,queries,586,586,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,gallery,1543,1543,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,truth_pairs,1439,1439,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,random_Top-1,0.0015914655860773856,0.0015914655860773856,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,random_Recall@5,0.0032404406999351912,0.0032404406999351912,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,A Recall@1,0.17519868131027858,0.17519868131027844,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,A Recall@5,0.33511468228906455,0.33511468228906455,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,A Recall@10,0.3963836075187145,0.3963836075187144,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,B Recall@1,0.16036687444281517,0.1603668744428151,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,B Recall@5,0.29605407913393317,0.29605407913393317,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,B Recall@10,0.37688905970597025,0.37688905970597036,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,C Recall@1,0.16926550754434033,0.16926550754434022,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,C Recall@5,0.32870338260452225,0.32870338260452237,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,C Recall@10,0.38882870314814594,0.38882870314814594,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,D Recall@1,0.17402798580017226,0.17402798580017212,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,D Recall@5,0.3173255366408552,0.3173255366408553,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,D Recall@10,0.3996445870103041,0.3996445870103043,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,F Recall@1,0.07997216812448564,0.07997216812448568,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,F Recall@5,0.1798203106212719,0.17982031062127188,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).
+test,F Recall@10,0.24914583017248781,0.24914583017248787,True,BỔ SUNG HẬU NGHIỆM sau tuần 5; không đổi baseline chính B2-v1 (bộ lọc sai ngữ nghĩa).

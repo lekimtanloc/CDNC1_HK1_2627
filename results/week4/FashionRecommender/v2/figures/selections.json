@@ -1,0 +1,24 @@
+{
+  "crop_paths": [
+    "images/1687_011.jpg",
+    "images/1000_031.jpg",
+    "images/2751_012.jpg",
+    "images/1903_261.jpg"
+  ],
+  "crop_random_seed": 42,
+  "changed_query": "images/1014_011.jpg",
+  "black_paths": [
+    "images/1375_027.jpg",
+    "images/1488_017.jpg",
+    "images/2030_033.jpg",
+    "images/2296_013.jpg",
+    "images/2331_013.jpg",
+    "images/2654_014.jpg",
+    "images/2958_094.jpg",
+    "images/3332_046.jpg",
+    "images/3518_024.jpg",
+    "images/3909_034.jpg",
+    "images/4145_023.jpg",
+    "images/4296_014.jpg"
+  ]
+}

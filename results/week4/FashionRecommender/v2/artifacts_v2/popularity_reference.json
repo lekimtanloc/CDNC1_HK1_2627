@@ -1,0 +1,23 @@
+{
+  "note": "Exact byte copies of v1; no dependence on image vectors",
+  "files": [
+    {
+      "name": "popularity_only_top10.csv",
+      "v1_sha256": "aa3576d504217cf463c3e41cdcc289167c856f7564ba8bf1166b9c2790ca7f49",
+      "v2_sha256": "aa3576d504217cf463c3e41cdcc289167c856f7564ba8bf1166b9c2790ca7f49",
+      "equal": true
+    },
+    {
+      "name": "popularity.csv",
+      "v1_sha256": "950ec2fbbcdcdd4889e58e3aa9a1de5b059e4fdba53ffd3668da1ec5c3b2ce2a",
+      "v2_sha256": "950ec2fbbcdcdd4889e58e3aa9a1de5b059e4fdba53ffd3668da1ec5c3b2ce2a",
+      "equal": true
+    },
+    {
+      "name": "popularity_lineage.json",
+      "v1_sha256": "0c8352c07de107229a0d8b8cd87fa435af52ac3be256cf3138a43cf65cc168fd",
+      "v2_sha256": "0c8352c07de107229a0d8b8cd87fa435af52ac3be256cf3138a43cf65cc168fd",
+      "equal": true
+    }
+  ]
+}

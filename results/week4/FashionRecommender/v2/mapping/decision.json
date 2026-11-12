@@ -1,0 +1,30 @@
+{
+  "proceed": true,
+  "keep_labels": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    15
+  ],
+  "drop_labels": [
+    0,
+    4,
+    9,
+    14
+  ],
+  "ambiguous_low_confidence_labels": [],
+  "v2b_required": false,
+  "reason": "All coarse groups identified from 24 random samples per label across splits plus ROI supplements. Label 3 medium-high coarse decision, minority mask errors documented; no low-confidence unresolved group affecting >5%. No v2b run.",
+  "mapping_status": "Empirical proposal, not official archive schema",
+  "reviewed_main_cells": 384,
+  "reviewed_total_cells": 516,
+  "decision_made_before_extraction": true
+}

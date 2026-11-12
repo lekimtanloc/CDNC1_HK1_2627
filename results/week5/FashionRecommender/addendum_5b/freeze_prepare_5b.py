@@ -1,0 +1,8 @@
+from common_5b import *
+assert json.loads((O/'independent_valid_result_5b.json').read_text())['mismatches']==0
+assert json.loads((O/'independent_dev_result_5b.json').read_text())['mismatches']==0
+assert json.loads((O/'A_byte_result_5b.json').read_text())['passed']
+old=json.loads((O/'hash_cu_truoc_5b.json').read_text());assert all(sha(R/p)==h for p,h in old.items()),'STOP old files changed'
+files=[O/'design_5b.json',O/'metrics_valid_5b.csv',O/'paired_valid_5b.json',O/'effects_valid_5b.json',O/'vectors_index_5b.csv',PRIOR/'protocol_v1.md',PRIOR/'baseline_chinh.json',PRIOR/'freeze.json',W/'v2/common.py',W/'artifacts_completed/fixed_all.npy',W/'artifacts_completed/fixed_all_index.csv',W/'v2/artifacts_v2/fixed_all_v2.npy',W/'v2/artifacts_v2/fixed_all_v2_index.csv',W/'artifacts_completed/visual_only_top10.csv',W/'v2/artifacts_v2/visual_only_v2_top10.csv',P/'test.csv',P/'ground_truth_test.csv']+list(O.glob('*.py'))+[O/f'vectors_{c}_5b.npy' for c in ('C','D','F')]
+dump(O/'freeze_5b.json',{'timestamp':now(),'note':NOTE,'baseline_unchanged':'B2-v1','variants':LABELS,'E':'not specified; A–F means A,B,C,D,F, not an invented E','test_once':True,'face_hair':['C-B','A-D'],'pants_shoes':['C-A','B-D'],'interpretation_rule':json.loads((O/'design_5b.json').read_text())['effect_rule'],'validation_effects':json.loads((O/'effects_valid_5b.json').read_text()),'F':'F-A paired; descriptive vs expected random; no threshold','hashes':{str(p.relative_to(R)):sha(p) for p in sorted(set(files))},'prior_test_exposure':'week4/5 test already observed; this is posthoc confirmatory description, not new independent test evidence'})
+print('Freeze created before test ranking and metrics')

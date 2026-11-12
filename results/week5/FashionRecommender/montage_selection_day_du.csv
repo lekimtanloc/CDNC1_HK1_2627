@@ -1,0 +1,11 @@
+query_id,split,direction,selection_rule
+images/1045_091.jpg,valid,v1_dung_v2_sai,first 5 query_id ascending in each transition group; not random
+images/1064_022.jpg,valid,v1_dung_v2_sai,first 5 query_id ascending in each transition group; not random
+images/1082_032.jpg,valid,v1_dung_v2_sai,first 5 query_id ascending in each transition group; not random
+images/1107_041.jpg,valid,v1_dung_v2_sai,first 5 query_id ascending in each transition group; not random
+images/1202_011.jpg,valid,v1_dung_v2_sai,first 5 query_id ascending in each transition group; not random
+images/1075_011.jpg,valid,v1_sai_v2_dung,first 5 query_id ascending in each transition group; not random
+images/1156_012.jpg,valid,v1_sai_v2_dung,first 5 query_id ascending in each transition group; not random
+images/1162_042.jpg,valid,v1_sai_v2_dung,first 5 query_id ascending in each transition group; not random
+images/1166_022.jpg,valid,v1_sai_v2_dung,first 5 query_id ascending in each transition group; not random
+images/1182_022.jpg,valid,v1_sai_v2_dung,first 5 query_id ascending in each transition group; not random

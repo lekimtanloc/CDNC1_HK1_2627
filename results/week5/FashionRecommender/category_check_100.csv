@@ -1,0 +1,101 @@
+item_id,split,category_v2,category_old,n_images,correct,note,montage,cell
+4024,test,1,Tees_Tanks,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_01.png,1
+5227,test,13,Neckwear,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_01.png,2
+4968,test,2,Skirts,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_01.png,3
+3301,test,5,Jackets_Coats,6,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_01.png,4
+3178,test,8,Neckwear,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_01.png,5
+1994,train,1,Tees_Tanks,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_01.png,6
+2360,train,13,Tees_Tanks,1,0,"Ảnh đại diện: áo ren nổi bật; phần quần bị cắt, chưa xác nhận category sản phẩm quần từ ảnh này.",page_01.png,7
+1225,train,2,Skirts,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_01.png,8
+5226,train,5,Jackets_Coats,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_01.png,9
+4620,train,8,Neckwear,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_01.png,10
+3909,train,accessory_or_unknown,Headwear,1,0,Có vest và quần rõ trong ảnh gốc nhưng mask đen; unknown không phản ánh trang phục.,page_02.png,1
+2128,valid,1,Tees_Tanks,3,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_02.png,2
+4587,valid,13,Tees_Tanks,6,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_02.png,3
+3627,valid,2,Tees_Tanks,11,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_02.png,4
+4289,valid,5,Jackets_Coats,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_02.png,5
+3780,valid,8,Neckwear,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_02.png,6
+1264,test,1,Tees_Tanks,6,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_02.png,7
+1478,test,13,Tees_Tanks,6,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_02.png,8
+5446,test,2,Skirts,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_02.png,9
+3784,test,5,Jackets_Coats,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_02.png,10
+5364,test,8,Neckwear,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_03.png,1
+1236,train,1,Tees_Tanks,3,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_03.png,2
+3083,train,13,Tees_Tanks,7,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_03.png,3
+2473,train,2,Skirts,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_03.png,4
+2253,train,5,Jackets_Coats,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_03.png,5
+3890,train,8,Neckwear,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_03.png,6
+3332,train,accessory_or_unknown,Unknown,1,0,"Ảnh gốc rõ áo sơ mi, mask đen; unknown sai ngữ nghĩa.",page_03.png,7
+4822,valid,1,Tees_Tanks,2,0,Ảnh toàn thân: quần chiếm vùng lớn; nhãn áo thân trên chưa phù hợp hình đại diện.,page_03.png,8
+5116,valid,13,Tees_Tanks,12,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_03.png,9
+2285,valid,2,Skirts,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_03.png,10
+5320,valid,5,Jackets_Coats,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_04.png,1
+1761,valid,8,Neckwear,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_04.png,2
+5396,test,1,Tees_Tanks,2,0,Ảnh toàn thân quần có vùng lớn hơn áo; chưa xác nhận nhãn áo thân trên.,page_04.png,3
+3652,test,13,Tees_Tanks,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_04.png,4
+3736,test,2,Skirts,8,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_04.png,5
+1298,test,5,Jackets_Coats,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_04.png,6
+1321,test,8,Neckwear,3,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_04.png,7
+3403,train,1,Tees_Tanks,5,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_04.png,8
+1344,train,13,Tees_Tanks,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_04.png,9
+4036,train,2,Skirts,1,0,"Quan sát là váy liền sọc, không phải chân váy.",page_04.png,10
+3929,train,5,Jackets_Coats,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_05.png,1
+3797,train,8,Neckwear,3,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_05.png,2
+5103,valid,1,Tees_Tanks,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_05.png,3
+1081,valid,13,Tees_Tanks,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_05.png,4
+4143,valid,2,Headwear,6,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_05.png,5
+3782,valid,5,Jackets_Coats,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_05.png,6
+2725,valid,8,Neckwear,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_05.png,7
+2847,test,1,Tees_Tanks,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_05.png,8
+5391,test,13,Tees_Tanks,2,0,Khung hình cho thấy áo và quần cắt ngang; không đủ bằng chứng xác nhận đa số sản phẩm là quần.,page_05.png,9
+1773,test,2,Skirts,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_05.png,10
+3723,test,5,Jackets_Coats,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_06.png,1
+4595,test,8,Neckwear,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_06.png,2
+3131,train,1,Tees_Tanks,5,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_06.png,3
+1032,train,13,Tees_Tanks,6,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_06.png,4
+3176,train,2,Skirts,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_06.png,5
+4077,train,5,Jackets_Coats,5,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_06.png,6
+5150,train,8,Neckwear,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_06.png,7
+3289,valid,1,Tees_Tanks,1,0,Quần dài chiếm vùng lớn của ảnh đại diện; nhãn áo thân trên chưa chắc đúng.,page_06.png,8
+2063,valid,13,Tees_Tanks,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_06.png,9
+1672,valid,2,Skirts,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_06.png,10
+4540,valid,5,Jackets_Coats,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_07.png,1
+4753,valid,8,Neckwear,3,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_07.png,2
+1038,test,1,Tees_Tanks,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_07.png,3
+4692,test,13,Headwear,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_07.png,4
+1055,test,2,Skirts,5,0,"Trang phục xanh có vẻ quần liền/playsuit, chưa xác nhận chân váy; tính sai bảo thủ.",page_07.png,5
+3465,test,5,Jackets_Coats,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_07.png,6
+5300,test,8,Neckwear,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_07.png,7
+2947,train,1,Tees_Tanks,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_07.png,8
+3157,train,13,Tees_Tanks,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_07.png,9
+1015,train,2,Skirts,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_07.png,10
+3354,train,5,Jackets_Coats,8,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_08.png,1
+3322,train,8,Neckwear,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_08.png,2
+4545,valid,1,Tees_Tanks,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_08.png,3
+2199,valid,13,Tees_Tanks,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_08.png,4
+3161,valid,2,Skirts,2,0,"Trang phục hoa có vẻ bộ liền/playsuit, chưa xác nhận chân váy; tính sai bảo thủ.",page_08.png,5
+1991,valid,5,Jackets_Coats,3,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_08.png,6
+1345,valid,8,Neckwear,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_08.png,7
+3387,test,1,Skirts,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_08.png,8
+1113,test,13,Tees_Tanks,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_08.png,9
+4716,test,2,Skirts,3,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_08.png,10
+3471,test,5,Jackets_Coats,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_09.png,1
+4590,test,8,Neckwear,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_09.png,2
+2224,train,1,Tees_Tanks,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_09.png,3
+5076,train,13,Neckwear,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_09.png,4
+3156,train,2,Skirts,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_09.png,5
+4295,train,5,Jackets_Coats,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_09.png,6
+2901,train,8,Neckwear,6,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_09.png,7
+4041,valid,1,Tees_Tanks,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_09.png,8
+5578,valid,13,Headwear,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_09.png,9
+5342,valid,2,Headwear,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_09.png,10
+5275,valid,5,Jackets_Coats,1,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_10.png,1
+2282,valid,8,Neckwear,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_10.png,2
+1715,test,1,Tees_Tanks,4,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_10.png,3
+4437,test,13,Headwear,12,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_10.png,4
+1999,test,2,Skirts,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_10.png,5
+3304,test,5,Jackets_Coats,2,0,"Áo dài phối quần đen, không xác nhận là váy liền.",page_10.png,6
+1996,test,8,Neckwear,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_10.png,7
+1919,train,1,Headwear,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_10.png,8
+5298,train,13,Tees_Tanks,2,1,"Ảnh gốc và mask hỗ trợ loại trang phục gán; kiểm tra thị giác agent, chưa phải nhãn chuẩn con người.",page_10.png,9
+4486,train,2,Jackets_Coats,2,0,"Trang phục hoa có thân áo nối phần dưới, có vẻ váy liền; không xác nhận chân váy.",page_10.png,10

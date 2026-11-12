@@ -50,13 +50,13 @@ archive.zip
 data/
 datasets/
 dataset_sources/
+/outfit-transformer/smoke_polyvore/images/
 
 # ─────────────────────────────────────────────
 # Output / experiment artifacts
 # ─────────────────────────────────────────────
 repro_outputs*/
 outputs/
-results/
 logs/
 *.log
 
@@ -81,6 +81,13 @@ desktop.ini
 *.swp
 *.swo
 
+# AI coding tools (local-only metadata)
+.agents/
+.claude/
+.cursor/
+.devin/
+.kilo/
+
 # ─────────────────────────────────────────────
 # Misc
 # ─────────────────────────────────────────────
@@ -88,3 +95,146 @@ desktop.ini
 .envrc
 *.pkl
 *.pickle
+
+# Experiment outputs allowed for review
+/results/**/*
+!/results/**/
+!/results/**/*.py
+!/results/**/*.json
+!/results/**/*.csv
+!/results/**/*.xlsx
+!/results/**/figures/*.png
+!/results/**/figures/*.jpg
+!/results/**/figures/*.jpeg
+!/results/**/figures/*.svg
+!/results/**/ket_qua_tuan_*.md
+/results/**/__pycache__/
+/results/**/report_tuan*/
+/results/**/references/
+/results/**/artifacts/
+/results/**/images/
+
+# Local documents and reports
+README*
+readme*
+docs/
+protocol_*.md
+phan_bien_*.md
+can_dinh_chinh.md
+prompt*.md
+agent*.md
+CLAUDE*.md
+AGENTS*.md
+commands*.txt
+verification*.txt
+*.log
+*.docx
+*.pdf
+~$*.docx
+*.tmp
+bao_cao/
+# Local datasets, vectors, databases and credentials
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+archive.zip
+*.zip
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+.agents/
+.claude/
+.cursor/
+.devin/
+.kilo/
+# Internal Markdown; retain weekly result summaries
+*.md
+!ket_qua_tuan_*.md
+review_versions/
+
+# Keep result images and experiment preprocessing source
+!/results/**/*.png
+!/results/**/*.jpg
+!/results/**/*.jpeg
+/results/**/images/
+/results/**/report_tuan*/
+!/NGNN/data/
+/NGNN/data/*
+!/NGNN/data/*.py
+
+# Local report generation and packaging
+/results/week3/FashionRecommender/generate_bao_cao_tuan_03.py
+/results/week4/FashionRecommender/addendum/package_results.py
+/results/week4/FashionRecommender/addendum/write_confirmation.py
+/results/week4/FashionRecommender/make_report.py
+/results/week4/FashionRecommender/v2/package_v2.py
+/results/week5/FashionRecommender/addendum_5b/delivery_5b.py
+/results/week5/FashionRecommender/addendum_5b/frame_control_5c/delivery_5c.py
+/results/week5/FashionRecommender/check_delivery_day_du.py
+/results/week5/FashionRecommender/finish_handoff.py
+/results/week5/FashionRecommender/package_day_du.py
+/results/week6/FashionRecommender/delivery_week6.py
+
+# Detailed local experiment outputs (new files only; aggregate results stay tracked)
+
+# per_query_csv
+/results/week5/FashionRecommender/*_per_query*.csv
+/results/week5/FashionRecommender/addendum_5b/*_per_query*.csv
+/results/week5/FashionRecommender/addendum_5b/frame_control_5c/*_per_query*.csv
+/results/week6/FashionRecommender/*_per_query*.csv
+/results/week6/FashionRecommender/oracle/*_per_query*.csv
+/results/week6/FashionRecommender/test/*_per_query*.csv
+/results/week6/FashionRecommender/valid/*_per_query*.csv
+
+# topk_rankings_csv
+/results/week3/FashionRecommender/*_top5*.csv
+/results/week3/FashionRecommender/ket_qua_goi_y_top_k.csv
+/results/week4/FashionRecommender/artifacts_completed/*_top10*.csv
+/results/week4/FashionRecommender/v2/artifacts_v2/*_top10*.csv
+/results/week5/FashionRecommender/*_top10*.csv
+/results/week5/FashionRecommender/addendum_5b/*_top10*.csv
+/results/week5/FashionRecommender/addendum_5b/frame_control_5c/*_top10*.csv
+/results/week6/FashionRecommender/oracle/*_top10*.csv
+/results/week6/FashionRecommender/test/*_top10*.csv
+/results/week6/FashionRecommender/valid/*_top10*.csv
+
+# checkpoint_or_markers
+/results/week4/FashionRecommender/v2/hash_cu_*.json
+/results/week5/FashionRecommender/*_started_*.json
+/results/week5/FashionRecommender/addendum_5b/*_started_*.json
+/results/week5/FashionRecommender/addendum_5b/checkpoints_5b/
+/results/week5/FashionRecommender/addendum_5b/frame_control_5c/*_started_*.json
+/results/week5/FashionRecommender/addendum_5b/frame_control_5c/checkpoints_5c/
+/results/week5/FashionRecommender/addendum_5b/frame_control_5c/hash_cu_*.json
+/results/week5/FashionRecommender/addendum_5b/hash_cu_*.json
+/results/week5/FashionRecommender/hash_cu_*.json
+/results/week5/FashionRecommender/hash_week5_*.json
+/results/week5/FashionRecommender/test_run_completed_*.json
+/results/week6/FashionRecommender/*_started_*.json
+/results/week6/FashionRecommender/completed_*.json
+/results/week6/FashionRecommender/hash_cu_*.json
+/results/week6/FashionRecommender/status_week6.json
+
+# CSV kiểm chứng từng query/metric
+/results/week5/FashionRecommender/addendum_5b/frame_control_5c/independent_*checks*.csv
+/results/week5/FashionRecommender/addendum_5b/independent_*checks*.csv
+/results/week5/FashionRecommender/independent_*checks*.csv
+/results/week6/FashionRecommender/independent_*checks*.csv
+
+# Atlas nhãn trung gian
+/results/week4/FashionRecommender/v2/mapping/atlas_nhan_*.png
+
+# Detailed per-image mask statistics kept locally
+/results/week4/FashionRecommender/v2/mapping/thong_ke_tung_anh.csv

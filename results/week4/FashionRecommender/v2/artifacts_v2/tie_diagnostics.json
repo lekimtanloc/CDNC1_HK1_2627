@@ -1,0 +1,29 @@
+{
+  "black_queries": 1,
+  "black_gallery": 3,
+  "black_vectors_byte_equal": true,
+  "black_queries_top10": [
+    {
+      "query_id": "images/2261_013.jpg",
+      "first_ten": [
+        "images/2156_027.jpg",
+        "images/4904_024.jpg",
+        "images/5100_343.jpg",
+        "images/2049_032.jpg",
+        "images/5418_111.jpg",
+        "images/3605_052.jpg",
+        "images/5100_271.jpg",
+        "images/4760_031.jpg",
+        "images/2356_012.jpg",
+        "images/1312_012.jpg"
+      ],
+      "black_gallery_ranks": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "cosine_min": 0.9999998807907104,
+  "cosine_max": 0.9999998807907104
+}

@@ -1,0 +1,41 @@
+{
+  "checked_at_utc": "2026-10-20T17:45:32Z",
+  "database": "fashion_store_app",
+  "catalog_dataset": "hm-kaggle-curated",
+  "research_dataset": "adjusted-deepfashion-a7d59c2bbb29 (offline, separate from website catalog)",
+  "migrations_applied": [
+    "002_recommendation_lineage.sql",
+    "003_recommendation_lineage_live_tables.sql",
+    "004_week2_recommendation_tracking.sql",
+    "005_remove_legacy_tracking.sql"
+  ],
+  "backend_under_test": "deployed fashion-store-backend",
+  "frontend_under_test": "deployed fashion-store-frontend API proxy",
+  "recommendation_api": {
+    "endpoint": "GET /api/recommendations?productId=1&limit=2",
+    "http_status": 200,
+    "request_id_returned": true,
+    "ranked_items_persisted": 2,
+    "model": "fallback-catalog-v1"
+  },
+  "event_api": {
+    "endpoint": "POST /api/events",
+    "impression_http_status": 201,
+    "click_http_status": 201,
+    "request_id_matches_recommendation": true,
+    "product_id_matches_recommendation": true,
+    "test_events_removed": true
+  },
+  "legacy_tracking_tables_removed": 16,
+  "legacy_tracking_tables_remaining": 0,
+  "catalog_after_removal": {
+    "products": 500,
+    "users": 1000,
+    "orders": 4000
+  },
+  "recommendation_embeddings": 0,
+  "ai_recommender_url_configured": false,
+  "browser_interaction_tested": false,
+  "deployed_backend_version_verified": true,
+  "note": "The deployed API recorded test impression/click events in PostgreSQL. The website catalog is H&M, while the CNN experiment uses adjusted DeepFashion. The image-trend research model has not been connected to this API."
+}

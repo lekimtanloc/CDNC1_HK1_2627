@@ -1,0 +1,44 @@
+[
+  {
+    "file": "user_decision.json",
+    "mtime_ns": 1793670380991775644,
+    "mtime_utc": "2026-11-03T01:46:20.991776+00:00",
+    "mtime_vietnam": "2026-11-03T08:46:20.991776+07:00",
+    "embedded_timestamp": "2026-11-03T01:46:20.990872+00:00"
+  },
+  {
+    "file": "freeze.json",
+    "mtime_ns": 1793670381016104812,
+    "mtime_utc": "2026-11-03T01:46:21.016105+00:00",
+    "mtime_vietnam": "2026-11-03T08:46:21.016105+07:00",
+    "embedded_timestamp": "2026-11-03T01:46:21.015858+00:00"
+  },
+  {
+    "file": "test_run_started_day_du.json",
+    "mtime_ns": 1793670421047861777,
+    "mtime_utc": "2026-11-03T01:47:01.047862+00:00",
+    "mtime_vietnam": "2026-11-03T08:47:01.047862+07:00",
+    "embedded_timestamp": "2026-11-03T01:47:01.047120+00:00"
+  },
+  {
+    "file": "t_q_test.csv",
+    "mtime_ns": 1793670421062503769,
+    "mtime_utc": "2026-11-03T01:47:01.062504+00:00",
+    "mtime_vietnam": "2026-11-03T08:47:01.062504+07:00",
+    "embedded_timestamp": null
+  },
+  {
+    "file": "metrics_test_day_du.csv",
+    "mtime_ns": 1793670421524872547,
+    "mtime_utc": "2026-11-03T01:47:01.524873+00:00",
+    "mtime_vietnam": "2026-11-03T08:47:01.524873+07:00",
+    "embedded_timestamp": null
+  },
+  {
+    "file": "test_run_completed_day_du.json",
+    "mtime_ns": 1793670423669750749,
+    "mtime_utc": "2026-11-03T01:47:03.669751+00:00",
+    "mtime_vietnam": "2026-11-03T08:47:03.669751+07:00",
+    "embedded_timestamp": "2026-11-03T01:47:03.669566+00:00"
+  }
+]

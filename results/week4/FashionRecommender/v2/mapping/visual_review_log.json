@@ -1,0 +1,173 @@
+[
+  {
+    "label": 0,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 0,
+    "files_opened": [
+      "atlas_nhan_00.png"
+    ],
+    "assessment": "Vùng ngoài người/đồ; mask thiếu có thể gán đồ vào nền, không bảo đảm mọi pixel nền đúng.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 1,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 0,
+    "files_opened": [
+      "atlas_nhan_01.png"
+    ],
+    "assessment": "Áo đa dạng, kể cả hoodie; nhóm quần áo rõ.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 2,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 0,
+    "files_opened": [
+      "atlas_nhan_02.png"
+    ],
+    "assessment": "Chủ yếu chân váy; vài mẫu quần ngắn giống váy. Phân biệt subtype chưa chắc nhưng cùng nhóm giữ.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 3,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 12,
+    "files_opened": [
+      "atlas_nhan_03.png",
+      "bo_sung_nhan_03.png"
+    ],
+    "assessment": "Trung bình-cao ở quyết định giữ nhóm tất/quần tất: nhiều mẫu rõ, ROI bổ sung xác nhận. Có ngoại lệ 1361_021 (vùng mặt), 3746_071 (mảng gần đầu); không gọi mọi pixel đúng.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 4,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 12,
+    "files_opened": [
+      "atlas_nhan_04.png",
+      "bo_sung_nhan_04.png"
+    ],
+    "assessment": "Đa số vùng mặt; 1247_171 có vùng quần lẫn cùng nhãn. ROI bổ sung nhất quán mặt.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 5,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 0,
+    "files_opened": [
+      "atlas_nhan_05.png"
+    ],
+    "assessment": "Váy liền, kể cả váy dài; khác ranh giới cổ/tay không đổi nhóm.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 6,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 12,
+    "files_opened": [
+      "atlas_nhan_06.png",
+      "bo_sung_nhan_06.png"
+    ],
+    "assessment": "Túi/ví/ba lô, đôi lúc chỉ thấy dây túi.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 7,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 12,
+    "files_opened": [
+      "atlas_nhan_07.png",
+      "bo_sung_nhan_07.png"
+    ],
+    "assessment": "Vòng cổ, vòng tay, đồng hồ, khuyên tai, nhẫn; tên loại chi tiết thay đổi nhưng đều phụ kiện. ROI giúp thấy vùng nhỏ.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 8,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 12,
+    "files_opened": [
+      "atlas_nhan_08.png",
+      "bo_sung_nhan_08.png"
+    ],
+    "assessment": "Áo khoác/cardigan/lớp ngoài, cả cầm tay hoặc khoác ở khuỷu; vẫn quần áo.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 9,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 12,
+    "files_opened": [
+      "atlas_nhan_09.png",
+      "bo_sung_nhan_09.png"
+    ],
+    "assessment": "Tóc; có biên lẫn nền/da. Không thấy đổi nhóm có hệ thống giữa split.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 10,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 0,
+    "files_opened": [
+      "atlas_nhan_10.png"
+    ],
+    "assessment": "Mũ rõ trong phần lớn mẫu; vài ảnh mảnh rất nhỏ khó nhận diện, không khẳng định mọi pixel.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 11,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 12,
+    "files_opened": [
+      "atlas_nhan_11.png",
+      "bo_sung_nhan_11.png"
+    ],
+    "assessment": "Kính gọng/kính râm, vùng mắt; ROI bổ sung rõ.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 12,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 12,
+    "files_opened": [
+      "atlas_nhan_12.png",
+      "bo_sung_nhan_12.png"
+    ],
+    "assessment": "Cả thắt lưng và áo buộc quanh eo; tên không đồng nhất nhưng đều quần áo/phụ kiện giữ lại.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 13,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 12,
+    "files_opened": [
+      "atlas_nhan_13.png",
+      "bo_sung_nhan_13.png"
+    ],
+    "assessment": "Quần nhiều độ dài; ngoại lệ 1453_021 khoanh cả hoodie, vẫn quần áo nhưng subtype sai.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 14,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 12,
+    "files_opened": [
+      "atlas_nhan_14.png",
+      "bo_sung_nhan_14.png"
+    ],
+    "assessment": "Da ở tay/chân/cổ/thân; ngoại lệ 1696_051 và 1741_071 gán lẫn váy. Không phải mask hoàn hảo.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  },
+  {
+    "label": 15,
+    "reviewed_main_cells": 24,
+    "reviewed_extra_cells": 12,
+    "files_opened": [
+      "atlas_nhan_15.png",
+      "bo_sung_nhan_15.png"
+    ],
+    "assessment": "Giày/dép/bốt; ROI 3664_042 chỉ lộ miệng bốt/tất, vẫn nhóm giữ.",
+    "confidence_scope": "coarse semantic group for keep/drop; not percentage accuracy or official mapping"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "note": "Chỉ kiểm tra pipeline; cấp ảnh, macro Recall@5 theo số đáp án; không đánh giá chính thức.",
+  "results": {
+    "v1_visual": {
+      "top1": 0.30887372013651876,
+      "recall_at_5": 0.33511468228906455
+    },
+    "v2_visual": {
+      "top1": 0.3122866894197952,
+      "recall_at_5": 0.29605407913393317
+    },
+    "popularity_only": {
+      "top1": 0.0017064846416382253,
+      "recall_at_5": 0.006257110352673493
+    }
+  }
+}

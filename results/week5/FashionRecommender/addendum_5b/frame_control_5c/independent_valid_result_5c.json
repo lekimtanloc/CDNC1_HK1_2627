@@ -1,0 +1,6 @@
+{
+  "queries_checked": 568,
+  "checks": 28077,
+  "mismatches": 0,
+  "note": "Phân tích hậu nghiệm 5c; giữ baseline B2-v1 với bộ lọc sai ngữ nghĩa; chưa kết luận nguyên nhân hoặc nhận diện người."
+}

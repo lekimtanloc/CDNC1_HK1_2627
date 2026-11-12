@@ -1,0 +1,5 @@
+name,original_wv,original_wp,original_wc,original_gamma,evaluated_wv,evaluated_wp,evaluated_wc,evaluated_gamma,alias_grid_key,note
+"Tuần 3, đã bỏ category",0.6,0.3,0.1,4,0.7,0.3,0,4,p3_g4,"trùng điểm lưới; chuyển wc sang wv; không đánh giá gốc"
+"P của paper, đã bỏ category",0.7,0.3,"không nêu; repo dùng 0",2,0.7,0.3,0,2,p3_g2,"trùng điểm lưới; wp>0 nên không trùng visual-only; không đánh giá gốc"
+"§4.5 wp=0.2, đã bỏ category",0.7,0.2,"không nêu","không nêu riêng; mặc định §4.2 là 2",0.8,0.2,0,2,p2_g2,"trùng điểm lưới; hoàn thiện theo wv=1-wp; không khẳng định paper ghi wc=.1; không đánh giá gốc"
+"Visual-only gamma4 alias",1,0,0,4,1,0,0,2,p0_g2,"trùng điểm lưới gamma2; gamma không ảnh hưởng wp0"

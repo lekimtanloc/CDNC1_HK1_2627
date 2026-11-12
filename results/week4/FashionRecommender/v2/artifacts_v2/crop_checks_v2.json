@@ -1,0 +1,192 @@
+{
+  "keep_labels": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    15
+  ],
+  "black_all": 21,
+  "black_by_split": {
+    "train": 14,
+    "valid": 3,
+    "test": 4
+  },
+  "empty_count": 21,
+  "empty_classification": {
+    "all_background": 13,
+    "outside_keep_only": 8
+  },
+  "duplicates_all": {
+    "groups": 1,
+    "images_in_groups": 21,
+    "products_in_cross_product_groups": 21,
+    "members": [
+      [
+        "images/1375_027.jpg",
+        "images/1488_017.jpg",
+        "images/2030_033.jpg",
+        "images/2296_013.jpg",
+        "images/2331_013.jpg",
+        "images/2654_014.jpg",
+        "images/2958_094.jpg",
+        "images/3332_046.jpg",
+        "images/3518_024.jpg",
+        "images/3909_034.jpg",
+        "images/4145_023.jpg",
+        "images/4296_014.jpg",
+        "images/4685_037.jpg",
+        "images/4915_037.jpg",
+        "images/4007_034.jpg",
+        "images/4329_057.jpg",
+        "images/5408_023.jpg",
+        "images/2156_027.jpg",
+        "images/2261_013.jpg",
+        "images/4904_024.jpg",
+        "images/5100_343.jpg"
+      ]
+    ]
+  },
+  "duplicates_test": {
+    "groups": 1,
+    "images_in_groups": 4,
+    "products_in_cross_product_groups": 4,
+    "members": [
+      [
+        "images/2261_013.jpg",
+        "images/2156_027.jpg",
+        "images/4904_024.jpg",
+        "images/5100_343.jpg"
+      ]
+    ]
+  },
+  "duplicates_representatives": {
+    "groups": 1,
+    "images_in_groups": 2,
+    "products_in_cross_product_groups": 2,
+    "members": [
+      [
+        "images/3332_046.jpg",
+        "images/3909_034.jpg"
+      ]
+    ]
+  },
+  "v1_duplicates_all": {
+    "groups": 1,
+    "images_in_groups": 48,
+    "products_in_cross_product_groups": 39,
+    "members": [
+      [
+        "images/1012_021.jpg",
+        "images/1012_022.jpg",
+        "images/1375_027.jpg",
+        "images/1488_017.jpg",
+        "images/1582_011.jpg",
+        "images/2030_033.jpg",
+        "images/2331_013.jpg",
+        "images/2390_012.jpg",
+        "images/2752_012.jpg",
+        "images/2783_011.jpg",
+        "images/2986_012.jpg",
+        "images/3157_011.jpg",
+        "images/3157_021.jpg",
+        "images/3214_047.jpg",
+        "images/3221_012.jpg",
+        "images/3332_046.jpg",
+        "images/3518_024.jpg",
+        "images/4092_031.jpg",
+        "images/4145_023.jpg",
+        "images/4296_014.jpg",
+        "images/4438_022.jpg",
+        "images/4610_012.jpg",
+        "images/4915_037.jpg",
+        "images/5036_067.jpg",
+        "images/5087_052.jpg",
+        "images/5087_053.jpg",
+        "images/5087_072.jpg",
+        "images/5087_082.jpg",
+        "images/5282_017.jpg",
+        "images/5299_012.jpg",
+        "images/5415_012.jpg",
+        "images/1784_032.jpg",
+        "images/1784_042.jpg",
+        "images/1784_052.jpg",
+        "images/2982_032.jpg",
+        "images/4007_034.jpg",
+        "images/5016_022.jpg",
+        "images/5068_022.jpg",
+        "images/5408_023.jpg",
+        "images/2156_027.jpg",
+        "images/2261_013.jpg",
+        "images/3020_042.jpg",
+        "images/3020_052.jpg",
+        "images/3233_021.jpg",
+        "images/3233_022.jpg",
+        "images/4904_024.jpg",
+        "images/5100_343.jpg",
+        "images/5596_011.jpg"
+      ]
+    ]
+  },
+  "v1_duplicates_test": {
+    "groups": 1,
+    "images_in_groups": 9,
+    "products_in_cross_product_groups": 7,
+    "members": [
+      [
+        "images/2261_013.jpg",
+        "images/3020_042.jpg",
+        "images/3233_021.jpg",
+        "images/2156_027.jpg",
+        "images/3020_052.jpg",
+        "images/3233_022.jpg",
+        "images/4904_024.jpg",
+        "images/5100_343.jpg",
+        "images/5596_011.jpg"
+      ]
+    ]
+  },
+  "v1_duplicates_representatives": {
+    "groups": 1,
+    "images_in_groups": 11,
+    "products_in_cross_product_groups": 11,
+    "members": [
+      [
+        "images/1012_021.jpg",
+        "images/1582_011.jpg",
+        "images/2783_011.jpg",
+        "images/3157_011.jpg",
+        "images/3233_021.jpg",
+        "images/3332_046.jpg",
+        "images/4092_031.jpg",
+        "images/4610_012.jpg",
+        "images/5016_022.jpg",
+        "images/5415_012.jpg",
+        "images/5596_011.jpg"
+      ]
+    ]
+  },
+  "v1_black_all": 48,
+  "v1_black_test": 9,
+  "special_cosine_v1": 0.4951092004776001,
+  "special_cosine_v2": 0.6372775435447693,
+  "special_equal_v2": false,
+  "bbox_quantiles_all": {
+    "min": 0.0,
+    "p01": 0.23856581289736603,
+    "p05": 0.2824817438692098,
+    "p50": 0.43857341810475325,
+    "p95": 0.6933099000908264,
+    "p99": 0.8133333333333334,
+    "max": 1.0
+  },
+  "bbox_positive_below_1pct": 2,
+  "bbox_above_95pct": 15
+}

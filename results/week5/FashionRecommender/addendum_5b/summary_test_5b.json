@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-11-03T09:42:47.190234+00:00",
+  "note": "Phân tích hậu nghiệm sau tuần 5; giữ baseline chính B2-v1 với bộ lọc sai ngữ nghĩa.",
+  "queries": 586,
+  "gallery": 1543,
+  "truth_pairs": 1439,
+  "random_Top-1": 0.0015914655860773856,
+  "random_Recall@5": 0.0032404406999351912,
+  "seconds": 2.3730394589947537,
+  "test_evaluation_passes": 1,
+  "random_comparison": "descriptive only; no hypothesis test"
+}
