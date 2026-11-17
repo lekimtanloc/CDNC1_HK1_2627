@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chấm độ tương đồng sản phẩm</title>
+<style>
+  :root { --bg:#f6f7f9; --fg:#1b1f24; --muted:#5b6672; --line:#d6dbe1; --card:#fff; --acc:#1f6feb; --ok:#1a7f37; --warn:#b54708; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  header { background:var(--card); border-bottom:1px solid var(--line); padding:10px 16px; display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
+  header label { font-size:13px; color:var(--muted); }
+  input[type=text], select, textarea { font:inherit; padding:6px 8px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--fg); }
+  button { font:inherit; padding:8px 14px; border:1px solid var(--line); border-radius:8px; background:#fff; cursor:pointer; color:var(--fg); }
+  button:hover { border-color:var(--acc); }
+  button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline:2px solid var(--acc); outline-offset:1px; }
+  button.primary { background:var(--acc); border-color:var(--acc); color:#fff; }
+  main { max-width:1180px; margin:0 auto; padding:14px 16px 40px; }
+  .bar { height:8px; background:#e5e8ec; border-radius:6px; overflow:hidden; margin:6px 0 2px; }
+  .bar > div { height:100%; background:var(--ok); width:0; transition:width .15s; }
+  .pair { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:12px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px; text-align:center; }
+  .card h2 { margin:0 0 6px; font-size:13px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); }
+  .card img { max-width:100%; height:min(50vh,520px); object-fit:contain; background:#eee; border-radius:6px; }
+  .controls { display:flex; flex-wrap:wrap; gap:10px; margin-top:14px; align-items:center; }
+  .lab { min-width:150px; text-align:left; }
+  .lab b { display:block; font-size:20px; }
+  .lab span { font-size:12px; color:var(--muted); }
+  .lab.sel { background:#e8f0fe; border-color:var(--acc); box-shadow:0 0 0 2px var(--acc) inset; }
+  .row { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:10px; }
+  textarea { width:100%; min-height:54px; }
+  .status { font-size:13px; color:var(--muted); }
+  .msg { margin-top:10px; padding:8px 12px; border-radius:8px; background:#fff4e5; border:1px solid #f1c27d; color:var(--warn); display:none; }
+  .msg.ok { background:#e8f7ec; border-color:#9bd3a8; color:var(--ok); }
+  details { margin-top:14px; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:8px 12px; }
+  summary { cursor:pointer; font-weight:600; }
+  kbd { background:#eef0f3; border:1px solid var(--line); border-bottom-width:2px; border-radius:4px; padding:0 5px; font-size:12px; }
+  #pairId { font-family:ui-monospace,Menlo,monospace; font-size:12px; color:var(--muted); }
+  #selftest { white-space:pre-wrap; font:12px ui-monospace,Menlo,monospace; }
+  @media (max-width:760px){ .pair{grid-template-columns:1fr;} .card img{height:38vh;} }
+</style>
+</head>
+<body>
+<header>
+  <div><label for="annot">Mã người chấm (annotator_id)</label><br><input id="annot" type="text" placeholder="annotator_01" size="16" autocomplete="off"></div>
+  <div><label for="setSel">Bộ cặp</label><br>
+    <select id="setSel"><option value="pilot">Pilot (luyện tập, không tính kết quả)</option><option value="main">Chính thức</option></select></div>
+  <div style="flex:1;min-width:220px">
+    <label>Tiến độ: <b id="prog">0 / 0</b> <span id="progDetail" class="status"></span></label>
+    <div class="bar"><div id="barFill"></div></div>
+  </div>
+  <div class="status" id="saveInfo">Chưa xuất file</div>
+</header>
+<main>
+  <div id="needId" class="msg" style="display:block">Nhập mã người chấm ở ô phía trên (ví dụ <b>annotator_01</b> hoặc <b>annotator_02</b>) để bắt đầu.</div>
+  <div id="work" style="display:none">
+    <div class="status">Cặp <b id="pos">1</b> / <span id="tot">0</span> &nbsp; <span id="pairId"></span></div>
+    <div class="pair">
+      <div class="card"><h2>Sản phẩm đang xem</h2><img id="imgQ" alt="Sản phẩm đang xem"></div>
+      <div class="card"><h2>Sản phẩm cần đánh giá</h2><img id="imgC" alt="Sản phẩm cần đánh giá"></div>
+    </div>
+    <p style="margin:10px 0 0"><b>Câu hỏi:</b> nếu khách đang xem sản phẩm bên trái, sản phẩm bên phải có phải là gợi ý tương tự hợp lý (có thể thay thế) không?</p>
+    <div class="controls" role="group" aria-label="Chọn mức tương đồng">
+      <button class="lab" data-label="0"><b>0 &nbsp;<kbd>0</kbd></b><span>Không tương đồng</span></button>
+      <button class="lab" data-label="1"><b>1 &nbsp;<kbd>1</kbd></b><span>Tương đồng một phần</span></button>
+      <button class="lab" data-label="2"><b>2 &nbsp;<kbd>2</kbd></b><span>Tương đồng cao</span></button>
+      <button class="lab" data-label="U"><b>U &nbsp;<kbd>U</kbd></b><span>Không xác định được sản phẩm (tính là thiếu, không phải 0)</span></button>
+    </div>
+    <div class="row">
+      <label><input type="checkbox" id="unc"> Phân vân giữa hai mức (đã chọn mức thấp hơn) <kbd>C</kbd></label>
+      <label><input type="checkbox" id="auto" checked> Tự chuyển sang cặp kế tiếp sau khi chọn</label>
+    </div>
+    <div class="row" style="align-items:stretch"><textarea id="note" placeholder="Ghi chú (không bắt buộc)"></textarea></div>
+    <div class="row">
+      <button id="prev">&larr; Trước <kbd>&larr;</kbd></button>
+      <button id="next">Tiếp &rarr; <kbd>&rarr;</kbd></button>
+      <button id="nextU">Đến cặp chưa chấm kế tiếp <kbd>N</kbd></button>
+      <span style="flex:1"></span>
+      <button class="primary" id="export">Lưu / Xuất CSV</button>
+      <label class="status"><input type="file" id="importFile" accept=".csv,text/csv" hidden><button id="importBtn" type="button">Nhập CSV để chấm tiếp</button></label>
+    </div>
+    <div id="msg" class="msg"></div>
+  </div>
+  <details>
+    <summary>Thang chấm (nhắc nhanh)</summary>
+    <p><b>2 – Tương đồng cao:</b> cùng loại sản phẩm <u>và</u> hình thức gần nhau (kiểu dáng, độ dài, cổ/tay…); màu hoặc họa tiết giống hoặc gần.<br>
+    <b>1 – Tương đồng một phần:</b> cùng loại nhưng kiểu dáng hoặc màu khác rõ; hoặc khác loại nhưng gần chức năng và hình thức.<br>
+    <b>0 – Không tương đồng:</b> khác loại và khác chức năng; chỉ giống màu hoặc nền ảnh.<br>
+    Chỉ trùng màu <b>không</b> đủ cho mức ≥ 1. Món phối kèm (áo ↔ quần) không phải sản phẩm thay thế. Phân vân giữa hai mức: chọn mức thấp hơn và đánh dấu “phân vân”. Chi tiết: <code>annotation_guide.md</code>.</p>
+  </details>
+  <details>
+    <summary>Phím tắt &amp; lưu trữ</summary>
+    <p><kbd>0</kbd> <kbd>1</kbd> <kbd>2</kbd> <kbd>U</kbd> chọn nhãn · <kbd>←</kbd>/<kbd>→</kbd> cặp trước/sau · <kbd>N</kbd> cặp chưa chấm kế tiếp · <kbd>C</kbd> đánh dấu phân vân.<br>
+    Câu trả lời được tự lưu trong trình duyệt này (khi tải lại hoặc chuyển câu không bị mất), nhưng <b>hãy bấm “Lưu / Xuất CSV” thường xuyên</b> và gửi file CSV. Xóa dữ liệu trình duyệt sẽ xóa bản lưu tự động. Trang không gửi dữ liệu đi đâu cả.</p>
+  </details>
+  <pre id="selftest" hidden></pre>
+</main>
+<script id="tasks-json" type="application/json">__TASKS_JSON__</script>
+<script>
+"use strict";
+const TASKS = JSON.parse(document.getElementById('tasks-json').textContent);
+const SELFTEST = /[?&]selftest=1/.test(location.search);  // test hook: isolates storage
+const KEY_PREFIX = SELFTEST ? 'w7ann-selftest:' : 'w7ann:';
+const CSV_HEAD = ['pair_id','set','annotator_id','label','uncertain','note','timestamp_utc'];
+const LABELS = ['0','1','2','U'];
+
+const S = { annot:'', set:'pilot', order:[], idx:0, ans:{}, lastExport:null, memOnly:false, mem:{} };
+const $ = id => document.getElementById(id);
+
+// ---------- storage (never throws) ----------
+function storeKey(){ return KEY_PREFIX + S.annot + ':' + S.set; }
+function storeGet(k){ try { const v = localStorage.getItem(k); return v === null ? (S.mem[k] ?? null) : v; } catch(e){ S.memOnly = true; return S.mem[k] ?? null; } }
+function storeSet(k, v){ S.mem[k] = v; try { localStorage.setItem(k, v); } catch(e){ S.memOnly = true; } }
+function persist(){ if(!S.annot) return; storeSet(storeKey(), JSON.stringify({ans:S.ans, idx:S.idx, lastExport:S.lastExport})); }
+
+// ---------- order ----------
+function orderCol(annot){ const m = /^annotator_0*([1-3])$/.exec(annot); return m ? Number(m[1]) - 1 : 0; }
+function buildOrder(){
+  const col = orderCol(S.annot);
+  S.order = TASKS.filter(t => t.s === S.set).sort((a,b) => a.o[col] - b.o[col]);
+}
+
+// ---------- CSV ----------
+function csvEsc(v){ v = String(v ?? ''); return /[",\r\n]/.test(v) ? '"' + v.replace(/"/g,'""') + '"' : v; }
+function buildCsv(){
+  const lines = [CSV_HEAD.join(',')];
+  for (const t of S.order){
+    const a = S.ans[t.p];
+    lines.push([t.p, S.set, S.annot, a ? a.label : '', a ? (a.unc ? '1' : '0') : '', a ? a.note : '', a ? a.ts : ''].map(csvEsc).join(','));
+  }
+  return lines.join('\r\n') + '\r\n';
+}
+function parseCsv(text){
+  const rows = []; let row = [], f = '', q = false;
+  text = text.replace(/^﻿/, '');
+  for (let i = 0; i < text.length; i++){
+    const c = text[i];
+    if (q){ if (c === '"'){ if (text[i+1] === '"'){ f += '"'; i++; } else q = false; } else f += c; }
+    else if (c === '"') q = true;
+    else if (c === ',') { row.push(f); f = ''; }
+    else if (c === '\n' || c === '\r'){ if (c === '\r' && text[i+1] === '\n') i++; row.push(f); f = ''; if (row.length > 1 || row[0] !== '') rows.push(row); row = []; }
+    else f += c;
+  }
+  if (f !== '' || row.length){ row.push(f); rows.push(row); }
+  return rows;
+}
+function importCsv(text){
+  const rows = parseCsv(text); if (!rows.length) return {ok:false, err:'File rỗng.'};
+  const head = rows[0].map(h => h.trim());
+  const ix = n => head.indexOf(n);
+  if (ix('pair_id') < 0 || ix('label') < 0) return {ok:false, err:'Thiếu cột pair_id hoặc label.'};
+  const valid = new Set(S.order.map(t => t.p)); let n = 0, skipped = 0, other = new Set();
+  const incoming = {};
+  for (const r of rows.slice(1)){
+    const pid = (r[ix('pair_id')] || '').trim(); if (!pid) continue;
+    if (ix('annotator_id') >= 0 && r[ix('annotator_id')] && r[ix('annotator_id')].trim() !== S.annot) other.add(r[ix('annotator_id')].trim());
+    if (!valid.has(pid)){ skipped++; continue; }
+    const lab = (r[ix('label')] || '').trim().toUpperCase();
+    if (lab === '') continue;
+    if (!LABELS.includes(lab)){ skipped++; continue; }
+    incoming[pid] = { label:lab, unc: ix('uncertain') >= 0 && (r[ix('uncertain')] || '').trim() === '1', note: ix('note') >= 0 ? (r[ix('note')] || '') : '', ts: ix('timestamp_utc') >= 0 ? (r[ix('timestamp_utc')] || '') : '' };
+    n++;
+  }
+  if (other.size) return {ok:false, err:'File thuộc người chấm khác (' + [...other].join(', ') + ') — không nhập để tránh trộn nhãn.'};
+  Object.assign(S.ans, incoming);
+  return {ok:true, imported:n, skipped};
+}
+
+// ---------- UI ----------
+function say(text, ok){ const m = $('msg'); m.textContent = text; m.className = 'msg' + (ok ? ' ok' : ''); m.style.display = text ? 'block' : 'none'; }
+function nAnswered(){ return S.order.filter(t => S.ans[t.p] && S.ans[t.p].label !== '').length; }
+function render(){
+  const ready = !!S.annot && S.order.length > 0;
+  $('needId').style.display = S.annot ? 'none' : 'block';
+  $('work').style.display = ready ? 'block' : 'none';
+  const n = S.order.length, d = nAnswered();
+  $('prog').textContent = d + ' / ' + n;
+  $('barFill').style.width = (n ? 100 * d / n : 0) + '%';
+  const uCount = S.order.filter(t => S.ans[t.p] && S.ans[t.p].label === 'U').length;
+  $('progDetail').textContent = uCount ? '(' + uCount + ' cặp “U”)' : '';
+  $('saveInfo').textContent = (S.lastExport ? 'Xuất lần cuối: ' + S.lastExport : 'Chưa xuất file') + (S.memOnly ? ' · CẢNH BÁO: trình duyệt không cho tự lưu, hãy xuất CSV thường xuyên' : '');
+  if (!ready) return;
+  const t = S.order[S.idx]; const a = S.ans[t.p] || {label:'', unc:false, note:''};
+  $('pos').textContent = S.idx + 1; $('tot').textContent = n; $('pairId').textContent = t.p;
+  $('imgQ').src = t.q; $('imgC').src = t.c;
+  document.querySelectorAll('.lab').forEach(b => b.classList.toggle('sel', b.dataset.label === a.label));
+  $('unc').checked = !!a.unc; $('note').value = a.note || '';
+  for (const k of [S.idx + 1, S.idx + 2]) if (S.order[k]) { new Image().src = S.order[k].q; new Image().src = S.order[k].c; }
+}
+function go(i){ if (!S.order.length) return; S.idx = Math.max(0, Math.min(S.order.length - 1, i)); persist(); render(); }
+function nextUnanswered(){
+  for (let k = 1; k <= S.order.length; k++){ const i = (S.idx + k) % S.order.length; if (!S.ans[S.order[i].p] || S.ans[S.order[i].p].label === '') return go(i); }
+  say('Đã chấm hết mọi cặp trong bộ này. Hãy bấm “Lưu / Xuất CSV”.', true);
+}
+function setLabel(l){
+  if (!S.order.length) return; const t = S.order[S.idx];
+  const old = S.ans[t.p] || {};
+  S.ans[t.p] = { label:l, unc: $('unc').checked, note: $('note').value, ts: new Date().toISOString() };
+  persist(); say('');
+  if ($('auto').checked && S.idx < S.order.length - 1) go(S.idx + 1); else render();
+}
+function saveNoteUnc(){
+  if (!S.order.length) return; const t = S.order[S.idx]; const a = S.ans[t.p];
+  if (a){ a.unc = $('unc').checked; a.note = $('note').value; persist(); }
+  else if ($('note').value || $('unc').checked){ S.ans[t.p] = { label:'', unc:$('unc').checked, note:$('note').value, ts:'' }; persist(); }
+}
+function loadState(){
+  S.annot = $('annot').value.trim(); S.set = $('setSel').value;
+  if (!S.annot){ S.order = []; render(); return; }
+  buildOrder();
+  const raw = storeGet(storeKey()); S.ans = {}; S.idx = 0; S.lastExport = null;
+  if (raw){ try { const o = JSON.parse(raw); S.ans = o.ans || {}; S.idx = Math.min(o.idx || 0, Math.max(0, S.order.length - 1)); S.lastExport = o.lastExport || null; } catch(e){} }
+  storeSet(KEY_PREFIX + 'last', JSON.stringify({annot:S.annot, set:S.set}));
+  render();
+}
+function exportCsv(){
+  saveNoteUnc();
+  const name = S.annot + (S.set === 'pilot' ? '_pilot' : '') + '.csv';
+  const blob = new Blob([buildCsv()], {type:'text/csv;charset=utf-8'});
+  if (!SELFTEST){
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  }
+  S.lastExport = new Date().toLocaleString(); persist(); render();
+  say('Đã xuất ' + name + ' (' + nAnswered() + '/' + S.order.length + ' cặp đã chấm). Hãy gửi file này cho người tổng hợp; file nằm trong thư mục Tải xuống của trình duyệt.', true);
+  return name;
+}
+
+document.querySelectorAll('.lab').forEach(b => b.addEventListener('click', () => setLabel(b.dataset.label)));
+$('prev').addEventListener('click', () => { saveNoteUnc(); go(S.idx - 1); });
+$('next').addEventListener('click', () => { saveNoteUnc(); go(S.idx + 1); });
+$('nextU').addEventListener('click', () => { saveNoteUnc(); nextUnanswered(); });
+$('export').addEventListener('click', exportCsv);
+$('importBtn').addEventListener('click', () => $('importFile').click());
+$('importFile').addEventListener('change', ev => {
+  const f = ev.target.files[0]; if (!f) return;
+  if (!S.annot){ say('Nhập mã người chấm trước khi nhập CSV.'); return; }
+  const r = new FileReader();
+  r.onload = () => { const res = importCsv(String(r.result)); if (!res.ok) say(res.err); else { persist(); render(); say('Đã nhập ' + res.imported + ' nhãn' + (res.skipped ? ', bỏ qua ' + res.skipped + ' dòng không hợp lệ' : '') + '.', true); nextUnanswered(); } $('importFile').value = ''; };
+  r.readAsText(f);
+});
+$('annot').addEventListener('change', loadState);
+$('setSel').addEventListener('change', () => { saveNoteUnc(); loadState(); });
+$('unc').addEventListener('change', saveNoteUnc);
+$('note').addEventListener('input', saveNoteUnc);
+document.addEventListener('keydown', e => {
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  const tag = (e.target.tagName || '').toLowerCase();
+  if (tag === 'textarea' || (tag === 'input' && e.target.type === 'text')) return;
+  const k = e.key.toLowerCase();
+  if (k === '0' || k === '1' || k === '2') setLabel(k);
+  else if (k === 'u') setLabel('U');
+  else if (k === 'arrowleft'){ saveNoteUnc(); go(S.idx - 1); }
+  else if (k === 'arrowright'){ saveNoteUnc(); go(S.idx + 1); }
+  else if (k === 'n'){ saveNoteUnc(); nextUnanswered(); }
+  else if (k === 'c' && S.order.length){ $('unc').checked = !$('unc').checked; saveNoteUnc(); }
+  else return;
+  e.preventDefault();
+});
+window.addEventListener('beforeunload', e => {
+  if (S.annot && nAnswered() > 0 && !S.lastExport){ e.preventDefault(); e.returnValue = ''; }
+});
+
+// restore last session
+(function(){
+  if (SELFTEST) return;
+  const last = storeGet(KEY_PREFIX + 'last');
+  if (last){ try { const o = JSON.parse(last); $('annot').value = o.annot || ''; $('setSel').value = o.set || 'pilot'; } catch(e){} }
+  loadState();
+})();
+
+</script>
+</body>
+</html>

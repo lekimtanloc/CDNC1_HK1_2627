@@ -1,0 +1,97 @@
+{
+  "experiment_id": "W7-HM-SIMILAR-PRODUCTS-v1",
+  "status": "PROTOCOL_DESIGN (not run)",
+  "task": "Given the image of the product being viewed, return Top-5 OTHER products with similar characteristics. Not personalised recommendation, not purchase prediction.",
+  "research_questions": {
+    "RQ1": "Do ResNet-50 (ImageNet) embeddings produce Top-5 lists of other products that humans judge as similar?",
+    "RQ2": "How does the quality of visual similarity differ from a metadata-similarity baseline?"
+  },
+  "seed": 42,
+  "paths_relative_to": "/Volumes/LOC/CDNC1/CDNC1_HK1_2627",
+  "data": {
+    "articles_csv": "dataset_sources/hm-dataset/articles.csv",
+    "articles_csv_encoding": "utf-8-sig, all id columns read as str",
+    "image_dir": "dataset_sources/hm-dataset/images",
+    "image_path_rule": "images/<article_id[:3]>/<article_id>.jpg",
+    "catalog_manifest": "../fashion-store-main/data/hm_catalog.json",
+    "catalog_public_images": "../fashion-store-main/public/catalog/hm",
+    "catalog_scope": "the 500 articles of the website catalog; no product is generated or added"
+  },
+  "product_unit": {
+    "unit": "product_code",
+    "rationale": "Articles sharing product_code are colour/print variants of the same design (detail_desc identical within all 145 codes). Showing them as 'other products' would be trivial and would duplicate items; 108 catalog rows duplicate an existing (product_code, colour_group_code) pair and 2 articles have byte-identical images.",
+    "representative_rule": "article with the smallest sha256('42:rep:'+article_id) hex among valid catalog articles of the product_code (deterministic pseudo-random; revised from 'lowest article_id' before freezing because that rule over-selected Black variants: 84/145)",
+    "representative_rule_is_label_free": true,
+    "image_validity": "file exists, decodes with PIL verify() and convert('RGB'), min side >= 300 px, sha256 equals the website public copy"
+  },
+  "candidate_pool": {
+    "definition": "all representative products (one per product_code) except the query product itself",
+    "shared_by_methods": ["V-R50-FULLPAD", "M-ATTR-TFIDF"],
+    "exclusions": ["query product_code"],
+    "no_category_prefilter": true
+  },
+  "query_sampling": {
+    "max_queries": 50,
+    "stratum": "product_group_name of the representative article",
+    "allocation": "5 per stratum, the remaining queries split proportionally to stratum size (largest remainder, ties broken by stratum name)",
+    "within_stratum": "random.Random(42) sample over representatives sorted by article_id; strata processed in sorted name order",
+    "uses_method_outputs": false,
+    "frozen_before_any_ranking": true,
+    "pilot": {
+      "n": 5,
+      "seed": 4242,
+      "pool": "representatives not selected as evaluation queries",
+      "use": "annotator training and guide clarification only; pilot labels never enter results"
+    }
+  },
+  "methods": {
+    "V-R50-FULLPAD": {
+      "note": "NEW configuration. NOT B2-v1: no mask, no bbox crop (H&M has no masks); full packshot, aspect-preserving resize + padding.",
+      "backbone": "torchvision.models.resnet50",
+      "weights": "ResNet50_Weights.IMAGENET1K_V2 (cached file resnet50-11ad3fa6.pth, same weights as weeks 4-6)",
+      "head": "fc replaced by torch.nn.Identity; output of global average pool",
+      "training": "none (no fine-tuning, frozen, eval mode)",
+      "preprocessing": [
+        "PIL open, convert('RGB'), EXIF orientation not applied (H&M files carry none; verify in run)",
+        "resize so the LONGER side = 224, aspect ratio kept, PIL BICUBIC",
+        "pad to 224x224, image centred; fill = mean RGB (rounded int) of the outer 2% border strips of the resized image",
+        "ToTensor (0-1) then Normalize(mean=[0.485,0.456,0.406], std=[0.229,0.224,0.225])"
+      ],
+      "embedding_dim": 2048,
+      "dtype": "float32",
+      "device": "cpu, torch.set_num_threads(4), torch.use_deterministic_algorithms(True), torch.manual_seed(42)",
+      "normalisation": "L2 per vector (eps 1e-12)",
+      "similarity": "cosine = dot product of L2-normalised float32 vectors",
+      "ranking": "sort by score descending; exact float32 value compared",
+      "tie_break": "ascending sha256('42:'+query_article_id+':'+candidate_article_id) hex",
+      "query_exclusion": "query product removed from the candidate list before ranking",
+      "top_k": 5,
+      "cache": "embeddings saved once to week7/outputs/hm/embeddings (not yet created); re-run must reproduce bit-identical top-5"
+    },
+    "M-ATTR-TFIDF": {
+      "note": "Metadata baseline, no CNN, only real columns of articles.csv (representative article row).",
+      "score": "S(q,c) = sum_f w_f * 1[value_f(q) == value_f(c) and neither missing] + w_desc * cos_tfidf(detail_desc_q, detail_desc_c)",
+      "weights": {
+        "product_type_no": 0.30,
+        "product_group_name": 0.10,
+        "garment_group_no": 0.10,
+        "colour_group_code": 0.15,
+        "perceived_colour_master_id": 0.05,
+        "perceived_colour_value_id": 0.05,
+        "graphical_appearance_no": 0.10,
+        "index_group_no": 0.05,
+        "detail_desc_tfidf": 0.10
+      },
+      "weights_sum": 1.0,
+      "weights_origin": "fixed a priori from the attribute hierarchy (type > colour > pattern > audience); set before any ranking or human label exists; never tuned",
+      "missing": "value missing if empty string, '-1', or name in {Unknown, Undefined}; a missing value on either side contributes 0; weights are NOT renormalised; empty detail_desc gives cosine 0",
+      "tfidf": "lowercase, tokens = regex [a-z0-9]+, no stop list, tf = 1+ln(count), idf = ln((1+N)/(1+df))+1 with N = number of representatives, L2-normalised vectors; fitted on detail_desc of the candidate universe only (no labels)",
+      "excluded_fields": "prod_name (brand-style names, not attributes), department/section (organisational), article_id/product_code (identity)",
+      "score_rounding": "round(S, 9) before sorting to remove floating-point order artefacts",
+      "tie_break": "same sha256 key as visual",
+      "query_exclusion": "same as visual",
+      "top_k": 5
+    }
+  },
+  "not_in_scope": ["CNN execution in this round", "popularity/trendiness", "personalisation", "fine-tuning", "category pre-filtering", "any change to weeks 1-6 artifacts"]
+}

@@ -1,0 +1,85 @@
+{
+  "experiment_id": "W7-HM-SIMILAR-PRODUCTS-v1",
+  "seed": 42,
+  "relevance_scale": {
+    "0": "Not similar; not acceptable as a substitute",
+    "1": "Partly similar; some characteristics match",
+    "2": "Highly similar; same kind of product and close appearance"
+  },
+  "judgment_pool": {
+    "per_query": "union of Top-5(V-R50-FULLPAD) and Top-5(M-ATTR-TFIDF) + 2 random anchor candidates",
+    "anchors": "2 candidates drawn from the query's candidate pool minus the union, ordered by sha256('42:anchor:'+query+':'+candidate), first 2 taken; used only to estimate chance relevance (RQ1) and to monitor attention",
+    "dedup": "a candidate appearing in both lists is judged once",
+    "max_pairs": 600
+  },
+  "annotation": {
+    "annotators_min": 2,
+    "independence": "each annotator labels alone, without discussion, without seeing the other's labels",
+    "preferred_annotators": "people not involved in building either method; if the researcher annotates, this is reported as a limitation",
+    "blinding": [
+      "only the query image and the candidate image are shown (no name, description, colour text, category, price, score, rank or method)",
+      "pairs from all queries are shuffled; order per annotator = random.Random(42 + annotator_index)",
+      "pair_id is a random token; the key linking pair_id to method/rank/anchor is stored in a separate file not opened until labels are locked"
+    ],
+    "extra_options": {"U": "cannot identify the product (detail shot / unclear) -> stored as missing, never 0", "uncertain_flag": "annotator unsure between two levels -> choose the lower level and set the flag (analysis only)"},
+    "pilot": "5 pilot queries (pilot_manifest.csv); labels discarded; the guide may be clarified only after the pilot and before the main batch, then re-hashed",
+    "lock": "label files are hashed (sha256) and recorded before the key file is opened"
+  },
+  "label_aggregation": {
+    "primary": "adjudicated label",
+    "rules": [
+      "both annotators agree -> that label",
+      "disagreement -> third annotator (adjudicator) sees the same blinded pair plus both labels and chooses one of them",
+      "no adjudicator available: |a-b| = 1 -> min(a,b) (conservative, applies to both methods identically); |a-b| = 2 -> unresolved = missing",
+      "only one annotator labelled the pair -> adjudicator if available, else the single label, flagged and counted in the report",
+      "no annotator labelled the pair -> missing"
+    ],
+    "sensitivity": ["annotator A only", "annotator B only", "mean label (0, 0.5, 1, 1.5, 2) for Mean Relevance and NDCG"]
+  },
+  "missing_labels": {
+    "never_treated_as_zero": true,
+    "rule_P_and_MeanRel": "computed over judged positions of the Top-5 (denominator = number judged)",
+    "rule_NDCG_and_Hit": "query excluded for that metric if any Top-5 position is missing",
+    "rule_query_drop": "if a method's Top-5 has more than 1 missing label, the query is dropped from all paired comparisons",
+    "pairing": "every exclusion applies to both methods for that query and metric; counts are reported"
+  },
+  "metrics": {
+    "Precision@5": "(1/n_judged) * sum_{k<=5, judged} 1[rel_k >= 1]",
+    "MeanRelevance@5": "(1/n_judged) * sum_{k<=5, judged} rel_k  (range 0-2)",
+    "pooled_NDCG@5": {
+      "gain": "rel (linear, 0/1/2); exponential 2^rel-1 as sensitivity",
+      "discount": "1/log2(k+1), k = 1..5",
+      "IDCG": "DCG of the 5 highest labels among ALL judged items of that query's pool (union + anchors), sorted descending",
+      "IDCG_zero": "query undefined for NDCG (excluded, both methods, reported)",
+      "name": "pooled NDCG@5 - ideal list restricted to the judged pool; NOT standard NDCG over the full catalogue"
+    },
+    "Hit@5": "1[exists k<=5 with rel_k == 2]",
+    "aggregation": "arithmetic mean over queries (each query weight 1)",
+    "secondary_aggregation": "stratum-balanced mean (each product_group weight 1/6); per-stratum means descriptive only"
+  },
+  "inference": {
+    "primary_endpoint_RQ2": "Delta MeanRelevance@5 = visual - metadata",
+    "primary_endpoint_RQ1": "Delta = Precision@5(visual) - anchor rate (share of the query's 2 anchors with rel >= 1), paired per query",
+    "bootstrap": "paired, resampling queries with replacement WITHIN product_group strata (stratified), B = 10000, numpy.random.default_rng(42), percentile 2.5/97.5",
+    "bootstrap_sensitivity": "unstratified paired bootstrap",
+    "decision_RQ2": "a difference is claimed only if the 95% CI of the primary endpoint excludes 0; otherwise 'no difference detected' (not equivalence)",
+    "decision_RQ1": "visual is above chance only if the 95% CI of its Delta vs anchor rate is entirely > 0",
+    "secondary_metrics": "Precision@5, pooled NDCG@5, Hit@5 reported with CI; descriptive, no confirmatory claim",
+    "per_stratum": "descriptive only (7-10 queries per stratum), no inference",
+    "estimand_note": "primary mean weights each query equally = design-weighted (small strata over-sampled: inclusion prob 0.26-0.47). Sensitivity: catalogue-weighted mean with weight = stratum_size / stratum_queries (inclusion_prob column of query_manifest.csv)",
+    "power_note": "n = 50 paired queries; if the SD of per-query Delta MeanRel@5 is about 0.5, the CI half-width is about 0.14 relevance points; smaller true differences will likely be reported as 'not detected'"
+  },
+  "agreement": {
+    "primary": "weighted Cohen's kappa, linear weights, over all pairs labelled by both annotators (before adjudication)",
+    "secondary": ["quadratic-weighted kappa", "raw agreement", "3x3 confusion matrix", "kappa per method's Top-5 and for anchors"],
+    "ci": "bootstrap over queries (cluster), B = 10000, seed 42",
+    "reading": "kappa_w < 0.40 -> results reported as low-reliability, RQ conclusions marked tentative; no relabelling to raise kappa"
+  },
+  "forbidden": [
+    "changing queries, candidate pool, weights, preprocessing or metric definitions after any ranking has been inspected",
+    "using cosine or metadata scores as relevance labels",
+    "treating unjudged items as relevance 0",
+    "tuning on the evaluation queries",
+    "comparing these numbers with DeepFashion Recall@5 of weeks 1-6"
+  ]
+}

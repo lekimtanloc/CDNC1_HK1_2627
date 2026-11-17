@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__TITLE__</title>
+<style>
+  :root { --bg:#f6f7f9; --fg:#1b1f24; --muted:#5b6672; --line:#d6dbe1; --card:#fff; --acc:#1f6feb; --ok:#1a7f37; --warn:#b54708; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  header { background:var(--card); border-bottom:1px solid var(--line); padding:10px 16px; display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
+  header label { font-size:13px; color:var(--muted); }
+  input[type=text], textarea { font:inherit; padding:6px 8px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--fg); }
+  button { font:inherit; padding:8px 14px; border:1px solid var(--line); border-radius:8px; background:#fff; cursor:pointer; color:var(--fg); }
+  button:hover:not(:disabled) { border-color:var(--acc); }
+  button:disabled { opacity:.35; cursor:not-allowed; }
+  button:focus-visible, input:focus-visible, textarea:focus-visible { outline:2px solid var(--acc); outline-offset:1px; }
+  button.primary { background:var(--acc); border-color:var(--acc); color:#fff; }
+  main { max-width:1180px; margin:0 auto; padding:14px 16px 40px; }
+  .role { padding:10px 14px; border-radius:10px; background:#e8f0fe; border:1px solid #b6ccf7; margin-bottom:10px; }
+  .bar { height:8px; background:#e5e8ec; border-radius:6px; overflow:hidden; margin:6px 0 2px; }
+  .bar > div { height:100%; background:var(--ok); width:0; transition:width .15s; }
+  .pair { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:12px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:10px; text-align:center; }
+  .card h2 { margin:0 0 6px; font-size:13px; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); }
+  .card img { max-width:100%; height:min(50vh,520px); object-fit:contain; background:#eee; border-radius:6px; }
+  .controls { display:flex; flex-wrap:wrap; gap:10px; margin-top:14px; align-items:center; }
+  .lab { min-width:150px; text-align:left; }
+  .lab b { display:block; font-size:20px; }
+  .lab span { font-size:12px; color:var(--muted); }
+  .lab.sel { background:#e8f0fe; border-color:var(--acc); box-shadow:0 0 0 2px var(--acc) inset; }
+  .row { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:10px; }
+  textarea { width:100%; min-height:54px; }
+  .status { font-size:13px; color:var(--muted); }
+  .msg { margin-top:10px; padding:8px 12px; border-radius:8px; background:#fff4e5; border:1px solid #f1c27d; color:var(--warn); display:none; }
+  .msg.ok { background:#e8f7ec; border-color:#9bd3a8; color:var(--ok); }
+  .two { font-size:18px; padding:10px 14px; border-radius:10px; background:#fff8e1; border:1px solid #f1d98a; margin-top:12px; }
+  kbd { background:#eef0f3; border:1px solid var(--line); border-bottom-width:2px; border-radius:4px; padding:0 5px; font-size:12px; }
+  details { margin-top:14px; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:8px 12px; }
+  summary { cursor:pointer; font-weight:600; }
+  #pairId { font-family:ui-monospace,Menlo,monospace; font-size:12px; color:var(--muted); }
+  #selftest { white-space:pre-wrap; font:12px ui-monospace,Menlo,monospace; }
+  @media (max-width:760px){ .pair{grid-template-columns:1fr;} .card img{height:38vh;} }
+</style>
+</head>
+<body>
+<header>
+  <div><label for="annot">Mã người chấm (annotator_id)</label><br><input id="annot" type="text" placeholder="annotator_03" size="16" autocomplete="off"></div>
+  <div class="status"><b id="roleName"></b></div>
+  <div style="flex:1;min-width:220px">
+    <label>Tiến độ: <b id="prog">0 / 0</b></label>
+    <div class="bar"><div id="barFill"></div></div>
+  </div>
+  <div class="status" id="saveInfo">Chưa xuất file</div>
+</header>
+<main>
+  <div class="role" id="roleBox"></div>
+  <div id="needId" class="msg" style="display:block">Nhập mã người chấm của bạn ở ô phía trên (ví dụ <b>annotator_03</b>). Mã <b>annotator_01</b> và <b>annotator_02</b> không dùng được ở giao diện này.</div>
+  <div id="work" style="display:none">
+    <div class="status">Cặp <b id="pos">1</b> / <span id="tot">0</span> &nbsp; <span id="pairId"></span></div>
+    <div class="pair">
+      <div class="card"><h2>Sản phẩm đang xem</h2><img id="imgQ" alt="Sản phẩm đang xem"></div>
+      <div class="card"><h2>Sản phẩm cần đánh giá</h2><img id="imgC" alt="Sản phẩm cần đánh giá"></div>
+    </div>
+    <div class="two" id="twoBox" style="display:none">Hai nhãn đã có cho cặp này: <b id="twoLabels"></b> (không biết của ai). Hãy chọn <b>đúng một trong hai nhãn đó</b>; bạn không thể nhập nhãn khác.</div>
+    <p style="margin:10px 0 0"><b>Câu hỏi:</b> nếu khách đang xem sản phẩm bên trái, sản phẩm bên phải có phải là gợi ý tương tự hợp lý (có thể thay thế) không?</p>
+    <div class="controls" role="group" aria-label="Chọn nhãn" id="labBox">
+      <button class="lab" data-label="0"><b>0 &nbsp;<kbd>0</kbd></b><span>Không tương đồng</span></button>
+      <button class="lab" data-label="1"><b>1 &nbsp;<kbd>1</kbd></b><span>Tương đồng một phần</span></button>
+      <button class="lab" data-label="2"><b>2 &nbsp;<kbd>2</kbd></b><span>Tương đồng cao</span></button>
+      <button class="lab" data-label="U"><b>U &nbsp;<kbd>U</kbd></b><span id="uText">Không xác định được sản phẩm (tính là thiếu, không phải 0)</span></button>
+    </div>
+    <div class="row">
+      <label><input type="checkbox" id="unc"> Phân vân <kbd>C</kbd></label>
+      <label><input type="checkbox" id="auto" checked> Tự chuyển sang cặp kế tiếp sau khi chọn</label>
+    </div>
+    <div class="row" style="align-items:stretch"><textarea id="note" placeholder="Ghi chú (không bắt buộc)"></textarea></div>
+    <div class="row">
+      <button id="prev">&larr; Trước <kbd>&larr;</kbd></button>
+      <button id="next">Tiếp &rarr; <kbd>&rarr;</kbd></button>
+      <button id="nextU">Đến cặp chưa chấm kế tiếp <kbd>N</kbd></button>
+      <span style="flex:1"></span>
+      <button class="primary" id="export">Lưu / Xuất CSV</button>
+      <input type="file" id="importFile" accept=".csv,text/csv" hidden><button id="importBtn" type="button">Nhập CSV để chấm tiếp</button>
+    </div>
+    <div id="msg" class="msg"></div>
+  </div>
+  <details>
+    <summary>Thang chấm và quy tắc</summary>
+    <p><b>2</b> – cùng loại và hình thức gần nhau. <b>1</b> – tương đồng một phần. <b>0</b> – không tương đồng (chỉ trùng màu không đủ cho 1). Chi tiết: <code>annotation_guide.md</code>.</p>
+    <p id="ruleText"></p>
+  </details>
+  <details>
+    <summary>Phím tắt &amp; lưu trữ</summary>
+    <p><kbd>←</kbd>/<kbd>→</kbd> cặp trước/sau · <kbd>N</kbd> cặp chưa chấm kế tiếp · <kbd>C</kbd> đánh dấu phân vân. Câu trả lời tự lưu trong trình duyệt này, nhưng <b>hãy bấm “Lưu / Xuất CSV” thường xuyên</b> và gửi file CSV cho người tổng hợp. Trang không gửi dữ liệu đi đâu cả.</p>
+  </details>
+  <pre id="selftest" hidden></pre>
+</main>
+<script id="cfg-json" type="application/json">__CONFIG_JSON__</script>
+<script>
+"use strict";
+const CFG = JSON.parse(document.getElementById('cfg-json').textContent);
+const MODE = CFG.mode, TASKS = CFG.tasks;               // MODE: 'second_judgment' | 'adjudication'
+const SELFTEST = /[?&]selftest=1/.test(location.search);
+const KEY_PREFIX = (SELFTEST ? 'w7sub-selftest:' : 'w7sub:') + MODE + ':';
+const CSV_HEAD = ['pair_id','set','annotator_id','label','uncertain','note','timestamp_utc','role'];
+const S = { annot:'', order:[], idx:0, ans:{}, lastExport:null, memOnly:false, mem:{} };
+const $ = id => document.getElementById(id);
+const TASK_BY_ID = {}; for (const t of TASKS) TASK_BY_ID[t.p] = t;
+
+function validId(id){ return /^annotator_(0[3-9]|[1-9][0-9])$/.test(id); }
+function allowed(t){ return MODE === 'adjudication' ? [String(t.opts[0]), String(t.opts[1]), 'U'] : ['0','1','2','U']; }
+
+// ---------- storage (never throws) ----------
+function storeKey(){ return KEY_PREFIX + S.annot; }
+function storeGet(k){ try { const v = localStorage.getItem(k); return v === null ? (S.mem[k] ?? null) : v; } catch(e){ S.memOnly = true; return S.mem[k] ?? null; } }
+function storeSet(k, v){ S.mem[k] = v; try { localStorage.setItem(k, v); } catch(e){ S.memOnly = true; } }
+function persist(){ if (S.annot) storeSet(storeKey(), JSON.stringify({ans:S.ans, idx:S.idx, lastExport:S.lastExport})); }
+
+// ---------- CSV ----------
+function csvEsc(v){ v = String(v ?? ''); return /[",\r\n]/.test(v) ? '"' + v.replace(/"/g,'""') + '"' : v; }
+function buildCsv(){
+  const lines = [CSV_HEAD.join(',')];
+  for (const t of S.order){
+    const a = S.ans[t.p];
+    lines.push([t.p, 'main', S.annot, a ? a.label : '', a ? (a.unc ? '1' : '0') : '', a ? a.note : '', a ? a.ts : '', MODE].map(csvEsc).join(','));
+  }
+  return lines.join('\r\n') + '\r\n';
+}
+function parseCsv(text){
+  const rows = []; let row = [], f = '', q = false;
+  text = text.replace(/^﻿/, '');
+  for (let i = 0; i < text.length; i++){
+    const c = text[i];
+    if (q){ if (c === '"'){ if (text[i+1] === '"'){ f += '"'; i++; } else q = false; } else f += c; }
+    else if (c === '"') q = true;
+    else if (c === ',') { row.push(f); f = ''; }
+    else if (c === '\n' || c === '\r'){ if (c === '\r' && text[i+1] === '\n') i++; row.push(f); f = ''; if (row.length > 1 || row[0] !== '') rows.push(row); row = []; }
+    else f += c;
+  }
+  if (f !== '' || row.length){ row.push(f); rows.push(row); }
+  return rows;
+}
+/* Strict import: ANY problem rejects the whole file and leaves the current answers untouched. */
+function importCsv(text){
+  const rows = parseCsv(text); if (!rows.length) return {ok:false, err:'File rỗng.'};
+  const head = rows[0].map(h => h.trim()); const ix = n => head.indexOf(n);
+  for (const c of ['pair_id','annotator_id','label','role']) if (ix(c) < 0) return {ok:false, err:'Thiếu cột ' + c + '.'};
+  const seen = new Set(), incoming = {}; const errs = [];
+  for (let i = 1; i < rows.length; i++){
+    const r = rows[i], pid = (r[ix('pair_id')] || '').trim();
+    if (!pid) continue;
+    if (!TASK_BY_ID[pid]){ errs.push('pair_id không thuộc danh sách (dòng ' + (i+1) + ')'); continue; }
+    if (seen.has(pid)){ errs.push('pair_id trùng (dòng ' + (i+1) + ')'); continue; }
+    seen.add(pid);
+    if ((r[ix('role')] || '').trim() !== MODE) errs.push('sai vai trò ở dòng ' + (i+1) + ' (cần "' + MODE + '")');
+    if ((r[ix('annotator_id')] || '').trim() !== S.annot) errs.push('file thuộc người chấm khác ở dòng ' + (i+1));
+    const lab = (r[ix('label')] || '').trim().toUpperCase();
+    if (lab !== '' && !allowed(TASK_BY_ID[pid]).includes(lab)) errs.push('nhãn "' + lab + '" không hợp lệ ở dòng ' + (i+1));
+    if (lab === '') continue;
+    incoming[pid] = { label:lab, unc: ix('uncertain') >= 0 && (r[ix('uncertain')] || '').trim() === '1', note: ix('note') >= 0 ? (r[ix('note')] || '') : '', ts: ix('timestamp_utc') >= 0 ? (r[ix('timestamp_utc')] || '') : '' };
+  }
+  if (errs.length) return {ok:false, err:'Từ chối nhập file (' + errs.length + ' lỗi): ' + errs.slice(0,3).join('; ')};
+  Object.assign(S.ans, incoming);
+  return {ok:true, imported:Object.keys(incoming).length};
+}
+
+// ---------- UI ----------
+function say(text, ok){ const m = $('msg'); m.textContent = text; m.className = 'msg' + (ok ? ' ok' : ''); m.style.display = text ? 'block' : 'none'; }
+function nAnswered(){ return S.order.filter(t => S.ans[t.p] && S.ans[t.p].label !== '').length; }
+function render(){
+  const ready = !!S.annot && validId(S.annot) && S.order.length > 0;
+  $('needId').style.display = ready ? 'none' : 'block';
+  $('work').style.display = ready ? 'block' : 'none';
+  const n = S.order.length, d = nAnswered();
+  $('prog').textContent = d + ' / ' + n; $('barFill').style.width = (n ? 100 * d / n : 0) + '%';
+  $('saveInfo').textContent = (S.lastExport ? 'Xuất lần cuối: ' + S.lastExport : 'Chưa xuất file') + (S.memOnly ? ' · CẢNH BÁO: trình duyệt không tự lưu, hãy xuất CSV thường xuyên' : '');
+  if (!ready) return;
+  const t = S.order[S.idx]; const a = S.ans[t.p] || {label:'', unc:false, note:''};
+  $('pos').textContent = S.idx + 1; $('tot').textContent = n; $('pairId').textContent = t.p;
+  $('imgQ').src = t.q; $('imgC').src = t.c;
+  const ok = allowed(t);
+  document.querySelectorAll('.lab').forEach(b => { b.classList.toggle('sel', b.dataset.label === a.label); b.disabled = !ok.includes(b.dataset.label); b.style.display = (MODE === 'adjudication' && !ok.includes(b.dataset.label)) ? 'none' : ''; });
+  if (MODE === 'adjudication'){ $('twoBox').style.display = 'block'; $('twoLabels').textContent = t.opts[0] + ' và ' + t.opts[1]; }
+  $('unc').checked = !!a.unc; $('note').value = a.note || '';
+  for (const k of [S.idx + 1, S.idx + 2]) if (S.order[k]) { new Image().src = S.order[k].q; new Image().src = S.order[k].c; }
+}
+function go(i){ if (!S.order.length) return; S.idx = Math.max(0, Math.min(S.order.length - 1, i)); persist(); render(); }
+function nextUnanswered(){
+  for (let k = 1; k <= S.order.length; k++){ const i = (S.idx + k) % S.order.length; if (!S.ans[S.order[i].p] || S.ans[S.order[i].p].label === '') return go(i); }
+  say('Đã chấm hết mọi cặp. Hãy bấm “Lưu / Xuất CSV”.', true);
+}
+function setLabel(l){
+  if (!S.order.length || !validId(S.annot)) return false;
+  const t = S.order[S.idx];
+  if (!allowed(t).includes(l)) return false;                      // adjudication: only the two existing labels (or U)
+  S.ans[t.p] = { label:l, unc: $('unc').checked, note: $('note').value, ts: new Date().toISOString() };
+  persist(); say('');
+  if ($('auto').checked && S.idx < S.order.length - 1) go(S.idx + 1); else render();
+  return true;
+}
+function saveNoteUnc(){
+  if (!S.order.length) return; const t = S.order[S.idx]; const a = S.ans[t.p];
+  if (a){ a.unc = $('unc').checked; a.note = $('note').value; persist(); }
+  else if ($('note').value || $('unc').checked){ S.ans[t.p] = { label:'', unc:$('unc').checked, note:$('note').value, ts:'' }; persist(); }
+}
+function loadState(){
+  S.annot = $('annot').value.trim(); S.ans = {}; S.idx = 0; S.lastExport = null; S.order = [];
+  if (!S.annot){ render(); return; }
+  if (!validId(S.annot)){ render(); say('Mã người chấm không hợp lệ cho giao diện này (dùng annotator_03 trở lên).'); return; }
+  S.order = TASKS.slice().sort((a,b) => a.o - b.o);
+  const raw = storeGet(storeKey());
+  if (raw){ try { const o = JSON.parse(raw); S.ans = o.ans || {}; S.idx = Math.min(o.idx || 0, Math.max(0, S.order.length - 1)); S.lastExport = o.lastExport || null; } catch(e){} }
+  storeSet(KEY_PREFIX + 'last', S.annot);
+  render();
+}
+function exportCsv(){
+  saveNoteUnc();
+  const name = S.annot + '_' + MODE + '.csv';
+  const blob = new Blob([buildCsv()], {type:'text/csv;charset=utf-8'});
+  if (!SELFTEST){
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+  }
+  S.lastExport = new Date().toLocaleString(); persist(); render();
+  say('Đã xuất ' + name + ' (' + nAnswered() + '/' + S.order.length + ' cặp đã chấm). Gửi file này cho người tổng hợp; file nằm trong thư mục Tải xuống.', true);
+  return name;
+}
+
+(function init(){
+  const second = MODE === 'second_judgment';
+  $('roleName').textContent = second ? 'Vai trò: chấm lần thứ hai (độc lập, chấm mù)' : 'Vai trò: phân xử (adjudication)';
+  $('roleBox').innerHTML = second
+    ? '<b>Chấm lần thứ hai, độc lập.</b> Các cặp này chưa có đủ hai đánh giá. Bạn <b>không</b> thấy nhãn của ai khác và hãy chấm như thể đây là lần đầu tiên theo <code>annotation_guide.md</code>.'
+    : '<b>Phân xử.</b> Mỗi cặp dưới đây đã có hai nhãn khác nhau từ hai người chấm độc lập. Hãy chọn <b>một trong hai nhãn đó</b> (hoặc U nếu không quyết định được). Bạn không sửa được file nhãn gốc: file xuất ra là một file riêng.';
+  $('ruleText').textContent = second ? 'Chấm mù: không có thông tin nào về nhãn của người khác. Chọn U nếu không nhận ra sản phẩm.' : 'Chỉ được chọn một trong hai nhãn đã có. Chọn U nếu không quyết định được (cặp sẽ được xử lý theo quy tắc mặc định).';
+  $('uText').textContent = second ? 'Không xác định được sản phẩm (tính là thiếu, không phải 0)' : 'Không quyết định được';
+  document.querySelectorAll('.lab').forEach(b => b.addEventListener('click', () => setLabel(b.dataset.label)));
+  $('prev').addEventListener('click', () => { saveNoteUnc(); go(S.idx - 1); });
+  $('next').addEventListener('click', () => { saveNoteUnc(); go(S.idx + 1); });
+  $('nextU').addEventListener('click', () => { saveNoteUnc(); nextUnanswered(); });
+  $('export').addEventListener('click', exportCsv);
+  $('importBtn').addEventListener('click', () => $('importFile').click());
+  $('importFile').addEventListener('change', ev => {
+    const f = ev.target.files[0]; if (!f) return;
+    if (!S.annot || !validId(S.annot)){ say('Nhập mã người chấm hợp lệ trước khi nhập CSV.'); return; }
+    const r = new FileReader();
+    r.onload = () => { const res = importCsv(String(r.result)); if (!res.ok) say(res.err); else { persist(); render(); say('Đã nhập ' + res.imported + ' nhãn.', true); nextUnanswered(); } $('importFile').value = ''; };
+    r.readAsText(f);
+  });
+  $('annot').addEventListener('change', loadState);
+  $('unc').addEventListener('change', saveNoteUnc);
+  $('note').addEventListener('input', saveNoteUnc);
+  document.addEventListener('keydown', e => {
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+    const tag = (e.target.tagName || '').toLowerCase();
+    if (tag === 'textarea' || (tag === 'input' && e.target.type === 'text')) return;
+    const k = e.key.toLowerCase();
+    if (k === '0' || k === '1' || k === '2') setLabel(k);
+    else if (k === 'u') setLabel('U');
+    else if (k === 'arrowleft'){ saveNoteUnc(); go(S.idx - 1); }
+    else if (k === 'arrowright'){ saveNoteUnc(); go(S.idx + 1); }
+    else if (k === 'n'){ saveNoteUnc(); nextUnanswered(); }
+    else if (k === 'c' && S.order.length){ $('unc').checked = !$('unc').checked; saveNoteUnc(); }
+    else return;
+    e.preventDefault();
+  });
+  window.addEventListener('beforeunload', e => { if (S.annot && nAnswered() > 0 && !S.lastExport){ e.preventDefault(); e.returnValue = ''; } });
+  if (!SELFTEST){ const last = storeGet(KEY_PREFIX + 'last'); if (last) $('annot').value = last; loadState(); }
+  window.W7SUB = { S, buildCsv, parseCsv, importCsv, loadState, setLabel, go, exportCsv, TASKS, MODE };
+})();
+</script>
+</body>
+</html>
